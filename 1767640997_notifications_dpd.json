@@ -1,0 +1,25 @@
+{
+  "name": "Notifications » DPD",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@dpd.co.uk"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/DPD"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": []
+    }
+  ]
+}

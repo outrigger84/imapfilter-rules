@@ -1,0 +1,23 @@
+{
+  "name": "Receipts » AARMY",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@aarmy.com"
+      },
+      {
+        "header": "subject",
+        "contains": "AARMY receipt"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/AARMY"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Recipets » Tesco",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "no-reply@mail.tesco.com"
+      },
+      {
+        "header": "from",
+        "contains": "online@tesco.co.uk"
+      },
+      {
+        "header": "subject",
+        "not_contains": "Was this you?"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Recipets/Tesco"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

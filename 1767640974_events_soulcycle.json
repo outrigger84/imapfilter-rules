@@ -1,0 +1,31 @@
+{
+  "name": "Events » Soulcycle",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@soul-cycle.com"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "noreply@mg.soul-cycle.com"
+          },
+          {
+            "header": "subject",
+            "contains": "Your SoulCycle class has been cancelled."
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Events/Soulcycle"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » Habitify",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "contact_at_habitify_me_"
+      },
+      {
+        "header": "from",
+        "contains": "promotions_at_habitify_me_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Habitify"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – Habitify notifications"
+  ]
+}

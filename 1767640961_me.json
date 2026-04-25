@@ -1,0 +1,121 @@
+{
+  "name": "*ME",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "steve.gibson@metoffice.gov.uk"
+          },
+          {
+            "header": "from",
+            "contains": "stephen.gibson@bma.org.uk"
+          },
+          {
+            "header": "from",
+            "contains": "sjgibson@fastmail.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@icloud.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson21@icloud.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@mac.com"
+          },
+          {
+            "header": "from",
+            "contains": "\"sj.gibson@mac.com\""
+          },
+          {
+            "header": "from",
+            "contains": "s.j.gibson@exeter.ac.uk"
+          },
+          {
+            "header": "from",
+            "contains": "stephen.gibson@exeterguild.com"
+          },
+          {
+            "header": "from",
+            "contains": "steve.gibson@exeterguild.com"
+          },
+          {
+            "header": "from",
+            "contains": "stephenjgibson@gmail.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@me.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "to",
+            "contains": "steve.gibson@metoffice.gov.uk"
+          },
+          {
+            "header": "to",
+            "contains": "stephen.gibson@bma.org.uk"
+          },
+          {
+            "header": "to",
+            "contains": "sjgibson@fastmail.com"
+          },
+          {
+            "header": "to",
+            "contains": "sj.gibson@icloud.com"
+          },
+          {
+            "header": "to",
+            "contains": "sj.gibson21@icloud.com"
+          },
+          {
+            "header": "to",
+            "contains": "sj.gibson@mac.com"
+          },
+          {
+            "header": "to",
+            "contains": "\"sj.gibson@mac.com\""
+          },
+          {
+            "header": "to",
+            "contains": "s.j.gibson@exeter.ac.uk"
+          },
+          {
+            "header": "to",
+            "contains": "stephen.gibson@exeterguild.com"
+          },
+          {
+            "header": "to",
+            "contains": "steve.gibson@exeterguild.com"
+          },
+          {
+            "header": "to",
+            "contains": "stephenjgibson@gmail.com"
+          },
+          {
+            "header": "to",
+            "contains": "sj.gibson@me.com"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "*ME"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

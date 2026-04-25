@@ -1,0 +1,55 @@
+{
+  "name": "Newsletters » Whoop",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@email.whoop.com"
+          },
+          {
+            "header": "from",
+            "contains": "@official.whoop.com"
+          },
+          {
+            "header": "from",
+            "contains": "@mail.whoop.com"
+          },
+          {
+            "header": "from",
+            "contains": "@whoop.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "from",
+            "not_contains": "support@whoop.com"
+          },
+          {
+            "header": "from",
+            "not_contains": "orders@whoop.com"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Whoop"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

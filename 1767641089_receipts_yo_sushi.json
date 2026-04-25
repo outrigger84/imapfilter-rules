@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Yo Sushi",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@yosushi.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Yo Sushi"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

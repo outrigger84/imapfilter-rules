@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Card Factory",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@cardfactory.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Card Factory"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

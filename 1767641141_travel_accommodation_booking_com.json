@@ -1,0 +1,23 @@
+{
+  "name": "Travel » Accommodation » Booking.com",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@property.booking.com"
+      },
+      {
+        "header": "from",
+        "contains": "customer.service@booking.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Accommodation/Booking.com"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

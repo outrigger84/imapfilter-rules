@@ -1,0 +1,23 @@
+{
+  "name": "Receipts » AirVPN",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@airvpn.org"
+      },
+      {
+        "header": "from",
+        "contains": "receipts+acct_1L94GsHvkrerOAET@stripe.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/AirVPN"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

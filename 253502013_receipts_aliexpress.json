@@ -1,0 +1,39 @@
+{
+  "name": "Receipts » AliExpress",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "_at_notice_aliexpress_com_"
+      },
+      {
+        "header": "from",
+        "contains": "_at_info_aliexpress_com_"
+      },
+      {
+        "header": "from",
+        "contains": "ae-sales.notice"
+      },
+      {
+        "header": "from",
+        "contains": "transaction_at_notice_aliexpress_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/AliExpress"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Apple Private Relay – transactional AliExpress mail"
+  ]
+}

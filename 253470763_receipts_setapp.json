@@ -1,0 +1,25 @@
+{
+  "name": "Receipts » Setapp",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@setapp.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Your Setapp payment"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Setapp"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

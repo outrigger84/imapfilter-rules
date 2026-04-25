@@ -1,0 +1,19 @@
+{
+  "name": "Newsletters » Airalo",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@emails.airalo.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Newsletters/Airalo"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

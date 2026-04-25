@@ -1,0 +1,23 @@
+{
+  "name": "Recipets » HP Instant Ink",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@instantink.hpsmart.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Your billing statement"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Recipets/HP Instant Ink"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Receipts » Soulcycle",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@mg.soul-cycle.com"
+      },
+      {
+        "header": "subject",
+        "contains": "SoulCycle Receipt: Order #*"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Soulcycle"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

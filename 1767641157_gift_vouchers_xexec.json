@@ -1,0 +1,19 @@
+{
+  "name": "Gift Vouchers » xexec",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@xexec.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Gift Vouchers/xexec"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "21 Cleveland Street » Nextdoor",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "_email_nextdoor_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "@privaterelay.appleid.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Nextdoor"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

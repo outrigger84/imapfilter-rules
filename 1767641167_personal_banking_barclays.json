@@ -1,0 +1,27 @@
+{
+  "name": "Personal » Banking » Barclays",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "barclays@emails.barclays.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@assure4.barclays.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@assure2.barclays.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Banking/Barclays"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

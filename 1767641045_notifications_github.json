@@ -1,0 +1,19 @@
+{
+  "name": "Notifications » GitHub",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@github.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Notifications/GitHub"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

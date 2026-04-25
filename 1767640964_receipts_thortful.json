@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Thortful",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "team_at_thortful_com_vr3nwp77j9_54df84ad@privaterelay.appleid.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Thortful"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

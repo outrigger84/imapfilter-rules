@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Stagecoach Bus",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@stagecoachbus.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Stagecoach Bus"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

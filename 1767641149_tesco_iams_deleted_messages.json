@@ -1,0 +1,26 @@
+{
+  "name": "Tesco IAMs >> Deleted Messages",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@mail.tesco.com"
+      },
+      {
+        "header": "subject",
+        "not_equals": "Was this you?"
+      },
+      {
+        "age_days_gt": 1
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Deleted Messages"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

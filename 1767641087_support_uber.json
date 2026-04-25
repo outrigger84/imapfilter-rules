@@ -1,0 +1,23 @@
+{
+  "name": "Support » Uber",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email-support.uber.com"
+      },
+      {
+        "header": "from",
+        "contains": "ubersupport@omio.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Support/Uber"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

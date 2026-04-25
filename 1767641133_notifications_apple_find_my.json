@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » Apple » Find My",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "\"Find My\" <noreply@email.apple.com>"
+      },
+      {
+        "header": "from",
+        "contains": "find my <noreply@email.apple.com>"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Apple/Find My"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » AirBnB",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "automated@airbnb.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@airbnb.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/AirBnB"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

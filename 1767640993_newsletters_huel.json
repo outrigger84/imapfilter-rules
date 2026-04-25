@@ -1,0 +1,23 @@
+{
+  "name": "Newsletters » Huel",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "uk.info@email.huel.com"
+      },
+      {
+        "header": "from",
+        "contains": "team@huel.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Newsletters/Huel"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

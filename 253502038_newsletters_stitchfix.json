@@ -1,0 +1,27 @@
+{
+  "name": "Newsletters » Stitchfix",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "stitchfix_at_e_stitchfix_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Stitchfix"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "iCloud – Stitchfix newsletters"
+  ]
+}

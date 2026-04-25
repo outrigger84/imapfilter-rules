@@ -1,0 +1,23 @@
+{
+  "name": "Personal » Banking » Revolut",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@revolut.com"
+      },
+      {
+        "header": "list-id",
+        "not_equals": "<spc.63739.0.sparkpostmail.com>"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Banking/Revolut"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Complaints » Delay Repay » CrossCountry",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@crosscountrytrains.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Complaints/Delay Repay/CrossCountry"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Support » Apple",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "acsupportcase@apple.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Support/Apple"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

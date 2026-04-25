@@ -1,0 +1,23 @@
+{
+  "name": "Server » Invoices",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@webhosting.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "billing@webhosting.uk.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Server/Invoices"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

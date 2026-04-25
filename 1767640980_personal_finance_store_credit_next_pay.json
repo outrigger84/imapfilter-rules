@@ -1,0 +1,19 @@
+{
+  "name": "Personal » Finance » Store Credit » Next Pay",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@nextemail.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Finance/Store Credit/Next Pay"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

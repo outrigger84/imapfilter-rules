@@ -1,0 +1,19 @@
+{
+  "name": "Deleted Messages",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "not_contains": "@"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Deleted Messages"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

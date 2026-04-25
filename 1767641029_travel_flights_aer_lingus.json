@@ -1,0 +1,27 @@
+{
+  "name": "Travel » Flights » Aer Lingus",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@aerlingus.com"
+      },
+      {
+        "header": "from",
+        "not_contains": "securemyaccount@aerlingus.com"
+      },
+      {
+        "header": "from",
+        "not_contains": "remind-username@aerlingus.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Flights/Aer Lingus"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

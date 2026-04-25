@@ -1,0 +1,35 @@
+{
+  "name": "Newsletters » Independent",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "info_at_email_independent_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "customerservices_at_independent_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "newsletter_at_e_independent_co_uk_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Independent"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "iCloud – Independent newsletters"
+  ]
+}

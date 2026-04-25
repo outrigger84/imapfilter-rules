@@ -1,0 +1,27 @@
+{
+  "name": "Newsletters » Restaurants » Taco Bell",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply_at_tacobell_co_uk_6nxk82pjqq_e1eea99d@privaterelay.appleid.com"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Restaurants/Taco Bell"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

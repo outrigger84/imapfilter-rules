@@ -1,0 +1,31 @@
+{
+  "name": "Feedback » Trustpilot",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@trustpilotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply.invitations_at_trustpilotmail_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Trustpilot"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

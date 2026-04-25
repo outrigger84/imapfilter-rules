@@ -1,0 +1,39 @@
+{
+  "name": "Personal » Finance » Store Credit » Paypal",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "service@paypal.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "service@paypal.com.hk"
+      },
+      {
+        "header": "from",
+        "contains": "paypalcredit@paypal.com"
+      },
+      {
+        "header": "from",
+        "contains": "paypalcredit@mail.paypal.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "paypal@paypal.com"
+      },
+      {
+        "header": "from",
+        "contains": "@service.paypal.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Finance/Store Credit/Paypal"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

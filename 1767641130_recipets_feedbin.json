@@ -1,0 +1,19 @@
+{
+  "name": "Recipets » Feedbin",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "support@feedbin.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Recipets/Feedbin"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Notifications » JFF",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@justfor.fans"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Notifications/JFF"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

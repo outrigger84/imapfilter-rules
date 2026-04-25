@@ -1,0 +1,59 @@
+{
+  "name": "Friends",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "ssarnoffbram@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "rzh3@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "canninp@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "canninc@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "s.tozer@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "j.r.a.hutchinson@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "lm970@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "n.a.smith@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hl306@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "ljh223@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@campandro.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Friends"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

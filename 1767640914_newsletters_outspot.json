@@ -1,0 +1,19 @@
+{
+  "name": "Newsletters » OutSpot",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@outspot.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Newsletters/OutSpot"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Fitness » Ben Winn » Skool",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@skool.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Fitness/Ben Winn/Skool"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

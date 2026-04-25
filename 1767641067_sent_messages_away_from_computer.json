@@ -1,0 +1,121 @@
+{
+  "name": "Sent Messages » Away From Computer",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "steve.gibson@metoffice.gov.uk"
+          },
+          {
+            "header": "from",
+            "contains": "sjgibson@fastmail.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@icloud.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson21@icloud.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@mac.com"
+          },
+          {
+            "header": "from",
+            "contains": "\"sj.gibson@mac.com\""
+          },
+          {
+            "header": "from",
+            "contains": "s.j.gibson@exeter.ac.uk"
+          },
+          {
+            "header": "from",
+            "contains": "stephen.gibson@exeterguild.com"
+          },
+          {
+            "header": "from",
+            "contains": "steve.gibson@exeterguild.com"
+          },
+          {
+            "header": "from",
+            "contains": "stephenjgibson@gmail.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@me.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "to",
+            "not_contains": "steve.gibson@metoffice.gov.uk"
+          },
+          {
+            "header": "to",
+            "not_contains": "sjgibson@fastmail.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "sj.gibson@icloud.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "sj.gibson21@icloud.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "sj.gibson@mac.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "\"sj.gibson@mac.com\""
+          },
+          {
+            "header": "to",
+            "not_contains": "s.j.gibson@exeter.ac.uk"
+          },
+          {
+            "header": "to",
+            "not_contains": "stephen.gibson@exeterguild.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "steve.gibson@exeterguild.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "stephenjgibson@gmail.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "sj.gibson@me.com"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "contains": "Away from Computer"
+      },
+      {
+        "header": "to",
+        "not_contains": "plans@tripit.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Sent Messages/Away From Computer"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

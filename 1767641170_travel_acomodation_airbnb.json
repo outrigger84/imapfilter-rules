@@ -1,0 +1,19 @@
+{
+  "name": "Travel » Acomodation » AirBnB",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "express@airbnb.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Acomodation/AirBnB"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

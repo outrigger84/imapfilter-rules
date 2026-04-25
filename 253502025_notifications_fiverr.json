@@ -1,0 +1,35 @@
+{
+  "name": "Notifications » Fiverr",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply_at_announce_fiverr_com_"
+      },
+      {
+        "header": "from",
+        "contains": "noreply_at_shuffle_finance_phvm7df7yn_"
+      },
+      {
+        "header": "from",
+        "contains": "noreply_at_e_fiverr_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Fiverr"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – Fiverr notifications"
+  ]
+}

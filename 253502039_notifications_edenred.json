@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » Edenred",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply_at_edenred_com_"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply_at_edenred_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Edenred"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "iCloud – Edenred notifications"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Personal » Banking » Monzo",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.monzo.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Banking/Monzo"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

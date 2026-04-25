@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » Apple » Subscriptions",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "no_reply@email.apple.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Your Subscription"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Apple/Subscriptions"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

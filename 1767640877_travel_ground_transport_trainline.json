@@ -1,0 +1,19 @@
+{
+  "name": "Travel » Ground Transport » Trainline",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "auto-confirm@info.thetrainline.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Ground Transport/Trainline"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "iCabbie - Pre auth explanation",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@icabbi.com"
+      },
+      {
+        "header": "subject",
+        "equals": "Pre auth explanation"
+      },
+      {
+        "age_days_gt": 1
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ]
+}

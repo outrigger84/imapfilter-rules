@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Costa",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@costa.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Costa"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

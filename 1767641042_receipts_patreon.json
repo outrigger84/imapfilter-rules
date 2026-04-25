@@ -1,0 +1,23 @@
+{
+  "name": "Receipts » Patreon",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@patreon.com"
+      },
+      {
+        "header": "subject",
+        "equals": "Your Patreon receipt is here!"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Patreon"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

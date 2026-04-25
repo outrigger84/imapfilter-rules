@@ -1,0 +1,27 @@
+{
+  "name": "Newsletters » Uber",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "uberone@uber.com"
+      },
+      {
+        "header": "from",
+        "contains": "uber@uber.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@uber.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Newsletters/Uber"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

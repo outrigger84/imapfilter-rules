@@ -1,0 +1,23 @@
+{
+  "name": "Fitness » Body Coach",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@thebodycoach.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@thebodycoach.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Fitness/Body Coach"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

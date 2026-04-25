@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » Tailscale",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hello_at_tailscale_com_"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply_at_tailscale_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Tailscale"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – Tailscale notifications"
+  ]
+}

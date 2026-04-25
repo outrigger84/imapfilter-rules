@@ -1,0 +1,19 @@
+{
+  "name": "Travel » Travel Agents » Crystal Travel",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@crystaltravel.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Travel Agents/Crystal Travel"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Newsletters » Vouchers » VoucherCodes",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "mail_at_em_vouchercodes_co_uk_xpwd39676g9jd8_6bnp6453@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "mail@em.vouchercodes.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Vouchers/VoucherCodes"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

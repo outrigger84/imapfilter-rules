@@ -1,0 +1,47 @@
+{
+  "name": "Newsletters » AliExpress",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "_at_deals_aliexpress_com_"
+      },
+      {
+        "header": "from",
+        "contains": "_at_mail_aliexpress_com_"
+      },
+      {
+        "header": "from",
+        "contains": "promotion_at_aliexpress_com_"
+      },
+      {
+        "header": "from",
+        "contains": "ae-news"
+      },
+      {
+        "header": "from",
+        "contains": "ae-trigger"
+      },
+      {
+        "header": "from",
+        "contains": "interest"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/AliExpress"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Apple Private Relay – promotional AliExpress mail"
+  ]
+}

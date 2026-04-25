@@ -1,0 +1,55 @@
+{
+  "name": "Notifications » Amazon",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "shipment-tracking@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "account-update@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "donotreply@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply-pls@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "marketplace-messages@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "customer-reviews-messages@amazon"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Amazon"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

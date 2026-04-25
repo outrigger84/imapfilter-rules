@@ -1,0 +1,43 @@
+{
+  "name": "Friends",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "peternmatthews@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "jeannorton82@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "jemma.percy@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "simontibbitts@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "twarne1@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "paulrattew@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "sophcocks@googlemail.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Friends"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

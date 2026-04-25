@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » Airtable",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "team_at_mail_airtable_com_"
+      },
+      {
+        "header": "from",
+        "contains": "noreply_at_airtable_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Airtable"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – Airtable notifications"
+  ]
+}

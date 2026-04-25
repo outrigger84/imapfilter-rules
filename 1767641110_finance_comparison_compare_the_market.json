@@ -1,0 +1,31 @@
+{
+  "name": "Finance » Comparison » Compare The Market",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "renewals@emails-comparethemarket.com"
+      },
+      {
+        "header": "from",
+        "contains": "news@emails-comparethemarket.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Finance/Comparison/Compare The Market"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain730"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

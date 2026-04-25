@@ -1,0 +1,39 @@
+{
+  "name": "Travel » Travel Loyalty » BA Executive Club",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "executiveclub@crm.ba.com"
+      },
+      {
+        "header": "from",
+        "contains": "ExecutiveClub@crm.ba.com"
+      },
+      {
+        "header": "from",
+        "contains": "thebritishairwaysclub@crm.ba.com"
+      },
+      {
+        "header": "from",
+        "contains": "britishairwaysclub@crm.ba.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Travel Loyalty/BA Executive Club"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

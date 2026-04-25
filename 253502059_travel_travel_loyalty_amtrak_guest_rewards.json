@@ -1,0 +1,23 @@
+{
+  "name": "Travel » Travel Loyalty » Amtrak Guest Rewards",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@e-mail.amtrak.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Now Arriving: Your November Statement"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Travel Loyalty/Amtrak Guest Rewards"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

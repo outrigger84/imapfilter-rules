@@ -1,0 +1,31 @@
+{
+  "name": "Newsletters » Agile Rabbit",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@agile-rabbit.com"
+      },
+      {
+        "header": "from",
+        "contains": "agilerabbitevents@gmail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Agile Rabbit"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Property » Rental » 86 Alphington Road",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@tenancy-management.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@rosewood-property.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@starlettings.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Property/Rental/86 Alphington Road"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

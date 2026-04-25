@@ -1,0 +1,30 @@
+{
+  "name": "Newsletters » Hollister",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@e.hollisterco.com"
+          },
+          {
+            "header": "from",
+            "contains": "@em.hollisterco.com"
+          }
+        ]
+      },
+      {
+        "header": "from",
+        "not_contains": "orders@e.hollisterco.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Hollister"
+    }
+  ]
+}

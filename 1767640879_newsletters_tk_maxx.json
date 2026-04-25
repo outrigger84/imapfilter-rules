@@ -1,0 +1,35 @@
+{
+  "name": "Newsletters » TK Maxx",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mail.tkmaxx.com"
+      },
+      {
+        "header": "from",
+        "contains": "@eml.tkmaxx.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.tkmaxxandhomesense.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/TK Maxx"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "21 Cleveland Street » Bills » Southwest Water",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@southwestwater.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "@southwestwater-email.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "@email.southwestwater.co.uk"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "not_contains": "news@southwestwater-email.co.uk"
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "21 Cleveland Street/Bills/Southwest Water"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

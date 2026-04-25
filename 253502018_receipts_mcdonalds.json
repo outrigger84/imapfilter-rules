@@ -1,0 +1,35 @@
+{
+  "name": "Receipts » McDonalds",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "mymcdonaldsapp_at_mcdonalds_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "MyMcDonaldsApp_at_uk_mcdonalds_com_"
+      },
+      {
+        "header": "from",
+        "contains": "MyMcDonaldsApp_at_mcdonalds_co_uk_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/McDonalds"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – McDonalds app receipts"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Notifications » Vistaprint",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "vistaprint_at_mail_vistaprint_co_uk_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Vistaprint"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – Vistaprint notifications"
+  ]
+}

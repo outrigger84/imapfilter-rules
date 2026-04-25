@@ -1,0 +1,19 @@
+{
+  "name": "Support » Anker",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@anker.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Support/Anker"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

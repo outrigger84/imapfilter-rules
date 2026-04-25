@@ -1,0 +1,23 @@
+{
+  "name": "21 Cleveland Street » Insurance",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@homeprotect.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@info.homeprotect.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "21 Cleveland Street/Insurance"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

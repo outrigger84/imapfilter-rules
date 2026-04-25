@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » JD Wetherspoon",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "orders@jdwetherspoon.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/JD Wetherspoon"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

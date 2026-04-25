@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Anthropic",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "invoice+statements@mail.anthropic.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Anthropic"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

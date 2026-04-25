@@ -1,0 +1,23 @@
+{
+  "name": "Receipts » Youngs Pubs",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@pepperhq.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Your bill has been paid: #"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Youngs Pubs"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

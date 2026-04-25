@@ -1,0 +1,23 @@
+{
+  "name": "Personal » Finance » Credit Rating » ClearScore",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "updates@clearscore.com"
+      },
+      {
+        "header": "from",
+        "contains": "alerts@clearscore.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Finance/Credit Rating/ClearScore"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

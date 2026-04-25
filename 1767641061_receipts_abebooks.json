@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Abebooks",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply_transactional@abebooks.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Abebooks"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

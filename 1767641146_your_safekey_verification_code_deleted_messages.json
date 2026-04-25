@@ -1,0 +1,22 @@
+{
+  "name": "Your SafeKey Verification Code >> Deleted Messages",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "equals": "Your SafeKey Verification Code"
+      },
+      {
+        "age_days_gt": 1
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Deleted Messages"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

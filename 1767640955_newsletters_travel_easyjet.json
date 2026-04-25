@@ -1,0 +1,31 @@
+{
+  "name": "Newsletters » Travel » Easyjet",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@marketing.easyjet.com"
+      },
+      {
+        "header": "from",
+        "contains": "@travel.easyjet.com"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Travel/Easyjet"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "21 Cleveland Street » Bills » British Gas",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@britishgas.co.uk"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@mail.energy.britishgas.co.uk"
+          },
+          {
+            "header": "subject",
+            "not_contains": "PeakSave"
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "21 Cleveland Street/Bills/British Gas"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

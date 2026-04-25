@@ -1,0 +1,19 @@
+{
+  "name": "Personal » Finance » Credit Rating » MSE Credit Club",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "creditclub@email.moneysavingexpert.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Finance/Credit Rating/MSE Credit Club"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

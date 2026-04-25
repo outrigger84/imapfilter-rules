@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » Trello",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "taco_at_trello_com_"
+      },
+      {
+        "header": "from",
+        "contains": "do-not-reply_at_trello_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Trello"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – Trello notifications"
+  ]
+}

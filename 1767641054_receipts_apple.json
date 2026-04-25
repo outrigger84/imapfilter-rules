@@ -1,0 +1,63 @@
+{
+  "name": "Receipts » Apple",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@email.apple.com"
+          },
+          {
+            "header": "from",
+            "contains": "@invoice.euro.apple.com"
+          },
+          {
+            "header": "from",
+            "contains": "@euro.apple.com"
+          },
+          {
+            "header": "from",
+            "contains": "@apple.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "receipt"
+          },
+          {
+            "header": "subject",
+            "contains": "Purchase Confirmation"
+          },
+          {
+            "header": "subject",
+            "contains": "Subscription Confirmation"
+          },
+          {
+            "header": "subject",
+            "contains": "refund"
+          },
+          {
+            "header": "subject",
+            "contains": "billing"
+          },
+          {
+            "header": "subject",
+            "contains": "invoice"
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Apple"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

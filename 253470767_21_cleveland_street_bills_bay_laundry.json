@@ -1,0 +1,23 @@
+{
+  "name": "21 Cleveland Street » Bills » Bay Laundry",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@messaging.squareup.com"
+      },
+      {
+        "header": "reply-to",
+        "contains": "@bay-laundry.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "21 Cleveland Street/Bills/Bay Cleaning"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

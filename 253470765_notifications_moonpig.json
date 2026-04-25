@@ -1,0 +1,23 @@
+{
+  "name": "Notifications » Moonpig",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@email.moonpig.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Your Moonpig Order"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Notifications/Moonpig"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

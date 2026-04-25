@@ -1,0 +1,31 @@
+{
+  "name": "Feedback » Barclays",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "barclayscustomerfeedback@emails.barclays.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "barclayscustomerfeedback@emails.barclays.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Barclays"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

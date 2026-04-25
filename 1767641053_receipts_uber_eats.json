@@ -1,0 +1,35 @@
+{
+  "name": "Receipts » Uber Eats",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "contains": "order with Uber Eats"
+      },
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "uber.uk@uber.com"
+          },
+          {
+            "header": "from",
+            "contains": "noreply@uber.com"
+          },
+          {
+            "header": "from",
+            "contains": "uber@uber.com"
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Uber Eats"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

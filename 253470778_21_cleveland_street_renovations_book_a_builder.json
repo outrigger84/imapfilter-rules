@@ -1,0 +1,23 @@
+{
+  "name": "21 Cleveland Street » Renovations » Book A Builder",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@homeowners.bookabuilderuk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@bookabuilderuk.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "21 Cleveland Street/Renovations/Book A Builder"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

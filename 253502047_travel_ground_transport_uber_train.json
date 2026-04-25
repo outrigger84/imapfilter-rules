@@ -1,0 +1,31 @@
+{
+  "name": "Travel » Ground Transport » Uber Train",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "travel-noreply@uber.com"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Your tickets"
+          },
+          {
+            "header": "subject",
+            "contains": "Your Uber Travel ticket purchase"
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Ground Transport/Uber Train"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

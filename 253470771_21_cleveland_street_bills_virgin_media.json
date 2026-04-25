@@ -1,0 +1,23 @@
+{
+  "name": "21 Cleveland Street » Bills » Virgin Media",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@virginmedia.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@virginmedia.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "21 Cleveland Street/Bills/Virgin Media"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

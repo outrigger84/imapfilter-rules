@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Xposed",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hello@xposedlondon.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Xposed"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

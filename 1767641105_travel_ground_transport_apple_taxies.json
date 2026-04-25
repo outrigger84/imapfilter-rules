@@ -1,0 +1,27 @@
+{
+  "name": "Travel » Ground Transport » Apple Taxies",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "\"Apple Central Taxis (SW) Limited\" <no-reply@icabbi.com>"
+      },
+      {
+        "header": "from",
+        "contains": "apple exeter"
+      },
+      {
+        "header": "from",
+        "contains": "@appletaxisexeter.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Ground Transport/Apple Taxies"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

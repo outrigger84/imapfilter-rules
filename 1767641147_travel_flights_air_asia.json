@@ -1,0 +1,31 @@
+{
+  "name": "Travel » Flights » Air Asia",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "itineraryns@airasia.com"
+      },
+      {
+        "header": "from",
+        "contains": "boardingpass@airasia.com"
+      },
+      {
+        "header": "from",
+        "contains": "@myses01.airasia.com"
+      },
+      {
+        "header": "from",
+        "contains": "@ededm.airasia.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Flights/Air Asia"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

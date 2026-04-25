@@ -1,0 +1,23 @@
+{
+  "name": "Receipts » PiHut",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@thepihut.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Order #"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/PiHut"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Etsy",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@etsy.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Etsy"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

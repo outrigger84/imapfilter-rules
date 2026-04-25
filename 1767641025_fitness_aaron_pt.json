@@ -1,0 +1,19 @@
+{
+  "name": "Fitness » Aaron PT",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "thompsonapt1@yahoo.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Fitness/Aaron PT"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

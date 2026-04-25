@@ -1,0 +1,28 @@
+{
+  "name": "Refuse & Recycling Reminder",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "no_reply@exeter.gov.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "Collection Reminder"
+      },
+      {
+        "age_days_gt": 1
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ]
+}

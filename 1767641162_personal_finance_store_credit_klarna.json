@@ -1,0 +1,19 @@
+{
+  "name": "Personal » Finance » Store Credit » Klarna",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply-uk@klarna.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Finance/Store Credit/Klarna"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

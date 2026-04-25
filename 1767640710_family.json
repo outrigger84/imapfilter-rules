@@ -1,0 +1,58 @@
+{
+  "name": "Family",
+  "priority": 1000,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "christinepalmer1960@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "gibb06@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "hegibson86@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "hegibson@yahoo.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "janetmgibson@yahoo.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "judith13@ntlworld.com"
+      },
+      {
+        "header": "from",
+        "contains": "kellyngibson@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "mikegibson0@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "mjgibson@lycos.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "patgibson27@gmail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Family"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Auto-generated rule from cache.db with 10 unique senders"
+  ]
+}

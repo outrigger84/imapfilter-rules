@@ -1,0 +1,35 @@
+{
+  "name": "Notifications » Vinted",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "team_at_vinted_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply_at_team_vinted_com_"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply_at_vinted_co_uk_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Vinted"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – Vinted notifications"
+  ]
+}

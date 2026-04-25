@@ -1,0 +1,19 @@
+{
+  "name": "Notifications » OF",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@lpsg.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Notifications/OF"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

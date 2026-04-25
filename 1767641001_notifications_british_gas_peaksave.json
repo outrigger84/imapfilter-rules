@@ -1,0 +1,31 @@
+{
+  "name": "Notifications » British Gas PeakSave",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@mail.energy.britishgas.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "PeakSave"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/British Gas PeakSave"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

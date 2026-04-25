@@ -1,0 +1,35 @@
+{
+  "name": "Newsletters » Blithfield SC",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "96003925_mailchimpapp_com"
+      },
+      {
+        "header": "from",
+        "contains": "send_mailchimpapp_com"
+      },
+      {
+        "header": "from",
+        "contains": "blithfield_org_uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Blithfield SC"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Combined Mailchimp addresses from both 96003925 and send_mailchimpapp_com accounts"
+  ]
+}

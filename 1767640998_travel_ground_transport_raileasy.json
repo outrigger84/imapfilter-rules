@@ -1,0 +1,31 @@
+{
+  "name": "Travel » Ground Transport » Raileasy",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@raileasy.co.uk"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Your e-tickets to"
+          },
+          {
+            "header": "subject",
+            "contains": "Booking, Ref"
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Ground Transport/Raileasy"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

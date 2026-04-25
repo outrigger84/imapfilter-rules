@@ -1,0 +1,19 @@
+{
+  "name": "Receipts » Starbucks",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@account.starbucks.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Starbucks"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

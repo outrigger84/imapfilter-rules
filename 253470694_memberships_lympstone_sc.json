@@ -1,0 +1,27 @@
+{
+  "name": "Memberships » Lympstone SC",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@lympstonesailingclub.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "lympstonesailingclub@membermojo.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "margaretturgoose@aol.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Memberships/Lympstone SC"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

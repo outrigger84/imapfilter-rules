@@ -1,0 +1,25 @@
+{
+  "name": "Newsletters » Priority Pass",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@membership.prioritypass.com"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Priority Pass"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": []
+    }
+  ]
+}

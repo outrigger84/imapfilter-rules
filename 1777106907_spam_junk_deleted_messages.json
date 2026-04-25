@@ -1,0 +1,38 @@
+{
+  "name": "Spam/Junk — Delete",
+  "priority": 10,
+  "conditions": {
+    "any": [
+      { "header": "from", "contains": "thermomix.com.sg" },
+      { "header": "from", "contains": "jotform.com" },
+      { "header": "from", "contains": "cambly.com" },
+      { "header": "from", "contains": "savethekoala.com" },
+      { "header": "from", "contains": "autoprin.com" },
+      { "header": "from", "contains": "steinmart.com" },
+      { "header": "from", "contains": "usfuturenewsletters.com" },
+      { "header": "from", "contains": "experimentalfactor.co.uk" },
+      { "header": "from", "contains": "jobadmiration.com" },
+      { "header": "from", "contains": "harpjob.com" },
+      { "header": "from", "contains": "careerpi.net" },
+      { "header": "from", "contains": "mailquotesearch.com" },
+      { "header": "from", "contains": "mortgageladder.com" },
+      { "header": "from", "contains": "news.goodgadgetdeals.com" },
+      { "header": "from", "contains": "kickstarnow.com" },
+      { "header": "from", "contains": "xiocom.com" },
+      { "header": "from", "contains": "avuqrzxs.retroplot.net" },
+      { "header": "from", "contains": "greatisenoughtoday.com" },
+      { "header": "from", "contains": "soapagent.com" },
+      { "header": "from", "contains": "ilovetkd.com" },
+      { "header": "from", "contains": "spectrumemails.com" },
+      { "header": "from", "contains": "latoken.com" }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Deleted Messages"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Spam/junk domains identified by analysis of 374,576 emails in cache.db"
+  ]
+}

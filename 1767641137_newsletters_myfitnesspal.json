@@ -1,0 +1,35 @@
+{
+  "name": "Newsletters » MyFitnessPal",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@e.blog.myfitnesspal.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.myfitnesspal.com"
+      },
+      {
+        "header": "from",
+        "contains": "@myfitnesspal.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/MyFitnessPal"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Memberships » British Cycling",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@updates-britishcycling.org.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Memberships/British Cycling"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

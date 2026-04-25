@@ -1,0 +1,35 @@
+{
+  "name": "Receipts » Amazon",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "auto-confirm@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "order-update@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "payments-update@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "payments-messages@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "return@amazon"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Amazon"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

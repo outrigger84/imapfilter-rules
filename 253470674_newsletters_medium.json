@@ -1,0 +1,39 @@
+{
+  "name": "Newsletters » Medium",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@medium.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply_at_medium_com_xf2zkhvdpj_85b6986b@privaterelay.appleid.com"
+      },
+      {
+        "header": "from",
+        "contains": "newsletters_at_medium_com_xf2zkhvdpj_94e2138d@privaterelay.appleid.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello_at_medium_com_xf2zkhvdpj_4de7cb42@privaterelay.appleid.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Medium"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

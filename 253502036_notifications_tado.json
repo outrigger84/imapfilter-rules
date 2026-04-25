@@ -1,0 +1,35 @@
+{
+  "name": "Notifications » Tado",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "newsletter_at_inside_tado_com_"
+      },
+      {
+        "header": "from",
+        "contains": "noreply_at_tado_com_"
+      },
+      {
+        "header": "from",
+        "contains": "noreply_at_my_tado_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Tado"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "iCloud – Tado notifications"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Travel » Ground Transport » Uber",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "noreply@uber.com"
+          },
+          {
+            "header": "from",
+            "contains": "uber.uk@uber.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "trip with Uber"
+          },
+          {
+            "header": "subject",
+            "contains": "Reservation confirmed"
+          },
+          {
+            "header": "subject",
+            "contains": "Your receipt"
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/Ground Transport/Uber"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

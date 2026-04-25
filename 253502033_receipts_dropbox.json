@@ -1,0 +1,31 @@
+{
+  "name": "Receipts » Dropbox",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply_at_em-s_dropbox_com_"
+      },
+      {
+        "header": "from",
+        "contains": "dropboxmail_at_dropbox_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Dropbox"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private Relay – Dropbox receipts"
+  ]
+}

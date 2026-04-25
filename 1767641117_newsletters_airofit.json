@@ -1,0 +1,19 @@
+{
+  "name": "Newsletters » Airofit",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@airofit.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Newsletters/Airofit"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

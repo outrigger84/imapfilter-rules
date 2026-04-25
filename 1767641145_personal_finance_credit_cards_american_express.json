@@ -1,0 +1,31 @@
+{
+  "name": "Personal » Finance » Credit Cards » American Express",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "contains": "Your latest statement is ready"
+      },
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@welcome.americanexpress.com"
+          },
+          {
+            "header": "from",
+            "contains": "@welcome.aexp.com"
+          }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Personal/Finance/Credit Cards/American Express"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "21 Cleveland Street » Renovations » MyBuilder.com",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mybuilder.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.mybuilder.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "21 Cleveland Street/Renovations/MyBuilder.com"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

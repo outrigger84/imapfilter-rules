@@ -1,0 +1,39 @@
+{
+  "name": "Notifications » Patreon",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "not_equals": "Your Patreon receipt is here!"
+      },
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@patreon.com"
+          },
+          {
+            "header": "from",
+            "contains": "@email.patreon.com"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Patreon"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

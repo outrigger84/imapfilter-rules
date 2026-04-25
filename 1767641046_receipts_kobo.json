@@ -1,0 +1,23 @@
+{
+  "name": "Receipts » Kobo",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "noreply@kobo.com"
+      },
+      {
+        "header": "subject",
+        "equals": "Your Kobo Order Receipt"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Kobo"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}
