@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Restaurants » Cote",
+  "name": "Newsletters » Marketing » Restaurants » Cote",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@e.cote.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@cote.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Restaurants/Cote"
+      "target": "Newsletters/Marketing/Restaurants/Cote"
     },
     {
       "type": "set_keywords",

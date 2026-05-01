@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Phillips Hue",
+  "name": "Newsletters » Marketing » Tech » Hardware » Phillips Hue",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Phillips Hue"
+      "target": "Newsletters/Marketing/Tech/Hardware/Phillips Hue"
     },
     {
       "type": "set_keywords",

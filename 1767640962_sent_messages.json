@@ -1,6 +1,7 @@
 {
   "name": "Sent Messages",
-  "priority": 100,
+  "enabled": true,
+  "priority": 1000,
   "conditions": {
     "all": [
       {
@@ -48,6 +49,34 @@
           {
             "header": "from",
             "contains": "sj.gibson@me.com"
+          },
+          {
+            "header": "from",
+            "contains": "stephen.gibson@bma.org.uk"
+          },
+          {
+            "header": "from",
+            "contains": "s.j.gibson@ex"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson_84@free.kindle.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@o2email.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "blog416090@sgibson.org"
+          },
+          {
+            "header": "from",
+            "contains": "sailing@sgibson.org"
+          },
+          {
+            "header": "from",
+            "contains": "stephenjgibson+msltest@gmail.com"
           }
         ]
       },
@@ -96,6 +125,34 @@
           {
             "header": "to",
             "not_contains": "sj.gibson@me.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "stephen.gibson@bma.org.uk"
+          },
+          {
+            "header": "to",
+            "not_contains": "s.j.gibson@ex"
+          },
+          {
+            "header": "to",
+            "not_contains": "sj.gibson_84@free.kindle.com"
+          },
+          {
+            "header": "to",
+            "not_contains": "sj.gibson@o2email.co.uk"
+          },
+          {
+            "header": "to",
+            "not_contains": "blog416090@sgibson.org"
+          },
+          {
+            "header": "to",
+            "not_contains": "sailing@sgibson.org"
+          },
+          {
+            "header": "to",
+            "not_contains": "stephenjgibson+msltest@gmail.com"
           }
         ]
       },
@@ -113,6 +170,12 @@
     {
       "type": "move",
       "target": "Sent Messages"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
     }
   ],
   "comments": [

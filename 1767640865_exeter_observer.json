@@ -1,5 +1,6 @@
 {
   "name": "Exeter Observer",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

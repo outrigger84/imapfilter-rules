@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Health Service Discounts",
+  "name": "Newsletters » Marketing » Health » Health Service Discounts",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Health Service Discounts"
+      "target": "Newsletters/Marketing/Health/Health Service Discounts"
     },
     {
       "type": "set_keywords",

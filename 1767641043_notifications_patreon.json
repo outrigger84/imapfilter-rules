@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Patreon",
+  "name": "Notifications \u00bb Patreon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

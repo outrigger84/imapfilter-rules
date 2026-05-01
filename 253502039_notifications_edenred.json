@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Edenred",
+  "name": "Notifications \u00bb Edenred",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,11 +22,11 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        "Retain30"
       ]
     }
   ],
   "comments": [
-    "iCloud – Edenred notifications"
+    "iCloud \u2013 Edenred notifications"
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Yoga with Adriene",
+  "name": "Newsletters » Marketing » Fitness » Yoga with Adriene",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Yoga with Adriene"
+      "target": "Newsletters/Marketing/Fitness/Yoga with Adriene"
     },
     {
       "type": "set_keywords",

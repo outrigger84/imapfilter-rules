@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Restaurants » Nandos",
+  "name": "Newsletters » Marketing » Restaurants » Nandos",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Restaurants/Nandos"
+      "target": "Newsletters/Marketing/Restaurants/Nandos"
     },
     {
       "type": "set_keywords",

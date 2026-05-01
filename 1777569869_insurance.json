@@ -1,0 +1,42 @@
+{
+  "name": "Insurance",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "claimsservice@cegagroup.com"
+      },
+      {
+        "header": "from",
+        "contains": "claimsservice-donotreply@cegagroup.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello@comms.cedartreeinsurance.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@cedartreeinsurance.com"
+      },
+      {
+        "header": "from",
+        "contains": "support@cedartreeinsurance.com"
+      },
+      {
+        "header": "from",
+        "contains": "travel@estransactional.cedartreeinsurance.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Insurance"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

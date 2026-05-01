@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Independent",
+  "name": "Newsletters » Topics » Media » Independent",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Independent"
+      "target": "Newsletters/Topics/Media/Independent"
     },
     {
       "type": "set_keywords",

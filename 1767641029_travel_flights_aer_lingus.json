@@ -1,5 +1,5 @@
 {
-  "name": "Travel » Flights » Aer Lingus",
+  "name": "Travel \u00bb Flights \u00bb Aer Lingus",
   "priority": 100,
   "conditions": {
     "all": [
@@ -23,5 +23,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/Aer Lingus"
+    }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "name": "Travel \u00bb Ground Transport \u00bb Hampton Luxury Liner",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "marketing-hamptonluxuryliner.com@shared1.ccsend.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/Hampton Luxury Liner"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

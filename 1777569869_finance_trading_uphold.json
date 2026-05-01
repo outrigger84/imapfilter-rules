@@ -1,0 +1,30 @@
+{
+  "name": "Finance » Trading » Uphold",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@upholdmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@uphold.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@marketing.uphold.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Trading/Uphold"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

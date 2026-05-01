@@ -1,0 +1,28 @@
+{
+  "name": "Memberships \u00bb Comic-Con",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "comic-con.org"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Memberships/Comic-Con"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

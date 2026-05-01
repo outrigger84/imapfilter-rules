@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Boston Seeds",
+  "name": "Newsletters » Marketing » Garden » Boston Seeds",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Boston Seeds"
+      "target": "Newsletters/Marketing/Garden/Boston Seeds"
     },
     {
       "type": "set_keywords",

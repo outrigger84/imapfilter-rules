@@ -1,5 +1,5 @@
 {
-  "name": "Memberships » British Cycling",
+  "name": "Memberships \u00bb British Cycling",
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,5 +15,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Memberships/British Cycling"
+    }
   ]
 }

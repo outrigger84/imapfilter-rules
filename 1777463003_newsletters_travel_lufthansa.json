@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb Travel \u00bb Lufthansa",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "lufthansa-group.com"
+      },
+      {
+        "header": "from",
+        "contains": "@lufthansa.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/Lufthansa"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

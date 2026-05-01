@@ -1,5 +1,6 @@
 {
   "name": "Notifications » Moonpig",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

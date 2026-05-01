@@ -1,0 +1,26 @@
+{
+  "name": "Bristol Airport",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "donotreply_at_bristolairport-info_com_cek3q9rebcz0r8_98bg0336@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "updates_at_bristolairport-info_com_c7k5q3r4b2zfr1_94bg0336@icloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Bristol Airport"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

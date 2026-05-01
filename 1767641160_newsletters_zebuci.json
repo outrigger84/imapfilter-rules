@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Zebuci",
+  "name": "Newsletters \u00bb Zebuci",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

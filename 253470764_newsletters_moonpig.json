@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Moonpig",
+  "name": "Newsletters » Marketing » Retail » Gifts » Moonpig",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Moonpig"
+      "target": "Newsletters/Marketing/Retail/Gifts/Moonpig"
     },
     {
       "type": "set_keywords",

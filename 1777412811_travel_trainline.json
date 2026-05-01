@@ -1,0 +1,29 @@
+{
+  "name": "Travel » Ground Transport » Trainline",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@comms.trainline.com"
+      },
+      {
+        "header": "from",
+        "contains": "@trainline.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/Trainline"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

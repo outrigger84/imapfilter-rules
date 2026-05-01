@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » 12manage",
+  "name": "Newsletters » Topics » Learning » 12manage",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/12manage"
+      "target": "Newsletters/Topics/Learning/12manage"
     },
     {
       "type": "set_keywords",

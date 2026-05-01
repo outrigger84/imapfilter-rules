@@ -1,6 +1,7 @@
 {
   "name": "Archives/Rowing",
-  "priority": 1000,
+  "enabled": true,
+  "priority": 100,
   "conditions": {
     "any": [
       {
@@ -130,6 +131,34 @@
       {
         "header": "from",
         "contains": "treasurer@exeterrowingclub.com"
+      },
+      {
+        "header": "from",
+        "contains": "steve.gibson@exeterrowingclub.com"
+      },
+      {
+        "header": "from",
+        "contains": "treasurer@exewatersports.org"
+      },
+      {
+        "header": "to",
+        "contains": "@exeterrowingclub.com"
+      },
+      {
+        "header": "to",
+        "contains": "@exewatersports.org"
+      },
+      {
+        "header": "to",
+        "contains": "@exeterrc.co.uk"
+      },
+      {
+        "header": "to",
+        "contains": "@exetercanoeclub.org.uk"
+      },
+      {
+        "header": "to",
+        "contains": "@paigntonarc.co.uk"
       }
     ]
   },
@@ -137,6 +166,12 @@
     {
       "type": "move",
       "target": "Archives/Rowing"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
     }
   ],
   "comments": [

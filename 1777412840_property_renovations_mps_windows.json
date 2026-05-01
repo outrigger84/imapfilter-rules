@@ -1,0 +1,25 @@
+{
+  "name": "21 Cleveland Street » Renovations » MPS Windows",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mpswindows.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Renovations/MPS Windows"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

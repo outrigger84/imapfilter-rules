@@ -1,0 +1,22 @@
+{
+  "name": "TeamViewer IAM >> Deleted Messages",
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "signin-noreply@teamviewer.com"
+      },
+      {
+        "age_days_gt": 1
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Deleted Messages"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

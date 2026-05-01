@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Ebuyer",
+  "name": "Newsletters » Marketing » Tech » Hardware » Ebuyer",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Ebuyer"
+      "target": "Newsletters/Marketing/Tech/Hardware/Ebuyer"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,36 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb Travel \u00bb Jet2",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "myjet2@email.jet2.com"
+      },
+      {
+        "header": "from",
+        "contains": "greatdeals@jet2email.com"
+      },
+      {
+        "header": "from",
+        "contains": "holidays@email.jet2holidays.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/Jet2"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » TK Maxx",
+  "name": "Newsletters » Marketing » Retail » General » TK Maxx",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/TK Maxx"
+      "target": "Newsletters/Marketing/Retail/General/TK Maxx"
     },
     {
       "type": "set_keywords",

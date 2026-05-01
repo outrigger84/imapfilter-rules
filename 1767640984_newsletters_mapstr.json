@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Mapstr",
+  "name": "Newsletters » Marketing » Travel » Mapstr",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Mapstr"
+      "target": "Newsletters/Marketing/Travel/Mapstr"
     },
     {
       "type": "set_keywords",

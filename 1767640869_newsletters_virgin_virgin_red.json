@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Virgin » Virgin Red",
+  "name": "Newsletters » Marketing » Virgin » Virgin Red",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,13 +11,17 @@
       {
         "header": "from",
         "contains": "@rewards.red.virgin.com"
+      },
+      {
+        "header": "from",
+        "contains": "@member.red.virgin.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Virgin/Virgin Red"
+      "target": "Newsletters/Marketing/Virgin/Virgin Red"
     },
     {
       "type": "set_keywords",

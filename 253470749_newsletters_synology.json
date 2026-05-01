@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Synology",
+  "name": "Newsletters » Marketing » Tech » Hardware » Synology",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Synology"
+      "target": "Newsletters/Marketing/Tech/Hardware/Synology"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » British Gas PeakSave",
+  "name": "Notifications \u00bb British Gas PeakSave",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

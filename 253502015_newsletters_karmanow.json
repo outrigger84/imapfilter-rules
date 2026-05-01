@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Karmanow",
+  "name": "Newsletters \u00bb Karmanow",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -22,6 +23,6 @@
     }
   ],
   "comments": [
-    "Private Relay – Karmanow newsletters"
+    "Private Relay \u2013 Karmanow newsletters"
   ]
 }

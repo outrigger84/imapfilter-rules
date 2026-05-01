@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Beards and Daisies",
+  "name": "Newsletters » Marketing » Retail » Gifts » Beards and Daisies",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Beards and Daisies"
+      "target": "Newsletters/Marketing/Retail/Gifts/Beards and Daisies"
     },
     {
       "type": "set_keywords",

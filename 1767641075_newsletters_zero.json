@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Zero",
+  "name": "Newsletters » Marketing » Finance » Zero",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Zero"
+      "target": "Newsletters/Marketing/Finance/Zero"
     },
     {
       "type": "set_keywords",

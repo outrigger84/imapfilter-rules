@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Affordable Mobiles",
+  "name": "Newsletters » Marketing » Tech » Hardware » Affordable Mobiles",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Affordable Mobiles"
+      "target": "Newsletters/Marketing/Tech/Hardware/Affordable Mobiles"
     },
     {
       "type": "set_keywords",

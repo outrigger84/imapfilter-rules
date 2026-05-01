@@ -1,0 +1,80 @@
+{
+  "name": "Notifications \u00bb The Gym Group",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@et.thegymgroup.com"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "You're booked"
+          },
+          {
+            "header": "subject",
+            "contains": "we've cancelled your"
+          },
+          {
+            "header": "subject",
+            "contains": "closes today"
+          },
+          {
+            "header": "subject",
+            "contains": "opens today"
+          },
+          {
+            "header": "subject",
+            "contains": "Upcoming temporary closure"
+          },
+          {
+            "header": "subject",
+            "contains": "temporarily closed"
+          },
+          {
+            "header": "subject",
+            "contains": "now open again"
+          },
+          {
+            "header": "subject",
+            "contains": "We will be closed"
+          },
+          {
+            "header": "subject",
+            "contains": "Reminder - closing"
+          },
+          {
+            "header": "subject",
+            "contains": "Your membership has been updated"
+          },
+          {
+            "header": "subject",
+            "contains": "Important information about your membership"
+          },
+          {
+            "header": "subject",
+            "contains": "Important info for app users"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/The Gym Group"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Transactional emails split from newsletter rule \u2014 bookings, closures, membership updates"
+  ]
+}

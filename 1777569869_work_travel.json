@@ -1,0 +1,30 @@
+{
+  "name": "Work Travel",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@claritybt.com"
+      },
+      {
+        "header": "from",
+        "contains": "@railtix.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "govonline@claritytm.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Work Travel"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

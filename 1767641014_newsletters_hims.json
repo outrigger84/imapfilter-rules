@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » hims",
+  "name": "Newsletters » Marketing » Health » hims",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/hims"
+      "target": "Newsletters/Marketing/Health/hims"
     },
     {
       "type": "set_keywords",

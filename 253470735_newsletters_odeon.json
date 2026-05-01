@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Odeon",
+  "name": "Newsletters » Marketing » Entertainment » Odeon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Odeon"
+      "target": "Newsletters/Marketing/Entertainment/Odeon"
     },
     {
       "type": "set_keywords",

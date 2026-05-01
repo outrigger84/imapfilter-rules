@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Tado",
+  "name": "Notifications \u00bb Tado",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -25,11 +26,11 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        "Retain30"
       ]
     }
   ],
   "comments": [
-    "iCloud – Tado notifications"
+    "iCloud \u2013 Tado notifications"
   ]
 }

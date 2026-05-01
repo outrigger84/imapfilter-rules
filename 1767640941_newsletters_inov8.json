@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » INOV8",
+  "name": "Newsletters » Marketing » Fitness » INOV8",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/INOV8"
+      "target": "Newsletters/Marketing/Fitness/INOV8"
     },
     {
       "type": "set_keywords",

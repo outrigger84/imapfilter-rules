@@ -1,5 +1,6 @@
 {
   "name": "Receipts » Card Factory",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

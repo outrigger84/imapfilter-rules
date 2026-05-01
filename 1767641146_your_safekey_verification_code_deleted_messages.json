@@ -1,8 +1,13 @@
 {
   "name": "Your SafeKey Verification Code >> Deleted Messages",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
+      {
+        "header": "from",
+        "contains": "americanexpress@welcome.americanexpress.com"
+      },
       {
         "header": "subject",
         "equals": "Your SafeKey Verification Code"
@@ -12,10 +17,12 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Deleted Messages"
-  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
   "comments": [
     "Created with IMAPFilter Rule Wizard"
   ]

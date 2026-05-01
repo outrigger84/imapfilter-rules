@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Fitness » Pure Gym",
+  "name": "Newsletters » Marketing » Fitness » Pure Gym",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Fitness/Pure Gym"
+      "target": "Newsletters/Marketing/Fitness/Pure Gym"
     },
     {
       "type": "set_keywords",

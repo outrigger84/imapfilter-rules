@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Apple » Find My",
+  "name": "Notifications \u00bb Apple \u00bb Find My",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » WeBuyAnyPhone",
+  "name": "Notifications \u00bb WeBuyAnyPhone",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +18,7 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        "Retain30"
       ]
     }
   ],

@@ -1,0 +1,32 @@
+{
+  "name": "Notifications \u00bb HelloFresh",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "notifications@mail.hellofresh.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "notifications@active.hellofresh.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/HelloFresh"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

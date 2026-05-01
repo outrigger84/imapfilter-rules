@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Anker",
+  "name": "Newsletters » Marketing » Tech » Hardware » Anker",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Anker"
+      "target": "Newsletters/Marketing/Tech/Hardware/Anker"
     },
     {
       "type": "set_keywords",

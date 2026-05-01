@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Disney Holidays » Ziggy Knows Disney",
+  "name": "Newsletters » Marketing » Disney Holidays » Ziggy Knows Disney",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Disney Holidays/Ziggy Knows Disney"
+      "target": "Newsletters/Marketing/Disney Holidays/Ziggy Knows Disney"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,29 @@
+{
+  "name": "Property » Renovations » IKEA Kitchen",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@ingka.ikea.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/Renovations/IKEA Kitchen"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "IKEA remote kitchen planning appointment correspondence"
+  ]
+}

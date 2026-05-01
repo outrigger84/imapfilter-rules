@@ -1,8 +1,13 @@
 {
   "name": "*ME",
-  "priority": 100,
+  "enabled": true,
+  "priority": 50,
   "conditions": {
     "all": [
+      {
+        "header": "subject",
+        "not_regex": "^(Accepted|Declined|Tentative):"
+      },
       {
         "any": [
           {
@@ -35,7 +40,7 @@
           },
           {
             "header": "from",
-            "contains": "s.j.gibson@exeter.ac.uk"
+            "contains": "s.j.gibson@ex"
           },
           {
             "header": "from",
@@ -52,6 +57,26 @@
           {
             "header": "from",
             "contains": "sj.gibson@me.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson_84@free.kindle.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@o2email.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "blog416090@sgibson.org"
+          },
+          {
+            "header": "from",
+            "contains": "sailing@sgibson.org"
+          },
+          {
+            "header": "from",
+            "contains": "stephenjgibson+msltest@gmail.com"
           }
         ]
       },
@@ -87,7 +112,23 @@
           },
           {
             "header": "to",
-            "contains": "s.j.gibson@exeter.ac.uk"
+            "contains": "s.j.gibson@ex"
+          },
+          {
+            "header": "to",
+            "contains": "stephen.j.gibson@ex"
+          },
+          {
+            "header": "to",
+            "contains": "sjg202@ex"
+          },
+          {
+            "header": "to",
+            "contains": "sjg228@ex"
+          },
+          {
+            "header": "to",
+            "contains": "sjg229@ex"
           },
           {
             "header": "to",
@@ -103,7 +144,39 @@
           },
           {
             "header": "to",
+            "contains": "sj.gibson84@free.kindle.com"
+          },
+          {
+            "header": "to",
+            "contains": "sj.gibson_24@kindle.com"
+          },
+          {
+            "header": "to",
+            "contains": "ste204@ex"
+          },
+          {
+            "header": "to",
             "contains": "sj.gibson@me.com"
+          },
+          {
+            "header": "to",
+            "contains": "sj.gibson_84@free.kindle.com"
+          },
+          {
+            "header": "to",
+            "contains": "sj.gibson@o2email.co.uk"
+          },
+          {
+            "header": "to",
+            "contains": "blog416090@sgibson.org"
+          },
+          {
+            "header": "to",
+            "contains": "sailing@sgibson.org"
+          },
+          {
+            "header": "to",
+            "contains": "stephenjgibson+msltest@gmail.com"
           }
         ]
       }
@@ -113,6 +186,12 @@
     {
       "type": "move",
       "target": "*ME"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
     }
   ],
   "comments": [

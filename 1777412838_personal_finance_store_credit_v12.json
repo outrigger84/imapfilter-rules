@@ -1,0 +1,29 @@
+{
+  "name": "Personal » Finance » Store Credit » V12 Finance",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@partners.v12finance.com"
+      },
+      {
+        "header": "from",
+        "contains": "@v12finance.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Store Credit/V12 Finance"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

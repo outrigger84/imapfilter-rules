@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » ITS",
+  "name": "Newsletters \u00bb ITS",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

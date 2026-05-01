@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » McDonalds",
+  "name": "Newsletters » Marketing » Restaurants » McDonalds",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/McDonalds"
+      "target": "Newsletters/Marketing/Restaurants/McDonalds"
     },
     {
       "type": "set_keywords",

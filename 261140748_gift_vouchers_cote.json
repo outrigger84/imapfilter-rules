@@ -1,0 +1,28 @@
+{
+  "name": "Gift Vouchers \u00bb C\u00f4te",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply@mytoggle.io"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Gift Vouchers/Cote"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Lib Dems",
+  "name": "Newsletters » Topics » Charity » Lib Dems",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,13 +19,21 @@
       {
         "header": "from",
         "contains": "@devon-cornwall-libdems.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@liberal.democrat"
+      },
+      {
+        "header": "from",
+        "contains": "exeterlibdems@gmail.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Lib Dems"
+      "target": "Newsletters/Topics/Charity/Lib Dems"
     },
     {
       "type": "set_keywords",

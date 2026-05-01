@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Disney Holidays » Disney Food Blog",
+  "name": "Newsletters » Marketing » Disney Holidays » Disney Food Blog",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Disney Holidays/Disney Food Blog"
+      "target": "Newsletters/Marketing/Disney Holidays/Disney Food Blog"
     },
     {
       "type": "set_keywords",

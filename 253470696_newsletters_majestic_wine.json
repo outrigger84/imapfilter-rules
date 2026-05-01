@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Majestic Wine",
+  "name": "Newsletters » Marketing » Wine » Majestic Wine",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Majestic Wine"
+      "target": "Newsletters/Marketing/Wine/Majestic Wine"
     },
     {
       "type": "set_keywords",

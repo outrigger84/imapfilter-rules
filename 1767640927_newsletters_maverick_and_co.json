@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Maverick and Co",
+  "name": "Newsletters » Marketing » Retail » General » Maverick and Co",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Maverick and Co"
+      "target": "Newsletters/Marketing/Retail/General/Maverick and Co"
     },
     {
       "type": "set_keywords",

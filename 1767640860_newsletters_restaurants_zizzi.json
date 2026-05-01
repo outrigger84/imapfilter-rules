@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Restaurants » Zizzi",
+  "name": "Newsletters » Marketing » Restaurants » Zizzi",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Restaurants/Zizzi"
+      "target": "Newsletters/Marketing/Restaurants/Zizzi"
     },
     {
       "type": "set_keywords",

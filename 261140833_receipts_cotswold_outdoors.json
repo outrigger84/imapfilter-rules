@@ -1,0 +1,28 @@
+{
+  "name": "Receipts \u00bb Retail \u00bb Outdoor \u00bb Cotswold Outdoors",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply@mailsender.cotswoldoutdoor.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Outdoor/Cotswold Outdoors"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

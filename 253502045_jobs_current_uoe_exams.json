@@ -1,5 +1,5 @@
 {
-  "name": "Jobs » Current » UoE Exams",
+  "name": "Jobs \u00bb Current \u00bb UoE Exams",
   "priority": 100,
   "conditions": {
     "any": [
@@ -27,5 +27,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Jobs/Current/UoE Exams"
+    }
   ]
 }

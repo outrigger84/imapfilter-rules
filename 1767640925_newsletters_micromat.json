@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Micromat",
+  "name": "Newsletters » Marketing » Tech » Software » Micromat",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Micromat"
+      "target": "Newsletters/Marketing/Tech/Software/Micromat"
     },
     {
       "type": "set_keywords",

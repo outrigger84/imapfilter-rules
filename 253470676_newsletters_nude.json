@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Nude",
+  "name": "Newsletters » Marketing » Finance » Nude",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Nude"
+      "target": "Newsletters/Marketing/Finance/Nude"
     },
     {
       "type": "set_keywords",

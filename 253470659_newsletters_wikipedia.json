@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Wikipedia",
+  "name": "Newsletters » Topics » Media » Wikipedia",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Wikipedia"
+      "target": "Newsletters/Topics/Media/Wikipedia"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » BookBub",
+  "name": "Newsletters » Topics » Media » Books » BookBub",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/BookBub"
+      "target": "Newsletters/Topics/Media/Books/BookBub"
     },
     {
       "type": "set_keywords",

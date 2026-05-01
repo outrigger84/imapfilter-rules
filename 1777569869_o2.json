@@ -1,0 +1,42 @@
+{
+  "name": "O2",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "o2shop@s-email-o2.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "o2shop@o2.com"
+      },
+      {
+        "header": "from",
+        "contains": "o2payments@s-email-o2.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "news@o2-email.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "notification@billing.o2.com"
+      },
+      {
+        "header": "from",
+        "contains": "notification@account.o2.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/O2"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Mind the Product",
+  "name": "Newsletters » Topics » Product Management » Mind the Product",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Mind the Product"
+      "target": "Newsletters/Topics/Product Management/Mind the Product"
     },
     {
       "type": "set_keywords",

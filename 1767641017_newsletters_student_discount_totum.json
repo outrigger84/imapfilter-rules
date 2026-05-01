@@ -1,18 +1,31 @@
 {
-  "name": "Newsletters » Student Discount » Totum",
+  "name": "Newsletters » Marketing » Student Discount » Totum",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@eb.totum.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.totum.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.totum.com"
+      },
+      {
+        "header": "from",
+        "contains": "@em.totum.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Student Discount/Totum"
+      "target": "Newsletters/Marketing/Student Discount/Totum"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,26 @@
+{
+  "name": "Soulcycle [Cancelled]",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "contains": "Your SoulCycle class has been cancelled."
+      },
+      {
+        "header": "from",
+        "contains": "@mg.soul-cycle.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Events/Soulcycle"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

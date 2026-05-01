@@ -1,0 +1,32 @@
+{
+  "name": "Travel \u00bb Travel Agents \u00bb Expedia",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "travel@support.expedia.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "confirmation@expediaconfirm.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Travel Agents/Expedia"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

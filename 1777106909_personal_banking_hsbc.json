@@ -1,0 +1,36 @@
+{
+  "name": "Personal » Banking » HSBC",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email1.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@mail01.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@email.hsbc.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Banking/HSBC"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

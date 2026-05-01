@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Charity » Battersea",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@updates.battersea.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@battersea.org.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Charity/Battersea"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

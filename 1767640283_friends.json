@@ -1,11 +1,12 @@
 {
   "name": "Friends",
-  "priority": 1000,
+  "enabled": true,
+  "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "J.L.Davies@exeter.ac.uk"
+        "contains": "@campandro.com"
       },
       {
         "header": "from",
@@ -25,7 +26,15 @@
       },
       {
         "header": "from",
+        "contains": "alec.russell@willis.com"
+      },
+      {
+        "header": "from",
         "contains": "alex_pearson_@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "ali_tabari@hotmail.com"
       },
       {
         "header": "from",
@@ -46,6 +55,10 @@
       {
         "header": "from",
         "contains": "andy.bushell@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "angela.evans@exeter.ac.uk"
       },
       {
         "header": "from",
@@ -89,6 +102,10 @@
       },
       {
         "header": "from",
+        "contains": "c.barringtonhaynes@hotmail.co.uk"
+      },
+      {
+        "header": "from",
         "contains": "c.griffin3000@gmail.com"
       },
       {
@@ -97,7 +114,43 @@
       },
       {
         "header": "from",
+        "contains": "canninc@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "canninp@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "carl.brewin@3pb.co.uk"
+      },
+      {
+        "header": "from",
         "contains": "carlycannings@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "caroline.turner@towerswatson.com"
+      },
+      {
+        "header": "from",
+        "contains": "charliec_uk@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "charliegoodway@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "charlotte.edwards90@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "charlotte.forrest4@nhs.net"
+      },
+      {
+        "header": "from",
+        "contains": "chopak@liquid5th.com"
       },
       {
         "header": "from",
@@ -105,11 +158,27 @@
       },
       {
         "header": "from",
+        "contains": "claire.reid@pramerica.com"
+      },
+      {
+        "header": "from",
+        "contains": "claire.wright84@googlemail.com"
+      },
+      {
+        "header": "from",
         "contains": "coralsummers@gmail.com"
       },
       {
         "header": "from",
+        "contains": "cpini@bma.org.uk"
+      },
+      {
+        "header": "from",
         "contains": "crook.alex@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "csummers@bma.org.uk"
       },
       {
         "header": "from",
@@ -141,6 +210,10 @@
       },
       {
         "header": "from",
+        "contains": "diana.ndirwa@frasershospitality.com"
+      },
+      {
+        "header": "from",
         "contains": "dickstearn@hotmail.com"
       },
       {
@@ -165,7 +238,23 @@
       },
       {
         "header": "from",
+        "contains": "e.dibartolo@daat.org"
+      },
+      {
+        "header": "from",
         "contains": "eb@watermilltrading.com"
+      },
+      {
+        "header": "from",
+        "contains": "ebasher@cthumane.org"
+      },
+      {
+        "header": "from",
+        "contains": "edwardkendall@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "ekidane1@hotmail.com"
       },
       {
         "header": "from",
@@ -173,7 +262,27 @@
       },
       {
         "header": "from",
+        "contains": "erw201@me.com"
+      },
+      {
+        "header": "from",
+        "contains": "erw210@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "erw591@student.bham.ac.uk"
+      },
+      {
+        "header": "from",
         "contains": "evedibartolo@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "ewan.williams@uga.edu"
+      },
+      {
+        "header": "from",
+        "contains": "ewanwilliams959@msn.com"
       },
       {
         "header": "from",
@@ -181,11 +290,59 @@
       },
       {
         "header": "from",
+        "contains": "farealcarter@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "gemma.borkowski@albionchambers.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "ghale@indigopool.com"
+      },
+      {
+        "header": "from",
         "contains": "gmreeves@hotmail.com"
       },
       {
         "header": "from",
+        "contains": "griff@griffinanthony.com"
+      },
+      {
+        "header": "from",
+        "contains": "h.c.dunn@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "harriet.rees@axa-uk.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hcollins@bma.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hello+constant-wedding@withjoy.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello@carolannlivingstone.com"
+      },
+      {
+        "header": "from",
         "contains": "henrychris33@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "hl306@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "holly.doyle@guildhallchambers.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hopalix@yahoo.com"
       },
       {
         "header": "from",
@@ -197,7 +354,35 @@
       },
       {
         "header": "from",
+        "contains": "J.L.Davies@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "j.r.a.hutchinson@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jack.harris@stjohnschambers.co.uk"
+      },
+      {
+        "header": "from",
         "contains": "jackie.bagnall@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jamal.demachkie@3pb.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "james.dick@libertygroup.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "james.tilley@rya.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jamesforward@hotmail.co.uk"
       },
       {
         "header": "from",
@@ -205,7 +390,63 @@
       },
       {
         "header": "from",
+        "contains": "janeevans100@outlook.com"
+      },
+      {
+        "header": "from",
+        "contains": "jbaren@comcast.net"
+      },
+      {
+        "header": "from",
+        "contains": "jeannorton82@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "jemma.percy@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "jennie_brown@mail-01.fitsuny.edu"
+      },
+      {
+        "header": "from",
+        "contains": "jennie_brown@mail-c108-01.fitsuny.edu"
+      },
+      {
+        "header": "from",
+        "contains": "jeremyfowke@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "jessicajnye@live.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jesstaylor@nkuku.com"
+      },
+      {
+        "header": "from",
+        "contains": "jmdsandiego@yahoo.com"
+      },
+      {
+        "header": "from",
         "contains": "joandjoegetmarried@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "joannaheald@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "jodie.green@chelseamagazines.com"
+      },
+      {
+        "header": "from",
+        "contains": "jodiegreen87@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jofullam@hotmail.com"
       },
       {
         "header": "from",
@@ -221,6 +462,18 @@
       },
       {
         "header": "from",
+        "contains": "jriversrn@comcast.net"
+      },
+      {
+        "header": "from",
+        "contains": "jturner@bma.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "k.houston@moodyint.com"
+      },
+      {
+        "header": "from",
         "contains": "kanan.barot@gmail.com"
       },
       {
@@ -233,6 +486,14 @@
       },
       {
         "header": "from",
+        "contains": "katie.doerr@fasttracksailing.com"
+      },
+      {
+        "header": "from",
+        "contains": "katie.doerr@nbcuni.com"
+      },
+      {
+        "header": "from",
         "contains": "katie_doerr@hotmail.com"
       },
       {
@@ -241,11 +502,23 @@
       },
       {
         "header": "from",
+        "contains": "kcorcoran@hansardcomms.com"
+      },
+      {
+        "header": "from",
         "contains": "kdavebe@gmail.com"
       },
       {
         "header": "from",
+        "contains": "kerryoutdoora@adam.com.au"
+      },
+      {
+        "header": "from",
         "contains": "kevin.blythe@gfk.com"
+      },
+      {
+        "header": "from",
+        "contains": "kirsty@hansardgroup.co.uk"
       },
       {
         "header": "from",
@@ -265,7 +538,23 @@
       },
       {
         "header": "from",
+        "contains": "l.c.williams@exeter.ac.uk"
+      },
+      {
+        "header": "from",
         "contains": "l.ellidge@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "ljh223@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "lloyd.maynard@3pb.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "lm970@exeter.ac.uk"
       },
       {
         "header": "from",
@@ -274,6 +563,22 @@
       {
         "header": "from",
         "contains": "lvgsmith@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "lyn.chesterman@harveynash.com"
+      },
+      {
+        "header": "from",
+        "contains": "mail@joekearney.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "mark.green@3paper.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "mark.green@3pb.co.uk"
       },
       {
         "header": "from",
@@ -297,7 +602,23 @@
       },
       {
         "header": "from",
+        "contains": "mmanheim@bowdoin.edu"
+      },
+      {
+        "header": "from",
+        "contains": "mmorales@segalco.com"
+      },
+      {
+        "header": "from",
+        "contains": "n.a.smith@exeter.ac.uk"
+      },
+      {
+        "header": "from",
         "contains": "n.k.davies2@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "contains": "naomi.rees@3pb.co.uk"
       },
       {
         "header": "from",
@@ -306,6 +627,14 @@
       {
         "header": "from",
         "contains": "natasha.withinshaw@lloydstsb.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "natasha.withinshaw@uk.rsagroup.com"
+      },
+      {
+        "header": "from",
+        "contains": "natasha.withinshaw@worldpay.com"
       },
       {
         "header": "from",
@@ -329,7 +658,23 @@
       },
       {
         "header": "from",
+        "contains": "oli.pigott@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "oliverchapple@live.com"
+      },
+      {
+        "header": "from",
+        "contains": "paulrattew@googlemail.com"
+      },
+      {
+        "header": "from",
         "contains": "paulrattew@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "peter.matthews@jacobs.com"
       },
       {
         "header": "from",
@@ -337,7 +682,15 @@
       },
       {
         "header": "from",
+        "contains": "peternmatthews@googlemail.com"
+      },
+      {
+        "header": "from",
         "contains": "philcraig999@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "philip.currie@3pb.co.uk"
       },
       {
         "header": "from",
@@ -353,6 +706,10 @@
       },
       {
         "header": "from",
+        "contains": "rdibartolo@segalco.com"
+      },
+      {
+        "header": "from",
         "contains": "rebecca.grasso@hotmail.com"
       },
       {
@@ -365,7 +722,31 @@
       },
       {
         "header": "from",
+        "contains": "richard.turner@airseapacking.com"
+      },
+      {
+        "header": "from",
+        "contains": "rzh3@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "s.tozer@exeter.ac.uk"
+      },
+      {
+        "header": "from",
         "contains": "sam.tozer@mclaren.com"
+      },
+      {
+        "header": "from",
+        "contains": "saminaferris@blueyonder.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "sarah.clarke@3pb.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "seb.oram@3pb.co.uk"
       },
       {
         "header": "from",
@@ -373,7 +754,31 @@
       },
       {
         "header": "from",
-        "contains": "sophiefawkes94@hotmail.co.uk"
+        "contains": "simon.tibbitts@3pb.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "simontibbitts@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "sophcocks@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "ssarnoffbram@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "stephen.arnold@3pb.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "strechbus@msn.com"
+      },
+      {
+        "header": "from",
+        "contains": "sue.oconnor@ymail.com"
       },
       {
         "header": "from",
@@ -393,7 +798,31 @@
       },
       {
         "header": "from",
+        "contains": "thomas.mallindine@empowered-systems.com"
+      },
+      {
+        "header": "from",
+        "contains": "thomas.mallindine@kilngroup.com"
+      },
+      {
+        "header": "from",
         "contains": "timillsley@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "toby.orpin@lcp.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "toby.orpin@lgim.com"
+      },
+      {
+        "header": "from",
+        "contains": "tom.cox@3pb.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "tom@tjconstant.com"
       },
       {
         "header": "from",
@@ -409,6 +838,10 @@
       },
       {
         "header": "from",
+        "contains": "twarne1@googlemail.com"
+      },
+      {
+        "header": "from",
         "contains": "two_seven_three@yahoo.co.uk"
       },
       {
@@ -421,6 +854,14 @@
       },
       {
         "header": "from",
+        "contains": "victoria.howat@googlemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "victoria.jones@3pb.co.uk"
+      },
+      {
+        "header": "from",
         "contains": "walshieuk@gmail.com"
       },
       {
@@ -429,15 +870,15 @@
       },
       {
         "header": "from",
+        "contains": "williaew@musc.edu"
+      },
+      {
+        "header": "from",
         "contains": "wsteele@bma.org.uk"
       },
       {
         "header": "from",
         "contains": "zacfrack@mac.com"
-      },
-      {
-        "header": "from",
-        "contains": "erw210@exeter.ac.uk"
       }
     ]
   },
@@ -445,10 +886,16 @@
     {
       "type": "move",
       "target": "Friends"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
     }
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Auto-generated rule from cache.db with 108 unique senders"
+    "Merged from 5 Friends rules \u2014 218 unique senders; 18 added 2026-04-30; janeevans100@outlook.com added 2026-04-30"
   ]
 }

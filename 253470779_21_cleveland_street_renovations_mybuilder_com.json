@@ -1,5 +1,5 @@
 {
-  "name": "21 Cleveland Street » Renovations » MyBuilder.com",
+  "name": "21 Cleveland Street » Renovations » MyBuilder-com",
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,9 +15,15 @@
   },
   "action": {
     "type": "move",
-    "target": "21 Cleveland Street/Renovations/MyBuilder.com"
+    "target": "21 Cleveland Street/Renovations/MyBuilder-com"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Renovations/MyBuilder-com"
+    }
   ]
 }

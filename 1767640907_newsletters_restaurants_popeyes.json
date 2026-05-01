@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Restaurants » Popeyes",
+  "name": "Newsletters » Marketing » Restaurants » Popeyes",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Restaurants/Popeyes"
+      "target": "Newsletters/Marketing/Restaurants/Popeyes"
     },
     {
       "type": "set_keywords",

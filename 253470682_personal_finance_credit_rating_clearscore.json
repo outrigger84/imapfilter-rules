@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Finance » Credit Rating » ClearScore",
+  "name": "Personal \u00bb Finance \u00bb Credit Rating \u00bb ClearScore",
   "priority": 100,
   "conditions": {
     "any": [
@@ -19,5 +19,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Credit Rating/ClearScore"
+    }
   ]
 }

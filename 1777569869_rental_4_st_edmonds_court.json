@@ -1,0 +1,30 @@
+{
+  "name": "Rental » 4 St Edmonds Court",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "bsandhar@doctors.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "rentals.exeter@stags.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "4 St Edmonds"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/Rental/4 St Edmonds Court"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Fitness \u00bb PT Appointments",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "james@replies.jgphysique.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "info@lifestylelean.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/PT Appointments"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

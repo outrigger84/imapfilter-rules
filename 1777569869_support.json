@@ -1,0 +1,38 @@
+{
+  "name": "Support",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "support@webhosting.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "customerservices@webhosting.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "servicedelivery@webhosting.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "billing@webhosting.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "angela.cummings@hyperslice.net"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Server/Support"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

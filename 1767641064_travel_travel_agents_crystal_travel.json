@@ -1,11 +1,15 @@
 {
-  "name": "Travel » Travel Agents » Crystal Travel",
+  "name": "Travel \u00bb Travel Agents \u00bb Crystal Travel",
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@crystaltravel.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "crystaltravel.co.uk"
       }
     ]
   },
@@ -15,5 +19,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Travel Agents/Crystal Travel"
+    }
   ]
 }

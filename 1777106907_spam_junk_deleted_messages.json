@@ -1,30 +1,321 @@
 {
   "name": "Spam/Junk — Delete",
+  "enabled": true,
   "priority": 10,
   "conditions": {
     "any": [
-      { "header": "from", "contains": "thermomix.com.sg" },
-      { "header": "from", "contains": "jotform.com" },
-      { "header": "from", "contains": "cambly.com" },
-      { "header": "from", "contains": "savethekoala.com" },
-      { "header": "from", "contains": "autoprin.com" },
-      { "header": "from", "contains": "steinmart.com" },
-      { "header": "from", "contains": "usfuturenewsletters.com" },
-      { "header": "from", "contains": "experimentalfactor.co.uk" },
-      { "header": "from", "contains": "jobadmiration.com" },
-      { "header": "from", "contains": "harpjob.com" },
-      { "header": "from", "contains": "careerpi.net" },
-      { "header": "from", "contains": "mailquotesearch.com" },
-      { "header": "from", "contains": "mortgageladder.com" },
-      { "header": "from", "contains": "news.goodgadgetdeals.com" },
-      { "header": "from", "contains": "kickstarnow.com" },
-      { "header": "from", "contains": "xiocom.com" },
-      { "header": "from", "contains": "avuqrzxs.retroplot.net" },
-      { "header": "from", "contains": "greatisenoughtoday.com" },
-      { "header": "from", "contains": "soapagent.com" },
-      { "header": "from", "contains": "ilovetkd.com" },
-      { "header": "from", "contains": "spectrumemails.com" },
-      { "header": "from", "contains": "latoken.com" }
+      {
+        "header": "from",
+        "contains": "thermomix.com.sg"
+      },
+      {
+        "header": "from",
+        "contains": "jotform.com"
+      },
+      {
+        "header": "from",
+        "contains": "cambly.com"
+      },
+      {
+        "header": "from",
+        "contains": "savethekoala.com"
+      },
+      {
+        "header": "from",
+        "contains": "autoprin.com"
+      },
+      {
+        "header": "from",
+        "contains": "steinmart.com"
+      },
+      {
+        "header": "from",
+        "contains": "usfuturenewsletters.com"
+      },
+      {
+        "header": "from",
+        "contains": "experimentalfactor.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jobadmiration.com"
+      },
+      {
+        "header": "from",
+        "contains": "harpjob.com"
+      },
+      {
+        "header": "from",
+        "contains": "careerpi.net"
+      },
+      {
+        "header": "from",
+        "contains": "mailquotesearch.com"
+      },
+      {
+        "header": "from",
+        "contains": "mortgageladder.com"
+      },
+      {
+        "header": "from",
+        "contains": "news.goodgadgetdeals.com"
+      },
+      {
+        "header": "from",
+        "contains": "kickstarnow.com"
+      },
+      {
+        "header": "from",
+        "contains": "xiocom.com"
+      },
+      {
+        "header": "from",
+        "contains": "retroplot.net"
+      },
+      {
+        "header": "from",
+        "contains": "greatisenoughtoday.com"
+      },
+      {
+        "header": "from",
+        "contains": "soapagent.com"
+      },
+      {
+        "header": "from",
+        "contains": "ilovetkd.com"
+      },
+      {
+        "header": "from",
+        "contains": "spectrumemails.com"
+      },
+      {
+        "header": "from",
+        "contains": "latoken.com"
+      },
+      {
+        "header": "to",
+        "contains": "suddenlinkmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@autocab.com"
+      },
+      {
+        "header": "from",
+        "contains": "@bonworth.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.msnbc.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@lenovo.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.saks.com"
+      },
+      {
+        "header": "from",
+        "contains": "dikr.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "kuttlers.com"
+      },
+      {
+        "header": "from",
+        "contains": "agilfx.ai"
+      },
+      {
+        "header": "from",
+        "contains": "jestzone.net"
+      },
+      {
+        "header": "from",
+        "contains": "dtplv.com"
+      },
+      {
+        "header": "from",
+        "contains": "koingosw.com"
+      },
+      {
+        "header": "from",
+        "contains": "waylytic.com"
+      },
+      {
+        "header": "from",
+        "contains": "puffhuffy.com"
+      },
+      {
+        "header": "from",
+        "contains": "asoudhdufhv.org.io"
+      },
+      {
+        "header": "from",
+        "contains": "ecomtile.net"
+      },
+      {
+        "header": "from",
+        "contains": "lairpro.com"
+      },
+      {
+        "header": "from",
+        "contains": "cerulemaker.com"
+      },
+      {
+        "header": "from",
+        "contains": "groundword.org"
+      },
+      {
+        "header": "from",
+        "contains": "huetemortgageinc.com"
+      },
+      {
+        "header": "from",
+        "contains": "reima.com"
+      },
+      {
+        "header": "from",
+        "contains": "sartale.com"
+      },
+      {
+        "header": "from",
+        "contains": "woodendot.com"
+      },
+      {
+        "header": "from",
+        "contains": "mmclearning.com"
+      },
+      {
+        "header": "from",
+        "contains": "turing.li"
+      },
+      {
+        "header": "from",
+        "contains": "@titans.nfl.com"
+      },
+      {
+        "header": "from",
+        "contains": "getwaterfit.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "tsmpbolozfm.com"
+      },
+      {
+        "header": "from",
+        "contains": "eeeflfoddvm.com"
+      },
+      {
+        "header": "from",
+        "contains": "ggkthbleeqz.com"
+      },
+      {
+        "header": "from",
+        "contains": "vefpcniywjg.com"
+      },
+      {
+        "header": "from",
+        "contains": "krimwdonahw.com"
+      },
+      {
+        "header": "from",
+        "contains": "ytiimwrbgpd.com"
+      },
+      {
+        "header": "from",
+        "contains": "bpaqsttbugtoaxios.com"
+      },
+      {
+        "header": "from",
+        "contains": "lknhtbwpwetdaxios.com"
+      },
+      {
+        "header": "from",
+        "contains": "ofsys.com"
+      },
+      {
+        "header": "from",
+        "contains": "jgbxnubddarsgotheskimm.com"
+      },
+      {
+        "header": "from",
+        "contains": "rkyutbgofwstctheskimm.com"
+      },
+      {
+        "header": "from",
+        "contains": "bluevolt-swift.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "bluevolt-rapidmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "bluevolt-apex.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "bluevolt-email.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jobsboost.com.au"
+      },
+      {
+        "header": "from",
+        "contains": "saeplus.com"
+      },
+      {
+        "header": "from",
+        "contains": "falcongreen.com"
+      },
+      {
+        "header": "from",
+        "contains": "intramed.net"
+      },
+      {
+        "header": "from",
+        "contains": "grid-tronix.com"
+      },
+      {
+        "header": "from",
+        "contains": "grantmaskell.com"
+      },
+      {
+        "header": "from",
+        "contains": "geobattery.com"
+      },
+      {
+        "header": "from",
+        "contains": "opticalize.com"
+      },
+      {
+        "header": "from",
+        "contains": "privacy.pdlnotices.com"
+      },
+      {
+        "header": "from",
+        "contains": "emin.magla@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "gui.vlogs.000@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "hegibson@codeisto.com"
+      },
+      {
+        "header": "from",
+        "contains": "info@regn.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "otisballoon@gmail.com"
+      }
     ]
   },
   "action": {
@@ -33,6 +324,7 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Spam/junk domains identified by analysis of 374,576 emails in cache.db"
+    "Spam/junk domains identified by analysis of 374,576 emails in cache.db",
+    "Additional criteria added from 14,680 manually-curated Deleted Messages emails"
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "name": "Ground Transport » A1 Rushmoor Radio Taxis",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "accounts@rushmoortaxis.com"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@icabbi.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/A1 Rushmoor Radio Taxis"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

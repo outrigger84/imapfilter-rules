@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » American Express",
+  "name": "Notifications \u00bb American Express",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

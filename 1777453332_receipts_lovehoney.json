@@ -1,0 +1,32 @@
+{
+  "name": "Receipts » Lovehoney",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@notifications.lovehoney.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@lovehoney.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Lovehoney"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » IFTTT",
+  "name": "Notifications \u00bb IFTTT",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

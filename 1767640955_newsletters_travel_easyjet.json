@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Travel » Easyjet",
+  "name": "Newsletters » Marketing » Travel » Easyjet",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -19,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Travel/Easyjet"
+      "target": "Newsletters/Marketing/Travel/Easyjet"
     },
     {
       "type": "set_keywords",

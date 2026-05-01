@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Copycat Fragrances",
+  "name": "Newsletters » Marketing » Retail » General » Copycat Fragrances",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Copycat Fragrances"
+      "target": "Newsletters/Marketing/Retail/General/Copycat Fragrances"
     },
     {
       "type": "set_keywords",

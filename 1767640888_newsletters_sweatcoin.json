@@ -1,18 +1,19 @@
 {
-  "name": "Newsletters » Sweatcoin",
+  "name": "Newsletters » Marketing » Fitness » Sweatcoin",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@sweatco.in"
+        "contains": "sweatco.in"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Sweatcoin"
+      "target": "Newsletters/Marketing/Fitness/Sweatcoin"
     },
     {
       "type": "set_keywords",

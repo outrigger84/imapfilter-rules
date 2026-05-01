@@ -1,0 +1,26 @@
+{
+  "name": "Microsoft",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "microsoft-noreply@microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "stremail@microsoft.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Microsoft"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

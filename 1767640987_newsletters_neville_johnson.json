@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Neville Johnson",
+  "name": "Newsletters » Marketing » Retail » Home » Neville Johnson",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Neville Johnson"
+      "target": "Newsletters/Marketing/Retail/Home/Neville Johnson"
     },
     {
       "type": "set_keywords",

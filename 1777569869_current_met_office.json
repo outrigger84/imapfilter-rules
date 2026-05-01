@@ -1,0 +1,50 @@
+{
+  "name": "Current » Met Office",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "security@metoffice.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "c1suvettingaftercare@hmrc.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "assia.raza@hmrc.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jason.bradley@metoffice.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "bradley.deaville@hmrc.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "askhr@metoffice.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "nicola.cuttridge@metoffice.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply_recruitment@metoffice.gov.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Jobs/Current/Met Office"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

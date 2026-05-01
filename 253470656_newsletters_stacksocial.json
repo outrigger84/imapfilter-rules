@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » StackSocial",
+  "name": "Newsletters » Topics » Media » Books » StackSocial",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/StackSocial"
+      "target": "Newsletters/Topics/Media/Books/StackSocial"
     },
     {
       "type": "set_keywords",

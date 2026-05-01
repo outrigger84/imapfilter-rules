@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Marketing » Tech » Software » Monday-com",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@monday.com"
+      },
+      {
+        "header": "from",
+        "contains": "@learn.mail.monday.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Software/Monday-com"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Blinds2Go",
+  "name": "Newsletters » Marketing » Retail » Home » Blinds2Go",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "noreply@blinds-2go.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@email.blinds-2go.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Blinds2Go"
+      "target": "Newsletters/Marketing/Retail/Home/Blinds2Go"
     },
     {
       "type": "set_keywords",

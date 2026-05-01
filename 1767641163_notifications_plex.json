@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Plex",
+  "name": "Notifications \u00bb Plex",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

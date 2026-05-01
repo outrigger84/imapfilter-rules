@@ -1,0 +1,26 @@
+{
+  "name": "Pensions » Civil Service Pension",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "mssmail@mycsp.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "civil.service.pensions@notifications.service.gov.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Pensions/Civil Service Pension"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

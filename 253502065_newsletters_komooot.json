@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Komooot",
+  "name": "Newsletters » Marketing » Fitness » Komooot",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Komooot"
+      "target": "Newsletters/Marketing/Fitness/Komooot"
     },
     {
       "type": "set_keywords",

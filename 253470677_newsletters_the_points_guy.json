@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » The Points Guy",
+  "name": "Newsletters » Topics » Media » The Points Guy",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/The Points Guy"
+      "target": "Newsletters/Topics/Media/The Points Guy"
     },
     {
       "type": "set_keywords",

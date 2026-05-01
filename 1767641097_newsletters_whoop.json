@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Whoop",
+  "name": "Newsletters » Marketing » Fitness » Whoop",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -40,7 +41,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Whoop"
+      "target": "Newsletters/Marketing/Fitness/Whoop"
     },
     {
       "type": "set_keywords",

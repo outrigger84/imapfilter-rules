@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » IFTTT",
+  "name": "Newsletters » Marketing » Tech » Software » IFTTT",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -24,7 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/IFTTT"
+      "target": "Newsletters/Marketing/Tech/Software/IFTTT"
     },
     {
       "type": "set_keywords",

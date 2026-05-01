@@ -1,6 +1,7 @@
 {
   "name": "Family",
-  "priority": 1000,
+  "enabled": true,
+  "priority": 100,
   "conditions": {
     "any": [
       {
@@ -42,6 +43,34 @@
       {
         "header": "from",
         "contains": "patgibson27@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "paulagibson233@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "suefawkes07@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "sophiefawkes94@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "paula_gibson@ntlworld.com"
+      },
+      {
+        "header": "from",
+        "contains": "greg_gibson@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hazel.gibson@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "judith.mcgrath@handleman.co.uk"
       }
     ]
   },
@@ -49,10 +78,16 @@
     {
       "type": "move",
       "target": "Family"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
     }
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Auto-generated rule from cache.db with 10 unique senders"
+    "Auto-generated rule from cache.db with 10 unique senders; 2 added via classification review"
   ]
 }

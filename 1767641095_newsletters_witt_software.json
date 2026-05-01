@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Witt Software",
+  "name": "Newsletters » Marketing » Tech » Software » Witt Software",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Witt Software"
+      "target": "Newsletters/Marketing/Tech/Software/Witt Software"
     },
     {
       "type": "set_keywords",

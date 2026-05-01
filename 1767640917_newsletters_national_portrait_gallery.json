@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » National Portrait Gallery",
+  "name": "Newsletters \u00bb National Portrait Gallery",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,0 +1,26 @@
+{
+  "name": "British Cycling",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "info@updates-britishcycling.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@mg.britishcycling.org.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Memberships/British Cycling"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

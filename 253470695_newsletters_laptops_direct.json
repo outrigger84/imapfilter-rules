@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Laptops Direct",
+  "name": "Newsletters » Marketing » Tech » Hardware » Laptops Direct",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Laptops Direct"
+      "target": "Newsletters/Marketing/Tech/Hardware/Laptops Direct"
     },
     {
       "type": "set_keywords",

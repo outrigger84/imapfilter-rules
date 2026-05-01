@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Product School",
+  "name": "Newsletters » Topics » Product Management » Product School",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Product School"
+      "target": "Newsletters/Topics/Product Management/Product School"
     },
     {
       "type": "set_keywords",

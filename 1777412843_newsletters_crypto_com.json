@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Crypto.com",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@serviceinfo.crypto.com"
+      },
+      {
+        "header": "from",
+        "contains": "@crypto.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Crypto-com"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

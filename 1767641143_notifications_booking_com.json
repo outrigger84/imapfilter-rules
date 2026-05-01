@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Booking.com",
+  "name": "Notifications \u00bb Booking-com",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,13 +15,17 @@
       {
         "header": "from",
         "contains": "noreply@booking.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply-payments@booking.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Booking.com"
+      "target": "Notifications/Booking-com"
     },
     {
       "type": "set_keywords",

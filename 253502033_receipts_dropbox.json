@@ -1,5 +1,6 @@
 {
-  "name": "Receipts » Dropbox",
+  "name": "Receipts \u00bb Dropbox",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,6 +11,14 @@
       {
         "header": "from",
         "contains": "dropboxmail_at_dropbox_com_"
+      },
+      {
+        "header": "from",
+        "contains": "@em-s.dropbox.com"
+      },
+      {
+        "header": "from",
+        "contains": "@dropbox.com"
       }
     ]
   },
@@ -26,6 +35,6 @@
     }
   ],
   "comments": [
-    "Private Relay – Dropbox receipts"
+    "Private Relay \u2013 Dropbox receipts"
   ]
 }

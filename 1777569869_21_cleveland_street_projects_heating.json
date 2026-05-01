@@ -1,0 +1,34 @@
+{
+  "name": "21 Cleveland Street » Projects » Heating",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "alex.kuncewicz@mixergy.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "rebecca.cardus@britishgas.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@britishgas.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "daniel.jones@am-energy.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Projects/Heating"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

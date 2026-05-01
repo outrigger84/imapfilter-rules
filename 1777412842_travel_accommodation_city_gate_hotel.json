@@ -1,0 +1,29 @@
+{
+  "name": "Travel » Accommodation » City Gate Hotel",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "thecitygate@partners.collinsbookings.com"
+      },
+      {
+        "header": "from",
+        "contains": "@collinsbookings.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation/City Gate Hotel"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

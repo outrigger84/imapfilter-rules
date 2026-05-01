@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Stagecoach",
+  "name": "Newsletters » Marketing » Travel » Stagecoach",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Stagecoach"
+      "target": "Newsletters/Marketing/Travel/Stagecoach"
     },
     {
       "type": "set_keywords",

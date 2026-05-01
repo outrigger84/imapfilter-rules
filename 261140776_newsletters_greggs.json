@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb Food \u00bb Greggs",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hello@emails.greggs.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hello@email.greggs.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Greggs"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

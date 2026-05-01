@@ -1,0 +1,32 @@
+{
+  "name": "Travel \u00bb Flights \u00bb Wizz Air",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "notifications@notifications.wizzair.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@wizzair.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/Wizz Air"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

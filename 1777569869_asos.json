@@ -1,0 +1,50 @@
+{
+  "name": "ASOS",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "orders@asos.com"
+      },
+      {
+        "header": "from",
+        "contains": "account@asos.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello@official.asos.com"
+      },
+      {
+        "header": "from",
+        "contains": "premier@asos.com"
+      },
+      {
+        "header": "from",
+        "contains": "asos@inmomentfeedback.com"
+      },
+      {
+        "header": "from",
+        "contains": "care@asos.com"
+      },
+      {
+        "header": "from",
+        "contains": "orders_at_asos_com_cahyr4rvw9_4a5794f9@privaterelay.appleid.com"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@reviews.asos.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/ASOS"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

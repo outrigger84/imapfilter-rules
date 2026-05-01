@@ -1,0 +1,22 @@
+{
+  "name": "reallymoving",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "movingchecklist_at_marketing_reallymoving_com_prv8d28q8ba15s_m1fs6453@icloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/reallymoving"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

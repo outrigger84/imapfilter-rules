@@ -1,0 +1,32 @@
+{
+  "name": "Receipts » Setapp",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "help@paddle.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Setapp"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Setapp"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Paddle is the payment processor for Setapp — match on both sender and subject to avoid catching other Paddle merchants"
+  ]
+}

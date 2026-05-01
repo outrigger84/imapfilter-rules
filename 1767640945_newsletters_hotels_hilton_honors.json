@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Hotels » Hilton Honors",
+  "name": "Newsletters » Marketing » Hotels » Hilton Honors",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Hotels/Hilton Honors"
+      "target": "Newsletters/Marketing/Hotels/Hilton Honors"
     },
     {
       "type": "set_keywords",

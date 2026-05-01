@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Travel » Holiday Exclusives",
+  "name": "Newsletters » Marketing » Travel » Holiday Exclusives",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Travel/Holiday Exclusives"
+      "target": "Newsletters/Marketing/Travel/Holiday Exclusives"
     },
     {
       "type": "set_keywords",

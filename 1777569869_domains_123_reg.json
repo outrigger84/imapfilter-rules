@@ -1,0 +1,30 @@
+{
+  "name": "Domains » 123 Reg",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply@123-reg.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@email.123-reg.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "donotreply@e.secureserver.net"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Server/Domains/123 Reg"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Paypal",
+  "name": "Newsletters » Marketing » Finance » PayPal",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@emails.paypal.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.paypal.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Paypal"
+      "target": "Newsletters/Marketing/Finance/PayPal"
     },
     {
       "type": "set_keywords",

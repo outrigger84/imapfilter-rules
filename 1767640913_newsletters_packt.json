@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Packt",
+  "name": "Newsletters » Topics » Media » Books » Packt",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Packt"
+      "target": "Newsletters/Topics/Media/Books/Packt"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,34 @@
+{
+  "name": "40th Birthday",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "thecitygate@partners.collinsbookings.com"
+      },
+      {
+        "header": "from",
+        "contains": "jo@its-your-day.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "events@quaysidedistillery.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "events.topshambrewery@gmail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Events/40th Birthday"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

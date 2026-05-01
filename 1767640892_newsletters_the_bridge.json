@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » The Bridge",
+  "name": "Newsletters » Marketing » Retail » General » The Bridge",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/The Bridge"
+      "target": "Newsletters/Marketing/Retail/General/The Bridge"
     },
     {
       "type": "set_keywords",

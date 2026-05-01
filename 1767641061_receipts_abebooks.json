@@ -1,5 +1,6 @@
 {
   "name": "Receipts » Abebooks",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

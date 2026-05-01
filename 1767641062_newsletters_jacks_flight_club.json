@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Jacks Flight Club",
+  "name": "Newsletters » Topics » Media » Jacks Flight Club",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,13 +11,17 @@
       {
         "header": "from",
         "contains": "@content.jacksflightclub.com"
+      },
+      {
+        "header": "from",
+        "contains": "@jacksflightclub.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Jacks Flight Club"
+      "target": "Newsletters/Topics/Media/Jacks Flight Club"
     },
     {
       "type": "set_keywords",

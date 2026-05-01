@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » The Futurist",
+  "name": "Newsletters » Topics » Media » The Futurist",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/The Futurist"
+      "target": "Newsletters/Topics/Media/The Futurist"
     },
     {
       "type": "set_keywords",

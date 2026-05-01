@@ -1,5 +1,5 @@
 {
-  "name": "21 Cleveland Street » MSE Energy Club",
+  "name": "21 Cleveland Street \u00bb MSE Energy Club",
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,5 +15,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/MSE Energy Club"
+    }
   ]
 }

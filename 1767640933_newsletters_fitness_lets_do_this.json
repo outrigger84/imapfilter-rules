@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Fitness » Lets Do This",
+  "name": "Newsletters » Marketing » Fitness » Lets Do This",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Fitness/Lets Do This"
+      "target": "Newsletters/Marketing/Fitness/Lets Do This"
     },
     {
       "type": "set_keywords",

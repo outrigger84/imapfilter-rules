@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Box Menswear",
+  "name": "Newsletters » Marketing » Retail » Clothing » Box Menswear",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Box Menswear"
+      "target": "Newsletters/Marketing/Retail/Clothing/Box Menswear"
     },
     {
       "type": "set_keywords",

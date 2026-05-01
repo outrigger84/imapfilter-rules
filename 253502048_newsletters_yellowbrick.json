@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Yellowbrick",
+  "name": "Newsletters » Topics » Learning » Yellowbrick",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Yellowbrick"
+      "target": "Newsletters/Topics/Learning/Yellowbrick"
     },
     {
       "type": "set_keywords",

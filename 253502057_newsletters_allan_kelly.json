@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Allan Kelly",
+  "name": "Newsletters » Topics » Product Management » Allan Kelly",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Allan Kelly"
+      "target": "Newsletters/Topics/Product Management/Allan Kelly"
     },
     {
       "type": "set_keywords",

@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » ao.com",
+  "name": "Newsletters » Marketing » Tech » Hardware » ao-com",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@m.ao.com"
+      },
+      {
+        "header": "from",
+        "contains": "@t.ao.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/ao.com"
+      "target": "Newsletters/Marketing/Tech/Hardware/ao-com"
     },
     {
       "type": "set_keywords",

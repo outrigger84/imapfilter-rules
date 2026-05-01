@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Eastpak",
+  "name": "Newsletters » Marketing » Retail » Clothing » Eastpak",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Eastpak"
+      "target": "Newsletters/Marketing/Retail/Clothing/Eastpak"
     },
     {
       "type": "set_keywords",

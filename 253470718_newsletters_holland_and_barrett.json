@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Holland and Barrett",
+  "name": "Newsletters » Marketing » Health » Holland and Barrett",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@email.hollandandbarrett.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mailer.hollandandbarrett.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Holland and Barrett"
+      "target": "Newsletters/Marketing/Health/Holland and Barrett"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Bristol Airport",
+  "name": "Newsletters » Marketing » Travel » Bristol Airport",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Bristol Airport"
+      "target": "Newsletters/Marketing/Travel/Bristol Airport"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Toolstation",
+  "name": "Newsletters » Marketing » Tools » Toolstation",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Toolstation"
+      "target": "Newsletters/Marketing/Tools/Toolstation"
     },
     {
       "type": "set_keywords",

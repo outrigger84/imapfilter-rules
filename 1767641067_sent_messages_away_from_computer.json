@@ -1,5 +1,6 @@
 {
-  "name": "Sent Messages » Away From Computer",
+  "name": "Sent Messages \u00bb Away From Computer",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -113,6 +114,12 @@
     {
       "type": "move",
       "target": "Sent Messages/Away From Computer"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
     }
   ],
   "comments": [

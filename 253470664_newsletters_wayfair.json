@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Wayfair",
+  "name": "Newsletters » Marketing » Retail » Home » Wayfair",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@members.wayfair.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@service.wayfair.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Wayfair"
+      "target": "Newsletters/Marketing/Retail/Home/Wayfair"
     },
     {
       "type": "set_keywords",

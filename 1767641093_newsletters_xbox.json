@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Xbox",
+  "name": "Newsletters » Marketing » Entertainment » Xbox",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Xbox"
+      "target": "Newsletters/Marketing/Entertainment/Xbox"
     },
     {
       "type": "set_keywords",

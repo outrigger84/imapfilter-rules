@@ -1,0 +1,23 @@
+{
+  "name": "Spam » reg.ru",
+  "enabled": true,
+  "priority": 10,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "reg.ru"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Catches spam from reg.ru subdomains (pro-*@*.reg.ru, news-*@*reg.ru, etc.)"
+  ]
+}

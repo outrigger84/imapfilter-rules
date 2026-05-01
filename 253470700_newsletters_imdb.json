@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » IMDB",
+  "name": "Newsletters » Marketing » Entertainment » IMDB",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/IMDB"
+      "target": "Newsletters/Marketing/Entertainment/IMDB"
     },
     {
       "type": "set_keywords",

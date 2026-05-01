@@ -1,0 +1,32 @@
+{
+  "name": "Memberships \u00bb Library \u00bb Libraries Unlimited",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "info@librariesunlimited.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "marketing@librariesunlimited.org.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Memberships/Library/Libraries Unlimited"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

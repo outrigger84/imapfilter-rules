@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Grind",
+  "name": "Newsletters » Marketing » Coffee » Grind",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Grind"
+      "target": "Newsletters/Marketing/Coffee/Grind"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,36 @@
+{
+  "name": "Travel \u00bb Flights \u00bb Wow Air",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@wow.is"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@wowair.com"
+      },
+      {
+        "header": "from",
+        "contains": "web.check-in@iport.aero"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/Wow Air"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

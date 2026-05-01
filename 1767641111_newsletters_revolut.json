@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Revolut",
+  "name": "Newsletters » Marketing » Finance » Revolut",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Revolut"
+      "target": "Newsletters/Marketing/Finance/Revolut"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Restaurants » Taco Bell",
+  "name": "Newsletters » Marketing » Restaurants » Taco Bell",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Restaurants/Taco Bell"
+      "target": "Newsletters/Marketing/Restaurants/Taco Bell"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Meetup",
+  "name": "Notifications \u00bb Meetup",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -29,11 +30,11 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        "Retain30"
       ]
     }
   ],
   "comments": [
-    "Private Relay – Meetup notifications"
+    "Private Relay \u2013 Meetup notifications"
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Fitness » Spartan Race",
+  "name": "Newsletters » Marketing » Fitness » Spartan Race",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Fitness/Spartan Race"
+      "target": "Newsletters/Marketing/Fitness/Spartan Race"
     },
     {
       "type": "set_keywords",

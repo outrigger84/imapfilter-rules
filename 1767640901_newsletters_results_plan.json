@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Results Plan",
+  "name": "Newsletters » Marketing » Fitness » Results Plan",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Results Plan"
+      "target": "Newsletters/Marketing/Fitness/Results Plan"
     },
     {
       "type": "set_keywords",

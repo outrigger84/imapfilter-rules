@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » DEWALT",
+  "name": "Newsletters » Marketing » Tools » DEWALT",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@email.dewalt.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@mails.dewalt.eu"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/DEWALT"
+      "target": "Newsletters/Marketing/Tools/DEWALT"
     },
     {
       "type": "set_keywords",

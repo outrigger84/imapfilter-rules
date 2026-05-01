@@ -1,5 +1,5 @@
 {
-  "name": "Travel » Ground Transport » Avanti West Coast",
+  "name": "Travel \u00bb Ground Transport \u00bb Avanti West Coast",
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,5 +15,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/Avanti West Coast"
+    }
   ]
 }

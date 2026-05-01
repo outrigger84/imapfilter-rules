@@ -1,0 +1,30 @@
+{
+  "name": "Finance » Store Credit » Verypay",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "notification@eletters.very.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "info@emails.very.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "enquiry@very.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Store Credit/Verypay"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

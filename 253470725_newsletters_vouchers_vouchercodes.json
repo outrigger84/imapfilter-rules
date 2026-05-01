@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Vouchers » VoucherCodes",
+  "name": "Newsletters » Marketing » Vouchers » VoucherCodes",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Vouchers/VoucherCodes"
+      "target": "Newsletters/Marketing/Vouchers/VoucherCodes"
     },
     {
       "type": "set_keywords",

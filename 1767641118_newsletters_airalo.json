@@ -1,5 +1,6 @@
 {
   "name": "Newsletters » Airalo",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

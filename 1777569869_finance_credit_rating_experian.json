@@ -1,0 +1,30 @@
+{
+  "name": "Finance » Credit Rating » Experian",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "email@alerts.experian.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "email@alert.experian.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "email@notify.experian.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Credit Rating/Experian"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

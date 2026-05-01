@@ -1,5 +1,6 @@
 {
   "name": "Receipts » Darts Farm",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

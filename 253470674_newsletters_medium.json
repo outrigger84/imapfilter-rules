@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Medium",
+  "name": "Newsletters » Topics » Media » Medium",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -24,7 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Medium"
+      "target": "Newsletters/Topics/Media/Medium"
     },
     {
       "type": "set_keywords",

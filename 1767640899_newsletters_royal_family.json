@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Royal Family",
+  "name": "Newsletters \u00bb Royal Family",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

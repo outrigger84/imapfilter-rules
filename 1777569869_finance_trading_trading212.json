@@ -1,0 +1,38 @@
+{
+  "name": "Finance » Trading » Trading212",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "info@trading212.com"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@mail.trading212.com"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@info.trading212.com"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@news.trading212.com"
+      },
+      {
+        "header": "from",
+        "contains": "Trading212@proxydocs.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Trading/Trading212"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

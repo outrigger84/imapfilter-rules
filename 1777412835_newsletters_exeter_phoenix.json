@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Exeter Phoenix",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@arts-mail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@exeterphoenix.org.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Exeter Phoenix"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

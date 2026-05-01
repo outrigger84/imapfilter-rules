@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Freecycle",
+  "name": "Newsletters » Topics » Charity » Freecycle",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Freecycle"
+      "target": "Newsletters/Topics/Charity/Freecycle"
     },
     {
       "type": "set_keywords",

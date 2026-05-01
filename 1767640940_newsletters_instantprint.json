@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Instantprint",
+  "name": "Newsletters » Marketing » Photo » Instantprint",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Instantprint"
+      "target": "Newsletters/Marketing/Photo/Instantprint"
     },
     {
       "type": "set_keywords",

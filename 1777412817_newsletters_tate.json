@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Tate",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@i.tate.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@tate.org.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Tate"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

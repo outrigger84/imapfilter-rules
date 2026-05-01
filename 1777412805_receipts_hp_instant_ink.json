@@ -1,0 +1,29 @@
+{
+  "name": "Receipts » HP Instant Ink",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@instantink.hpsmart.com"
+      },
+      {
+        "header": "from",
+        "contains": "@hpsmart.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/HP Instant Ink"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

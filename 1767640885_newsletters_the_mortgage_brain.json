@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » The Mortgage Brain",
+  "name": "Newsletters » Marketing » Finance » The Mortgage Brain",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/The Mortgage Brain"
+      "target": "Newsletters/Marketing/Finance/The Mortgage Brain"
     },
     {
       "type": "set_keywords",

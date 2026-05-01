@@ -1,0 +1,26 @@
+{
+  "name": "Travel Agents » Easyjet Holidays",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "donotreply@holiday.easyjet.com"
+      },
+      {
+        "header": "from",
+        "contains": "easyJet holidays"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Travel Agents/Easyjet Holidays"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

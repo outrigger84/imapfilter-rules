@@ -1,5 +1,5 @@
 {
-  "name": "Complaints » Delay Repay » GWR",
+  "name": "Complaints \u00bb Delay Repay \u00bb GWR",
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,5 +15,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Complaints/Delay Repay/GWR"
+    }
   ]
 }

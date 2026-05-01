@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Compare The Market",
+  "name": "Newsletters » Marketing » Finance » Compare The Market",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Compare The Market"
+      "target": "Newsletters/Marketing/Finance/Compare The Market"
     },
     {
       "type": "set_keywords",

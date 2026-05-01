@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Wacacos",
+  "name": "Newsletters » Marketing » Coffee » Wacacos",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Wacacos"
+      "target": "Newsletters/Marketing/Coffee/Wacacos"
     },
     {
       "type": "set_keywords",

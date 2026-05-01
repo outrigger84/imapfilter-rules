@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » The Feed",
+  "name": "Newsletters » Marketing » Fitness » The Feed",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/The Feed"
+      "target": "Newsletters/Marketing/Fitness/The Feed"
     },
     {
       "type": "set_keywords",

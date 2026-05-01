@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Thorful",
+  "name": "Newsletters » Marketing » Retail » Gifts » Thorful",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Thorful"
+      "target": "Newsletters/Marketing/Retail/Gifts/Thorful"
     },
     {
       "type": "set_keywords",

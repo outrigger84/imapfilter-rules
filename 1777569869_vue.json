@@ -1,0 +1,26 @@
+{
+  "name": "Vue",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "confirmation_at_kernel_myvue_com_y746d4vdhq_77b9d3b7@privaterelay.appleid.com"
+      },
+      {
+        "header": "from",
+        "contains": "confirmation@kernel.myvue.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Tickets/Vue"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

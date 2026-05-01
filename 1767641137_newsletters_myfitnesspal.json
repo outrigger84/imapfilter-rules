@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » MyFitnessPal",
+  "name": "Newsletters » Marketing » Fitness » MyFitnessPal",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/MyFitnessPal"
+      "target": "Newsletters/Marketing/Fitness/MyFitnessPal"
     },
     {
       "type": "set_keywords",

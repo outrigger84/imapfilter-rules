@@ -1,5 +1,6 @@
 {
   "name": "The Economist",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

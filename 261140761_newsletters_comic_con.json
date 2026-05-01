@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters \u00bb Comic Con",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "museumops@comic-con.org"
+      },
+      {
+        "header": "from",
+        "contains": "donotreply@comic-con.org"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Comic Con"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

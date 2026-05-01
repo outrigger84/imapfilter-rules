@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Quidco",
+  "name": "Newsletters » Marketing » Finance » Quidco",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Quidco"
+      "target": "Newsletters/Marketing/Finance/Quidco"
     },
     {
       "type": "set_keywords",

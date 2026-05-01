@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Blue Lagoon",
+  "name": "Newsletters \u00bb Blue Lagoon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

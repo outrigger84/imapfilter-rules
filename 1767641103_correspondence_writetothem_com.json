@@ -1,5 +1,5 @@
 {
-  "name": "Correspondence » writetothem.com",
+  "name": "Correspondence » writetothem-com",
   "priority": 100,
   "conditions": {
     "any": [
@@ -11,9 +11,15 @@
   },
   "action": {
     "type": "move",
-    "target": "Correspondence/writetothem.com"
+    "target": "Correspondence/writetothem-com"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Correspondence/writetothem-com"
+    }
   ]
 }

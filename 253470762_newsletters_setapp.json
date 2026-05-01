@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Setapp",
+  "name": "Newsletters » Marketing » Tech » Software » Setapp",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Setapp"
+      "target": "Newsletters/Marketing/Tech/Software/Setapp"
     },
     {
       "type": "set_keywords",

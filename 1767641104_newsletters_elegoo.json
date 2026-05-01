@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Elegoo",
+  "name": "Newsletters » Marketing » Tech » Hardware » Elegoo",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Elegoo"
+      "target": "Newsletters/Marketing/Tech/Hardware/Elegoo"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Voyage Prive",
+  "name": "Newsletters » Marketing » Travel » Voyage Prive",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Voyage Prive"
+      "target": "Newsletters/Marketing/Travel/Voyage Prive"
     },
     {
       "type": "set_keywords",

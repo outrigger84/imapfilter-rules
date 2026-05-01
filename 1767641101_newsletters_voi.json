@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Voi",
+  "name": "Newsletters » Marketing » Travel » Voi",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Voi"
+      "target": "Newsletters/Marketing/Travel/Voi"
     },
     {
       "type": "set_keywords",

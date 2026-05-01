@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » SimplyCook",
+  "name": "Newsletters » Marketing » Food » SimplyCook",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/SimplyCook"
+      "target": "Newsletters/Marketing/Food/SimplyCook"
     },
     {
       "type": "set_keywords",

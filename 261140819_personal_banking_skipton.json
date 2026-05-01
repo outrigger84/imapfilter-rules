@@ -1,0 +1,32 @@
+{
+  "name": "Personal \u00bb Banking \u00bb Skipton",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "skiptonbs@skipton.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "info@skipton.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Banking/Skipton"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

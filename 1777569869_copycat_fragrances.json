@@ -1,0 +1,26 @@
+{
+  "name": "Copycat Fragrances",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "copycatfragrances@hotmail.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Order #"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Copycat Fragrances"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

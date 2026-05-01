@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » 7BR-NAS",
+  "name": "Notifications \u00bb 7BR-NAS",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

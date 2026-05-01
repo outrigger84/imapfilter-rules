@@ -1,0 +1,24 @@
+{
+  "name": "Receipts » Box Menswear",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@boxmenswear.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Order #"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Box Menswear"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

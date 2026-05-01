@@ -1,5 +1,5 @@
 {
-  "name": "Recipets » HP Instant Ink",
+  "name": "Receipts \u00bb HP Instant Ink",
   "priority": 100,
   "conditions": {
     "all": [
@@ -15,9 +15,15 @@
   },
   "action": {
     "type": "move",
-    "target": "Recipets/HP Instant Ink"
+    "target": "Receipts/HP Instant Ink"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/HP Instant Ink"
+    }
   ]
 }

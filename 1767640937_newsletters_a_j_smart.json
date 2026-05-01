@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » A&-J Smart",
+  "name": "Newsletters » Topics » Product Management » AJ Smart",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/A&-J Smart"
+      "target": "Newsletters/Topics/Product Management/AJ Smart"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » PiHut",
+  "name": "Newsletters » Marketing » Tech » Hardware » PiHut",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/PiHut"
+      "target": "Newsletters/Marketing/Tech/Hardware/PiHut"
     },
     {
       "type": "set_keywords",

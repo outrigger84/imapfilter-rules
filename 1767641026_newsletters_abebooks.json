@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » AbeBooks",
+  "name": "Newsletters » Topics » Media » Books » AbeBooks",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/AbeBooks"
+      "target": "Newsletters/Topics/Media/Books/AbeBooks"
     },
     {
       "type": "set_keywords",

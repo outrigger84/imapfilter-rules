@@ -1,0 +1,28 @@
+{
+  "name": "Personal » Finance » Mortgage",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@themortgagebrain.net"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Mortgage"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Henry Parsons, Katie Gill, Richard McMylor — all @themortgagebrain.net"
+  ]
+}

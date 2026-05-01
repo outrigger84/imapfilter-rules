@@ -1,0 +1,46 @@
+{
+  "name": "Purchase » 21 Cleveland St » Conveyancing",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@wbw.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "s.reid@tozers.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "ad@vplaw.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "ebooth_at_pmpl_co_uk_prvcd18q89135s_m42s6453@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "quotes_at_lambertpugh_co_uk_prv5e38q887c5s_mf9s6453@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "quotes_at_email-myhomemoveconveyancing_co_uk_prv84f8q87b05s_m19s6453@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "verify_at_reallymoving_com_prva0b8q817a5s_m6bs6453@icloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/Purchase/21 Cleveland St/Conveyancing"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

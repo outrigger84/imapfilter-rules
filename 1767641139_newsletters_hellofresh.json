@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » HelloFresh",
+  "name": "Newsletters » Marketing » Food » HelloFresh",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@newsletter.hellofresh.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hellofresh.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/HelloFresh"
+      "target": "Newsletters/Marketing/Food/HelloFresh"
     },
     {
       "type": "set_keywords",

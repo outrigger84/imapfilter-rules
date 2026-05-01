@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Wren Kitchens",
+  "name": "Newsletters » Marketing » Retail » Home » Wren Kitchens",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,13 +11,17 @@
       {
         "header": "from",
         "contains": "@mail.wren.com"
+      },
+      {
+        "header": "from",
+        "contains": "@wrenkitchens.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Wren Kitchens"
+      "target": "Newsletters/Marketing/Retail/Home/Wren Kitchens"
     },
     {
       "type": "set_keywords",

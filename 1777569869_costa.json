@@ -1,0 +1,26 @@
+{
+  "name": "Costa",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "costa-customersatisfaction@express.fra1.medallia.eu"
+      },
+      {
+        "header": "from",
+        "contains": "customersatisfactionsurvey.noreply@costacoffee.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Costa"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Sainsburys Bank",
+  "name": "Newsletters » Marketing » Finance » Sainsburys Bank",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Sainsburys Bank"
+      "target": "Newsletters/Marketing/Finance/Sainsburys Bank"
     },
     {
       "type": "set_keywords",

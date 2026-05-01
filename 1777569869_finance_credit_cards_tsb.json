@@ -1,0 +1,26 @@
+{
+  "name": "Finance » Credit Cards » TSB",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "donotreply@tsb.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@communications.tsb.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Credit Cards/TSB"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

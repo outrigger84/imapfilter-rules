@@ -1,5 +1,5 @@
 {
-  "name": "Tools » Unroll.Me",
+  "name": "Tools » Unroll-Me",
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +12,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Tools/Unroll.Me"
+      "target": "Tools/Unroll-Me"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,5 @@
 {
-  "name": "Recipets » Feedbin",
+  "name": "Receipts \u00bb Feedbin",
   "priority": 100,
   "conditions": {
     "any": [
@@ -11,9 +11,15 @@
   },
   "action": {
     "type": "move",
-    "target": "Recipets/Feedbin"
+    "target": "Receipts/Feedbin"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Feedbin"
+    }
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Costa",
+  "name": "Newsletters » Marketing » Coffee » Costa",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Costa"
+      "target": "Newsletters/Marketing/Coffee/Costa"
     },
     {
       "type": "set_keywords",

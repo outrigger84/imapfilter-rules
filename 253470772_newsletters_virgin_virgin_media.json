@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Virgin » Virgin Media",
+  "name": "Newsletters » Marketing » Virgin » Virgin Media",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Virgin/Virgin Media"
+      "target": "Newsletters/Marketing/Virgin/Virgin Media"
     },
     {
       "type": "set_keywords",

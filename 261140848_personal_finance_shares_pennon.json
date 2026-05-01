@@ -1,0 +1,36 @@
+{
+  "name": "Personal \u00bb Finance \u00bb Shares \u00bb Pennon",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "donotreply@mifid.linkgroup.eu"
+      },
+      {
+        "header": "from",
+        "contains": "application@pennonwatershare.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "donotreply@linkshareholderinformation.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Shares/Pennon"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

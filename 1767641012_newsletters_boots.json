@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Boots",
+  "name": "Newsletters » Marketing » Retail » General » Boots",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Boots"
+      "target": "Newsletters/Marketing/Retail/General/Boots"
     },
     {
       "type": "set_keywords",

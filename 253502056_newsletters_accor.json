@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Accor",
+  "name": "Newsletters » Marketing » Hotels » Accor",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Accor"
+      "target": "Newsletters/Marketing/Hotels/Accor"
     },
     {
       "type": "set_keywords",

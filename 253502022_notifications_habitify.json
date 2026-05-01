@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Habitify",
+  "name": "Notifications \u00bb Habitify",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,11 +22,11 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        "Retain30"
       ]
     }
   ],
   "comments": [
-    "Private Relay – Habitify notifications"
+    "Private Relay \u2013 Habitify notifications"
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "name": "Gusto",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hello_at_mail_gousto_co_uk_qss0aajjbcd32q_f9em6453@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello@email.gousto.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hello@mail.gousto.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "info_at_email_gousto_co_uk_qss4ecjjba672q_f7em6453@icloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Gusto"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

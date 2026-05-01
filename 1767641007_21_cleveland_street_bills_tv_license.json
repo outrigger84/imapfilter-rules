@@ -1,5 +1,5 @@
 {
-  "name": "21 Cleveland Street » Bills » TV License",
+  "name": "21 Cleveland Street \u00bb Bills \u00bb TV License",
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,5 +15,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Bills/TV License"
+    }
   ]
 }

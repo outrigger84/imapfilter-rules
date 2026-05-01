@@ -1,0 +1,30 @@
+{
+  "name": "Nude",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hey@getnude.com"
+      },
+      {
+        "header": "from",
+        "contains": "news@getnude.com"
+      },
+      {
+        "header": "from",
+        "contains": "yo@adulti.sh"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Nude"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

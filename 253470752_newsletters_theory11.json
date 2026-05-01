@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » theory11",
+  "name": "Newsletters » Marketing » Entertainment » theory11",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/theory11"
+      "target": "Newsletters/Marketing/Entertainment/theory11"
     },
     {
       "type": "set_keywords",

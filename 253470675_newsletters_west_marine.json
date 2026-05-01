@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » West Marine",
+  "name": "Newsletters » Marketing » Outdoors » West Marine",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/West Marine"
+      "target": "Newsletters/Marketing/Outdoors/West Marine"
     },
     {
       "type": "set_keywords",

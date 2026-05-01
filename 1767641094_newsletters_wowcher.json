@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Wowcher",
+  "name": "Newsletters » Marketing » Retail » General » Wowcher",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Wowcher"
+      "target": "Newsletters/Marketing/Retail/General/Wowcher"
     },
     {
       "type": "set_keywords",

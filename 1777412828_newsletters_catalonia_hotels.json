@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Catalonia Hotels",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@nw.cataloniahotels.com"
+      },
+      {
+        "header": "from",
+        "contains": "@cataloniahotels.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Catalonia Hotels"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

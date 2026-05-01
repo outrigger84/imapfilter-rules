@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Marketing » Health » Calm",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hello@breathe.calm.com"
+      },
+      {
+        "header": "from",
+        "contains": "@breathe.calm.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Health/Calm"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Calm marketing emails via real address — separate rule covers iCloud Private Relay variant"
+  ]
+}

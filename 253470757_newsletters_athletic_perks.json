@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Athletic Perks",
+  "name": "Newsletters » Marketing » Fitness » Athletic Perks",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Athletic Perks"
+      "target": "Newsletters/Marketing/Fitness/Athletic Perks"
     },
     {
       "type": "set_keywords",

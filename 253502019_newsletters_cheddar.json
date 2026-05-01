@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Cheddar",
+  "name": "Newsletters » Marketing » Finance » Cheddar",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Cheddar"
+      "target": "Newsletters/Marketing/Finance/Cheddar"
     },
     {
       "type": "set_keywords",

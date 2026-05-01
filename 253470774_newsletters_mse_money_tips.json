@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » MSE Money Tips",
+  "name": "Newsletters » Topics » Finance and Economics » MSE Money Tips",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/MSE Money Tips"
+      "target": "Newsletters/Topics/Finance and Economics/MSE Money Tips"
     },
     {
       "type": "set_keywords",

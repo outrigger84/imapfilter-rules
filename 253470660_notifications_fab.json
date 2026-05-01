@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Fab",
+  "name": "Notifications \u00bb Fab",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,7 +22,7 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        "Retain30"
       ]
     }
   ],

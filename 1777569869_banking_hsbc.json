@@ -1,0 +1,38 @@
+{
+  "name": "Banking » HSBC",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hsbcuk@mail01.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "statements@email1.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hsbc@email.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "contactcentre@marketingsupport.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "documents@email1.hsbc.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Banking/HSBC"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

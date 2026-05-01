@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » 33 Fuel",
+  "name": "Newsletters » Marketing » Fitness » 33 Fuel",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/33 Fuel"
+      "target": "Newsletters/Marketing/Fitness/33 Fuel"
     },
     {
       "type": "set_keywords",

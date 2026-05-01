@@ -1,0 +1,32 @@
+{
+  "name": "21 Cleveland Street \u00bb Renovations",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "donna@blackmetaldoors.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "quickbooks@notification.intuit.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Renovations"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

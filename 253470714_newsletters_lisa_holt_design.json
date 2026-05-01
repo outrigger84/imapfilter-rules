@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Lisa Holt Design",
+  "name": "Newsletters \u00bb Lisa Holt Design",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

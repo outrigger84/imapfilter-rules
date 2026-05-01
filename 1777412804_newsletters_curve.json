@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Curve",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@emails.curve.com"
+      },
+      {
+        "header": "from",
+        "contains": "@curve.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Curve"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

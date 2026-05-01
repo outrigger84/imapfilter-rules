@@ -1,0 +1,26 @@
+{
+  "name": "Holister",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "hollisterco.com"
+      },
+      {
+        "header": "subject",
+        "not_contains": "Your E-Receipt from"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Holister"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

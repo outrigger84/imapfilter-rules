@@ -1,0 +1,48 @@
+{
+  "name": "Notifications » InvestEngine",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@investengine.com"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "your portfolio"
+          },
+          {
+            "header": "subject",
+            "contains": "Security alert"
+          },
+          {
+            "header": "subject",
+            "contains": "portfolio report"
+          },
+          {
+            "header": "subject",
+            "contains": "Order Execution"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/InvestEngine"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

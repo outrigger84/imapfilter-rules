@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Muji",
+  "name": "Newsletters » Marketing » Retail » General » Muji",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Muji"
+      "target": "Newsletters/Marketing/Retail/General/Muji"
     },
     {
       "type": "set_keywords",

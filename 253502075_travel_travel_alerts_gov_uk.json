@@ -1,5 +1,5 @@
 {
-  "name": "Travel » Travel Alerts » GOV.UK",
+  "name": "Travel » Travel Alerts » GOV-UK",
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +12,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Travel Alerts/GOV.UK"
+      "target": "Travel/Travel Alerts/GOV-UK"
     },
     {
       "type": "set_keywords",

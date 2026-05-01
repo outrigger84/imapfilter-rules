@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Apple » iCloud",
+  "name": "Notifications \u00bb Apple \u00bb iCloud",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

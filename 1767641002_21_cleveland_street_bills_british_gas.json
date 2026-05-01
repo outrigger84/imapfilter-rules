@@ -1,5 +1,5 @@
 {
-  "name": "21 Cleveland Street » Bills » British Gas",
+  "name": "21 Cleveland Street \u00bb Bills \u00bb British Gas",
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,6 +18,10 @@
             "not_contains": "PeakSave"
           }
         ]
+      },
+      {
+        "header": "from",
+        "contains": "@britishgas.flexmr.email"
       }
     ]
   },
@@ -27,5 +31,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Bills/British Gas"
+    }
   ]
 }

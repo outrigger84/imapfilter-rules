@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Alzheimers Society",
+  "name": "Newsletters » Topics » Charity » Alzheimers Society",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Alzheimers Society"
+      "target": "Newsletters/Topics/Charity/Alzheimers Society"
     },
     {
       "type": "set_keywords",

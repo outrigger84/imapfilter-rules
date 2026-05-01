@@ -1,5 +1,6 @@
 {
   "name": "Receipts » Yo Sushi",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

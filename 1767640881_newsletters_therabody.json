@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Therabody",
+  "name": "Newsletters » Marketing » Health » Therabody",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Therabody"
+      "target": "Newsletters/Marketing/Health/Therabody"
     },
     {
       "type": "set_keywords",

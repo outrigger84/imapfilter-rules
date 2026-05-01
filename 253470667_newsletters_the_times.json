@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » The Times",
+  "name": "Newsletters » Topics » Media » The Times",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@newsletter.thetimes.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "thetimes.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/The Times"
+      "target": "Newsletters/Topics/Media/The Times"
     },
     {
       "type": "set_keywords",

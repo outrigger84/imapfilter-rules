@@ -1,0 +1,32 @@
+{
+  "name": "Notifications \u00bb Ebuyer",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "no-reply@ebuyer.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Ebuyer Order No:"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Ebuyer"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Order transactional emails (Payment Processed, Items Dispatched, etc.) split from newsletter rule"
+  ]
+}

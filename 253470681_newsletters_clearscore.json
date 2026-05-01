@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Clearscore",
+  "name": "Newsletters » Marketing » Finance » Clearscore",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Clearscore"
+      "target": "Newsletters/Marketing/Finance/Clearscore"
     },
     {
       "type": "set_keywords",

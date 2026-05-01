@@ -1,0 +1,28 @@
+{
+  "name": "Travel » Ground Transport » CrossCountry",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@trainsfares.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/CrossCountry"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "CrossCountry booking confirmations sent via trainsfares.co.uk"
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Disney+",
+  "name": "Newsletters » Marketing » Entertainment » Disney+",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Disney+"
+      "target": "Newsletters/Marketing/Entertainment/Disney+"
     },
     {
       "type": "set_keywords",

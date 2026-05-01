@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » AerLingus",
+  "name": "Newsletters » Marketing » Travel » AerLingus",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/AerLingus"
+      "target": "Newsletters/Marketing/Travel/AerLingus"
     },
     {
       "type": "set_keywords",

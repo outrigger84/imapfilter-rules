@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Soundcloud",
+  "name": "Newsletters » Marketing » Entertainment » Soundcloud",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Soundcloud"
+      "target": "Newsletters/Marketing/Entertainment/Soundcloud"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Receipts » Setapp",
+  "name": "Receipts \u00bb Setapp",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -17,6 +18,12 @@
     {
       "type": "move",
       "target": "Receipts/Setapp"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
     }
   ],
   "comments": [

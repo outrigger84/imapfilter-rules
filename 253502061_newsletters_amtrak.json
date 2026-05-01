@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Amtrak",
+  "name": "Newsletters » Marketing » Travel » Amtrak",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -28,7 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Amtrak"
+      "target": "Newsletters/Marketing/Travel/Amtrak"
     },
     {
       "type": "set_keywords",

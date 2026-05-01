@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb General \u00bb Oliver Bonas",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@online.oliverbonas.com"
+      },
+      {
+        "header": "from",
+        "contains": "@oliverbonas.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/General/Oliver Bonas"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Gift Vouchers » Screwfix",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "You have received a gift certificate from Screwfix"
+      },
+      {
+        "header": "from",
+        "contains": "screwfix@voucherexpress.net"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Gift Vouchers/Screwfix"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

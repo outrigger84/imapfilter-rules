@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » South West Water",
+  "name": "Newsletters \u00bb South West Water",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

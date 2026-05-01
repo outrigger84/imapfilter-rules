@@ -1,0 +1,29 @@
+{
+  "name": "Personal » Banking » Monzo",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@monzoemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@monzo.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Banking/Monzo"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

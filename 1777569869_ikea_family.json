@@ -1,0 +1,26 @@
+{
+  "name": "Ikea Family",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "ikea@news.email.ikea.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "information@info.email.ikea.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Ikea Family"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

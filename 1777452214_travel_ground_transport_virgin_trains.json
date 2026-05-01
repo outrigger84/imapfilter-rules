@@ -1,0 +1,32 @@
+{
+  "name": "Travel \u00bb Ground Transport \u00bb Virgin Trains",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@comms.virgintrainsticketing.com"
+      },
+      {
+        "header": "from",
+        "contains": "@virgintrainsticketing.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/Virgin Trains"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

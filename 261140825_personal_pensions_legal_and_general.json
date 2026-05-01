@@ -1,0 +1,32 @@
+{
+  "name": "Personal \u00bb Finance \u00bb Pensions \u00bb Legal and General",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "clientservices@pensioncomms.landg.com"
+      },
+      {
+        "header": "from",
+        "contains": "clientservices@pensions.landg.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Pensions/Legal and General"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

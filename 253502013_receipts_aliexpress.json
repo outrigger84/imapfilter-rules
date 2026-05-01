@@ -1,5 +1,6 @@
 {
-  "name": "Receipts » AliExpress",
+  "name": "Receipts \u00bb AliExpress",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -34,6 +35,6 @@
     }
   ],
   "comments": [
-    "Apple Private Relay – transactional AliExpress mail"
+    "Apple Private Relay \u2013 transactional AliExpress mail"
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "name": "Fitness » Gym » Legend",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@legendonlineservices.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Gym/Legend"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Legend is a gym management platform used by many UK leisure centres"
+  ]
+}

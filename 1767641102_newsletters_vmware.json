@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » VMware",
+  "name": "Newsletters » Marketing » Tech » Software » VMware",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/VMware"
+      "target": "Newsletters/Marketing/Tech/Software/VMware"
     },
     {
       "type": "set_keywords",

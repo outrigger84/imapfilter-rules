@@ -1,0 +1,38 @@
+{
+  "name": "Flights » EasyJet",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "donotreply@easyjet.com"
+      },
+      {
+        "header": "from",
+        "contains": "donotreply@info.easyjet.com"
+      },
+      {
+        "header": "from",
+        "contains": "bookings@info.easyjet.com"
+      },
+      {
+        "header": "from",
+        "contains": "generationeasyjet@email.easyjet.com"
+      },
+      {
+        "header": "from",
+        "contains": "bookings@email.easyjet.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/EasyJet"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

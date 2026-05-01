@@ -1,11 +1,24 @@
 {
-  "name": "Newsletters » Kickstarter",
+  "name": "Newsletters \u00bb Kickstarter",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@backerviews-media.com"
+      },
+      {
+        "header": "from",
+        "contains": "@backerhome.com"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@kickstarter.com"
+      },
+      {
+        "header": "from",
+        "contains": "@kickstarter.com"
       }
     ]
   },

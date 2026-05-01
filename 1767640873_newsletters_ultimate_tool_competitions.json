@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Ultimate Tool Competitions",
+  "name": "Newsletters » Marketing » Tools » Ultimate Tool Competitions",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Ultimate Tool Competitions"
+      "target": "Newsletters/Marketing/Tools/Ultimate Tool Competitions"
     },
     {
       "type": "set_keywords",

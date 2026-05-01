@@ -1,5 +1,6 @@
 {
   "name": "Newsletters » Airofit",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

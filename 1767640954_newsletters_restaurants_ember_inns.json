@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Restaurants » Ember Inns",
+  "name": "Newsletters » Marketing » Restaurants » Ember Inns",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Restaurants/Ember Inns"
+      "target": "Newsletters/Marketing/Restaurants/Ember Inns"
     },
     {
       "type": "set_keywords",

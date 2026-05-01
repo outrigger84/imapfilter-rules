@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Google Flights",
+  "name": "Notifications \u00bb Google Flights",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

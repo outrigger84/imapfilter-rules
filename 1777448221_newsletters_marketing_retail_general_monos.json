@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb General \u00bb Monos",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@monos.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@monos.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/General/Monos"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

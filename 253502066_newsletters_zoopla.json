@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Zoopla",
+  "name": "Newsletters » Marketing » Property » Zoopla",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Zoopla"
+      "target": "Newsletters/Marketing/Property/Zoopla"
     },
     {
       "type": "set_keywords",

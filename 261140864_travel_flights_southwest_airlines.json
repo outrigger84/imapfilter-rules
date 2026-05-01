@@ -1,0 +1,32 @@
+{
+  "name": "Travel \u00bb Flights \u00bb Southwest Airlines",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "southwestairlines@iluv.southwest.com"
+      },
+      {
+        "header": "from",
+        "contains": "southwestairlines@ifly.southwest.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/Southwest Airlines"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

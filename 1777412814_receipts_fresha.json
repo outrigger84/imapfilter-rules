@@ -1,0 +1,32 @@
+{
+  "name": "Receipts » Fresha",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@updates.fresha.com"
+      },
+      {
+        "header": "from",
+        "contains": "@fresha.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Fresha"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Fresha salon/spa booking platform — includes The Roots Foundation and other venues"
+  ]
+}

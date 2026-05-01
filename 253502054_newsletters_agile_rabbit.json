@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Agile Rabbit",
+  "name": "Newsletters » Topics » Product Management » Agile Rabbit",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Agile Rabbit"
+      "target": "Newsletters/Topics/Product Management/Agile Rabbit"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Hotels » IHG One Rewards",
+  "name": "Newsletters » Marketing » Hotels » IHG One Rewards",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Hotels/IHG One Rewards"
+      "target": "Newsletters/Marketing/Hotels/IHG One Rewards"
     },
     {
       "type": "set_keywords",

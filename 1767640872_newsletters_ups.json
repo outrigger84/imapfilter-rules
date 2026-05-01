@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » UPS",
+  "name": "Newsletters \u00bb UPS",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

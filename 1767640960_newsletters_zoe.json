@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Zoe",
+  "name": "Newsletters » Marketing » Fitness » Zoe",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Zoe"
+      "target": "Newsletters/Marketing/Fitness/Zoe"
     },
     {
       "type": "set_keywords",

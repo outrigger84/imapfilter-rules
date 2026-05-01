@@ -1,5 +1,5 @@
 {
-  "name": "Memberships » Lympstone SC",
+  "name": "Memberships \u00bb Lympstone SC",
   "priority": 100,
   "conditions": {
     "any": [
@@ -23,5 +23,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Memberships/Lympstone SC"
+    }
   ]
 }

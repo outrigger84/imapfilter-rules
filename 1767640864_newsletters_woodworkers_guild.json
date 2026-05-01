@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Woodworkers Guild",
+  "name": "Newsletters » Marketing » Tools » Woodworkers Guild",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@wwgoa.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.wwgoa.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Woodworkers Guild"
+      "target": "Newsletters/Marketing/Tools/Woodworkers Guild"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,5 @@
 {
-  "name": "Recipets » Tesco",
+  "name": "Receipts \u00bb Tesco",
   "priority": 100,
   "conditions": {
     "all": [
@@ -19,9 +19,15 @@
   },
   "action": {
     "type": "move",
-    "target": "Recipets/Tesco"
+    "target": "Receipts/Tesco"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Tesco"
+    }
   ]
 }

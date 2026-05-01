@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » SoulCycle",
+  "name": "Newsletters » Marketing » Fitness » SoulCycle",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "hello_at_ab_soul-cycle_email_628hnfpqtn2375_dbcbe23d@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "@ab.soul-cycle.email"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/SoulCycle"
+      "target": "Newsletters/Marketing/Fitness/SoulCycle"
     },
     {
       "type": "set_keywords",

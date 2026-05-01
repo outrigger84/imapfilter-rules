@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Rogue Amoeba",
+  "name": "Newsletters » Marketing » Tech » Software » Rogue Amoeba",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Rogue Amoeba"
+      "target": "Newsletters/Marketing/Tech/Software/Rogue Amoeba"
     },
     {
       "type": "set_keywords",

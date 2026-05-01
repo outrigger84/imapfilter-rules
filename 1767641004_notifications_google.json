@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Google",
+  "name": "Notifications \u00bb Google",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,5 +1,5 @@
 {
-  "name": "Property » Rental » Docusign",
+  "name": "Property \u00bb Rental \u00bb Docusign",
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,5 +15,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/Rental/Docusign"
+    }
   ]
 }

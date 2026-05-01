@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Active Devon",
+  "name": "Newsletters » Marketing » Fitness » Active Devon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Active Devon"
+      "target": "Newsletters/Marketing/Fitness/Active Devon"
     },
     {
       "type": "set_keywords",

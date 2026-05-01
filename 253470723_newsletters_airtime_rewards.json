@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Airtime Rewards",
+  "name": "Newsletters » Marketing » Finance » Airtime Rewards",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Airtime Rewards"
+      "target": "Newsletters/Marketing/Finance/Airtime Rewards"
     },
     {
       "type": "set_keywords",

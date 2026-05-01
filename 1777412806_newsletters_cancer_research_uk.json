@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Cancer Research UK",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@comms.cancerresearchuk.org"
+      },
+      {
+        "header": "from",
+        "contains": "@cancerresearchuk.org"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Cancer Research UK"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » AirBnB",
+  "name": "Newsletters » Marketing » Travel » AirBnB",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/AirBnB"
+      "target": "Newsletters/Marketing/Travel/AirBnB"
     },
     {
       "type": "set_keywords",

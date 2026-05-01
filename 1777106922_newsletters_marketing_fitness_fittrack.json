@@ -1,0 +1,40 @@
+{
+  "name": "Newsletters » Marketing » Fitness » FitTrack",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@getfittrack.com"
+      },
+      {
+        "header": "from",
+        "contains": "@fittrack.com"
+      },
+      {
+        "header": "from",
+        "contains": "@m.fittrack.com"
+      },
+      {
+        "header": "from",
+        "contains": "@uk.fittrack.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Fitness/FitTrack"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

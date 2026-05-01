@@ -1,5 +1,6 @@
 {
-  "name": "Receipts » JustRide",
+  "name": "Receipts \u00bb JustRide",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -22,6 +23,6 @@
     }
   ],
   "comments": [
-    "Private Relay – JustRide receipts"
+    "Private Relay \u2013 JustRide receipts"
   ]
 }

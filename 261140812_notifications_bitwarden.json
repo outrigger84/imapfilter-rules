@@ -1,0 +1,36 @@
+{
+  "name": "Notifications \u00bb Bitwarden",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply@bitwarden.eu"
+      },
+      {
+        "header": "from",
+        "contains": "upcoming-invoice@bitwarden.com"
+      },
+      {
+        "header": "from",
+        "contains": "@bitwarden.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Bitwarden"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

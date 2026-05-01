@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Uber Eats",
+  "name": "Newsletters » Marketing » Food » Uber Eats",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -28,7 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Uber Eats"
+      "target": "Newsletters/Marketing/Food/Uber Eats"
     },
     {
       "type": "set_keywords",

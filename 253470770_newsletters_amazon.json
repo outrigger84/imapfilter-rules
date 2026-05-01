@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Amazon",
+  "name": "Newsletters » Marketing » Retail » General » Amazon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,14 +14,18 @@
       },
       {
         "header": "from",
-        "contains": "prime@amazon"
+        "contains": "no-reply@business.amazon"
+      },
+      {
+        "header": "from",
+        "contains": "vfe-campaign-response@amazon.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Amazon"
+      "target": "Newsletters/Marketing/Retail/General/Amazon"
     },
     {
       "type": "set_keywords",

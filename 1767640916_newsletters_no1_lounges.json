@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » No1 Lounges",
+  "name": "Newsletters » Marketing » Travel » No1 Lounges",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/No1 Lounges"
+      "target": "Newsletters/Marketing/Travel/No1 Lounges"
     },
     {
       "type": "set_keywords",

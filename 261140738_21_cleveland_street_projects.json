@@ -1,0 +1,32 @@
+{
+  "name": "21 Cleveland Street \u00bb Projects",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "james@asbestossolutionssouthwest.com"
+      },
+      {
+        "header": "from",
+        "contains": "nmayne@environmentuk.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Projects"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

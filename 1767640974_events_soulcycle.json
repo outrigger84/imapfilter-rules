@@ -1,5 +1,5 @@
 {
-  "name": "Events » Soulcycle",
+  "name": "Events \u00bb Soulcycle",
   "priority": 100,
   "conditions": {
     "any": [
@@ -27,5 +27,11 @@
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Events/Soulcycle"
+    }
   ]
 }

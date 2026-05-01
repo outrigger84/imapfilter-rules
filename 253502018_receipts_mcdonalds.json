@@ -1,5 +1,6 @@
 {
-  "name": "Receipts » McDonalds",
+  "name": "Receipts \u00bb McDonalds",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -30,6 +31,6 @@
     }
   ],
   "comments": [
-    "Private Relay – McDonalds app receipts"
+    "Private Relay \u2013 McDonalds app receipts"
   ]
 }

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Dennys Rewards",
+  "name": "Newsletters » Marketing » Restaurants » Dennys Rewards",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Dennys Rewards"
+      "target": "Newsletters/Marketing/Restaurants/Dennys Rewards"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Aegon",
+  "name": "Newsletters » Marketing » Finance » Aegon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Aegon"
+      "target": "Newsletters/Marketing/Finance/Aegon"
     },
     {
       "type": "set_keywords",

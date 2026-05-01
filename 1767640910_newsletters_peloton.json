@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Peloton",
+  "name": "Newsletters » Marketing » Fitness » Peloton",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Peloton"
+      "target": "Newsletters/Marketing/Fitness/Peloton"
     },
     {
       "type": "set_keywords",

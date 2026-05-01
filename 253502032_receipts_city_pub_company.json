@@ -1,5 +1,6 @@
 {
-  "name": "Receipts » City Pub Company",
+  "name": "Receipts \u00bb City Pub Company",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -22,6 +23,6 @@
     }
   ],
   "comments": [
-    "Private Relay – City Pub Company receipts"
+    "Private Relay \u2013 City Pub Company receipts"
   ]
 }

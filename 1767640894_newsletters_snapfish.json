@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Snapfish",
+  "name": "Newsletters » Marketing » Retail » Gifts » Snapfish",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@emus.snapfish.com"
+      },
+      {
+        "header": "from",
+        "contains": "@emails.snapfish.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Snapfish"
+      "target": "Newsletters/Marketing/Retail/Gifts/Snapfish"
     },
     {
       "type": "set_keywords",

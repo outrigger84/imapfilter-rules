@@ -1,0 +1,30 @@
+{
+  "name": "Twitter",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "verify@twitter.com"
+      },
+      {
+        "header": "from",
+        "contains": "verify_at_x_com_pv5ffcz62186nf_t32k8492@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "verify@x.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Socials/Twitter"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

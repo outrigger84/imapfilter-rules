@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » AARMY",
+  "name": "Newsletters » Marketing » Fitness » AARMY",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/AARMY"
+      "target": "Newsletters/Marketing/Fitness/AARMY"
     },
     {
       "type": "set_keywords",

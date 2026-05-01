@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » RealVNC",
+  "name": "Newsletters » Marketing » Tech » Software » RealVNC",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/RealVNC"
+      "target": "Newsletters/Marketing/Tech/Software/RealVNC"
     },
     {
       "type": "set_keywords",

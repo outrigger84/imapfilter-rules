@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Crowdfunder",
+  "name": "Newsletters » Topics » Charity » Crowdfunder",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Crowdfunder"
+      "target": "Newsletters/Topics/Charity/Crowdfunder"
     },
     {
       "type": "set_keywords",

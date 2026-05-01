@@ -1,5 +1,6 @@
 {
   "name": "Phantom Emails -> Deleted Messages",
+  "enabled": true,
   "priority": 10,
   "conditions": {
     "any": [

@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Travelodge",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@e.travelodge.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@travelodge.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Travelodge"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

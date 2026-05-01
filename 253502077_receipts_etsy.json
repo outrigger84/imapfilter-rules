@@ -1,5 +1,6 @@
 {
   "name": "Receipts » Etsy",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

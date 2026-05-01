@@ -1,0 +1,32 @@
+{
+  "name": "Travel \u00bb Trips \u00bb 2021 - Malta",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply@euplf.eu"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@airmalta.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2021 - Malta"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

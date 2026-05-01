@@ -1,0 +1,24 @@
+{
+  "name": "Receipts » Calm",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "hello_at_breathe_calm_com_"
+      },
+      {
+        "header": "subject",
+        "contains": "subscription receipt"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Receipts/Calm"
+  },
+  "comments": [
+    "Private Relay – Calm subscription receipts, split from newsletter rule"
+  ]
+}

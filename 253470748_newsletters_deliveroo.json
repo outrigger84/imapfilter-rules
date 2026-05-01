@@ -1,18 +1,27 @@
 {
-  "name": "Newsletters » Deliveroo",
+  "name": "Newsletters » Marketing » Food » Deliveroo",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@announcement.deliveroo.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@t.deliveroo.com"
+      },
+      {
+        "header": "from",
+        "contains": "@feedback.deliveroo.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Deliveroo"
+      "target": "Newsletters/Marketing/Food/Deliveroo"
     },
     {
       "type": "set_keywords",

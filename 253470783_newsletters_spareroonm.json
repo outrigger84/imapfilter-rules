@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » SpareRoonm",
+  "name": "Newsletters » Marketing » Property » SpareRoonm",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/SpareRoonm"
+      "target": "Newsletters/Marketing/Property/SpareRoonm"
     },
     {
       "type": "set_keywords",

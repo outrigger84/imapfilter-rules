@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Exeter Chief",
+  "name": "Newsletters » Marketing » Outdoors » Exeter Chiefs",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Exeter Chief"
+      "target": "Newsletters/Marketing/Outdoors/Exeter Chiefs"
     },
     {
       "type": "set_keywords",

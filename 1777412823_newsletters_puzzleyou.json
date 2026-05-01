@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » PuzzleYou",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@uk.puzzleyou-news.com"
+      },
+      {
+        "header": "from",
+        "contains": "puzzleyou"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/PuzzleYou"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "governorsforschools.org.uk",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@governorsforschools.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "clerk@exminsterschool.co.uk"
+      },
+      {
+        "header": "to",
+        "contains": "clerk@exminsterschool.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Jobs/governorsforschools.org.uk"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

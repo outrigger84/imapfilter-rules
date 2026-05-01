@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Black Sheep coffee",
+  "name": "Newsletters » Marketing » Coffee » Black Sheep Coffee",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Black Sheep Coffee"
+      "target": "Newsletters/Marketing/Coffee/Black Sheep Coffee"
     },
     {
       "type": "set_keywords",

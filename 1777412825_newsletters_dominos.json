@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Dominos",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@dominos.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@dominos.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Dominos"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Server » Outrigger",
+  "name": "Server \u00bb Outrigger",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

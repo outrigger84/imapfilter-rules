@@ -1,0 +1,32 @@
+{
+  "name": "Travel \u00bb Travel Agents \u00bb Crystal Travel",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "marketing@updates.crystaltravel.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "daily@newsletters.crystaltravel.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Travel Agents/Crystal Travel"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

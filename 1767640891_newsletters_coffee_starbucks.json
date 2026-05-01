@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Coffee » Starbucks",
+  "name": "Newsletters » Marketing » Coffee » Starbucks",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Coffee/Starbucks"
+      "target": "Newsletters/Marketing/Coffee/Starbucks"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » Economist",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@go.economist.com"
+      },
+      {
+        "header": "from",
+        "contains": "@economist.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Economist"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

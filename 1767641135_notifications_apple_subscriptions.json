@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Apple » Subscriptions",
+  "name": "Notifications \u00bb Apple \u00bb Subscriptions",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

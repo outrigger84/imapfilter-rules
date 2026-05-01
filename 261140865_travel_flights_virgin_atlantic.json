@@ -1,0 +1,40 @@
+{
+  "name": "Travel \u00bb Flights \u00bb Virgin Atlantic",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "booking@virginatlantic.com"
+      },
+      {
+        "header": "from",
+        "contains": "baggage.claims@fly.virgin.com"
+      },
+      {
+        "header": "from",
+        "contains": "baggage.tracing@fly.virgin.com"
+      },
+      {
+        "header": "from",
+        "contains": "virginatlanticschedulechanges@virginatlantic.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/Virgin Atlantic"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

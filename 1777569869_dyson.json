@@ -1,0 +1,26 @@
+{
+  "name": "Dyson",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@comms.dyson.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@e.dyson.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Dyson"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

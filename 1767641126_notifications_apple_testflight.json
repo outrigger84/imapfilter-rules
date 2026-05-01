@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Apple » Testflight",
+  "name": "Notifications \u00bb Apple \u00bb Testflight",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

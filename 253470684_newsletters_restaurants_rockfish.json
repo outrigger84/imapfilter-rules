@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Restaurants » Rockfish",
+  "name": "Newsletters » Marketing » Restaurants » Rockfish",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Restaurants/Rockfish"
+      "target": "Newsletters/Marketing/Restaurants/Rockfish"
     },
     {
       "type": "set_keywords",

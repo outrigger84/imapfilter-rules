@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » SeatFrog",
+  "name": "Newsletters » Marketing » Travel » SeatFrog",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/SeatFrog"
+      "target": "Newsletters/Marketing/Travel/SeatFrog"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,36 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb Entertainment \u00bb Nintendo",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mail.nintendo-europe.com"
+      },
+      {
+        "header": "from",
+        "contains": "@nintendo-europe.com"
+      },
+      {
+        "header": "from",
+        "contains": "@nintendo.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Entertainment/Nintendo"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

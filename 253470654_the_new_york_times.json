@@ -1,5 +1,6 @@
 {
   "name": "The New York Times",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

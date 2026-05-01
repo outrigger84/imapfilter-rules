@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » American Express",
+  "name": "Newsletters » Marketing » Finance » American Express",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/American Express"
+      "target": "Newsletters/Marketing/Finance/American Express"
     },
     {
       "type": "set_keywords",

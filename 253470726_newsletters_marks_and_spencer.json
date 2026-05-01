@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Marks and Spencer",
+  "name": "Newsletters » Marketing » Retail » General » Marks and Spencer",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marks and Spencer"
+      "target": "Newsletters/Marketing/Retail/General/Marks and Spencer"
     },
     {
       "type": "set_keywords",

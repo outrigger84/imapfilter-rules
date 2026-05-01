@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Orbitkey",
+  "name": "Newsletters » Marketing » Tech » Hardware » Orbitkey",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Orbitkey"
+      "target": "Newsletters/Marketing/Tech/Hardware/Orbitkey"
     },
     {
       "type": "set_keywords",

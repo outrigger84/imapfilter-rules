@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Microsoft",
+  "name": "Newsletters » Marketing » Tech » Software » Microsoft",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Microsoft"
+      "target": "Newsletters/Marketing/Tech/Software/Microsoft"
     },
     {
       "type": "set_keywords",

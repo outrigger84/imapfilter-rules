@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Vistaprint",
+  "name": "Notifications \u00bb Vistaprint",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,11 +18,11 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        "Retain30"
       ]
     }
   ],
   "comments": [
-    "Private Relay – Vistaprint notifications"
+    "Private Relay \u2013 Vistaprint notifications"
   ]
 }

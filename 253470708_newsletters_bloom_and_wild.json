@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Bloom and Wild",
+  "name": "Newsletters » Marketing » Retail » Gifts » Bloom and Wild",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@email.bloomandwild.com"
+      },
+      {
+        "header": "from",
+        "contains": "@bloomandwild.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Bloom and Wild"
+      "target": "Newsletters/Marketing/Retail/Gifts/Bloom and Wild"
     },
     {
       "type": "set_keywords",

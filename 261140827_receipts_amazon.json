@@ -1,0 +1,36 @@
+{
+  "name": "Receipts \u00bb Amazon",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "auto-confirm@amazon.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "return@amazon.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "payments-messages@amazon.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Amazon"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

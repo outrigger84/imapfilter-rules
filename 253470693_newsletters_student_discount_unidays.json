@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Student Discount » Unidays",
+  "name": "Newsletters » Marketing » Student Discount » Unidays",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Student Discount/Unidays"
+      "target": "Newsletters/Marketing/Student Discount/Unidays"
     },
     {
       "type": "set_keywords",

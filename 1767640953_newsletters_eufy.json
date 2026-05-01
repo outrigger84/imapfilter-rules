@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » EUFY",
+  "name": "Newsletters » Marketing » Tech » Hardware » EUFY",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/EUFY"
+      "target": "Newsletters/Marketing/Tech/Hardware/EUFY"
     },
     {
       "type": "set_keywords",

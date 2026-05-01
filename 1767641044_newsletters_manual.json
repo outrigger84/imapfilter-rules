@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Manual",
+  "name": "Newsletters » Marketing » Health » Manual",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Manual"
+      "target": "Newsletters/Marketing/Health/Manual"
     },
     {
       "type": "set_keywords",

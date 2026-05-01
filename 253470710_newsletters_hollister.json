@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Hollister",
+  "name": "Newsletters » Marketing » Retail » Clothing » Hollister",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -24,7 +25,13 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Hollister"
+      "target": "Newsletters/Marketing/Retail/Clothing/Hollister"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
     }
   ]
 }

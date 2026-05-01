@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Subway",
+  "name": "Newsletters » Marketing » Restaurants » Subway",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@subs.subway.com"
+      },
+      {
+        "header": "from",
+        "contains": "subwayrewards.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Subway"
+      "target": "Newsletters/Marketing/Restaurants/Subway"
     },
     {
       "type": "set_keywords",

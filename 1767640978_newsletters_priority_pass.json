@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Priority Pass",
+  "name": "Newsletters » Marketing » Travel » Priority Pass",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,11 +16,13 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Priority Pass"
+      "target": "Newsletters/Marketing/Travel/Priority Pass"
     },
     {
       "type": "set_keywords",
-      "keywords": []
+      "keywords": [
+        "Retain365"
+      ]
     }
   ]
 }

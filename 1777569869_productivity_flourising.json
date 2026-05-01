@@ -1,0 +1,30 @@
+{
+  "name": "Productivity Flourising",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "charlie@productiveflourishing.com"
+      },
+      {
+        "header": "from",
+        "contains": "productiveflourishing@substack.com"
+      },
+      {
+        "header": "from",
+        "contains": "productiveflourishing+the-pulse@substack.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Productivity Flourising"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

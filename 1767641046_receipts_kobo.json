@@ -1,5 +1,6 @@
 {
   "name": "Receipts » Kobo",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

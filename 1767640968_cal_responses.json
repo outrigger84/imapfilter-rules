@@ -1,6 +1,7 @@
 {
   "name": "Cal Responses",
-  "priority": 50,
+  "enabled": true,
+  "priority": 40,
   "conditions": {
     "any": [
       {

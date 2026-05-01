@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » AliExpress",
+  "name": "Newsletters » Marketing » Retail » General » AliExpress",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -22,17 +23,13 @@
       {
         "header": "from",
         "contains": "ae-trigger"
-      },
-      {
-        "header": "from",
-        "contains": "interest"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/AliExpress"
+      "target": "Newsletters/Marketing/Retail/General/AliExpress"
     },
     {
       "type": "set_keywords",

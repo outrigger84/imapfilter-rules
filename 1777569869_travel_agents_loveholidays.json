@@ -1,0 +1,34 @@
+{
+  "name": "Travel Agents » Loveholidays",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@loveholidays.com"
+      },
+      {
+        "header": "from",
+        "contains": "message-centre@loveholidays.com"
+      },
+      {
+        "header": "from",
+        "contains": "loveholidays@delighted.com"
+      },
+      {
+        "header": "from",
+        "contains": "info@srv.loveholidays.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Travel Agents/Loveholidays"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Buddyboost",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "donotreply@buddyboost.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@mayathon.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Buddyboost"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

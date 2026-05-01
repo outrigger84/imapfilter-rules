@@ -1,0 +1,36 @@
+{
+  "name": "Travel \u00bb Flights \u00bb JetBlue",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "jetblueairways@email.jetblue.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@jetblue.com"
+      },
+      {
+        "header": "from",
+        "contains": "info@change.jetblue.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/JetBlue"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

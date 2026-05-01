@@ -1,0 +1,29 @@
+{
+  "name": "Personal » Finance » Investments » Moneybox",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hello@moneyboxapp.com"
+      },
+      {
+        "header": "from",
+        "contains": "@moneyboxapp.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Investments/Moneybox"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

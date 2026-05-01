@@ -1,0 +1,30 @@
+{
+  "name": "Deliveroo",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@t.deliveroo.com"
+      },
+      {
+        "header": "from",
+        "contains": "deliveroo@feedback.deliveroo.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello@announce.deliveroo.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Deliveroo"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

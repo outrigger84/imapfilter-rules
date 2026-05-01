@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Student Discount » Student Beans",
+  "name": "Newsletters » Marketing » Student Discount » Student Beans",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Student Discount/Student Beans"
+      "target": "Newsletters/Marketing/Student Discount/Student Beans"
     },
     {
       "type": "set_keywords",

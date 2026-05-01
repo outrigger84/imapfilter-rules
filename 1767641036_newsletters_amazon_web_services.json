@@ -1,15 +1,12 @@
 {
-  "name": "Newsletters » Amazon Web Services",
+  "name": "Newsletters \u00bb Amazon Web Services",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "aws-marketing-email-replies@amazon.com"
-      },
-      {
-        "header": "from",
-        "contains": "vfe-campaign-response@amazon.com"
       }
     ]
   },

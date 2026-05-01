@@ -1,5 +1,6 @@
 {
   "name": "Notifications » GitHub",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

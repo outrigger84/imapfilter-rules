@@ -1,0 +1,36 @@
+{
+  "name": "Events \u00bb Wimbledon",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@championships.aeltc-email.com"
+      },
+      {
+        "header": "from",
+        "contains": "@wimbledon.aeltc-email.com"
+      },
+      {
+        "header": "from",
+        "contains": "@wimbledon.tickets"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Events/Wimbledon"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

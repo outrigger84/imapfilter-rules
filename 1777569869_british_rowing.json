@@ -1,0 +1,38 @@
+{
+  "name": "British Rowing",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "indoor@britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "info@britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "membership@britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "hello@email.britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "help@gocardless.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Memberships/British Rowing"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

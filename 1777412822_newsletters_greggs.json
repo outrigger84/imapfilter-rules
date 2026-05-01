@@ -1,0 +1,29 @@
+{
+  "name": "Notifications » Greggs » Account",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@service.greggs.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@greggs.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Greggs/Account"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Infographia",
+  "name": "Newsletters » Topics » Media » Infographia",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Infographia"
+      "target": "Newsletters/Topics/Media/Infographia"
     },
     {
       "type": "set_keywords",

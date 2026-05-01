@@ -1,0 +1,29 @@
+{
+  "name": "Personal » Finance » Insurance » Direct Line",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.directline.com"
+      },
+      {
+        "header": "from",
+        "contains": "@directline.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Insurance/Direct Line"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

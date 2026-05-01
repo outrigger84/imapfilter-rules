@@ -1,0 +1,19 @@
+{
+  "name": "All Mail",
+  "enabled": false,
+  "priority": 1,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "INBOX"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Travel \u00bb Flights \u00bb American Airlines",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "american.airlines@aa.com"
+      },
+      {
+        "header": "from",
+        "contains": "americanairlines@aa.com"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@notify.email.aa.com"
+      },
+      {
+        "header": "from",
+        "contains": "notify@aa.globalnotifications.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/American Airlines"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

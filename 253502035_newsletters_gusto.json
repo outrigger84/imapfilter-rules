@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Gusto",
+  "name": "Newsletters » Marketing » Food » Gousto",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -24,7 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Gousto"
+      "target": "Newsletters/Marketing/Food/Gousto"
     },
     {
       "type": "set_keywords",

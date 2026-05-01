@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Tribe",
+  "name": "Newsletters \u00bb Tribe",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Collect Forever",
+  "name": "Newsletters » Marketing » Entertainment » Collect Forever",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Collect Forever"
+      "target": "Newsletters/Marketing/Entertainment/Collect Forever"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,44 @@
+{
+  "name": "Newsletters » Goal Plans",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@goalplans.com"
+      },
+      {
+        "header": "from",
+        "contains": "login@rechargeapps.com"
+      },
+      {
+        "header": "from",
+        "contains": "musclefood"
+      },
+      {
+        "header": "from",
+        "contains": "prepped pots"
+      },
+      {
+        "header": "from",
+        "contains": "goal plans"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Goal Plans"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Goal Plans / Musclefood food subscription brand — some emails arrive via iCloud Private Relay so matched by display name"
+  ]
+}

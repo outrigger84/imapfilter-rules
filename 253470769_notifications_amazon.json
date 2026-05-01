@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » Amazon",
+  "name": "Notifications \u00bb Amazon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -34,6 +35,14 @@
       {
         "header": "from",
         "contains": "customer-reviews-messages@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "prime@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "@marketplace.amazon"
       }
     ]
   },

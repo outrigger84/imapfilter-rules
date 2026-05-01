@@ -1,5 +1,5 @@
 {
-  "name": "Recipets » Ebuyer",
+  "name": "Receipts \u00bb Ebuyer",
   "priority": 100,
   "conditions": {
     "any": [
@@ -11,9 +11,15 @@
   },
   "action": {
     "type": "move",
-    "target": "Recipets/Ebuyer"
+    "target": "Receipts/Ebuyer"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Ebuyer"
+    }
   ]
 }

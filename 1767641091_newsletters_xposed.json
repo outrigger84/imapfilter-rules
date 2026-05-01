@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » XPOSED",
+  "name": "Newsletters » Marketing » Retail » Clothing » XPOSED",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/XPOSED"
+      "target": "Newsletters/Marketing/Retail/Clothing/XPOSED"
     },
     {
       "type": "set_keywords",

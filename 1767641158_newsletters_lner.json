@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » LNER",
+  "name": "Newsletters » Marketing » Travel » LNER",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/LNER"
+      "target": "Newsletters/Marketing/Travel/LNER"
     },
     {
       "type": "set_keywords",

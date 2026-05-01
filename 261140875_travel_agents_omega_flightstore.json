@@ -1,0 +1,36 @@
+{
+  "name": "Travel \u00bb Travel Agents \u00bb Omega Flightstore",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "payment-retry@omegatravel.net"
+      },
+      {
+        "header": "from",
+        "contains": "info@omegaflightstore.com"
+      },
+      {
+        "header": "from",
+        "contains": "cpipayments@omegatravel.net"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Travel Agents/Omega Flightstore"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

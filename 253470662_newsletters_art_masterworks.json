@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Art » Masterworks",
+  "name": "Newsletters » Marketing » Art » Masterworks",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Art/Masterworks"
+      "target": "Newsletters/Marketing/Art/Masterworks"
     },
     {
       "type": "set_keywords",

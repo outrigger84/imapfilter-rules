@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Hillarys",
+  "name": "Newsletters » Marketing » Retail » Home » Hillarys",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@e.hillarys.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@hillarys.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Hillarys"
+      "target": "Newsletters/Marketing/Retail/Home/Hillarys"
     },
     {
       "type": "set_keywords",

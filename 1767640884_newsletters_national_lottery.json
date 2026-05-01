@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » National Lottery",
+  "name": "Newsletters » Marketing » Finance » National Lottery",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/National Lottery"
+      "target": "Newsletters/Marketing/Finance/National Lottery"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,32 @@
+{
+  "name": "Notifications \u00bb gov-uk",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply@access.service.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@tax.service.gov.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/gov-uk"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

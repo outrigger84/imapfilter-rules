@@ -1,5 +1,6 @@
 {
-  "name": "Notifications » DPD",
+  "name": "Notifications \u00bb DPD",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -19,7 +20,9 @@
     },
     {
       "type": "set_keywords",
-      "keywords": []
+      "keywords": [
+        "Retain30"
+      ]
     }
   ]
 }

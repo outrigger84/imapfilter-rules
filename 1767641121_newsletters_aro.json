@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Aro",
+  "name": "Newsletters » Marketing » Finance » Aro",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Aro"
+      "target": "Newsletters/Marketing/Finance/Aro"
     },
     {
       "type": "set_keywords",

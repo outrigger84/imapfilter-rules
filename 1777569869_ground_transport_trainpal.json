@@ -1,0 +1,26 @@
+{
+  "name": "Ground Transport » Trainpal",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "tp-accounts-noreply@trip.com"
+      },
+      {
+        "header": "from",
+        "contains": "tp-accounts-noreply@TrainPal.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/Trainpal"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

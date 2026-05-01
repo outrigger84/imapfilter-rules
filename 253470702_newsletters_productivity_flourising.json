@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Productivity Flourising",
+  "name": "Newsletters » Topics » Learning » Productivity Flourising",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Productivity Flourising"
+      "target": "Newsletters/Topics/Learning/Productivity Flourising"
     },
     {
       "type": "set_keywords",

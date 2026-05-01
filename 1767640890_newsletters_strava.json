@@ -1,18 +1,23 @@
 {
-  "name": "Newsletters » Strava",
+  "name": "Notifications » Strava",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@update.strava.com"
+      },
+      {
+        "header": "from",
+        "contains": "@strava.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Strava"
+      "target": "Notifications/Strava"
     },
     {
       "type": "set_keywords",

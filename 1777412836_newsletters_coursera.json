@@ -1,0 +1,33 @@
+{
+  "name": "Newsletters » Coursera",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@m.mail.coursera.org"
+      },
+      {
+        "header": "from",
+        "contains": "@coursera.org"
+      },
+      {
+        "header": "from",
+        "contains": "coursera.org"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Coursera"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

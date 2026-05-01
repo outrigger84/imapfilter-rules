@@ -1,5 +1,6 @@
 {
-  "name": "Newsletters » Hotels » Premier Inn",
+  "name": "Newsletters » Marketing » Hotels » Premier Inn",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Hotels/Premier Inn"
+      "target": "Newsletters/Marketing/Hotels/Premier Inn"
     },
     {
       "type": "set_keywords",

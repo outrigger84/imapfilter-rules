@@ -1,5 +1,5 @@
 {
-  "name": "Travel » Accommodation » Booking.com",
+  "name": "Travel » Accommodation » Booking-com",
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,9 +15,15 @@
   },
   "action": {
     "type": "move",
-    "target": "Travel/Accommodation/Booking.com"
+    "target": "Travel/Accommodation/Booking-com"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation/Booking-com"
+    }
   ]
 }

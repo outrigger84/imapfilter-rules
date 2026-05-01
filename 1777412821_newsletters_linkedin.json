@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters » LinkedIn",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@e.linkedin.com"
+      },
+      {
+        "header": "from",
+        "contains": "@linkedin.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/LinkedIn"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ]
+}

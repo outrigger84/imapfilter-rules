@@ -1,0 +1,29 @@
+{
+  "name": "Memberships \u00bb BCS",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@bcs.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@bcs.digitalmembership.co.uk"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Memberships/BCS"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Memberships/BCS"
+    }
+  ]
+}
