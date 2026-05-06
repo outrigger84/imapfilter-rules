@@ -1,7 +1,7 @@
 {
   "name": "Your SafeKey Verification Code >> Deleted Messages",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "all": [
       {
