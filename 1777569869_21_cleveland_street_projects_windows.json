@@ -67,6 +67,10 @@
       {
         "header": "from",
         "contains": "enquiries@mpswindows.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@mpswindows.co.uk"
       }
     ]
   },
