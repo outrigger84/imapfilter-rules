@@ -1,6 +1,6 @@
 {
   "name": "Property » Renovations » EnvironmentUK (Mayne)",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Property/Renovations"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

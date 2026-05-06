@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Fitness » Zoe",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Fitness/Zoe"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

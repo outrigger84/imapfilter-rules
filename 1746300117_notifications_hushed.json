@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb Hushed",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -22,7 +22,7 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        ""
       ]
     }
   ],

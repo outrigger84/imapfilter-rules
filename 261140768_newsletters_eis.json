@@ -1,6 +1,6 @@
 {
   "name": "Newsletters \u00bb Topics \u00bb Investing \u00bb EIS Centre",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Newsletters/Topics/Investing/EIS Centre"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

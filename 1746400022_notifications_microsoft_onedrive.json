@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb Microsoft",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -27,6 +27,18 @@
       {
         "header": "from",
         "contains": "@e-mail.microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email2.office.com"
+      },
+      {
+        "header": "from",
+        "contains": "@engagement.microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "@accountprotection.microsoft.com"
       }
     ]
   },
@@ -34,16 +46,10 @@
     {
       "type": "move",
       "target": "Notifications/Microsoft"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Microsoft/OneDrive/SharePoint account notifications and guest receipts"
+    "Microsoft/OneDrive/SharePoint/Office/Windows account notifications"
   ]
 }

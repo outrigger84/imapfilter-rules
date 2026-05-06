@@ -1,5 +1,6 @@
 {
   "name": "Travel \u00bb Travel Loyalty \u00bb Amtrak Guest Rewards",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -12,10 +13,6 @@
         "contains": "Now Arriving: Your November Statement"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Travel Loyalty/Amtrak Guest Rewards"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

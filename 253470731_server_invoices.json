@@ -1,5 +1,6 @@
 {
   "name": "Server \u00bb Invoices",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,10 +13,6 @@
         "contains": "billing@webhosting.uk.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Server/Invoices"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb Vinted",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

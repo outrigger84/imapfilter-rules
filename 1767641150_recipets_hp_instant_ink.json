@@ -1,5 +1,6 @@
 {
   "name": "Receipts \u00bb HP Instant Ink",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -12,10 +13,6 @@
         "contains": "Your billing statement"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Receipts/HP Instant Ink"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

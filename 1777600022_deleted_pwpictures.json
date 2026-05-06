@@ -1,6 +1,6 @@
 {
   "name": "Deleted Messages \u00bb PW Pictures",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

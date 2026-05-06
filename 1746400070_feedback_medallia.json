@@ -1,6 +1,6 @@
 {
   "name": "Feedback \u00bb Medallia",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -22,12 +22,6 @@
     {
       "type": "move",
       "target": "Feedback/Medallia"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

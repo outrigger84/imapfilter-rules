@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Entertainment » Comic Con",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Entertainment/Comic Con"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

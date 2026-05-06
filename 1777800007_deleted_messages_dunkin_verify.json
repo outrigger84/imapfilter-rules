@@ -1,6 +1,6 @@
 {
   "name": "Dunkin Verify Email >> Deleted Messages",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [

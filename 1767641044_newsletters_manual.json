@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Health » Manual",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Health/Manual"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

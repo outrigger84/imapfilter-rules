@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Finance » InvestEngine",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -30,12 +30,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Finance/InvestEngine"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

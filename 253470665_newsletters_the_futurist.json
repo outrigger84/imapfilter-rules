@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Media » The Futurist",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Newsletters/Topics/Media/The Futurist"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

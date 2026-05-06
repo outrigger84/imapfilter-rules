@@ -1,6 +1,6 @@
 {
   "name": "Ground Transport » Freenow",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Synology NAS",
-  "enabled": true,
+  "enabled": false,
   "priority": 40,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Notifications/Synology"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

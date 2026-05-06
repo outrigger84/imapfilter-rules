@@ -1,6 +1,6 @@
 {
   "name": "Server » 123 Reg",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Server/123 Reg"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

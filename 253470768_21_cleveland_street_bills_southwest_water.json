@@ -1,5 +1,6 @@
 {
   "name": "21 Cleveland Street \u00bb Bills \u00bb Southwest Water",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -28,10 +29,6 @@
         ]
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "21 Cleveland Street/Bills/Southwest Water"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

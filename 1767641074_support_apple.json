@@ -1,5 +1,6 @@
 {
-  "name": "Support » Apple",
+  "name": "Support \u00bb Apple",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "acsupportcase@apple.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Support/Apple"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

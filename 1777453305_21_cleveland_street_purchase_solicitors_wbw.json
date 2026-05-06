@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street » Purchase » Solicitors » WBW",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "21 Cleveland Street/Purchase/Solicitors"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

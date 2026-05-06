@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Fitness » FitTrack",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -26,12 +26,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Fitness/FitTrack"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

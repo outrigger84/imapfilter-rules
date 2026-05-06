@@ -1,5 +1,6 @@
 {
   "name": "Gift Vouchers \u00bb Edenred",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,10 +13,6 @@
         "contains": "_at_edenred_co_uk_"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Gift Vouchers/Edenred"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

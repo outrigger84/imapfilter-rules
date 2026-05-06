@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Bills \u00bb OrderPay",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Receipts/Bills/OrderPay"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

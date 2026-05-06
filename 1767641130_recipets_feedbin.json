@@ -1,5 +1,6 @@
 {
   "name": "Receipts \u00bb Feedbin",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "support@feedbin.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Feedbin"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

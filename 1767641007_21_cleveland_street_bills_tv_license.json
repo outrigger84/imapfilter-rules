@@ -1,5 +1,6 @@
 {
   "name": "21 Cleveland Street \u00bb Bills \u00bb TV License",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,10 +17,6 @@
         "contains": "tvlicensing.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "21 Cleveland Street/Bills/TV License"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

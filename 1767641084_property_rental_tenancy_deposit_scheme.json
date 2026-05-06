@@ -1,5 +1,6 @@
 {
   "name": "Property \u00bb Rental \u00bb Tenancy Deposit Scheme",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@tenancydepositscheme.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Property/Rental/Tenancy Deposit Scheme"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

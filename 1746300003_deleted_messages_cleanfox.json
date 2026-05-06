@@ -1,6 +1,6 @@
 {
   "name": "Cleanfox >> Deleted Messages",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [

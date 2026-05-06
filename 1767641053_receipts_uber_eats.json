@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Uber Eats",
-  "enabled": true,
+  "name": "Receipts \u00bb Uber Eats",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [
@@ -26,11 +26,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Uber Eats"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Uber Eats"
+    }
   ]
 }

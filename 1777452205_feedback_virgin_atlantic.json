@@ -1,6 +1,6 @@
 {
   "name": "Feedback \u00bb Virgin Atlantic",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

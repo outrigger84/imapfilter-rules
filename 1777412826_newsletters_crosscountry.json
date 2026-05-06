@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Travel » CrossCountry",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Travel/CrossCountry"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

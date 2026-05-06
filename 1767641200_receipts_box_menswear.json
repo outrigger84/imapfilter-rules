@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Box Menswear",
-  "enabled": true,
+  "name": "Receipts \u00bb Box Menswear",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [
@@ -14,11 +14,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Box Menswear"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Box Menswear"
+    }
   ]
 }

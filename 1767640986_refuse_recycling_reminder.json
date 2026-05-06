@@ -1,5 +1,6 @@
 {
   "name": "Refuse & Recycling Reminder",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [

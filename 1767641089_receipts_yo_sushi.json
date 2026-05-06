@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Yo Sushi",
-  "enabled": true,
+  "name": "Receipts \u00bb Yo Sushi",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Yo Sushi"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Yo Sushi"
+    }
   ]
 }

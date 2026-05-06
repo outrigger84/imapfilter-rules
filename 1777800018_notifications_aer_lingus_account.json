@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Aer Lingus » Account Security",
-  "enabled": true,
+  "enabled": false,
   "priority": 110,
   "conditions": {
     "any": [

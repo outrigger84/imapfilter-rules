@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Restaurants » Boston Tea Party",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Receipts/Restaurants/Boston Tea Party"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

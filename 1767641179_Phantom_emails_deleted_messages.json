@@ -1,6 +1,6 @@
 {
   "name": "Phantom Emails -> Deleted Messages",
-  "enabled": true,
+  "enabled": false,
   "priority": 10,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Deleted Messages"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
   ]
 }

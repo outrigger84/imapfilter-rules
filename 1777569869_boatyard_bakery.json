@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Restaurants » Boatyard Bakery",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

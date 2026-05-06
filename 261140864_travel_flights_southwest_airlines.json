@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Flights \u00bb Southwest Airlines",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Travel/Flights/Southwest Airlines"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

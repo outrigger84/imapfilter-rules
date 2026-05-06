@@ -1,6 +1,6 @@
 {
   "name": "Finance » Loans » V12 Art Loan",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

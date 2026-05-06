@@ -1,5 +1,6 @@
 {
   "name": "21 Cleveland Street » Lodger » Adverts » OpenRent",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -29,12 +30,6 @@
     {
       "type": "move",
       "target": "21 Cleveland Street/Lodger/Adverts/OpenRent"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

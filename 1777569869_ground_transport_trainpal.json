@@ -1,6 +1,6 @@
 {
   "name": "Ground Transport » Trainpal",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

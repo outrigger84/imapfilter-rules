@@ -1,5 +1,6 @@
 {
   "name": "Personal \u00bb Finance \u00bb Credit Rating \u00bb MSE Credit Club",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "creditclub@email.moneysavingexpert.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Personal/Finance/Credit Rating/MSE Credit Club"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

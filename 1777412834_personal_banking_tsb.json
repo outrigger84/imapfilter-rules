@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Banking » TSB",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Personal/Finance/Banking/TSB"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "The New York Times",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "The New York Times"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

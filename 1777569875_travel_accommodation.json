@@ -1,5 +1,6 @@
 {
-  "name": "Travel » Accommodation",
+  "name": "Travel \u00bb Accommodation",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,11 +18,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Travel/Accommodation"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation"
+    }
   ]
 }

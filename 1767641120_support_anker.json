@@ -1,5 +1,6 @@
 {
   "name": "Support \u00bb Anker",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@anker.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Support/Anker"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

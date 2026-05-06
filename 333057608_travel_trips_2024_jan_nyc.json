@@ -28,12 +28,6 @@
     {
       "type": "move",
       "target": "Travel/Trips/2024 - Jan NYC"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

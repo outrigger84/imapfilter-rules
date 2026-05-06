@@ -1,5 +1,6 @@
 {
   "name": "Ephemeral Auth Emails >> Deleted Messages",
+  "enabled": true,
   "priority": 40,
   "conditions": {
     "all": [
@@ -12,11 +13,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Deleted Messages"
-  },
   "comments": [
     "Auto-cleanup of 2FA codes, magic links, and password reset emails after 1 day"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
   ]
 }

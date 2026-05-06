@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street \u00bb Bills \u00bb British Gas \u00bb Peak Save",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -21,12 +21,6 @@
     {
       "type": "move",
       "target": "Notifications/British Gas PeakSave"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

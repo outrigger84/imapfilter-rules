@@ -1,6 +1,6 @@
 {
   "name": "Flights » British Airways",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

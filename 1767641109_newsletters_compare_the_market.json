@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Finance » Compare The Market",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,12 +17,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Finance/Compare The Market"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

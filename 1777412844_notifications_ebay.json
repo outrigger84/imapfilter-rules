@@ -1,6 +1,6 @@
 {
   "name": "Notifications » eBay",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -30,12 +30,6 @@
     {
       "type": "move",
       "target": "Notifications/eBay"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

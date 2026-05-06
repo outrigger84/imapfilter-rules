@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Apple » Subscriptions",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [

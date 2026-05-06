@@ -1,5 +1,6 @@
 {
   "name": "Property \u00bb Rental \u00bb Docusign",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@eumail.docusign.net"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Property/Rental/Docusign"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

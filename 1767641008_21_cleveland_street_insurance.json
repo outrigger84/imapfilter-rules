@@ -1,5 +1,6 @@
 {
   "name": "21 Cleveland Street \u00bb Insurance",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,10 +13,6 @@
         "contains": "@info.homeprotect.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "21 Cleveland Street/Insurance"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

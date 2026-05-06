@@ -1,6 +1,6 @@
 {
   "name": "Finance » Store Credit » Verypay",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

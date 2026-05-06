@@ -1,6 +1,6 @@
 {
-  "name": "Sent Messages » Tripit",
-  "enabled": true,
+  "name": "Sent Messages \u00bb Tripit",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Sent Messages/Tripit"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Sent Messages/Tripit"
+    }
   ]
 }

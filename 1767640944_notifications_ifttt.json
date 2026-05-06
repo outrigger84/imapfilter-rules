@@ -1,6 +1,6 @@
 {
   "name": "Notifications » IFTTT",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

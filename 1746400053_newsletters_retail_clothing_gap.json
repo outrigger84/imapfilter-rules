@@ -1,6 +1,6 @@
 {
   "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Clothing \u00bb GAP",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Retail/Clothing/GAP"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Travel » ThinkVilla",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Travel/ThinkVilla"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

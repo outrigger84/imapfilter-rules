@@ -1,5 +1,6 @@
 {
-  "name": "Personal » Finance » Banking » Barclays",
+  "name": "Personal \u00bb Finance \u00bb Banking \u00bb Barclays",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,10 +17,6 @@
         "contains": "@assure2.barclays.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Personal/Finance/Banking/Barclays"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

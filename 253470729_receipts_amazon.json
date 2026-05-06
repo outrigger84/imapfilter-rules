@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Amazon",
-  "enabled": true,
+  "name": "Receipts \u00bb Amazon",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -26,11 +26,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Amazon"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Amazon"
+    }
   ]
 }

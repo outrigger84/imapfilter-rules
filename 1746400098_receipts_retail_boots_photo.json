@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Retail \u00bb Boots Photo",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Receipts/Retail/Boots Photo"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

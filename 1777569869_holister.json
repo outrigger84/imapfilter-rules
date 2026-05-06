@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Retail » Holister",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [

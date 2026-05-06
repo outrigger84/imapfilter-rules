@@ -1,5 +1,6 @@
 {
   "name": "Fitness \u00bb Ben Winn \u00bb Skool",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@skool.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Fitness/Ben Winn/Skool"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

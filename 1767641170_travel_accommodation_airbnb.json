@@ -1,5 +1,6 @@
 {
   "name": "Travel \u00bb Accommodation \u00bb AirBnB",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "express@airbnb.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Accommodation/AirBnB"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

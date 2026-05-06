@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Ground Transport \u00bb FreeNow",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Travel/Ground Transport/FreeNow"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

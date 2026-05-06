@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Outdoors » Blithfield SC",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -22,12 +22,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Outdoors/Blithfield SC"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

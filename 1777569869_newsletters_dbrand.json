@@ -1,5 +1,6 @@
 {
   "name": "Newsletters » Marketing » Tech » dbrand",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -25,12 +26,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Tech/dbrand"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

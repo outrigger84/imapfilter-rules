@@ -1,5 +1,6 @@
 {
   "name": "Personal \u00bb Finance \u00bb Store Credit \u00bb Next Pay",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@nextemail.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Personal/Finance/Store Credit/Next Pay"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

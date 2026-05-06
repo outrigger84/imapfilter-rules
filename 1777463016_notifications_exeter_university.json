@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Exeter University",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

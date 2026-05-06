@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Retail » Kickstarter",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -26,12 +26,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Retail/Kickstarter"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

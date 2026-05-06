@@ -1,5 +1,6 @@
 {
   "name": "Travel \u00bb Flights \u00bb Air Asia",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,10 +21,6 @@
         "contains": "@ededm.airasia.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Flights/Air Asia"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Receipts/SoulCycle"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

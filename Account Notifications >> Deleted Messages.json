@@ -1,5 +1,6 @@
 {
   "name": "Account Notifications >> Deleted Messages",
+  "enabled": false,
   "priority": 50,
   "conditions": {
     "all": [
@@ -12,11 +13,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Deleted Messages"
-  },
   "comments": [
     "Cleanup of account and security notification emails after 14 days"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
   ]
 }

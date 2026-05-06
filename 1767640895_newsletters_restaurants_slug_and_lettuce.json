@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Restaurants » Slug And Lettuce",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,12 +17,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Restaurants/Slug And Lettuce"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

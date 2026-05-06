@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » AirVPN",
-  "enabled": true,
+  "name": "Receipts \u00bb AirVPN",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [
@@ -14,11 +14,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/AirVPN"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/AirVPN"
+    }
   ]
 }

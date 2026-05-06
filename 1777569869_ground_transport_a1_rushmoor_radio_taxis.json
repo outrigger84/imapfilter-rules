@@ -1,6 +1,6 @@
 {
   "name": "Ground Transport » A1 Rushmoor Radio Taxis",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

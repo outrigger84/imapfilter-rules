@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Finance » Revolut",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Finance/Revolut"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

@@ -22,12 +22,6 @@
     {
       "type": "move",
       "target": "Travel/Trips/2025 - Palma"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

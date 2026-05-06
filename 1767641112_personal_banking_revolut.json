@@ -1,5 +1,6 @@
 {
-  "name": "Personal » Finance » Banking » Revolut",
+  "name": "Personal \u00bb Finance \u00bb Banking \u00bb Revolut",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -12,10 +13,6 @@
         "not_equals": "<spc.63739.0.sparkpostmail.com>"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Personal/Finance/Banking/Revolut"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

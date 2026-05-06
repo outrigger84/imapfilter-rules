@@ -1,6 +1,6 @@
 {
   "name": "Phishing >> Deleted Messages (DVLA scams)",
-  "enabled": true,
+  "enabled": false,
   "priority": 50,
   "conditions": {
     "any": [

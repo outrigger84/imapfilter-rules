@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Xposed",
-  "enabled": true,
+  "name": "Receipts \u00bb Xposed",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Xposed"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Xposed"
+    }
   ]
 }

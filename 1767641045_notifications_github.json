@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » GitHub",
-  "enabled": true,
+  "name": "Notifications \u00bb GitHub",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Notifications/GitHub"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/GitHub"
+    }
   ]
 }

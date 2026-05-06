@@ -1,6 +1,6 @@
 {
   "name": "Subscriptions » Usenet » Usenet Express",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Subscriptions/Usenet/Usenet Express"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

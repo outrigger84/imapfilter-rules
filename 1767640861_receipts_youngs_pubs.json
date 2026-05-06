@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Youngs Pubs",
-  "enabled": true,
+  "name": "Receipts \u00bb Youngs Pubs",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -14,11 +14,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Youngs Pubs"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Youngs Pubs"
+    }
   ]
 }

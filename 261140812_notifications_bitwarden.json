@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb Bitwarden",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -22,12 +22,6 @@
     {
       "type": "move",
       "target": "Notifications/Bitwarden"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

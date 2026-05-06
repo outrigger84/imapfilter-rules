@@ -1,6 +1,6 @@
 {
   "name": "Personal Development \u00bb Productive Flourishing",
-  "enabled": true,
+  "enabled": false,
   "priority": 110,
   "conditions": {
     "any": [
@@ -26,12 +26,6 @@
     {
       "type": "move",
       "target": "Personal Development/Productive Flourishing"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

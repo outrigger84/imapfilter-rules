@@ -1,5 +1,6 @@
 {
   "name": "Memberships \u00bb Lympstone SC",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -44,10 +45,6 @@
         "contains": "tonyday47@outlook.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Memberships/Lympstone SC"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters \u00bb Marketing \u00bb Restaurants \u00bb Landini's Pizzeria",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Restaurants/Landini's Pizzeria"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

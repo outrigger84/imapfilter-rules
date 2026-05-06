@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Fitness » Whoop",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -42,12 +42,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Fitness/Whoop"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

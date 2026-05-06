@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Anthropic",
-  "enabled": true,
+  "name": "Receipts \u00bb Anthropic",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Anthropic"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Anthropic"
+    }
   ]
 }

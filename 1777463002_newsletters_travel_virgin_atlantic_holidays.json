@@ -1,6 +1,6 @@
 {
   "name": "Newsletters \u00bb Marketing \u00bb Travel \u00bb Virgin Atlantic Holidays",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Travel/Virgin Atlantic Holidays"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

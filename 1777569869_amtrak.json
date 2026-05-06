@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Travel » Amtrak",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

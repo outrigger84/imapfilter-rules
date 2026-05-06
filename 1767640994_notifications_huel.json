@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb Huel",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

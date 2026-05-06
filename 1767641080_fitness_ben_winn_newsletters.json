@@ -1,6 +1,6 @@
 {
-  "name": "Fitness » Ben Winn » Newsletters",
-  "enabled": true,
+  "name": "Fitness \u00bb Ben Winn \u00bb Newsletters",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Fitness/Ben Winn/Newsletters"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Ben Winn/Newsletters"
+    }
   ]
 }

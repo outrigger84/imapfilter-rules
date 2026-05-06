@@ -1,5 +1,6 @@
 {
   "name": "Events » Soulcycle",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

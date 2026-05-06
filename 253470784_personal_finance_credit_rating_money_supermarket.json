@@ -1,5 +1,6 @@
 {
   "name": "Personal » Finance » Credit Rating » Money Supermarket",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,12 +14,6 @@
     {
       "type": "move",
       "target": "Personal/Finance/Credit Rating/Money Supermarket"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

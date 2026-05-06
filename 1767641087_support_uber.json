@@ -1,5 +1,6 @@
 {
   "name": "Support \u00bb Uber",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,10 +13,6 @@
         "contains": "ubersupport@omio.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Support/Uber"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

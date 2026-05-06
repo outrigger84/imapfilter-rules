@@ -1,5 +1,6 @@
 {
   "name": "Travel » Travel Loyalty » BA Executive Club",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -25,12 +26,6 @@
     {
       "type": "move",
       "target": "Travel/Travel Loyalty/BA Executive Club"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

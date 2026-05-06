@@ -1,5 +1,6 @@
 {
-  "name": "Jobs » Current » UoE Exams",
+  "name": "Jobs \u00bb Current \u00bb UoE Exams",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [
@@ -20,10 +21,6 @@
         "contains": "jobs@exeter.ac.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Jobs/Current/UoE Exams"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

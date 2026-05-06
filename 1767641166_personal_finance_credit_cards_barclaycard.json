@@ -1,5 +1,6 @@
 {
   "name": "Personal \u00bb Finance \u00bb Credit Cards \u00bb Barclaycard",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@emails.barclaycard.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Personal/Finance/Credit Cards/Barclaycard"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

@@ -1,12 +1,24 @@
 {
-  "name": "Newsletters » Marketing » Art » Castle Fine Art",
-  "enabled": true,
+  "name": "Newsletters \u00bb Marketing \u00bb Art \u00bb Castle Fine Art",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@castlefineart.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.castlefineart.com"
+      },
+      {
+        "header": "from",
+        "contains": "@castlegalleries.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.castlegalleries.com"
       }
     ]
   },
@@ -14,12 +26,10 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Art/Castle Fine Art"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Castle Fine Art / Castle Galleries (rebranded) promotional emails"
   ]
 }

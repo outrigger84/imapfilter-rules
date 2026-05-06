@@ -1,6 +1,6 @@
 {
   "name": "Finance » Credit Rating » Experian",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

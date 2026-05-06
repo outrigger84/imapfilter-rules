@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Agents \u00bb Jet2holidays",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Travel/Agents/Jet2holidays"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

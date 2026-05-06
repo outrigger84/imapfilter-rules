@@ -1,5 +1,6 @@
 {
   "name": "Personal » Health » Patient Access",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,12 +14,6 @@
     {
       "type": "move",
       "target": "Personal/Health/Patient Access"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

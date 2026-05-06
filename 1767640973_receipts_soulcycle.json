@@ -1,6 +1,6 @@
 {
   "name": "Receipts » SoulCycle",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [
@@ -26,12 +26,6 @@
     {
       "type": "move",
       "target": "Receipts/SoulCycle"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

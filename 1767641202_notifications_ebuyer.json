@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb Ebuyer",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [

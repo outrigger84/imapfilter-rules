@@ -1,6 +1,6 @@
 {
   "name": "Subscriptions \u00bb Software \u00bb Markspace",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,7 +18,7 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain365"
+        ""
       ]
     }
   ],

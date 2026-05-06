@@ -1,5 +1,6 @@
 {
   "name": "Property \u00bb Rental \u00bb 86 Alphington Road",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,10 +17,6 @@
         "contains": "@starlettings.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Property/Rental/86 Alphington Road"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

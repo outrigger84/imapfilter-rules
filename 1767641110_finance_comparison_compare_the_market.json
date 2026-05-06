@@ -1,5 +1,6 @@
 {
   "name": "Personal » Finance » Comparison » Compare The Market",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,5 +1,6 @@
 {
   "name": "Tesco IAMs >> Deleted Messages",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,11 +17,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Deleted Messages"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
   ]
 }

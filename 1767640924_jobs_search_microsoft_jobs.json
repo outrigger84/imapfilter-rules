@@ -1,5 +1,6 @@
 {
   "name": "Jobs » Search » Microsoft Jobs",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [
@@ -13,12 +14,6 @@
     {
       "type": "move",
       "target": "Jobs/Search/Microsoft Jobs"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

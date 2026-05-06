@@ -1,6 +1,6 @@
 {
   "name": "Notifications » InvestEngine",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [
@@ -34,12 +34,6 @@
     {
       "type": "move",
       "target": "Notifications/InvestEngine"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

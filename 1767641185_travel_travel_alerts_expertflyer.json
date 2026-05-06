@@ -1,5 +1,6 @@
 {
   "name": "Travel » Travel Alerts » Expertflyer",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

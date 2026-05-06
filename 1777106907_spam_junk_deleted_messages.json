@@ -1,6 +1,6 @@
 {
-  "name": "Spam/Junk — Delete",
-  "enabled": true,
+  "name": "Spam/Junk \u2014 Delete",
+  "enabled": false,
   "priority": 10,
   "conditions": {
     "any": [
@@ -419,31 +419,31 @@
       {
         "header": "from",
         "contains": "mthththithrrm@gmail.com"
-      },      
+      },
       {
         "header": "from",
         "contains": "newsletter@ap.marketingquotesearch.com"
-      },      
+      },
       {
         "header": "from",
         "contains": "pro-49565996@48230737771181.cgaux.org"
-      },      
+      },
       {
         "header": "from",
         "contains": "nes7.xpgf@histed.isdttend.com"
-      },      
+      },
       {
         "header": "from",
         "contains": "nes7.xpgf@histed.isdttend.com"
-      },      
+      },
       {
         "header": "from",
         "contains": "dailyskimm.lpwaan@tuvjepimjqtheskimm.com"
-      },      
+      },
       {
         "header": "from",
         "contains": "return@mail.edx7.rainbowcreative.web.id"
-      },      
+      },
       {
         "header": "from",
         "contains": "return@mail.edx7.rainbowcreative.web.id"
@@ -451,11 +451,11 @@
       {
         "header": "from",
         "contains": "info@shorthandmanager.com"
-      },      
+      },
       {
         "header": "from",
         "contains": "mtndewrulez123@gmail.com"
-      },      
+      },
       {
         "header": "from",
         "contains": "xvbwafh-foxg6q1suaf-noreply@hbovu.lnauf.extolbay.com"
@@ -662,13 +662,15 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Deleted Messages"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard",
     "Spam/junk domains identified by analysis of 374,576 emails in cache.db",
     "Additional criteria added from 14,680 manually-curated Deleted Messages emails"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
   ]
 }

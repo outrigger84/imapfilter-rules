@@ -1,6 +1,6 @@
 {
   "name": "Gift Vouchers » Screwfix",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

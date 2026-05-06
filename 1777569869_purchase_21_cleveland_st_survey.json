@@ -1,6 +1,6 @@
 {
   "name": "Purchase » 21 Cleveland St » Survey",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

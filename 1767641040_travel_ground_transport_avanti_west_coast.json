@@ -1,5 +1,6 @@
 {
   "name": "Travel \u00bb Ground Transport \u00bb Avanti West Coast",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@avantiwestcoast.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Ground Transport/Avanti West Coast"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

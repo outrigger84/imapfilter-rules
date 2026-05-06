@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Travel » Easyjet",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,12 +21,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Travel/Easyjet"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

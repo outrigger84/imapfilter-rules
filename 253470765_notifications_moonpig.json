@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Moonpig",
-  "enabled": true,
+  "name": "Notifications \u00bb Moonpig",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -14,11 +14,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Notifications/Moonpig"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Moonpig"
+    }
   ]
 }

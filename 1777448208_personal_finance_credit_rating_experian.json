@@ -1,6 +1,6 @@
 {
   "name": "Personal \u00bb Finance \u00bb Credit Rating \u00bb Experian",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -26,12 +26,6 @@
     {
       "type": "move",
       "target": "Personal/Finance/Credit Rating/Experian"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

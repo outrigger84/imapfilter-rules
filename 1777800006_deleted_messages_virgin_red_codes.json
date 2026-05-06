@@ -1,6 +1,6 @@
 {
   "name": "Virgin Red Verification Codes >> Deleted Messages",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [

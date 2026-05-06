@@ -1,6 +1,6 @@
 {
   "name": "Complaints » Delay Repay » London North Western Railway",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Complaints/Delay Repay/London North Western Railway"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

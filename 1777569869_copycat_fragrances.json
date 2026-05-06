@@ -1,6 +1,6 @@
 {
   "name": "Copycat Fragrances",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [

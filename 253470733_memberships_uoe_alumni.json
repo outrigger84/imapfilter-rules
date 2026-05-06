@@ -1,5 +1,6 @@
 {
-  "name": "Memberships » UoE Alumni",
+  "name": "Memberships \u00bb UoE Alumni",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [
@@ -20,10 +21,6 @@
         "contains": "sports-alumni@exeter.ac.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Memberships/UoE Alumni"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

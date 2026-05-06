@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Banking » Sainsbury's Bank",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Personal/Finance/Banking/Sainsburys Bank"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

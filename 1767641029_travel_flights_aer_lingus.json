@@ -1,5 +1,6 @@
 {
   "name": "Travel \u00bb Flights \u00bb Aer Lingus",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -16,10 +17,6 @@
         "not_contains": "remind-username@aerlingus.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Flights/Aer Lingus"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

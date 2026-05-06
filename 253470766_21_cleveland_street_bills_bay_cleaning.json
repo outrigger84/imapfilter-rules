@@ -1,5 +1,6 @@
 {
   "name": "21 Cleveland Street \u00bb Bills \u00bb Bay Cleaning",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -12,10 +13,6 @@
         "contains": "@bay-cleaning.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "21 Cleveland Street/Bills/Bay Cleaning"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

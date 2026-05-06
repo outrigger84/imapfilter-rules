@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb Meetup",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

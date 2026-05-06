@@ -1,5 +1,6 @@
 {
   "name": "21 Cleveland Street \u00bb MSE Energy Club",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "cheapenergyclub@email.moneysavingexpert.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "21 Cleveland Street/MSE Energy Club"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

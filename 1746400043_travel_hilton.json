@@ -1,6 +1,6 @@
 {
   "name": "Travel » Accommodation » Hilton",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -26,12 +26,6 @@
     {
       "type": "move",
       "target": "Travel/Accommodation/Hilton"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

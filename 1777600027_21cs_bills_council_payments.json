@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street \u00bb Bills \u00bb Council Payments",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

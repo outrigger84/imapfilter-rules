@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Travel » Amtrak",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -30,12 +30,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Travel/Amtrak"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters \u00bb Marketing \u00bb Food \u00bb Nacho Daddy",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Newsletters/Marketing/Food/Nacho Daddy"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

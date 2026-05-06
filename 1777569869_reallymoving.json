@@ -1,6 +1,6 @@
 {
   "name": "reallymoving",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

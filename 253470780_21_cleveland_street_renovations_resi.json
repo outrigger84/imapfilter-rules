@@ -1,5 +1,6 @@
 {
   "name": "21 Cleveland Street » Renovations » resi",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,12 +14,6 @@
     {
       "type": "move",
       "target": "21 Cleveland Street/Renovations/resi"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

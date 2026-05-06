@@ -1,6 +1,6 @@
 {
   "name": "Travel Agents » Easyjet Holidays",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

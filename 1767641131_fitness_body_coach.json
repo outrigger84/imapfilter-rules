@@ -1,5 +1,6 @@
 {
   "name": "Fitness \u00bb Body Coach",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,10 +13,6 @@
         "contains": "@thebodycoach.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Fitness/Body Coach"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

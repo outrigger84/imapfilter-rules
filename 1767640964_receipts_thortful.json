@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Thortful",
-  "enabled": true,
+  "name": "Receipts \u00bb Thortful",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Thortful"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Thortful"
+    }
   ]
 }

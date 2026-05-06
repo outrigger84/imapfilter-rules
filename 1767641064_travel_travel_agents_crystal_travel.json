@@ -1,5 +1,6 @@
 {
   "name": "Travel \u00bb Travel Agents \u00bb Crystal Travel",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,10 +13,6 @@
         "contains": "crystaltravel.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Travel Agents/Crystal Travel"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

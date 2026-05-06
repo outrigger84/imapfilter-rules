@@ -1,6 +1,6 @@
 {
   "name": "Health » Magdalen Health",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

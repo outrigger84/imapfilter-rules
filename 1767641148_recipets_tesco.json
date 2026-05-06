@@ -1,5 +1,6 @@
 {
-  "name": "Receipts » Tesco",
+  "name": "Receipts \u00bb Tesco",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [
@@ -16,10 +17,6 @@
         "not_contains": "Was this you?"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Tesco"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

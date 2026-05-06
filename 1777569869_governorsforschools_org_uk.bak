@@ -1,6 +1,6 @@
 {
   "name": "governorsforschools.org.uk",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

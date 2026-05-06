@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Too Good To Go",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

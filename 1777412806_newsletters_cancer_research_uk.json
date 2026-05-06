@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Charity » Cancer Research UK",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Newsletters/Topics/Charity/Cancer Research UK"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

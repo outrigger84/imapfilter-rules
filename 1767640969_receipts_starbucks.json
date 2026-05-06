@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Starbucks",
-  "enabled": true,
+  "name": "Receipts \u00bb Starbucks",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Starbucks"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Starbucks"
+    }
   ]
 }

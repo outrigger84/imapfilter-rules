@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb OF",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

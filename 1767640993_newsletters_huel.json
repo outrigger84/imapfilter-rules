@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Food » Huel",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

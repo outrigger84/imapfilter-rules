@@ -1,6 +1,6 @@
 {
   "name": "Travel » Travel Agents » Major Travel",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

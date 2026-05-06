@@ -1,5 +1,6 @@
 {
   "name": "Feedback » Papa John",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

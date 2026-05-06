@@ -1,6 +1,6 @@
 {
   "name": "Personal \u00bb Finance \u00bb Insurance \u00bb Cedar Tree",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Personal/Finance/Insurance/Cedar Tree"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

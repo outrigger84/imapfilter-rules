@@ -1,5 +1,6 @@
 {
-  "name": "Travel » Ground Transport » Uber Train",
+  "name": "Travel \u00bb Ground Transport \u00bb Uber Train",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [
@@ -20,10 +21,6 @@
         ]
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Ground Transport/Uber Train"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

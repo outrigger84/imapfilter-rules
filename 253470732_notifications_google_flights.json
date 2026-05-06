@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Google Flights",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

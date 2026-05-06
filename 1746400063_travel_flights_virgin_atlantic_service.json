@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Flights \u00bb Virgin Atlantic",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Travel/Flights/Virgin Atlantic"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

@@ -48,12 +48,6 @@
     {
       "type": "move",
       "target": "Travel/Trips/2025 - Disney"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

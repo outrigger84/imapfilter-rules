@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Apple",
-  "enabled": true,
+  "name": "Receipts \u00bb Apple",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "all": [
@@ -54,11 +54,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Apple"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Apple"
+    }
   ]
 }

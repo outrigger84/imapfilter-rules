@@ -1,6 +1,6 @@
 {
   "name": "British Cycling",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [

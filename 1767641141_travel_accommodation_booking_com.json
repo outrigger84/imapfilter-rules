@@ -1,5 +1,6 @@
 {
-  "name": "Travel » Accommodation » Booking-com",
+  "name": "Travel \u00bb Accommodation \u00bb Booking-com",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,10 +13,6 @@
         "contains": "customer.service@booking.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Accommodation/Booking-com"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

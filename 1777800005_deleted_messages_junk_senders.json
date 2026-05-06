@@ -1,6 +1,6 @@
 {
   "name": "Junk Senders >> Deleted Messages",
-  "enabled": true,
+  "enabled": false,
   "priority": 50,
   "conditions": {
     "any": [

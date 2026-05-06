@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Retail » Clothing » Gymshark",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Receipts/Retail/Clothing/Gymshark"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

@@ -1,5 +1,6 @@
 {
   "name": "Memberships \u00bb British Cycling",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@updates-britishcycling.org.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Memberships/British Cycling"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

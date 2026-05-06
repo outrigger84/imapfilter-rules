@@ -1,6 +1,6 @@
 {
   "name": "Delivery Receipts",
-  "enabled": true,
+  "enabled": false,
   "priority": 40,
   "conditions": {
     "all": [

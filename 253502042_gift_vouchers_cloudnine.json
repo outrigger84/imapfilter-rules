@@ -1,5 +1,6 @@
 {
-  "name": "Gift Vouchers » CloudNine",
+  "name": "Gift Vouchers \u00bb CloudNine",
+  "enabled": false,
   "priority": 45,
   "conditions": {
     "all": [
@@ -16,10 +17,6 @@
         "contains": "My Lifestyle"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Gift Vouchers/CloudNine"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

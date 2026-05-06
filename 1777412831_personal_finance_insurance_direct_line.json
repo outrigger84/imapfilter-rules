@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Insurance » Direct Line",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Personal/Finance/Insurance/Direct Line"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ]
 }

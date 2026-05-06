@@ -1,5 +1,6 @@
 {
-  "name": "Travel » Ground Transport » Apple Taxies",
+  "name": "Travel \u00bb Ground Transport \u00bb Apple Taxies",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [
@@ -16,10 +17,6 @@
         "contains": "@appletaxisexeter.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Ground Transport/Apple Taxies"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

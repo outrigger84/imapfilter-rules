@@ -1,5 +1,6 @@
 {
   "name": "Feedback » Toolstation",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

@@ -1,5 +1,6 @@
 {
   "name": "Travel \u00bb Ground Transport \u00bb Trainline",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "auto-confirm@info.thetrainline.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Travel/Ground Transport/Trainline"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

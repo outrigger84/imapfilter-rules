@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Calm",
-  "enabled": true,
+  "name": "Receipts \u00bb Calm",
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "all": [
@@ -14,11 +14,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Calm"
-  },
   "comments": [
-    "Private Relay – Calm subscription receipts, split from newsletter rule"
+    "Private Relay \u2013 Calm subscription receipts, split from newsletter rule"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Calm"
+    }
   ]
 }

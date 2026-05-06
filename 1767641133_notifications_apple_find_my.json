@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Apple » Find My",
-  "enabled": true,
+  "enabled": false,
   "priority": 90,
   "conditions": {
     "any": [

@@ -1,5 +1,6 @@
 {
   "name": "Property \u00bb Rental \u00bb PropertyFile",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@propertyfile.co.uk"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Property/Rental/PropertyFile"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

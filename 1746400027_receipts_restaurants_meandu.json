@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Restaurants \u00bb me&u",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Receipts/Restaurants/me&u"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain365"
-      ]
     }
   ],
   "comments": [

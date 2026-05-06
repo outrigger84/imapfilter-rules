@@ -1,5 +1,6 @@
 {
   "name": "Gift Vouchers \u00bb xexec",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +9,6 @@
         "contains": "@xexec.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "Gift Vouchers/xexec"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

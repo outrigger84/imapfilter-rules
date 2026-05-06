@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Costa",
-  "enabled": true,
+  "name": "Receipts \u00bb Costa",
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/Costa"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Costa"
+    }
   ]
 }
