@@ -1,24 +1,40 @@
 {
-  "name": "Receipts » Soulcycle",
+  "name": "Receipts » SoulCycle",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "all": [
       {
-        "header": "from",
-        "contains": "@mg.soul-cycle.com"
+        "any": [
+          {
+            "header": "from",
+            "contains": "@mg.soul-cycle.com"
+          },
+          {
+            "header": "from",
+            "contains": "@soul-cycle.com"
+          }
+        ]
       },
       {
         "header": "subject",
-        "contains": "SoulCycle Receipt: Order #*"
+        "contains": "Receipt"
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Receipts/SoulCycle"
-  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/SoulCycle"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Priority 90: fires before events catch-all to route receipts correctly"
   ]
 }

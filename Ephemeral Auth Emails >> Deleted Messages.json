@@ -5,7 +5,7 @@
     "all": [
       {
         "header": "subject",
-        "regex": "(?i)\\b(\\d{4,8}\\b.*\\b(code|otp|passcode|verification|security code)|login link|magic link|sign in link|signin link|password reset|reset your password|verify your email|confirm your email|please verify|email verification|confirm your account|activate your account)\\b"
+        "regex": "(?i)\\b(\\d{4,8}\\b.*\\b(code|otp|passcode|verification|security code)|login link|magic link|sign in link|signin link|password reset|reset your password|verify your email|confirm your email|please verify|email verification|confirm your(\\s+\\w+)?\\s+account|activate your account|verify your(\\s+\\w+)?\\s+account|verify your identity)\\b"
       },
       {
         "age_days_gt": 1

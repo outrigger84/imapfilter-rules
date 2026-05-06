@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb SoulCycle",
-  "enabled": true,
+  "enabled": false,
   "priority": 110,
   "conditions": {
     "any": [

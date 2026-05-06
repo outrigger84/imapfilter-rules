@@ -1,37 +1,25 @@
 {
   "name": "Events » Soulcycle",
-  "priority": 90,
+  "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@soul-cycle.com"
+        "contains": "@mg.soul-cycle.com"
       },
       {
-        "all": [
-          {
-            "header": "from",
-            "contains": "noreply@mg.soul-cycle.com"
-          },
-          {
-            "header": "subject",
-            "contains": "Your SoulCycle class has been cancelled."
-          }
-        ]
+        "header": "from",
+        "contains": "@soul-cycle.com"
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Events/Soulcycle"
-  },
-  "comments": [
-    "Created with IMAPFilter Rule Wizard"
-  ],
   "actions": [
     {
       "type": "move",
       "target": "Events/Soulcycle"
     }
+  ],
+  "comments": [
+    "Catch-all for SoulCycle emails; receipts are captured first by priority 90 rule"
   ]
 }

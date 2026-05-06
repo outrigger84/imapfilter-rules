@@ -1,6 +1,6 @@
 {
   "name": "Gift Vouchers » CloudNine",
-  "priority": 90,
+  "priority": 45,
   "conditions": {
     "all": [
       {

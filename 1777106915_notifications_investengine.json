@@ -1,7 +1,7 @@
 {
   "name": "Notifications » InvestEngine",
   "enabled": true,
-  "priority": 200,
+  "priority": 90,
   "conditions": {
     "all": [
       {
