@@ -1,5 +1,5 @@
 {
-  "name": "Dyson",
+  "name": "Newsletters » Marketing » Tech » Dyson",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Dyson"
+      "target": "Newsletters/Marketing/Tech/Dyson"
     }
   ],
   "comments": [

@@ -1,0 +1,33 @@
+{
+  "name": "Travel » Trips » 2024 - Tenerife",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Tenerife"
+      },
+      {
+        "header": "subject",
+        "contains": "Teneriffe"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2024 - Tenerife"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "EasyJet holiday confirmation subject confirmed in cache: 'your easyJet holiday to Tenerife is confirmed!'"
+  ]
+}

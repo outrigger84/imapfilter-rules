@@ -1,0 +1,29 @@
+{
+  "name": "Travel » Accommodation » Marriott",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@marriott.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation/Marriott"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Broadens Marriott match to all @marriott.com senders (existing rule only covers noreply/reservations specific addresses)"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Subscriptions \u00bb EcardForest",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@ecardforest.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/EcardForest"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "EcardForest digital greeting card service"
+  ]
+}

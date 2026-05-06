@@ -1,0 +1,30 @@
+{
+  "name": "Archives » ESG",
+  "enabled": true,
+  "priority": 40,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@exeterguild.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Archives/ESG"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Priority 40: below *ME (50) so emails TO user's exeterguild address are caught by *ME first.",
+    "Pensions (100) and Sent Messages (1000) also take precedence for specific exeterguild addresses.",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

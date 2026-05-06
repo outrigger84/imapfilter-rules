@@ -1,0 +1,33 @@
+{
+  "name": "Notifications \u00bb Tile",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.tile.com"
+      },
+      {
+        "header": "from",
+        "contains": "@account.tile.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Tile"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Tile Bluetooth tracker account and policy notifications"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » dbrand",
+  "name": "Newsletters » Marketing » Tech » dbrand",
   "priority": 100,
   "conditions": {
     "all": [
@@ -24,7 +24,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/dbrand"
+      "target": "Newsletters/Marketing/Tech/dbrand"
     },
     {
       "type": "set_keywords",

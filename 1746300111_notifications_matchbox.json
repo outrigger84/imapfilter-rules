@@ -1,0 +1,33 @@
+{
+  "name": "Notifications \u00bb Matchbox",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@uk.matchbox.maruhub.com"
+      },
+      {
+        "header": "from",
+        "contains": "@matchbox.maruhub.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Matchbox"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Pub/restaurant group - folder may need adjustment",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

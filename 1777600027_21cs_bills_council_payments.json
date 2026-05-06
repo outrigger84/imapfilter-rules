@@ -1,0 +1,22 @@
+{
+  "name": "21 Cleveland Street \u00bb Bills \u00bb Council Payments",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@paynotice.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "21 Cleveland Street/Bills/Council Payments"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -17,6 +17,10 @@
           {
             "header": "from",
             "contains": "@email.patreon.com"
+          },
+          {
+            "header": "from",
+            "contains": "_at_patreon_com_"
           }
         ]
       }

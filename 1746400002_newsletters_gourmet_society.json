@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Marketing » Restaurants » Gourmet Society",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@e.gourmetsociety.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@gourmetsociety.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Restaurants/Gourmet Society"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

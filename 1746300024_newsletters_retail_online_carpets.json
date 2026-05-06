@@ -1,0 +1,28 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Home \u00bb Online Carpets",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@onlinecarpets.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Home/Online Carpets"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

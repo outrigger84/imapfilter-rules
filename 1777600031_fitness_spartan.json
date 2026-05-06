@@ -1,0 +1,28 @@
+{
+  "name": "Fitness \u00bb Spartan",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@delivery.zetaglobal.net"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Spartan"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

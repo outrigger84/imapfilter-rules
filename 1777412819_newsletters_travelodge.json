@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Travelodge",
+  "name": "Newsletters » Marketing » Hotels » Travelodge",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Travelodge"
+      "target": "Newsletters/Marketing/Hotels/Travelodge"
     },
     {
       "type": "set_keywords",

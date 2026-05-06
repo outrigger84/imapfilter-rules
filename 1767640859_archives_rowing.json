@@ -159,6 +159,18 @@
       {
         "header": "to",
         "contains": "@paigntonarc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@justgo.com"
+      },
+      {
+        "header": "from",
+        "contains": "randjansell@talktalk.net"
+      },
+      {
+        "header": "from",
+        "contains": "@stitchrowing.com"
       }
     ]
   },

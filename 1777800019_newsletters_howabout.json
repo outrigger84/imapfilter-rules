@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Howabout",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@howbout.app"
+      },
+      {
+        "header": "from",
+        "contains": "_at_howbout_app_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Howabout"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Howbout app (Emma) — via iCloud private relay (emma_at_howbout_app_vbc8g72w6f)"
+  ]
+}

@@ -1,23 +1,19 @@
 {
-  "name": "Personal Finance » Pension » USS",
+  "name": "Memberships \u00bb EasyFundraising",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@uss.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "@updates.uss.co.uk"
+        "contains": "@easyfundraising.org.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Personal Finance/Pension/USS"
+      "target": "Memberships/EasyFundraising"
     },
     {
       "type": "set_keywords",

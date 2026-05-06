@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Peek Home",
+  "name": "Newsletters » Marketing » Property » Peek Home",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Peek Home"
+      "target": "Newsletters/Marketing/Property/Peek Home"
     },
     {
       "type": "set_keywords",

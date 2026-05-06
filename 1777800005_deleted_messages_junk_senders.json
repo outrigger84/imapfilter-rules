@@ -1,0 +1,46 @@
+{
+  "name": "Junk Senders >> Deleted Messages",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "tonytoller@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "exepoloreg@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@splash.systems"
+      },
+      {
+        "header": "from",
+        "contains": "@activation.agency"
+      },
+      {
+        "header": "from",
+        "contains": "@email.weekday.com"
+      },
+      {
+        "header": "from",
+        "contains": "@ig2.bluevoltmailing.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@mac.europiumuk.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Unwanted senders: Tony Toller (eBay boat spam), Exeter Water Polo club (inactive), Topps T-shirt competition, Digman event videos, Weekday fashion (H&M brand), IG Group unsolicited marketing, Quotesearch insurance spam"
+  ]
+}

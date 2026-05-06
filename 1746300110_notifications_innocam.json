@@ -1,0 +1,29 @@
+{
+  "name": "Notifications \u00bb Innocam",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@innocam.nl"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Innocam"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Dutch tech company - folder may need adjustment",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

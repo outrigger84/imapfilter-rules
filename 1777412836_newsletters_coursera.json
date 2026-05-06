@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Coursera",
+  "name": "Newsletters » Topics » Learning » Coursera",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Coursera"
+      "target": "Newsletters/Topics/Learning/Coursera"
     },
     {
       "type": "set_keywords",

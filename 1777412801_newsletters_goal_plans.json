@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Goal Plans",
+  "name": "Newsletters » Topics » Learning » Goal Plans",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -29,7 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Goal Plans"
+      "target": "Newsletters/Topics/Learning/Goal Plans"
     },
     {
       "type": "set_keywords",

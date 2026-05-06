@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Banking » Nationwide",
+  "name": "Personal » Finance » Banking » Nationwide",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -25,7 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Nationwide"
+      "target": "Personal/Finance/Banking/Nationwide"
     },
     {
       "type": "set_keywords",

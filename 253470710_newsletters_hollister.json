@@ -1,7 +1,7 @@
 {
   "name": "Newsletters » Marketing » Retail » Clothing » Hollister",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "all": [
       {

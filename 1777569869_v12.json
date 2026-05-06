@@ -1,7 +1,7 @@
 {
-  "name": "V12",
+  "name": "Newsletters » Marketing » Finance » V12",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/V12"
+      "target": "Newsletters/Marketing/Finance/V12"
     }
   ],
   "comments": [

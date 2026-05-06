@@ -1,0 +1,40 @@
+{
+  "name": "Notifications » Imgur",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@imgur.com"
+      },
+      {
+        "header": "from",
+        "contains": "@bounce.imgur.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_bounce_imgur_com_"
+      },
+      {
+        "header": "from",
+        "contains": "_at_imgur_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Imgur"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Imgur image hosting notifications — via iCloud private relay"
+  ]
+}

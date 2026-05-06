@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Tesco",
-  "priority": 100,
+  "name": "Receipts » Tesco",
+  "priority": 90,
   "conditions": {
     "all": [
       {

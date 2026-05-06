@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@news.marksandspencer.com"
+      },
+      {
+        "header": "from",
+        "contains": "@marksandspencer.com"
       }
     ]
   },

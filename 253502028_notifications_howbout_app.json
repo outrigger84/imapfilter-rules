@@ -1,7 +1,7 @@
 {
-  "name": "Notifications \u00bb Howbout App",
+  "name": "Notifications » Howbout App",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -23,6 +23,6 @@
     }
   ],
   "comments": [
-    "Private Relay \u2013 Howbout App notifications"
+    "Private Relay – Howbout App notifications"
   ]
 }

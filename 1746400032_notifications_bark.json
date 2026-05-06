@@ -1,0 +1,36 @@
+{
+  "name": "Notifications \u00bb Bark",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@cmail.bark.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.bark.com"
+      },
+      {
+        "header": "from",
+        "contains": "@bark.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Bark"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

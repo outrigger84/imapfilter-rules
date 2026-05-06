@@ -1,0 +1,36 @@
+{
+  "name": "Notifications \u00bb Microsoft",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email2.office.com"
+      },
+      {
+        "header": "from",
+        "contains": "@engagement.microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "@engage.windows.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Microsoft"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

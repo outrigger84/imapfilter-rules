@@ -1,0 +1,32 @@
+{
+  "name": "Personal » Finance » Comparison » MoneySupermarket",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.moneysupermarketmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@moneysupermarket.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Comparison/MoneySupermarket"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

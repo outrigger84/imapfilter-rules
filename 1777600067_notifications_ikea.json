@@ -1,0 +1,37 @@
+{
+  "name": "Notifications \u00bb IKEA",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@rating.email.ikea.com"
+      },
+      {
+        "header": "from",
+        "contains": "@homesmart.ikea.com"
+      },
+      {
+        "header": "from",
+        "contains": "@cm.review.email.ikea.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/IKEA"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "IKEA feedback surveys and smart home notifications (separate from newsletter rule)",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

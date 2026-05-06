@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Marketing » Food » Food Talk Daily",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@cnt1.foodtalkdaily.com"
+      },
+      {
+        "header": "from",
+        "contains": "@foodtalkdaily.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Food Talk Daily"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

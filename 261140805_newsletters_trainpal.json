@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Travel \u00bb Trainpal",
+  "name": "Newsletters » Marketing » Travel » Trainpal",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

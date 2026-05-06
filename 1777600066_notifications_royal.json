@@ -1,0 +1,33 @@
+{
+  "name": "Notifications \u00bb Royal",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mail.royal.io"
+      },
+      {
+        "header": "from",
+        "contains": "@royal.io"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Royal"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Royal fintech app",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

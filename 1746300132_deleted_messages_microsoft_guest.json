@@ -1,0 +1,25 @@
+{
+  "name": "Microsoft Guest >> Deleted Messages",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "msguest@microsoft.com"
+      },
+      {
+        "age_days_gt": 2
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

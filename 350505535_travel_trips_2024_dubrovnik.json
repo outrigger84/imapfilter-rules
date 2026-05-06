@@ -1,0 +1,33 @@
+{
+  "name": "Travel » Trips » 2024 - Dubrovnik",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Dubrovnik"
+      },
+      {
+        "header": "subject",
+        "contains": "Croatia"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2024 - Dubrovnik"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "'Croatia' is somewhat broad but no other Croatia trips expected. Refine if needed."
+  ]
+}

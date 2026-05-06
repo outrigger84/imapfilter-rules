@@ -1,0 +1,33 @@
+{
+  "name": "Receipts \u00bb Retail \u00bb Boots Photo",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@cewe.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@bootsphoto.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Boots Photo"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Boots Photo printing service (uses cewe.co.uk and bootsphoto.com)"
+  ]
+}

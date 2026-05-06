@@ -1,7 +1,7 @@
 {
   "name": "21 Cleveland Street » Projects » Solar",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -91,6 +91,10 @@
       {
         "header": "from",
         "contains": "news@bonworth.com"
+      },
+      {
+        "header": "from",
+        "contains": "@neutralenergysolutions.co.uk"
       }
     ]
   },

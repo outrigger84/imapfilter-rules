@@ -1,0 +1,41 @@
+{
+  "name": "Travel » Trips » 2023 - Comic Con",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Comic-Con"
+      },
+      {
+        "header": "subject",
+        "contains": "Comic Con"
+      },
+      {
+        "header": "subject",
+        "contains": "SDCC"
+      },
+      {
+        "header": "subject",
+        "contains": "San Diego Comic"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2023 - Comic Con"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "San Diego Comic-Con 2023. 'San Diego' alone too broad; uses compound phrases."
+  ]
+}

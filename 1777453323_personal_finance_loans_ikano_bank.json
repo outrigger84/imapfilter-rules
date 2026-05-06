@@ -1,5 +1,5 @@
 {
-  "name": "Personal Finance » Loans » Ikano Bank",
+  "name": "Personal » Finance » Loans » Ikano Bank",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal Finance/Loans/Ikano Bank"
+      "target": "Personal/Finance/Loans/Ikano Bank"
     },
     {
       "type": "set_keywords",

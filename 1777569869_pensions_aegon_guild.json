@@ -1,7 +1,7 @@
 {
-  "name": "Pensions » Aegon Guild",
+  "name": "Personal » Finance » Pensions » Aegon Guild",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Pensions/Aegon Guild"
+      "target": "Personal/Finance/Pensions/Aegon Guild"
     }
   ],
   "comments": [

@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Blue Lagoon",
+  "name": "Newsletters » Marketing » Hotels » Blue Lagoon",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Blue Lagoon"
+      "target": "Newsletters/Marketing/Hotels/Blue Lagoon"
     },
     {
       "type": "set_keywords",

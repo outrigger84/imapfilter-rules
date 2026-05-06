@@ -1,0 +1,29 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb William Hill",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@my.williamhill.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/William Hill"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "William Hill betting promotional emails"
+  ]
+}

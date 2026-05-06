@@ -1,0 +1,27 @@
+{
+  "name": "Travel » Accommodation",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "at.hua.lamphong@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "1322fremont@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "hotelgigisandiego@gmail.com"
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Travel/accommodation"
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Newsletters » Marketing » Tech » Software » Contacts+",
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "hello_at_contactsplus_com_fhxu7qmm7g_ec1f6e91@privaterelay.appleid.com"
+      },
+      {
+        "header": "from",
+        "contains": "support_at_contactsplus_com_fhxu7qmm7g_d2eea678@privaterelay.appleid.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Software/Contacts+"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

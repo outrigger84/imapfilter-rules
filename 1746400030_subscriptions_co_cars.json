@@ -1,0 +1,29 @@
+{
+  "name": "Subscriptions \u00bb Co-Cars",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@co-cars.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Co-Cars"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Car club / car sharing service",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

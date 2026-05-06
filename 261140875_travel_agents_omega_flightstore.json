@@ -1,7 +1,7 @@
 {
-  "name": "Travel \u00bb Travel Agents \u00bb Omega Flightstore",
+  "name": "Travel » Travel Agents » Omega Flightstore",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

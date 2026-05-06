@@ -1,5 +1,5 @@
 {
-  "name": "Sell My Miles",
+  "name": "Newsletters » Marketing » Travel » Sell My Miles",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Sell My Miles"
+      "target": "Newsletters/Marketing/Travel/Sell My Miles"
     }
   ],
   "comments": [

@@ -1,0 +1,28 @@
+{
+  "name": "Personal Development » AWS Training (Colborne)",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "colbor@amazon.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal Development"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Richard Colborne (Amazon) — AWS Cloud Practitioner training course correspondence"
+  ]
+}

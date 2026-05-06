@@ -1,0 +1,29 @@
+{
+  "name": "Travel \u00bb Flights \u00bb Breeze Airways",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@flybreeze.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Flights/Breeze Airways"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Breeze Airways promotional flight deals"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Personal \u00bb Health \u00bb Thriva",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.thriva.co"
+      },
+      {
+        "header": "from",
+        "contains": "@service.thriva.co"
+      },
+      {
+        "header": "from",
+        "contains": "@thriva.co"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Health/Thriva"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

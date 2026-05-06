@@ -1,0 +1,29 @@
+{
+  "name": "Receipts \u00bb Events \u00bb The Hall Exeter",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@thehallexeter.org"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Events/The Hall Exeter"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "The Hall Exeter event venue booking correspondence"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Feedback \u00bb Delighted",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@delighted.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Delighted"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Delighted NPS/survey platform used by Linode, Strava etc."
+  ]
+}

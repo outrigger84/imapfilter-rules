@@ -1,5 +1,5 @@
 {
-  "name": "Banking » HSBC",
+  "name": "Personal » Finance » Banking » HSBC",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -29,7 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/HSBC"
+      "target": "Personal/Finance/Banking/HSBC"
     }
   ],
   "comments": [

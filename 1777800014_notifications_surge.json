@@ -1,0 +1,36 @@
+{
+  "name": "Notifications » Surge",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@surgeapp.co"
+      },
+      {
+        "header": "from",
+        "contains": "@surgeapp.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_surgeapp_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Surge"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Surge app notifications — via iCloud private relay"
+  ]
+}

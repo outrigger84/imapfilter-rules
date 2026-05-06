@@ -1,7 +1,7 @@
 {
-  "name": "Travel \u00bb Trips \u00bb 2021 - Malta",
-  "enabled": true,
-  "priority": 100,
+  "name": "Travel » Trips » 2021 - Malta",
+  "enabled": false,
+  "priority": 50,
   "conditions": {
     "any": [
       {
@@ -11,6 +11,18 @@
       {
         "header": "from",
         "contains": "no-reply@airmalta.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Malta"
+      },
+      {
+        "header": "subject",
+        "contains": "Valletta"
+      },
+      {
+        "header": "subject",
+        "contains": "Gozo"
       }
     ]
   },
@@ -27,6 +39,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "Extended: added subject keywords and raised priority to 50"
   ]
 }

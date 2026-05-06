@@ -1,6 +1,6 @@
 {
   "name": "Travel » Travel Alerts » GOV-UK",
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

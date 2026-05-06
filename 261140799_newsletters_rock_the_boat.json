@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb Rock The Boat",
+  "name": "Newsletters » Marketing » Entertainment » Rock The Boat",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Rock The Boat"
+      "target": "Newsletters/Marketing/Entertainment/Rock The Boat"
     },
     {
       "type": "set_keywords",

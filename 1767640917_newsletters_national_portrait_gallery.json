@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb National Portrait Gallery",
+  "name": "Newsletters » Marketing » Art » National Portrait Gallery",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/National Portrait Gallery"
+      "target": "Newsletters/Marketing/Art/National Portrait Gallery"
     },
     {
       "type": "set_keywords",

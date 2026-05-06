@@ -1,6 +1,6 @@
 {
-  "name": "Events \u00bb Soulcycle",
-  "priority": 100,
+  "name": "Events » Soulcycle",
+  "priority": 90,
   "conditions": {
     "any": [
       {

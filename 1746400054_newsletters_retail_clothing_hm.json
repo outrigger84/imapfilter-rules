@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Clothing \u00bb H&M",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@cs.hm.com"
+      },
+      {
+        "header": "from",
+        "contains": "@hm.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Clothing/H&M"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

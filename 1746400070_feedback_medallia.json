@@ -1,0 +1,37 @@
+{
+  "name": "Feedback \u00bb Medallia",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@express.ger.medallia.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@medallia.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@medallia.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Medallia"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Customer experience survey platform",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

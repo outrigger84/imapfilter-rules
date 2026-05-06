@@ -1,0 +1,38 @@
+{
+  "name": "Travel » Trips » 2026 - Riga Hyrox",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Riga"
+      },
+      {
+        "header": "subject",
+        "contains": "Latvia"
+      },
+      {
+        "header": "subject",
+        "contains": "Hyrox"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2026 - Riga Hyrox"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "Future trip — no emails expected yet. Rule ready for when bookings arrive.",
+    "Template: to add future trips, copy this file, set city/country keywords and folder name."
+  ]
+}

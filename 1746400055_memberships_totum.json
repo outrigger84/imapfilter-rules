@@ -1,0 +1,33 @@
+{
+  "name": "Memberships \u00bb Totum",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@e-mail.totum.com"
+      },
+      {
+        "header": "from",
+        "contains": "@totum.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Memberships/Totum"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Student/graduate discount card",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

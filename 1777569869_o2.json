@@ -1,7 +1,7 @@
 {
   "name": "O2",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

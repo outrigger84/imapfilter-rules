@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Good Gadget Deals",
+  "name": "Newsletters » Marketing » Tech » Good Gadget Deals",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Good Gadget Deals"
+      "target": "Newsletters/Marketing/Tech/Good Gadget Deals"
     },
     {
       "type": "set_keywords",

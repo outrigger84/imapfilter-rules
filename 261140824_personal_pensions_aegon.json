@@ -1,12 +1,16 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Pensions \u00bb Aegon",
+  "name": "Personal » Finance » Pensions » Aegon",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "donotreply@aegon.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "donotreplyonlinedocstorenotification@aegon.co.uk"
       }
     ]
   },

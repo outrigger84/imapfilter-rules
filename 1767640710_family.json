@@ -1,7 +1,7 @@
 {
   "name": "Family",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -71,6 +71,22 @@
       {
         "header": "from",
         "contains": "judith.mcgrath@handleman.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "liz@lizmart.plus.com"
+      },
+      {
+        "header": "from",
+        "contains": "beelzababe@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "litteldevil66@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "newscientist@processrequest.com"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
-  "name": "Travel \u00bb Flights \u00bb General",
+  "name": "Travel » Flights » General",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

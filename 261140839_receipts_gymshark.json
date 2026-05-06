@@ -1,7 +1,7 @@
 {
-  "name": "Receipts \u00bb Retail \u00bb Clothing \u00bb Gymshark",
+  "name": "Receipts » Retail » Clothing » Gymshark",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

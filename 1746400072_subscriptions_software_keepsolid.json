@@ -1,0 +1,33 @@
+{
+  "name": "Subscriptions \u00bb Software \u00bb KeepSolid",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@service.keepsolid.com"
+      },
+      {
+        "header": "from",
+        "contains": "@keepsolid.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Software/KeepSolid"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "VPN Unlimited / KeepSolid software",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

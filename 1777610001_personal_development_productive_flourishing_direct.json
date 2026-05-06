@@ -1,0 +1,30 @@
+{
+  "name": "Personal Development \u00bb Productive Flourishing \u00bb Direct",
+  "enabled": true,
+  "priority": 110,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@productiveflourishing.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal Development/Productive Flourishing"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Covers charlie@productiveflourishing.com and info@productiveflourishing.com",
+    "Priority 110 to run before the generic substack catch-all",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

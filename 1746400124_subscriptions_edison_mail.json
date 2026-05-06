@@ -1,0 +1,29 @@
+{
+  "name": "Subscriptions \u00bb Edison Mail",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@edisonmail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Edison Mail"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Edison Mail app welcome and subscription notifications"
+  ]
+}

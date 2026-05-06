@@ -1,0 +1,28 @@
+{
+  "name": "Property » Renovations » EnvironmentUK (Mayne)",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@environmentuk.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/Renovations"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Tony Mayne (tmayne@environmentuk.com) — contact form replies related to property renovations"
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Buddyboost",
+  "name": "Newsletters » Marketing » Fitness » Buddyboost",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Buddyboost"
+      "target": "Newsletters/Marketing/Fitness/Buddyboost"
     }
   ],
   "comments": [

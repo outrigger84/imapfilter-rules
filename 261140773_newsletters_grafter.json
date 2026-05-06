@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb Grafter",
+  "name": "Newsletters » Marketing » Work » Grafter",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Grafter"
+      "target": "Newsletters/Marketing/Work/Grafter"
     },
     {
       "type": "set_keywords",

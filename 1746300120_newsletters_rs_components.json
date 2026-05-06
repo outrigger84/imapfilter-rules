@@ -1,0 +1,33 @@
+{
+  "name": "Newsletters » Marketing » Tech » RS Components",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@rswww.com"
+      },
+      {
+        "header": "from",
+        "contains": "@rs-components.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/RS Components"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Electronics and industrial components distributor",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

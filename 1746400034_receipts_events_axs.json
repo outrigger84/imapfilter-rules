@@ -1,0 +1,29 @@
+{
+  "name": "Receipts » Events » AXS",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@boxoffice.axs.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Events/AXS"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "AXS UK ticket purchase receipts (boxoffice.axs.co.uk). Other AXS domains already covered by Notifications/AXS and Support/AXS rules."
+  ]
+}

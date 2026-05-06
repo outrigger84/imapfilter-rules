@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@join.netflix.com"
+      },
+      {
+        "header": "from",
+        "contains": "@account.netflix.com"
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Charity » Battersea",
+  "name": "Newsletters » Topics » Charity » Battersea",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Charity/Battersea"
+      "target": "Newsletters/Topics/Charity/Battersea"
     },
     {
       "type": "set_keywords",

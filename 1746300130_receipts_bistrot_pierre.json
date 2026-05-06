@@ -1,0 +1,32 @@
+{
+  "name": "Receipts \u00bb Bistrot Pierre",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "no-reply@pepperhq.com"
+      },
+      {
+        "header": "from",
+        "contains": "Bistrot Pierre"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Bistrot Pierre"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

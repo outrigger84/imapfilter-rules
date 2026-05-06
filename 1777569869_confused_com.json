@@ -1,5 +1,5 @@
 {
-  "name": "Confused-com",
+  "name": "Newsletters » Marketing » Finance » Confused",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Confused"
+      "target": "Newsletters/Marketing/Finance/Confused"
     }
   ],
   "comments": [

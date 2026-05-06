@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Airalo",
+  "name": "Newsletters » Marketing » Travel » Airalo",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Newsletters/Airalo"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/Airalo"
+    }
   ]
 }

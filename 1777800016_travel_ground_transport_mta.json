@@ -1,0 +1,32 @@
+{
+  "name": "Travel » Ground Transport » MTA TrainTime",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mta.info"
+      },
+      {
+        "header": "from",
+        "contains": "_at_mta_info_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/MTA"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "MTA TrainTime NYC transit app notifications — via iCloud private relay"
+  ]
+}

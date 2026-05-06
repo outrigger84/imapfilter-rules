@@ -11,6 +11,18 @@
       {
         "header": "from",
         "contains": "@ebay.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@info.ebay.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@members.ebay.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@members.ebay.com"
       }
     ]
   },

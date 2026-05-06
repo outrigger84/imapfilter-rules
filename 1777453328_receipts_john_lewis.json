@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "admin@ecrebo.com"
+      },
+      {
+        "header": "from",
+        "contains": "@vexrewards.com"
       }
     ]
   },

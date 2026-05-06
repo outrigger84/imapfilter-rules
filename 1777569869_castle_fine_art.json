@@ -1,5 +1,5 @@
 {
-  "name": "Castle Fine Art",
+  "name": "Newsletters » Marketing » Art » Castle Fine Art",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Castle Fine Art"
+      "target": "Newsletters/Marketing/Art/Castle Fine Art"
     }
   ],
   "comments": [

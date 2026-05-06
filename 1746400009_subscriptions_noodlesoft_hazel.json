@@ -1,0 +1,29 @@
+{
+  "name": "Subscriptions \u00bb Noodlesoft Hazel",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@noodlesoft.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Noodlesoft Hazel"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Noodlesoft Hazel mac automation software newsletters/updates"
+  ]
+}

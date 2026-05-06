@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "hello_at_cheddar_me_"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply_at_cheddar_me_"
       }
     ]
   },

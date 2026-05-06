@@ -1,0 +1,29 @@
+{
+  "name": "Subscriptions \u00bb CodeShy",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@codeshy.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/CodeShy"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "NZB Indexer subscription",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

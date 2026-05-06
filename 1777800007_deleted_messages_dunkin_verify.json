@@ -1,0 +1,25 @@
+{
+  "name": "Dunkin Verify Email >> Deleted Messages",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "_at_yoyowallet_com_"
+      },
+      {
+        "age_days_gt": 1
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Dunkin loyalty app (via yoyowallet.com) email verification codes — auto-cleanup after 1 day"
+  ]
+}

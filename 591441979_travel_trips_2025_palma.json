@@ -1,0 +1,37 @@
+{
+  "name": "Travel » Trips » 2025 - Palma",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Palma"
+      },
+      {
+        "header": "subject",
+        "contains": "Majorca"
+      },
+      {
+        "header": "subject",
+        "contains": "Mallorca"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2025 - Palma"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "TripIt 'your trip to Palma, Spain is starting soon!' confirmed in cache."
+  ]
+}

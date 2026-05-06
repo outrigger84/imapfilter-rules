@@ -1,0 +1,29 @@
+{
+  "name": "Notifications \u00bb Auctiva",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@auctiva.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Auctiva"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "eBay listing and store management tool",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

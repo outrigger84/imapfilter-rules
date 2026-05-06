@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Banking \u00bb Santander",
+  "name": "Personal » Finance » Banking » Santander",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Santander"
+      "target": "Personal/Finance/Banking/Santander"
     },
     {
       "type": "set_keywords",

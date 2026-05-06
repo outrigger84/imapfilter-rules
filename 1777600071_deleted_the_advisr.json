@@ -1,0 +1,26 @@
+{
+  "name": "Deleted Messages \u00bb The Advisr",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mb.the-advisr.com"
+      },
+      {
+        "header": "from",
+        "contains": "@the-advisr.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

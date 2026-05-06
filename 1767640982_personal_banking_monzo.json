@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Banking \u00bb Monzo",
+  "name": "Personal » Finance » Banking » Monzo",
   "priority": 100,
   "conditions": {
     "any": [
@@ -11,7 +11,7 @@
   },
   "action": {
     "type": "move",
-    "target": "Personal/Banking/Monzo"
+    "target": "Personal/Finance/Banking/Monzo"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
@@ -19,7 +19,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Monzo"
+      "target": "Personal/Finance/Banking/Monzo"
     }
   ]
 }

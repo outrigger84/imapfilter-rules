@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Huel",
+  "name": "Newsletters » Marketing » Food » Huel",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -14,11 +14,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Newsletters/Huel"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Huel"
+    }
   ]
 }

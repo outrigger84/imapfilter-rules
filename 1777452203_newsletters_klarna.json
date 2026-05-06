@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Klarna",
+  "name": "Newsletters » Marketing » Finance » Klarna",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Klarna"
+      "target": "Newsletters/Marketing/Finance/Klarna"
     },
     {
       "type": "set_keywords",

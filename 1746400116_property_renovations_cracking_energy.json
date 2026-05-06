@@ -1,0 +1,29 @@
+{
+  "name": "Property \u00bb Renovations \u00bb Cracking Energy",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@crackingenergy.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/Renovations/Cracking Energy"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Cracking Energy solar installation quotes"
+  ]
+}

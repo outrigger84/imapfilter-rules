@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Banking \u00bb Barclays",
+  "name": "Personal » Finance » Banking » Barclays",
   "priority": 100,
   "conditions": {
     "any": [
@@ -19,7 +19,7 @@
   },
   "action": {
     "type": "move",
-    "target": "Personal/Banking/Barclays"
+    "target": "Personal/Finance/Banking/Barclays"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
@@ -27,7 +27,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Barclays"
+      "target": "Personal/Finance/Banking/Barclays"
     }
   ]
 }

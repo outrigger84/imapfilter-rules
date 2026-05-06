@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Crypto.com",
+  "name": "Newsletters » Marketing » Finance » Crypto.com",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Crypto-com"
+      "target": "Newsletters/Marketing/Finance/Crypto-com"
     },
     {
       "type": "set_keywords",

@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Airofit",
+  "name": "Newsletters » Marketing » Fitness » Airofit",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Newsletters/Airofit"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Fitness/Airofit"
+    }
   ]
 }

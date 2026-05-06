@@ -1,0 +1,65 @@
+{
+  "name": "Travel » Trips » 2025 - Disney",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Walt Disney World"
+          },
+          {
+            "header": "subject",
+            "contains": "Disney World"
+          },
+          {
+            "header": "subject",
+            "contains": "Disney Springs"
+          },
+          {
+            "header": "subject",
+            "contains": "Disney Resort"
+          },
+          {
+            "header": "subject",
+            "contains": "Disneyland"
+          },
+          {
+            "header": "from",
+            "contains": "wdtc-uk@disneyinternational.com"
+          },
+          {
+            "header": "from",
+            "contains": "disney@mail.disney.co.uk"
+          }
+        ]
+      },
+      {
+        "not": {
+          "header": "from",
+          "contains": "disneyplus.com"
+        }
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2025 - Disney"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "TripIt itinerary for 'Walt Disney World 2025 Booking Confirmation' confirmed in cache.",
+    "Guard: excludes disneyplus.com senders (streaming emails found as false positives in cache).",
+    "Using specific 'Walt Disney World'/'Disney World' rather than bare 'Disney' to reduce false positives."
+  ]
+}

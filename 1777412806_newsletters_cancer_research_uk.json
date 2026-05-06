@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Cancer Research UK",
+  "name": "Newsletters » Topics » Charity » Cancer Research UK",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Cancer Research UK"
+      "target": "Newsletters/Topics/Charity/Cancer Research UK"
     },
     {
       "type": "set_keywords",

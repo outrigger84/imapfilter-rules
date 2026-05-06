@@ -1,7 +1,7 @@
 {
   "name": "Friends",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -879,6 +879,22 @@
       {
         "header": "from",
         "contains": "zacfrack@mac.com"
+      },
+      {
+        "header": "from",
+        "contains": "thomas.constant@openreach.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "paulrattew@deloitte.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "joelsegal@hotmail.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "marybrennanrfp@gmail.com"
       }
     ]
   },
@@ -896,6 +912,6 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Merged from 5 Friends rules \u2014 218 unique senders; 18 added 2026-04-30; janeevans100@outlook.com added 2026-04-30"
+    "Merged from 5 Friends rules — 218 unique senders; 18 added 2026-04-30; janeevans100@outlook.com added 2026-04-30"
   ]
 }

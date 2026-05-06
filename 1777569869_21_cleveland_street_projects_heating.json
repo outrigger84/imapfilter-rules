@@ -1,7 +1,7 @@
 {
   "name": "21 Cleveland Street » Projects » Heating",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -18,7 +18,15 @@
       },
       {
         "header": "from",
-        "contains": "daniel.jones@am-energy.com"
+        "contains": "@am-energy.com"
+      },
+      {
+        "header": "from",
+        "contains": "@ffhuk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@fischer-futureheat.co.uk"
       }
     ]
   },

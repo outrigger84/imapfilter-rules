@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Health \u00bb Hume Health",
+  "name": "Newsletters » Marketing » Health » Hume Health",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

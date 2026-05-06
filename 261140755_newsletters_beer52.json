@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Beer52",
+  "name": "Newsletters » Marketing » Food » Beer52",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -25,7 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Beer52"
+      "target": "Newsletters/Marketing/Food/Beer52"
     },
     {
       "type": "set_keywords",

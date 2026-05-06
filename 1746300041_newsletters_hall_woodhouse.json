@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Marketing » Restaurants » Hall and Woodhouse",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@updates.hall-woodhouse.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@hall-woodhouse.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Restaurants/Hall and Woodhouse"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Travel \u00bb Hotels",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@nor1upgrades.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mews.li"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Hotels"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "nor1upgrades.com: hotel upgrade offers; mews.li: hotel check-in verification codes",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

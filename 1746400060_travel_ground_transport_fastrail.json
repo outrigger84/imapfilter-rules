@@ -1,0 +1,29 @@
+{
+  "name": "Travel \u00bb Ground Transport \u00bb FastRail",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@fastrailticketing.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Ground Transport/FastRail"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Fast Rail Ticketing train ticket refund claims"
+  ]
+}

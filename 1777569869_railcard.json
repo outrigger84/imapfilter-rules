@@ -1,7 +1,7 @@
 {
-  "name": "Railcard",
+  "name": "Newsletters » Marketing » Travel » Railcard",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Railcard"
+      "target": "Newsletters/Marketing/Travel/Railcard"
     }
   ],
   "comments": [

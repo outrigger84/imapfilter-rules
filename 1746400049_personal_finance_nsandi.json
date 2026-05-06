@@ -1,0 +1,29 @@
+{
+  "name": "Personal \u00bb Finance \u00bb NS&I",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@nsandi.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/NS&I"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "NS&I Premium Bonds and savings",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Receipts \u00bb Retail \u00bb Sendcloud",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@sendcloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Sendcloud"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Sendcloud shipping platform delivery notifications"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Subscriptions \u00bb Edenred",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@edenred.com"
+      },
+      {
+        "header": "from",
+        "contains": "@edenred.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@edenred.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Edenred"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Employee benefits platform (meal vouchers, perks)",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

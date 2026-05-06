@@ -1,6 +1,6 @@
 {
-  "name": "Jobs \u00bb Current \u00bb UoE Exams",
-  "priority": 100,
+  "name": "Jobs » Current » UoE Exams",
+  "priority": 90,
   "conditions": {
     "any": [
       {

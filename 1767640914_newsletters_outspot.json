@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » OutSpot",
+  "name": "Newsletters » Marketing » Retail » OutSpot",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -10,11 +10,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Newsletters/OutSpot"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/OutSpot"
+    }
   ]
 }

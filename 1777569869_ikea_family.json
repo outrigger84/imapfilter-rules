@@ -1,7 +1,7 @@
 {
-  "name": "Ikea Family",
+  "name": "Newsletters » Marketing » Retail » Ikea Family",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Ikea Family"
+      "target": "Newsletters/Marketing/Retail/Ikea Family"
     }
   ],
   "comments": [

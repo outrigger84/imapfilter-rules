@@ -1,5 +1,5 @@
 {
-  "name": "Personal Finance » Store Credit » Splitit",
+  "name": "Personal » Finance » Store Credit » Splitit",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal Finance/Store Credit/Splitit"
+      "target": "Personal/Finance/Store Credit/Splitit"
     },
     {
       "type": "set_keywords",

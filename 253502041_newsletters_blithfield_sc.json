@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Blithfield SC",
+  "name": "Newsletters » Marketing » Outdoors » Blithfield SC",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Blithfield SC"
+      "target": "Newsletters/Marketing/Outdoors/Blithfield SC"
     },
     {
       "type": "set_keywords",

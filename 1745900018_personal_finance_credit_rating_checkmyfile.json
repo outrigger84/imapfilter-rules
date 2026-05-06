@@ -1,5 +1,5 @@
 {
-  "name": "Personal Finance » Credit Rating » CheckMyFile",
+  "name": "Personal » Finance » Credit Rating » CheckMyFile",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal Finance/Credit Rating/CheckMyFile"
+      "target": "Personal/Finance/Credit Rating/CheckMyFile"
     },
     {
       "type": "set_keywords",

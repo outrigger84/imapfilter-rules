@@ -35,6 +35,10 @@
       {
         "header": "from",
         "contains": "noreply_recruitment@metoffice.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@metoffice.gov.uk"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
-  "name": "Pensions » Civil Service Pension",
+  "name": "Personal » Finance » Pensions » Civil Service Pension",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Pensions/Civil Service Pension"
+      "target": "Personal/Finance/Pensions/Civil Service Pension"
     }
   ],
   "comments": [

@@ -1,0 +1,22 @@
+{
+  "name": "Scam >> Deleted Messages (eBay Transaction scam)",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "relevant_saho@icloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Fake eBay transaction confirmation emails — scam sender using iCloud address"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Holister",
+  "name": "Newsletters » Marketing » Retail » Holister",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Holister"
+      "target": "Newsletters/Marketing/Retail/Holister"
     }
   ],
   "comments": [

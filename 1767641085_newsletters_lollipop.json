@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "at_lollipopai_com_f1pckcm2yafft2_r4q20336@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_lollipopai_com_"
       }
     ]
   },

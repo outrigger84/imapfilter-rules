@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Banking » Monzo",
+  "name": "Personal » Finance » Banking » Monzo",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Monzo"
+      "target": "Personal/Finance/Banking/Monzo"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,29 @@
+{
+  "name": "Notifications \u00bb Account Verification",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@gigya-raas.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Account Verification"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "SAP Gigya identity platform used by various services for SSO/account verification",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

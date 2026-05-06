@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters » Uber",
+  "name": "Newsletters » Marketing » Travel » Uber",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -18,11 +18,13 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "Newsletters/Uber"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/Uber"
+    }
   ]
 }

@@ -31,6 +31,14 @@
       {
         "header": "from",
         "contains": "verify_at_reallymoving_com_prva0b8q817a5s_m6bs6453@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "webchat_at_myhomemove_com_prv8148q8e135s_macs6453@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "marcel.jama_at_muve_me_uk_prv33a8q8c225s_m37s6453@icloud.com"
       }
     ]
   },

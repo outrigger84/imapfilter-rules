@@ -1,0 +1,44 @@
+{
+  "name": "Travel » Trips » 2024 - Jan NYC",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "New York"
+          },
+          {
+            "header": "subject",
+            "contains": "NYC"
+          }
+        ]
+      },
+      {
+        "age_days_gt": 820
+      },
+      {
+        "age_days_lt": 960
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2024 - Jan NYC"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "Date-bounded: Oct 2023 - Feb 2024 (820-960 days before May 2026). Booking.com NYC hotel confirmations confirmed in cache.",
+    "NOTE: age_days bounds become stale over time — update if re-running rules later"
+  ]
+}

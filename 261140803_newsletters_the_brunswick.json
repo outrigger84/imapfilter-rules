@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb The Brunswick",
+  "name": "Newsletters » Marketing » Restaurants » The Brunswick",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/The Brunswick"
+      "target": "Newsletters/Marketing/Restaurants/The Brunswick"
     },
     {
       "type": "set_keywords",

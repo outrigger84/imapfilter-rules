@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Banking » Chip",
+  "name": "Personal » Finance » Banking » Chip",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,13 +11,17 @@
       {
         "header": "from",
         "contains": "@mail.getchip.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@info.getchip.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Chip"
+      "target": "Personal/Finance/Banking/Chip"
     },
     {
       "type": "set_keywords",

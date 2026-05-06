@@ -1,6 +1,6 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb Apple Taxies",
-  "priority": 100,
+  "name": "Travel » Ground Transport » Apple Taxies",
+  "priority": 90,
   "conditions": {
     "any": [
       {

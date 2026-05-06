@@ -1,0 +1,36 @@
+{
+  "name": "Notifications » Too Good To Go",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@toogoodtogo.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.toogoodtogo.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_mail_toogoodtogo_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Too Good To Go"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Too Good To Go food waste app notifications — via iCloud private relay"
+  ]
+}

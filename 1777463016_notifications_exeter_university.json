@@ -1,7 +1,7 @@
 {
-  "name": "Notifications \u00bb Exeter University",
+  "name": "Notifications » Exeter University",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

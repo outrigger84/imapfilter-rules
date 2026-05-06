@@ -1,0 +1,29 @@
+{
+  "name": "Receipts \u00bb Retail \u00bb Therabody",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@t.uk.therabody.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Therabody"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Therabody (Theragun) order confirmations"
+  ]
+}

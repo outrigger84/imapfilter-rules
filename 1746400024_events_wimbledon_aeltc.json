@@ -1,0 +1,37 @@
+{
+  "name": "Events \u00bb Wimbledon",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@aeltchelp.zendesk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@aeltc.com"
+      },
+      {
+        "header": "from",
+        "contains": "@wimbledon.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Events/Wimbledon"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "All England Lawn Tennis Club / Wimbledon",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

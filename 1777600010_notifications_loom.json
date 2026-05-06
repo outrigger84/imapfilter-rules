@@ -1,0 +1,36 @@
+{
+  "name": "Notifications \u00bb Loom",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "no-reply_at_loom_com_twxctw5c29_38a2a443@privaterelay.appleid.com"
+      },
+      {
+        "header": "from",
+        "contains": "Loom Team"
+      },
+      {
+        "header": "from",
+        "contains": "@loom.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Loom"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

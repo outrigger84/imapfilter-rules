@@ -1,0 +1,32 @@
+{
+  "name": "Notifications » Surveys » Toluna",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@tolunastart.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_tolunastart_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Surveys"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Harris Interactive / Toluna survey panel invites — via iCloud private relay"
+  ]
+}

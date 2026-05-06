@@ -1,0 +1,29 @@
+{
+  "name": "Travel \u00bb Accommodation \u00bb Catalonia Hotels",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@nw.cataloniarewards.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation/Catalonia Hotels"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Catalonia Hotels loyalty rewards program"
+  ]
+}

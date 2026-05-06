@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Property » St Leonards Quarter",
+  "name": "Newsletters » Marketing » Property » St Leonards Quarter",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Property/St Leonards Quarter"
+      "target": "Newsletters/Marketing/Property/St Leonards Quarter"
     },
     {
       "type": "set_keywords",

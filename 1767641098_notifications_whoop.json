@@ -1,7 +1,7 @@
 {
-  "name": "Notifications \u00bb Whoop",
+  "name": "Notifications » Whoop",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

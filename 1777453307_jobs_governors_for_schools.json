@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@governorsforschools.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@exminsterschool.co.uk"
       }
     ]
   },

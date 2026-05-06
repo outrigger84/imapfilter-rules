@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » LinkedIn",
+  "name": "Newsletters » Marketing » Work » LinkedIn",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/LinkedIn"
+      "target": "Newsletters/Marketing/Work/LinkedIn"
     },
     {
       "type": "set_keywords",

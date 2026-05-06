@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Purchase/Solicitors/WBW"
+      "target": "21 Cleveland Street/Purchase/Solicitors"
     },
     {
       "type": "set_keywords",

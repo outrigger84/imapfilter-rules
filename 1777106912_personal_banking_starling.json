@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Banking » Starling",
+  "name": "Personal » Finance » Banking » Starling",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Starling"
+      "target": "Personal/Finance/Banking/Starling"
     },
     {
       "type": "set_keywords",

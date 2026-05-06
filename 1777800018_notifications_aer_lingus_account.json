@@ -1,0 +1,33 @@
+{
+  "name": "Notifications » Aer Lingus » Account Security",
+  "enabled": true,
+  "priority": 110,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "securemyaccount@aerlingus.com"
+      },
+      {
+        "header": "from",
+        "contains": "remind-username@aerlingus.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Aer Lingus"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "Priority 110: must run before the flights rule which explicitly excludes these addresses",
+    "Aer Lingus account security and username reminder emails"
+  ]
+}

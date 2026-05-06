@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@eventim.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@newsletter.eventim.co.uk"
       }
     ]
   },

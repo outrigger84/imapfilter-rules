@@ -1,0 +1,33 @@
+{
+  "name": "Health \u00bb Services \u00bb Simplyhealth",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@m.simplyhealth.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@customerservices.simplyhealth.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Health/Services/Simplyhealth"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Simplyhealth dental/health plan benefit reminders and account updates"
+  ]
+}

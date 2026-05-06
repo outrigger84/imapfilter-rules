@@ -1,0 +1,33 @@
+{
+  "name": "Travel \u00bb Finance \u00bb Fly Now Pay Later",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@flynowpaylater.com"
+      },
+      {
+        "header": "from",
+        "contains": "@fly-now-pay-later-baf80451b232.intercom-mail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Finance/Fly Now Pay Later"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Buy Now Pay Later service for travel bookings",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

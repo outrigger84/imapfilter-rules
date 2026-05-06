@@ -1,0 +1,32 @@
+{
+  "name": "Notifications » Hornet",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@gethornet.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_gethornet_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Hornet"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain30"
+      ]
+    }
+  ],
+  "comments": [
+    "The Hornet Team social app notifications — via iCloud private relay"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Finance \u00bb Comparison \u00bb MoneySupermarket",
+  "name": "Personal » Finance » Comparison » MoneySupermarket",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Finance/Comparison/MoneySupermarket"
+      "target": "Personal/Finance/Comparison/MoneySupermarket"
     },
     {
       "type": "set_keywords",

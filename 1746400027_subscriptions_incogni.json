@@ -1,0 +1,33 @@
+{
+  "name": "Subscriptions \u00bb Incogni",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@dsr.incogni.com"
+      },
+      {
+        "header": "from",
+        "contains": "@incogni.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Incogni"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Data removal service",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

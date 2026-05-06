@@ -1,7 +1,7 @@
 {
   "name": "Purchase » 21 Cleveland St » Survey",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -23,6 +23,14 @@
       {
         "header": "from",
         "contains": "jason@sterensurveyors.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "peter_at_sterensurveyors_co_uk_8k8cppyfc44414_9a1083fe@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "lyndsy_at_coseyhomes_co_uk_8k8cppyfc44414_05d34fa7@icloud.com"
       }
     ]
   },

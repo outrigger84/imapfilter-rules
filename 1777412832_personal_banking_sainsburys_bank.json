@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Banking » Sainsbury's Bank",
+  "name": "Personal » Finance » Banking » Sainsbury's Bank",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Sainsburys Bank"
+      "target": "Personal/Finance/Banking/Sainsburys Bank"
     },
     {
       "type": "set_keywords",

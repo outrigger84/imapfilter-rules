@@ -1,6 +1,6 @@
 {
   "name": "Jobs » Search » Linkedin Jobs",
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

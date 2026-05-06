@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Raylo",
+  "name": "Newsletters » Marketing » Tech » Raylo",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Raylo"
+      "target": "Newsletters/Marketing/Tech/Raylo"
     },
     {
       "type": "set_keywords",

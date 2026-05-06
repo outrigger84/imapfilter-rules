@@ -6,6 +6,10 @@
       {
         "header": "from",
         "contains": "noreply-uk@klarna.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@m.klarna.com"
       }
     ]
   },

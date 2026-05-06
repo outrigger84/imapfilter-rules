@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Acomodation \u00bb AirBnB",
+  "name": "Travel \u00bb Accommodation \u00bb AirBnB",
   "priority": 100,
   "conditions": {
     "any": [
@@ -11,7 +11,7 @@
   },
   "action": {
     "type": "move",
-    "target": "Travel/Acomodation/AirBnB"
+    "target": "Travel/Accommodation/AirBnB"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
@@ -19,7 +19,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Acomodation/AirBnB"
+      "target": "Travel/Accommodation/AirBnB"
     }
   ]
 }

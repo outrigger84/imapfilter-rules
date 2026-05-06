@@ -1,0 +1,29 @@
+{
+  "name": "Receipts \u00bb MyCommerce",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mycommerce.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/MyCommerce"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Software purchase receipts via MyCommerce platform",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Receipts \u00bb Restaurants \u00bb Cafe Mangos",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@cafemangos.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Restaurants/Cafe Mangos"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Cafe Mangos restaurant booking/event correspondence"
+  ]
+}

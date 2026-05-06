@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Purchase/Surveyors/Steren"
+      "target": "21 Cleveland Street/Purchase/Surveyors"
     },
     {
       "type": "set_keywords",

@@ -1,0 +1,26 @@
+{
+  "name": "Phishing >> Deleted Messages (DVLA scams)",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@bma.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@casa-verano-eterno.be"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "DVLA phishing emails — fake 'unpaid circulation charge' and 'information request' scams"
+  ]
+}

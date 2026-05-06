@@ -1,23 +1,27 @@
 {
-  "name": "Personal » Finance » Pension » USS",
+  "name": "Personal » Finance » Pensions » USS",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
+        "contains": "@uss.co.uk"
+      },
+      {
+        "header": "from",
         "contains": "@news.uss.co.uk"
       },
       {
         "header": "from",
-        "contains": "@uss.co.uk"
+        "contains": "@updates.uss.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Finance/Pension/USS"
+      "target": "Personal/Finance/Pensions/USS"
     },
     {
       "type": "set_keywords",

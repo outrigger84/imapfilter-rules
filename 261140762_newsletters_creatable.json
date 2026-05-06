@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Creatable",
+  "name": "Newsletters » Marketing » Tech » Creatable",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Creatable"
+      "target": "Newsletters/Marketing/Tech/Creatable"
     },
     {
       "type": "set_keywords",

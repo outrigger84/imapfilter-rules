@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@em.virginmedia.com"
+      },
+      {
+        "header": "from",
+        "contains": "@notifications.virginmedia.co.uk"
       }
     ]
   },

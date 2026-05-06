@@ -1,0 +1,20 @@
+{
+  "name": "Notifications » Airalo",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@airalo.com"
+      }
+    ]
+  },
+  "actions": [
+    { "type": "move", "target": "Notifications/Airalo" }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Catch-all for data alerts, account notifications, eSIM emails from noreply@airalo.com"
+  ]
+}

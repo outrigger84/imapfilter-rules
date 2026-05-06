@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@oliverbonas.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.oliverbonas.com"
       }
     ]
   },

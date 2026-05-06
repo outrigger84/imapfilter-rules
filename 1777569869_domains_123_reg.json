@@ -1,7 +1,7 @@
 {
   "name": "Domains » 123 Reg",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

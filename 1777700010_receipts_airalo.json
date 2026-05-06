@@ -1,0 +1,46 @@
+{
+  "name": "Receipts » Airalo",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "noreply@airalo.com"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "order"
+          },
+          {
+            "header": "subject",
+            "contains": "receipt"
+          },
+          {
+            "header": "subject",
+            "contains": "invoice"
+          },
+          {
+            "header": "subject",
+            "contains": "payment"
+          },
+          {
+            "header": "subject",
+            "contains": "purchase"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Airalo"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

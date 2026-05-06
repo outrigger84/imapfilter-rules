@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb South West Water",
+  "name": "Newsletters » Marketing » Retail » South West Water",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/South West Water"
+      "target": "Newsletters/Marketing/Retail/South West Water"
     },
     {
       "type": "set_keywords",

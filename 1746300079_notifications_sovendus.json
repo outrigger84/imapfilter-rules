@@ -1,0 +1,33 @@
+{
+  "name": "Notifications \u00bb Sovendus",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@appinx.sovendus.com"
+      },
+      {
+        "header": "from",
+        "contains": "@sovendus.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Sovendus"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Post-purchase voucher offers via Sovendus network",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Travel » Trips » 2024 - Athens",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Athens"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2024 - Athens"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "TripIt emails confirmed: 'your trip to Athens, Greece is starting soon!'"
+  ]
+}

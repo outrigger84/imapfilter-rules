@@ -1,0 +1,33 @@
+{
+  "name": "Notifications \u00bb Hushed",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@hushed.zendesk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@hushed.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Hushed"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Private phone number app",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

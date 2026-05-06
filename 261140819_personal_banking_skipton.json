@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Banking \u00bb Skipton",
+  "name": "Personal » Finance » Banking » Skipton",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Skipton"
+      "target": "Personal/Finance/Banking/Skipton"
     },
     {
       "type": "set_keywords",

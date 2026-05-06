@@ -1,7 +1,7 @@
 {
-  "name": "Marriot Bonvoy",
+  "name": "Newsletters » Marketing » Hotels » Marriot Bonvoy",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marriot Bonvoy"
+      "target": "Newsletters/Marketing/Hotels/Marriot Bonvoy"
     }
   ],
   "comments": [

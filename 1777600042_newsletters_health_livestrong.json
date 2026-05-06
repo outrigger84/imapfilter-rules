@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Marketing » Health » Livestrong",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@specials.livestrong.com"
+      },
+      {
+        "header": "from",
+        "contains": "@livestrong.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Health/Livestrong"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

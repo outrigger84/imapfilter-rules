@@ -1,6 +1,6 @@
 {
-  "name": "Gift Vouchers \u00bb CloudNine",
-  "priority": 100,
+  "name": "Gift Vouchers » CloudNine",
+  "priority": 90,
   "conditions": {
     "all": [
       {

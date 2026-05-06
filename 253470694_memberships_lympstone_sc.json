@@ -14,6 +14,34 @@
       {
         "header": "from",
         "contains": "margaretturgoose@aol.com"
+      },
+      {
+        "header": "from",
+        "contains": "c.scudamore@yahoo.com"
+      },
+      {
+        "header": "from",
+        "contains": "gavandfran@yahoo.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "jmr8374@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "jeffcrompton@btinternet.com"
+      },
+      {
+        "header": "from",
+        "contains": "judith_carter@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "sg.archer@btinternet.com"
+      },
+      {
+        "header": "from",
+        "contains": "tonyday47@outlook.com"
       }
     ]
   },

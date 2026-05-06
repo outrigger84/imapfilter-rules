@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@e.royalmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_royalmail_com_"
       }
     ]
   },

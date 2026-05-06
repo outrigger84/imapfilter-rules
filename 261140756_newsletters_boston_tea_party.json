@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb Boston Tea Party",
+  "name": "Newsletters » Marketing » Restaurants » Boston Tea Party",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Boston Tea Party"
+      "target": "Newsletters/Marketing/Restaurants/Boston Tea Party"
     },
     {
       "type": "set_keywords",

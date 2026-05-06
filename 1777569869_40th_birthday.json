@@ -1,7 +1,7 @@
 {
   "name": "40th Birthday",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -19,6 +19,18 @@
       {
         "header": "from",
         "contains": "events.topshambrewery@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "leah@thehallexeter.org"
+      },
+      {
+        "header": "from",
+        "contains": "info@cafemangos.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "shakib.ahmed.bsn@gmail.com"
       }
     ]
   },

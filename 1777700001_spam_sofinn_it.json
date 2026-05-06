@@ -1,0 +1,23 @@
+{
+  "name": "Spam » sofinn.it",
+  "enabled": true,
+  "priority": 10,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "sofinn.it"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "Spam from wisesupport@sofinn.it"
+  ]
+}

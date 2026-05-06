@@ -1,0 +1,45 @@
+{
+  "name": "Travel » Trips » 2024 - Cyprus",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Cyprus"
+      },
+      {
+        "header": "subject",
+        "contains": "Larnaca"
+      },
+      {
+        "header": "subject",
+        "contains": "Paphos"
+      },
+      {
+        "header": "subject",
+        "contains": "Ayia Napa"
+      },
+      {
+        "header": "subject",
+        "contains": "Limassol"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2024 - Cyprus"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "No booking emails found in cache. Subject-keyword only; refine when providers identified."
+  ]
+}

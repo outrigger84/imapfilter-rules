@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Tate",
+  "name": "Newsletters » Marketing » Art » Tate",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Tate"
+      "target": "Newsletters/Marketing/Art/Tate"
     },
     {
       "type": "set_keywords",

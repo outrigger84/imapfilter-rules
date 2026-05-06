@@ -1,0 +1,30 @@
+{
+  "name": "Spam >> Deleted Messages (Omega WiFi Amp)",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@57145307688512.cgaux.org"
+      },
+      {
+        "header": "from",
+        "contains": "@46695928494418.cgaux.org"
+      },
+      {
+        "header": "from",
+        "contains": "@cgaux.org"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Omega WiFi Amp spam — unsolicited device marketing from randomly-generated cgaux.org subdomains"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Receipts \u00bb Retail \u00bb Food \u00bb COOK",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@cookfood.net"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Food/COOK"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "COOK frozen meals order confirmations"
+  ]
+}

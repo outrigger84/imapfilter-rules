@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb Comic Con",
+  "name": "Newsletters » Marketing » Entertainment » Comic Con",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Comic Con"
+      "target": "Newsletters/Marketing/Entertainment/Comic Con"
     },
     {
       "type": "set_keywords",

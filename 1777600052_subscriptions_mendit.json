@@ -1,0 +1,29 @@
+{
+  "name": "Subscriptions \u00bb MendIT",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mendit.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/MendIT"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Device insurance certificates",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

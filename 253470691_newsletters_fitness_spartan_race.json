@@ -7,13 +7,17 @@
       {
         "header": "from",
         "contains": "spartan.com"
+      },
+      {
+        "header": "from",
+        "contains": "@checkoutsecure.net"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Fitness/Spartan Race"
+      "target": "Fitness/Spartan"
     },
     {
       "type": "set_keywords",

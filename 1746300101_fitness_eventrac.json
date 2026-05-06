@@ -1,0 +1,29 @@
+{
+  "name": "Fitness \u00bb Eventrac",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@eventrac.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Eventrac"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Race entry and event management platform for running and cycling events",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

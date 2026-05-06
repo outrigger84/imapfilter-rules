@@ -1,7 +1,7 @@
 {
-  "name": "Events \u00bb VenueScanner",
+  "name": "Events » VenueScanner",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

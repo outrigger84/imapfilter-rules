@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Banking » Chase",
+  "name": "Personal » Finance » Banking » Chase",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Chase"
+      "target": "Personal/Finance/Banking/Chase"
     },
     {
       "type": "set_keywords",

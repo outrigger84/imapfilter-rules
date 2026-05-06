@@ -1,7 +1,7 @@
 {
-  "name": "Amtrak",
+  "name": "Newsletters » Marketing » Travel » Amtrak",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -25,7 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Amtrak"
+      "target": "Newsletters/Marketing/Travel/Amtrak"
     }
   ],
   "comments": [

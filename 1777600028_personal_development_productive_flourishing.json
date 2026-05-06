@@ -1,0 +1,41 @@
+{
+  "name": "Personal Development \u00bb Productive Flourishing",
+  "enabled": true,
+  "priority": 110,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@digitalproductdelivery.com"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@thrivecart.email"
+          },
+          {
+            "header": "subject",
+            "contains": "Productive Flourishing"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal Development/Productive Flourishing"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Priority 110: subject-split rule for thrivecart must run before catch-all",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

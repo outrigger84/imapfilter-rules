@@ -1,0 +1,45 @@
+{
+  "name": "Travel » Trips » 2022 - Crete",
+  "enabled": false,
+  "priority": 50,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Crete"
+      },
+      {
+        "header": "subject",
+        "contains": "Heraklion"
+      },
+      {
+        "header": "subject",
+        "contains": "Iraklion"
+      },
+      {
+        "header": "subject",
+        "contains": "Chania"
+      },
+      {
+        "header": "subject",
+        "contains": "Rethymno"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Trips/2022 - Crete"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Trip rule — priority 50 beats provider rules at 100",
+    "No confirmed booking providers found; subject-keyword only. Refine if providers identified."
+  ]
+}

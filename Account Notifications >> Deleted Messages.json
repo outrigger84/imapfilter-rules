@@ -1,0 +1,22 @@
+{
+  "name": "Account Notifications >> Deleted Messages",
+  "priority": 50,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "regex": "(?i)\\b(login|log in|sign in|signin|unusual activity|security alert|new device|account activity|username)\\b"
+      },
+      {
+        "age_days_gt": 14
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Deleted Messages"
+  },
+  "comments": [
+    "Cleanup of account and security notification emails after 14 days"
+  ]
+}

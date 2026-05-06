@@ -1,7 +1,7 @@
 {
   "name": "21 Cleveland Street » Projects » Kitchen",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

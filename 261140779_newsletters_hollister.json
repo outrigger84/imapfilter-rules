@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Clothing \u00bb Hollister",
+  "name": "Newsletters » Marketing » Retail » Clothing » Hollister",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

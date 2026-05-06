@@ -1,0 +1,29 @@
+{
+  "name": "Subscriptions \u00bb Software \u00bb Markspace",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@markspace.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Software/Markspace"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Mac sync and mobile software",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

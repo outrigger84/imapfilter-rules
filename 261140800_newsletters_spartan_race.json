@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Fitness/Spartan Race"
+      "target": "Fitness/Spartan"
     },
     {
       "type": "set_keywords",

@@ -1,7 +1,7 @@
 {
-  "name": "Travel \u00bb Flights \u00bb Virgin Atlantic",
+  "name": "Travel » Flights » Virgin Atlantic",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

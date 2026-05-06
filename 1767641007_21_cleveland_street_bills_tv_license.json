@@ -6,6 +6,14 @@
       {
         "header": "from",
         "contains": "confirmation_at_tvlicensing_co_uk_q9n524y7h879hq_y2bk0336@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "TV Licensing"
+      },
+      {
+        "header": "from",
+        "contains": "tvlicensing.co.uk"
       }
     ]
   },

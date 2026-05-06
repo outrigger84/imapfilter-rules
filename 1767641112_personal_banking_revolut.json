@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Banking \u00bb Revolut",
+  "name": "Personal » Finance » Banking » Revolut",
   "priority": 100,
   "conditions": {
     "all": [
@@ -15,7 +15,7 @@
   },
   "action": {
     "type": "move",
-    "target": "Personal/Banking/Revolut"
+    "target": "Personal/Finance/Banking/Revolut"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
@@ -23,7 +23,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/Revolut"
+      "target": "Personal/Finance/Banking/Revolut"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Finance » Comparison » Compare The Market",
+  "name": "Personal » Finance » Comparison » Compare The Market",
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Finance/Comparison/Compare The Market"
+      "target": "Personal/Finance/Comparison/Compare The Market"
     },
     {
       "type": "set_keywords",

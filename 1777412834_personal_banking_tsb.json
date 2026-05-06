@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Banking » TSB",
+  "name": "Personal » Finance » Banking » TSB",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Banking/TSB"
+      "target": "Personal/Finance/Banking/TSB"
     },
     {
       "type": "set_keywords",

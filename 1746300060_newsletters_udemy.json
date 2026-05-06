@@ -1,0 +1,32 @@
+{
+  "name": "Newsletters » Topics » Learning » Udemy",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@e.udemymail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@udemy.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Topics/Learning/Udemy"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Fitness \u00bb Njuko",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@njuko.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Njuko"
+    },
+    {
+      "type": "set_keywords",
+      "keywords": [
+        "Retain365"
+      ]
+    }
+  ],
+  "comments": [
+    "Race entry management platform",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}
