@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/PaperlessPost"
+      "target": "Notifications/Paperless Post"
     }
   ],
   "comments": [

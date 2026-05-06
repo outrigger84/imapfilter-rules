@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/Trainpal"
+      "target": "Travel/Ground Transport/TrainPal"
     }
   ],
   "comments": [

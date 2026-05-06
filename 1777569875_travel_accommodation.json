@@ -19,7 +19,7 @@
   },
   "action": {
     "type": "move",
-    "target": "Travel/accommodation"
+    "target": "Travel/Accommodation"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

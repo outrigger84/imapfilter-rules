@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/TooGoodToGo"
+      "target": "Notifications/Too Good To Go"
     },
     {
       "type": "set_keywords",

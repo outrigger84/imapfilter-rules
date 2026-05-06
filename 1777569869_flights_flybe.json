@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Flights/FlyBe"
+      "target": "Travel/Flights/Flybe"
     }
   ],
   "comments": [

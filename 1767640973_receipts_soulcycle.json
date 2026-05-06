@@ -16,7 +16,7 @@
   },
   "action": {
     "type": "move",
-    "target": "Receipts/Soulcycle"
+    "target": "Receipts/SoulCycle"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
