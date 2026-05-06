@@ -6,7 +6,7 @@
     "all": [
       {
         "header": "subject",
-        "not_regex": "^(Accepted|Declined|Tentative):"
+        "not_regex": "^(Accepted|Declined( \\([^)]+\\))?|Tentative|Cancell?ed|New Time Proposed):"
       },
       {
         "any": [

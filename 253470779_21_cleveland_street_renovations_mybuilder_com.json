@@ -13,10 +13,6 @@
       }
     ]
   },
-  "action": {
-    "type": "move",
-    "target": "21 Cleveland Street/Renovations/MyBuilder-com"
-  },
   "comments": [
     "Created with IMAPFilter Rule Wizard"
   ],

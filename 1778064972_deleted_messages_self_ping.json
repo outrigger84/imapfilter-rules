@@ -1,0 +1,22 @@
+{
+  "name": "Deleted Messages » Self Ping",
+  "enabled": true,
+  "priority": 10,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Self Ping Email"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Auto-deletes Outlook/Exchange self-ping probe emails (RemoveOnDelivery/SuppressSaveInSentItems)"
+  ]
+}

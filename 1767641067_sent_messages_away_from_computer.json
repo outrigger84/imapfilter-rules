@@ -1,7 +1,7 @@
 {
   "name": "Sent Messages \u00bb Away From Computer",
   "enabled": true,
-  "priority": 100,
+  "priority": 45,
   "conditions": {
     "all": [
       {
@@ -101,8 +101,20 @@
         ]
       },
       {
-        "header": "subject",
-        "contains": "Away from Computer"
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Away from Computer"
+          },
+          {
+            "header": "subject",
+            "contains": "Automatic Reply"
+          },
+          {
+            "header": "subject",
+            "contains": "Auto Reply"
+          }
+        ]
       },
       {
         "header": "to",

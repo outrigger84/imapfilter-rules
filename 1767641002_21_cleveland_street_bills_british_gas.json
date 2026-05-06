@@ -15,13 +15,21 @@
           },
           {
             "header": "subject",
-            "not_contains": "PeakSave"
+            "not_regex": "(?i)peak.?save"
           }
         ]
       },
       {
         "header": "from",
         "contains": "@britishgas.flexmr.email"
+      },
+      {
+        "header": "from",
+        "contains": "@cd.britishgas.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@q.britishgas.co.uk"
       }
     ]
   },

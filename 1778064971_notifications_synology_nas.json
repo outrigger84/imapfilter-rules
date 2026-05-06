@@ -1,19 +1,19 @@
 {
-  "name": "Cal Responses",
+  "name": "Notifications » Synology NAS",
   "enabled": true,
   "priority": 40,
   "conditions": {
     "any": [
       {
         "header": "subject",
-        "regex": "(?i)^(Accepted|Declined( \\([^)]+\\))?|Tentative|Cancell?ed|New Time Proposed):"
+        "contains": "[br7-nas.de8.quickconnect.to]"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Cal Responses"
+      "target": "Notifications/Synology"
     },
     {
       "type": "set_keywords",
@@ -23,6 +23,6 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "System notifications from Synology NAS via QuickConnect"
   ]
 }

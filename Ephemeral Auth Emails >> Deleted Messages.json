@@ -1,0 +1,22 @@
+{
+  "name": "Ephemeral Auth Emails >> Deleted Messages",
+  "priority": 40,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "regex": "(?i)\\b(\\d{4,8}\\b.*\\b(code|otp|passcode|verification|security code)|login link|magic link|sign in link|signin link|password reset|reset your password|verify your email|confirm your email|please verify|email verification|confirm your account|activate your account)\\b"
+      },
+      {
+        "age_days_gt": 1
+      }
+    ]
+  },
+  "action": {
+    "type": "move",
+    "target": "Deleted Messages"
+  },
+  "comments": [
+    "Auto-cleanup of 2FA codes, magic links, and password reset emails after 1 day"
+  ]
+}

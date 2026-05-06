@@ -1,5 +1,5 @@
 {
-  "name": "Notifications \u00bb British Gas PeakSave",
+  "name": "21 Cleveland Street \u00bb Bills \u00bb British Gas \u00bb Peak Save",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -10,7 +10,10 @@
       },
       {
         "header": "subject",
-        "contains": "PeakSave"
+        "regex": "(?i)peak.?save"
+      },
+      {
+        "age_days_gt": 3
       }
     ]
   },
@@ -22,11 +25,11 @@
     {
       "type": "set_keywords",
       "keywords": [
-        "Retain30"
+        "Retain365"
       ]
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Peak Save event emails held for 3 days then archived to bills folder"
   ]
 }

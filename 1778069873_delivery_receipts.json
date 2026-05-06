@@ -1,0 +1,25 @@
+{
+  "name": "Delivery Receipts",
+  "enabled": true,
+  "priority": 40,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "regex": "(?i)^Delivered:"
+      },
+      {
+        "age_days_gt": 1
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Delivery Receipts"
+    }
+  ],
+  "comments": [
+    "Move delivery receipt emails to Delivery Receipts after 1 day"
+  ]
+}

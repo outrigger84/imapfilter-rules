@@ -1,5 +1,5 @@
 {
-  "name": "21 Cleveland Street \u00bb Renovations \u00bb Book A Builder",
+  "name": "21 Cleveland Street » Renovations » Book A Builder",
   "priority": 100,
   "conditions": {
     "any": [
@@ -12,10 +12,6 @@
         "contains": "@bookabuilderuk.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "21 Cleveland Street/Renovations/Book A Builder"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

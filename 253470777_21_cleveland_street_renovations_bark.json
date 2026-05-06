@@ -1,5 +1,5 @@
 {
-  "name": "21 Cleveland Street \u00bb Renovations \u00bb Bark",
+  "name": "21 Cleveland Street » Renovations » Bark",
   "priority": 100,
   "conditions": {
     "any": [
@@ -8,10 +8,6 @@
         "contains": "@bark.com"
       }
     ]
-  },
-  "action": {
-    "type": "move",
-    "target": "21 Cleveland Street/Renovations/Bark"
   },
   "comments": [
     "Created with IMAPFilter Rule Wizard"

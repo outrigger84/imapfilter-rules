@@ -1,5 +1,5 @@
 {
-  "name": "21 Cleveland Street \u00bb Renovations",
+  "name": "21 Cleveland Street » Projects",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Renovations"
+      "target": "21 Cleveland Street/Projects"
     },
     {
       "type": "set_keywords",
