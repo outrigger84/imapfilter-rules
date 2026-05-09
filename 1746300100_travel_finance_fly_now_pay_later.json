@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Finance \u00bb Fly Now Pay Later",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

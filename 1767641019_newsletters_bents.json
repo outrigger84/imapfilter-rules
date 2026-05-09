@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Garden » Bents",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

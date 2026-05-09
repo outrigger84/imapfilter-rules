@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Kickstar Tech",
-  "enabled": false,
+  "name": "Notifications » Home » Kickstar Tech",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Kickstar Tech"
+      "target": "Notifications/Home/Kickstar Tech"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Restaurants » Candlemaker",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

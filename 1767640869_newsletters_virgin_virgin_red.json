@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Virgin » Virgin Red",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

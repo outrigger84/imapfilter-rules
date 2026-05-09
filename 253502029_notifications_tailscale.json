@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Tailscale",
-  "enabled": false,
+  "name": "Notifications » Tech » Tailscale",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,16 +17,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Tailscale"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Tech/Tailscale"
     }
   ],
   "comments": [
-    "Private Relay \u2013 Tailscale notifications"
+    "Private Relay – Tailscale notifications"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters \u00bb Marketing \u00bb The Brunswick",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

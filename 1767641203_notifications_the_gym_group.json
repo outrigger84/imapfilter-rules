@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb The Gym Group",
-  "enabled": false,
+  "name": "Notifications » Health » The Gym Group",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "all": [
@@ -65,16 +65,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/The Gym Group"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Health/The Gym Group"
     }
   ],
   "comments": [
-    "Transactional emails split from newsletter rule \u2014 bookings, closures, membership updates"
+    "Transactional emails split from newsletter rule — bookings, closures, membership updates"
   ]
 }

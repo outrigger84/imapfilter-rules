@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Chatfuel",
-  "enabled": false,
+  "name": "Notifications » Tech » Chatfuel",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Chatfuel"
+      "target": "Notifications/Tech/Chatfuel"
     }
   ],
   "comments": [

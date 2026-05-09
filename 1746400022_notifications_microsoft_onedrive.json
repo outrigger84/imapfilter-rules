@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Microsoft",
-  "enabled": false,
+  "name": "Notifications » Tech » Microsoft",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -45,7 +45,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Microsoft"
+      "target": "Notifications/Tech/Microsoft"
     }
   ],
   "comments": [

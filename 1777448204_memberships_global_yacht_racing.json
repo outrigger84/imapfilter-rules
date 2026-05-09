@@ -1,6 +1,6 @@
 {
-  "name": "Memberships \u00bb Global Yacht Racing",
-  "enabled": false,
+  "name": "Newsletters \u00bb Marketing \u00bb Sailing \u00bb Global Yacht Racing",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Memberships/Global Yacht Racing"
+      "target": "Newsletters/Marketing/Sailing/Global Yacht Racing"
     }
   ],
   "comments": [

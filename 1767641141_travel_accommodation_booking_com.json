@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Accommodation \u00bb Booking-com",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

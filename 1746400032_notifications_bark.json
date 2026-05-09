@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Bark",
-  "enabled": false,
+  "name": "Notifications » Services » Bark",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Bark"
+      "target": "Notifications/Services/Bark"
     }
   ],
   "comments": [

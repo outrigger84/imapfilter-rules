@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Starbucks",
-  "enabled": false,
+  "name": "Receipts » Restaurants » Starbucks",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Starbucks"
+      "target": "Receipts/Restaurants/Starbucks"
     }
   ],
   "comments": [

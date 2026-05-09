@@ -1,6 +1,6 @@
 {
-  "name": "Memberships \u00bb Totum",
-  "enabled": false,
+  "name": "Newsletters \u00bb Marketing \u00bb Student Discount \u00bb Totum",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Memberships/Totum"
+      "target": "Newsletters/Marketing/Student Discount/Totum"
     }
   ],
   "comments": [

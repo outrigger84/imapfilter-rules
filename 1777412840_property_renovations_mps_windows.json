@@ -1,7 +1,7 @@
 {
   "name": "21 Cleveland Street » Renovations » MPS Windows",
-  "enabled": false,
-  "priority": 100,
+  "enabled": true,
+  "priority": 90,
   "conditions": {
     "all": [
       {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Renovations/MPS Windows"
+      "target": "Property/21 Cleveland Street/Renovations/MPS Windows"
     }
   ]
 }

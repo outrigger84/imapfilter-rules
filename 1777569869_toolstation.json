@@ -1,6 +1,6 @@
 {
-  "name": "Toolstation",
-  "enabled": false,
+  "name": "Notifications » Shopping » Toolstation",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Toolstation"
+      "target": "Notifications/Shopping/Toolstation"
     }
   ],
   "comments": [

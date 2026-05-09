@@ -1,6 +1,6 @@
 {
   "name": "Subscriptions \u00bb Software \u00bb Objective Development",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Afternic",
-  "enabled": false,
+  "name": "Notifications » Services » Afternic",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Afternic"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        ""
-      ]
+      "target": "Notifications/Services/Afternic"
     }
   ],
   "comments": [

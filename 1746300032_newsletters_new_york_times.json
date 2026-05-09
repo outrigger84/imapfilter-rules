@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Media » New York Times",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

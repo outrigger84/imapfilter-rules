@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Tech » Made Tech",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Property \u00bb Rental \u00bb Tenancy Deposit Scheme",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

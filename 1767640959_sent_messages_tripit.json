@@ -1,6 +1,6 @@
 {
   "name": "Sent Messages \u00bb Tripit",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

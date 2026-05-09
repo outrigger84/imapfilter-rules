@@ -1,6 +1,6 @@
 {
-  "name": "21 Cleveland Street \u00bb Projects \u00bb Security",
-  "enabled": false,
+  "name": "21 Cleveland Street » Projects » Security",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Projects/Security"
+      "target": "Property/21 Cleveland Street/Projects/Security"
     }
   ],
   "comments": [

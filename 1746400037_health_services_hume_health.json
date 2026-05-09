@@ -1,6 +1,6 @@
 {
   "name": "Health \u00bb Services \u00bb Hume Health",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

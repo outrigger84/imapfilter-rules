@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Howbout App",
-  "enabled": false,
+  "name": "Notifications » Community » Howbout",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Howbout"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Community/Howbout"
     }
   ],
   "comments": [

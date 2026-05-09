@@ -1,24 +1,32 @@
 {
   "name": "Newsletters \u00bb Marketing \u00bb Art \u00bb Castle Fine Art",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
-    "any": [
+    "all": [
       {
-        "header": "from",
-        "contains": "@castlefineart.com"
+        "any": [
+          {
+            "header": "from",
+            "contains": "@castlefineart.com"
+          },
+          {
+            "header": "from",
+            "contains": "@email.castlefineart.com"
+          },
+          {
+            "header": "from",
+            "contains": "@castlegalleries.com"
+          },
+          {
+            "header": "from",
+            "contains": "@email.castlegalleries.com"
+          }
+        ]
       },
       {
         "header": "from",
-        "contains": "@email.castlefineart.com"
-      },
-      {
-        "header": "from",
-        "contains": "@castlegalleries.com"
-      },
-      {
-        "header": "from",
-        "contains": "@email.castlegalleries.com"
+        "not_contains": "exeter@castlefineart.com"
       }
     ]
   },

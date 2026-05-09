@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Greggs » Account",
-  "enabled": false,
+  "name": "Notifications » Food » Greggs » Account",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Greggs/Account"
+      "target": "Notifications/Food/Greggs/Account"
     }
   ]
 }

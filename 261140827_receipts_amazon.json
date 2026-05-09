@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Amazon",
-  "enabled": false,
+  "name": "Receipts » Retail » Amazon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Amazon"
+      "target": "Receipts/Retail/Amazon"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Spam/Junk \u2014 Delete",
-  "enabled": false,
+  "enabled": true,
   "priority": 10,
   "conditions": {
     "any": [

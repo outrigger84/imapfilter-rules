@@ -1,6 +1,6 @@
 {
   "name": "Archives » ESG",
-  "enabled": false,
+  "enabled": true,
   "priority": 40,
   "conditions": {
     "any": [

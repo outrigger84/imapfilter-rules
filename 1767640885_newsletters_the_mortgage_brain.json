@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Finance » The Mortgage Brain",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

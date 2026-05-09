@@ -1,6 +1,6 @@
 {
   "name": "Gift Vouchers \u00bb CloudNine",
-  "enabled": false,
+  "enabled": true,
   "priority": 45,
   "conditions": {
     "all": [

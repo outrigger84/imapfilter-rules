@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Nominet",
-  "enabled": false,
+  "name": "Notifications » Tech » Nominet",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Nominet"
+      "target": "Notifications/Tech/Nominet"
     }
   ],
   "comments": [

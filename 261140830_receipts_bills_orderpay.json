@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Bills \u00bb OrderPay",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

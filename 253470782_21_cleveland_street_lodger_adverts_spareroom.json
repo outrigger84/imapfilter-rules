@@ -1,6 +1,6 @@
 {
-  "name": "21 Cleveland Street \u00bb Lodger \u00bb Adverts \u00bb Spareroom",
-  "enabled": false,
+  "name": "21 Cleveland Street » Lodger » Adverts » Spareroom",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Lodger/Adverts/Spareroom"
+      "target": "Property/21 Cleveland Street/Lodger/Adverts/Spareroom"
     }
   ]
 }

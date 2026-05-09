@@ -1,6 +1,6 @@
 {
   "name": "Jobs \u00bb Current \u00bb UoE Exams",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

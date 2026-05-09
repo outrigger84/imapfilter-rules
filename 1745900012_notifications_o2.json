@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » O2",
-  "enabled": false,
+  "name": "Notifications » Services » O2",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/O2"
+      "target": "Notifications/Services/O2"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Vistaprint",
-  "enabled": false,
+  "name": "Notifications » Shopping » Vistaprint",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,16 +13,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Vistaprint"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Shopping/Vistaprint"
     }
   ],
   "comments": [
-    "Private Relay \u2013 Vistaprint notifications"
+    "Private Relay – Vistaprint notifications"
   ]
 }

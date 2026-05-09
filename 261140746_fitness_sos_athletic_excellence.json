@@ -1,6 +1,6 @@
 {
   "name": "Fitness \u00bb SOS Athletic Excellence",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Whoop",
-  "enabled": false,
+  "name": "Notifications » Health » Whoop",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -17,13 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Whoop"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Health/Whoop"
     }
   ],
   "comments": [

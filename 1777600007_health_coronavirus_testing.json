@@ -1,6 +1,6 @@
 {
   "name": "Health » Coronavirus Testing",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

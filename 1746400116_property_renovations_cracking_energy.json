@@ -1,6 +1,6 @@
 {
   "name": "Property \u00bb Renovations \u00bb Cracking Energy",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

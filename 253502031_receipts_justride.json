@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb JustRide",
-  "enabled": false,
+  "name": "Receipts » Travel » JustRide",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,10 +13,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/JustRide"
+      "target": "Receipts/Travel/JustRide"
     }
   ],
   "comments": [
-    "Private Relay \u2013 JustRide receipts"
+    "Private Relay – JustRide receipts"
   ]
 }

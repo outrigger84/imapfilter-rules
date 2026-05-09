@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Zoho",
-  "enabled": false,
+  "name": "Notifications » Tech » Zoho",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Zoho"
+      "target": "Notifications/Tech/Zoho"
     }
   ],
   "comments": [

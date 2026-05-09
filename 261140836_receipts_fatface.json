@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Retail \u00bb Clothing \u00bb FatFace",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

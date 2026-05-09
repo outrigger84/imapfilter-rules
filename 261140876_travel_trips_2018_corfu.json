@@ -1,20 +1,12 @@
 {
   "name": "Travel » Trips » 2018 - Corfu",
-  "enabled": false,
+  "enabled": true,
   "priority": 50,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "noreply@booking.transavia.com"
-      },
-      {
-        "header": "subject",
-        "contains": "Corfu"
-      },
-      {
-        "header": "subject",
-        "contains": "Kerkyra"
       }
     ]
   },

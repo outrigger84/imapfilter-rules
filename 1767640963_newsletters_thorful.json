@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Retail » Gifts » Thorful",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

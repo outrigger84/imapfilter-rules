@@ -22,12 +22,6 @@
     {
       "type": "move",
       "target": "Travel/Trips/2026 - Riga Hyrox"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        ""
-      ]
     }
   ],
   "comments": [

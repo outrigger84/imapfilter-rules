@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Feedbin",
-  "enabled": false,
+  "name": "Receipts » Software » Feedbin",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Feedbin"
+      "target": "Receipts/Software/Feedbin"
     }
   ]
 }

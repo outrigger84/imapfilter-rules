@@ -1,6 +1,6 @@
 {
   "name": "Memberships \u00bb British Cycling",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

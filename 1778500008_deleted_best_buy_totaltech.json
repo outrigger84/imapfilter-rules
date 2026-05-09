@@ -1,0 +1,26 @@
+{
+  "name": "Deleted Messages » Best Buy Totaltech Spam",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "subject",
+        "contains": "Best Buy Totaltech"
+      },
+      {
+        "header": "from",
+        "contains": "@bestbuy.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Best Buy Totaltech spam sent to non-primary address — flagged as spam despite legitimate sender"
+  ]
+}

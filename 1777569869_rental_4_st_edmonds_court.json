@@ -1,6 +1,6 @@
 {
   "name": "Rental » 4 St Edmonds Court",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

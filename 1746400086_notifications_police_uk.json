@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Police UK",
-  "enabled": false,
+  "name": "Notifications » Government » Police UK",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Police UK"
+      "target": "Notifications/Government/Police UK"
     }
   ],
   "comments": [

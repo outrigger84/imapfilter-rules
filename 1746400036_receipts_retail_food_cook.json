@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Retail \u00bb Food \u00bb COOK",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Travel » Trips » 2021 - Malta",
-  "enabled": false,
+  "enabled": true,
   "priority": 50,
   "conditions": {
     "any": [

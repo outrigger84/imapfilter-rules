@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb ao-com",
-  "enabled": false,
+  "name": "Receipts » Retail » Tech » ao-com",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/ao-com"
+      "target": "Receipts/Retail/Tech/ao-com"
     }
   ],
   "comments": [

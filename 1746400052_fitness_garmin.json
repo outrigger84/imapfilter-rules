@@ -1,6 +1,6 @@
 {
   "name": "Fitness \u00bb Garmin",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

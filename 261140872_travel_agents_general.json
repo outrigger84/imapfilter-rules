@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Travel Agents \u00bb Travel Trolley",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

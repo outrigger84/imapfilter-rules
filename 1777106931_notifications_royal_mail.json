@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Royal Mail",
-  "enabled": false,
+  "name": "Notifications » Deliveries » Royal Mail",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,13 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Royal Mail"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Deliveries/Royal Mail"
     }
   ],
   "comments": [

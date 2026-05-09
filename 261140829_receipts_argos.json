@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Argos",
-  "enabled": false,
+  "name": "Receipts » Retail » Argos",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Argos"
+      "target": "Receipts/Retail/Argos"
     }
   ],
   "comments": [

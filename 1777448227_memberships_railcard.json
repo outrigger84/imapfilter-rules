@@ -1,6 +1,6 @@
 {
-  "name": "Memberships \u00bb Railcard",
-  "enabled": false,
+  "name": "Travel \u00bb Railcard",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Memberships/Railcard"
+      "target": "Travel/Railcard"
     }
   ],
   "comments": [

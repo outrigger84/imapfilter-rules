@@ -1,6 +1,6 @@
 {
   "name": "Spam >> Deleted Messages (Omega WiFi Amp)",
-  "enabled": false,
+  "enabled": true,
   "priority": 50,
   "conditions": {
     "any": [

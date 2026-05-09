@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Food » Food Talk Daily",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

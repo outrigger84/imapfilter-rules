@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Dropbox",
-  "enabled": false,
+  "name": "Receipts » Software » Dropbox",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -25,10 +25,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Dropbox"
+      "target": "Receipts/Software/Dropbox"
     }
   ],
   "comments": [
-    "Private Relay \u2013 Dropbox receipts"
+    "Private Relay – Dropbox receipts"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Coffee » Grind",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

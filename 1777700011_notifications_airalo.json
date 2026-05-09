@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Airalo",
-  "enabled": false,
+  "name": "Notifications » Travel » Airalo",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -11,7 +11,10 @@
     ]
   },
   "actions": [
-    { "type": "move", "target": "Notifications/Airalo" }
+    {
+      "type": "move",
+      "target": "Notifications/Travel/Airalo"
+    }
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",

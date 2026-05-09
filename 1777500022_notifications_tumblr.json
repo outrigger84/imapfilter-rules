@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Tumblr",
-  "enabled": false,
+  "name": "Notifications » Social » Tumblr",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Tumblr"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Social/Tumblr"
     }
   ],
   "comments": [

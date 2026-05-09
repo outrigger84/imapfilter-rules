@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Airalo",
-  "enabled": false,
+  "name": "Receipts » Travel » Airalo",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "all": [
@@ -37,7 +37,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Airalo"
+      "target": "Receipts/Travel/Airalo"
     }
   ],
   "comments": [

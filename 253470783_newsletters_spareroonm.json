@@ -1,6 +1,6 @@
 {
-  "name": "Newsletters » Marketing » Property » SpareRoonm",
-  "enabled": false,
+  "name": "Newsletters » Marketing » Property » Spareroom",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Property/SpareRoonm"
+      "target": "Newsletters/Marketing/Property/Spareroom"
     }
   ],
   "comments": [

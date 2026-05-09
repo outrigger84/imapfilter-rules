@@ -1,6 +1,6 @@
 {
   "name": "Memberships \u00bb UoE Alumni",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

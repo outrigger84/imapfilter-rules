@@ -1,6 +1,6 @@
 {
-  "name": "Memberships \u00bb EasyFundraising",
-  "enabled": false,
+  "name": "Archives \u00bb Rowing \u00bb EasyFundraising",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Memberships/EasyFundraising"
+      "target": "Archives/Rowing"
     }
   ],
   "comments": [

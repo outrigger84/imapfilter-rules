@@ -1,0 +1,26 @@
+{
+  "name": "21 Cleveland Street » Lodger",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "lm970@exeter.ac.uk"
+      },
+      {
+        "header": "to",
+        "contains": "lm970@exeter.ac.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Lodger"
+    }
+  ],
+  "comments": [
+    "Lodger correspondence at 21 Cleveland Street"
+  ]
+}

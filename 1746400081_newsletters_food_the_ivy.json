@@ -1,6 +1,6 @@
 {
-  "name": "Newsletters \u00bb Food \u00bb The Ivy Collection",
-  "enabled": false,
+  "name": "Newsletters \u00bb Marketing \u00bb Restaurants \u00bb The Ivy Collection",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Food/The Ivy Collection"
+      "target": "Newsletters/Marketing/Restaurants/The Ivy Collection"
     }
   ],
   "comments": [

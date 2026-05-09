@@ -1,6 +1,6 @@
 {
   "name": "Gift Vouchers \u00bb C\u00f4te",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

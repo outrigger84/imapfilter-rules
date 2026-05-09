@@ -1,6 +1,6 @@
 {
   "name": "Subscriptions \u00bb Three Mobile",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

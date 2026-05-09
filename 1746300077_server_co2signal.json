@@ -1,6 +1,6 @@
 {
   "name": "Server \u00bb CO2 Signal",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Greggs",
-  "enabled": false,
+  "name": "Receipts » Restaurants » Greggs",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Greggs"
+      "target": "Receipts/Restaurants/Greggs"
     }
   ],
   "comments": [

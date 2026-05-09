@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Stagecoach Bus",
-  "enabled": false,
+  "name": "Receipts » Travel » Stagecoach Bus",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Stagecoach Bus"
+      "target": "Receipts/Travel/Stagecoach Bus"
     }
   ]
 }

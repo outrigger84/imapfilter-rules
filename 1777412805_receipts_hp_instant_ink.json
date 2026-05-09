@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » HP Instant Ink",
-  "enabled": false,
+  "name": "Receipts » Retail » Tech » HP Instant Ink",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/HP Instant Ink"
+      "target": "Receipts/Retail/Tech/HP Instant Ink"
     }
   ]
 }

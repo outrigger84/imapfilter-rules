@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Services \u00bb Star Lettings",
-  "enabled": false,
+  "name": "Property » Rental » Star Lettings",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Services/Star Lettings"
+      "target": "Property/Rental/Star Lettings"
     }
   ],
   "comments": [

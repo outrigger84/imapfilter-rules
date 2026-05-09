@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb University of Exeter",
-  "enabled": false,
+  "name": "Notifications » Services » University of Exeter",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/University of Exeter"
+      "target": "Notifications/Services/University of Exeter"
     }
   ],
   "comments": [

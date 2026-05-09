@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb The Cloud WiFi",
-  "enabled": false,
+  "name": "Notifications » Travel » The Cloud WiFi",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/The Cloud WiFi"
+      "target": "Notifications/Travel/The Cloud WiFi"
     }
   ],
   "comments": [

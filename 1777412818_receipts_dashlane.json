@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Dashlane",
-  "enabled": false,
+  "name": "Receipts » Software » Dashlane",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Dashlane"
+      "target": "Receipts/Software/Dashlane"
     }
   ]
 }

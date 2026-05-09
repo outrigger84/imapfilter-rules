@@ -1,6 +1,6 @@
 {
   "name": "Sent Messages",
-  "enabled": false,
+  "enabled": true,
   "priority": 1000,
   "conditions": {
     "all": [

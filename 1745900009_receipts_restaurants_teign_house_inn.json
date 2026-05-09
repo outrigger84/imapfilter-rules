@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Restaurants » Teign House Inn",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

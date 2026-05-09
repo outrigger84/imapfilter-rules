@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street » Projects » Windows",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -77,7 +77,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Projects/Windows"
+      "target": "Property/21 Cleveland Street/Projects/Windows"
     }
   ],
   "comments": [

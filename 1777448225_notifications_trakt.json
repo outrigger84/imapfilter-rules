@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Trakt",
-  "enabled": false,
+  "name": "Notifications » Entertainment » Trakt",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Trakt"
+      "target": "Notifications/Entertainment/Trakt"
     }
   ],
   "comments": [

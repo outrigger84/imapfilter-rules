@@ -1,0 +1,34 @@
+{
+  "name": "Archives » Rowing » ERC Forms",
+  "enabled": true,
+  "priority": 40,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "ERC Expenses Claim"
+      },
+      {
+        "header": "subject",
+        "contains": "ERC Payment Request"
+      },
+      {
+        "header": "subject",
+        "contains": "ERC Petty Cash"
+      },
+      {
+        "header": "subject",
+        "contains": "EWSA"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Archives/Rowing"
+    }
+  ],
+  "comments": [
+    "ERC/EWSA club form emails — priority 40 to beat *ME rule at priority 50"
+  ]
+}

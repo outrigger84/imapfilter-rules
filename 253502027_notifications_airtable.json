@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Airtable",
-  "enabled": false,
+  "name": "Notifications » Tech » Airtable",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,16 +17,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Airtable"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Tech/Airtable"
     }
   ],
   "comments": [
-    "Private Relay \u2013 Airtable notifications"
+    "Private Relay – Airtable notifications"
   ]
 }

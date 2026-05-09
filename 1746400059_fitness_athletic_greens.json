@@ -1,6 +1,6 @@
 {
-  "name": "Fitness \u00bb Athletic Greens",
-  "enabled": false,
+  "name": "Subscriptions \u00bb Health \u00bb Athletic Greens",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Athletic Greens"
+      "target": "Subscriptions/Health/Athletic Greens"
     }
   ],
   "comments": [

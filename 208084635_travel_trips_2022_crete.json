@@ -1,6 +1,6 @@
 {
   "name": "Travel » Trips » 2022 - Crete",
-  "enabled": false,
+  "enabled": true,
   "priority": 50,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Discord",
-  "enabled": false,
+  "name": "Notifications » Social » Discord",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Discord"
+      "target": "Notifications/Social/Discord"
     }
   ],
   "comments": [

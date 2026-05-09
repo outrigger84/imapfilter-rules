@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Travel » Blue Islands",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Fab",
-  "enabled": false,
+  "name": "Receipts » Retail » Fab",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Fab"
+      "target": "Receipts/Retail/Fab"
     }
   ],
   "comments": [

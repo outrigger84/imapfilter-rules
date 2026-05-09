@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Tech » Hardware » Orbitkey",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

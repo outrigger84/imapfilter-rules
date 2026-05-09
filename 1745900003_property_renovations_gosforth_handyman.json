@@ -1,6 +1,6 @@
 {
   "name": "Property » Renovations » Gosforth Handyman",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

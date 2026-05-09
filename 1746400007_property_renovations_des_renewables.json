@@ -1,6 +1,6 @@
 {
-  "name": "Property \u00bb Renovations \u00bb DES Renewables",
-  "enabled": false,
+  "name": "21 Cleveland Street » Projects » Solar (DES Renewables)",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Property/Renovations/DES Renewables"
+      "target": "Property/21 Cleveland Street/Projects/Solar"
     }
   ],
   "comments": [

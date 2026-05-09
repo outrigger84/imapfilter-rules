@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Media » Exe Estuary",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

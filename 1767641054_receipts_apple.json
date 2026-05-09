@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Apple",
-  "enabled": false,
+  "name": "Receipts » Retail » Tech » Apple",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -60,7 +60,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Apple"
+      "target": "Receipts/Retail/Tech/Apple"
     }
   ]
 }

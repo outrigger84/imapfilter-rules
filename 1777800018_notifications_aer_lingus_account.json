@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Aer Lingus » Account Security",
-  "enabled": false,
+  "name": "Notifications » Travel » Aer Lingus",
+  "enabled": true,
   "priority": 110,
   "conditions": {
     "any": [
@@ -17,13 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Aer Lingus"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Travel/Aer Lingus"
     }
   ],
   "comments": [

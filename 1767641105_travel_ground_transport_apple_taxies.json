@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Ground Transport \u00bb Apple Taxies",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

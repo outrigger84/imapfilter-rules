@@ -1,12 +1,20 @@
 {
-  "name": "Feedback \u00bb Apple Support",
-  "enabled": false,
+  "name": "Feedback » Apple Support",
+  "enabled": true,
   "priority": 100,
   "conditions": {
-    "any": [
+    "all": [
       {
         "header": "from",
         "contains": "@insideapple.apple.com"
+      },
+      {
+        "header": "from",
+        "not_contains": "newsdigest@insideapple.apple.com"
+      },
+      {
+        "header": "from",
+        "not_contains": "developer@insideapple.apple.com"
       }
     ]
   },
@@ -14,12 +22,6 @@
     {
       "type": "move",
       "target": "Feedback/Apple Support"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
     }
   ],
   "comments": [

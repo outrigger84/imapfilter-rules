@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Peloton",
-  "enabled": false,
+  "name": "Notifications » Health » Peloton",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Peloton"
+      "target": "Notifications/Health/Peloton"
     }
   ],
   "comments": [

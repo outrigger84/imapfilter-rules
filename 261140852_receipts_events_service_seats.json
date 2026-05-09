@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Events \u00bb Service Seats",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

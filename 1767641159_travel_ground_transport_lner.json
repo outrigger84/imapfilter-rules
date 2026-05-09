@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Ground Transport \u00bb LNER",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

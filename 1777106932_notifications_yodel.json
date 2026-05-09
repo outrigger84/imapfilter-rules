@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Yodel",
-  "enabled": false,
+  "name": "Notifications » Deliveries » Yodel",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Yodel"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Deliveries/Yodel"
     }
   ],
   "comments": [

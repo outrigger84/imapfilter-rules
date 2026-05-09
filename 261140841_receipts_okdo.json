@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Okdo",
-  "enabled": false,
+  "name": "Receipts » Retail » Tech » Okdo",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Okdo"
+      "target": "Receipts/Retail/Tech/Okdo"
     }
   ],
   "comments": [

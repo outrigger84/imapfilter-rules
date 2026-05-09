@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Finance » RocketMoney",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

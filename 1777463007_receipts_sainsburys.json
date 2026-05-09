@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Sainsburys",
-  "enabled": false,
+  "name": "Receipts » Retail » Grocery » Sainsburys",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Sainsburys"
+      "target": "Receipts/Retail/Grocery/Sainsburys"
     }
   ],
   "comments": [

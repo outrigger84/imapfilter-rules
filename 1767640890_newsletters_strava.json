@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Strava",
-  "enabled": false,
+  "name": "Notifications » Health » Strava",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Strava"
+      "target": "Notifications/Health/Strava"
     }
   ],
   "comments": [

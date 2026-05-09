@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Patreon",
-  "enabled": false,
+  "name": "Notifications » Services » Patreon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -29,13 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Patreon"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Services/Patreon"
     }
   ],
   "comments": [

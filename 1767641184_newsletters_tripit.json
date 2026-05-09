@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Travel » TripIt",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Microsoft",
-  "enabled": false,
+  "name": "Receipts » Software » Microsoft",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Microsoft"
+      "target": "Receipts/Software/Microsoft"
     }
   ],
   "comments": [

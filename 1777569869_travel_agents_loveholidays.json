@@ -1,6 +1,6 @@
 {
   "name": "Travel Agents » Loveholidays",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Media » Wikipedia",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

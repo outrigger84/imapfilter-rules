@@ -1,6 +1,6 @@
 {
-  "name": "Memberships \u00bb Wimbledon (AELTC)",
-  "enabled": false,
+  "name": "Events \u00bb Wimbledon (AELTC)",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Memberships/Wimbledon"
+      "target": "Events/Wimbledon"
     }
   ],
   "comments": [

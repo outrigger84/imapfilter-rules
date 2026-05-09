@@ -1,6 +1,6 @@
 {
-  "name": "21 Cleveland Street \u00bb MSE Energy Club",
-  "enabled": false,
+  "name": "21 Cleveland Street » MSE Energy Club",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/MSE Energy Club"
+      "target": "Property/21 Cleveland Street/MSE Energy Club"
     }
   ]
 }

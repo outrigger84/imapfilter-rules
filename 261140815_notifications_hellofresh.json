@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » HelloFresh",
-  "enabled": false,
+  "name": "Notifications » Food » HelloFresh",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/HelloFresh"
+      "target": "Notifications/Food/HelloFresh"
     }
   ],
   "comments": [

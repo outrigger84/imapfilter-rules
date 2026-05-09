@@ -1,6 +1,6 @@
 {
-  "name": "21 Cleveland Street \u00bb Insurance",
-  "enabled": false,
+  "name": "21 Cleveland Street » Insurance",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Insurance"
+      "target": "Property/21 Cleveland Street/Insurance"
     }
   ]
 }

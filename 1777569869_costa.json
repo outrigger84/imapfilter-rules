@@ -1,6 +1,6 @@
 {
-  "name": "Costa",
-  "enabled": false,
+  "name": "Notifications » Food » Costa",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Costa"
+      "target": "Notifications/Food/Costa"
     }
   ],
   "comments": [

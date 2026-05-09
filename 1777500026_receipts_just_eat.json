@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Just Eat",
-  "enabled": false,
+  "name": "Receipts » Food » Just Eat",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Just Eat"
+      "target": "Receipts/Food/Just Eat"
     }
   ],
   "comments": [

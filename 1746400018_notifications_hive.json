@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Hive",
-  "enabled": false,
+  "name": "Notifications » Home » Hive",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Hive"
+      "target": "Notifications/Home/Hive"
     }
   ],
   "comments": [

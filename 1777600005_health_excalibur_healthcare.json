@@ -1,6 +1,6 @@
 {
   "name": "Health \u00bb Excalibur Healthcare",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

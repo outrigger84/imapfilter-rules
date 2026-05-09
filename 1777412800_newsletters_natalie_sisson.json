@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Natalie Sisson",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

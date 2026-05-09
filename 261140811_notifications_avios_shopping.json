@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Avios Shopping",
-  "enabled": false,
+  "name": "Notifications » Finance » Avios Shopping",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Avios Shopping"
+      "target": "Notifications/Finance/Avios Shopping"
     }
   ],
   "comments": [

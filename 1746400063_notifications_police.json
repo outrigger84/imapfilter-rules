@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Devon and Cornwall Police",
-  "enabled": false,
+  "name": "Notifications » Government » Devon and Cornwall Police",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Devon and Cornwall Police"
+      "target": "Notifications/Government/Devon and Cornwall Police"
     }
   ],
   "comments": [

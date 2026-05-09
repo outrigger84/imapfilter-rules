@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Agents \u00bb Virgin Holidays",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

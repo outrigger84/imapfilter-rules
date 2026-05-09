@@ -1,6 +1,6 @@
 {
-  "name": "21 Cleveland Street \u00bb Bills \u00bb Southwest Water",
-  "enabled": false,
+  "name": "21 Cleveland Street » Bills » Southwest Water",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -36,7 +36,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Bills/Southwest Water"
+      "target": "Property/21 Cleveland Street/Bills/Southwest Water"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Newsletters » Marketing » Art » National Portrait Gallery",
-  "enabled": false,
+  "name": "Newsletters » Marketing » Museums » National Portrait Gallery",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Art/National Portrait Gallery"
+      "target": "Newsletters/Marketing/Museums/National Portrait Gallery"
     }
   ],
   "comments": [

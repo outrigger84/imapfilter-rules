@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Spotify",
-  "enabled": false,
+  "name": "Notifications » Entertainment » Spotify",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Spotify"
+      "target": "Notifications/Entertainment/Spotify"
     }
   ],
   "comments": [

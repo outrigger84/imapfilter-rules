@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Plan to Eat",
-  "enabled": false,
+  "name": "Receipts » Software » Plan to Eat",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Plan to Eat"
+      "target": "Receipts/Software/Plan to Eat"
     }
   ]
 }

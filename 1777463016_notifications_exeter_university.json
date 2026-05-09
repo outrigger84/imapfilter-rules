@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Exeter University",
-  "enabled": false,
+  "name": "Notifications » Services » Exeter University",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Exeter University"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Services/Exeter University"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Tech \u00bb CoolNewMobile",
-  "enabled": false,
+  "name": "Receipts » Retail » Tech » CoolNewMobile",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Tech/CoolNewMobile"
+      "target": "Receipts/Retail/Tech/CoolNewMobile"
     }
   ],
   "comments": [

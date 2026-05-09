@@ -1,6 +1,6 @@
 {
-  "name": "Subscriptions \u00bb Software \u00bb Markspace",
-  "enabled": false,
+  "name": "Subscriptions » Software » Markspace",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Subscriptions/Software/Markspace"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        ""
-      ]
     }
   ],
   "comments": [

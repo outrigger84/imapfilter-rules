@@ -1,6 +1,6 @@
 {
   "name": "Personal Development \u00bb Productive Flourishing \u00bb Direct",
-  "enabled": false,
+  "enabled": true,
   "priority": 110,
   "conditions": {
     "any": [

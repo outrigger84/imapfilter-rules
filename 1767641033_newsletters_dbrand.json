@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Tech » Hardware » dbrand",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

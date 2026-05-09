@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Investments » Trading212",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

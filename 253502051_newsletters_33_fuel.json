@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Fitness » 33 Fuel",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "iCabbie - Pre auth explanation",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

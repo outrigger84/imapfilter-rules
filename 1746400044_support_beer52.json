@@ -1,6 +1,6 @@
 {
   "name": "Support \u00bb Beer52",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Auctiva",
-  "enabled": false,
+  "name": "Notifications » Services » Auctiva",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Auctiva"
+      "target": "Notifications/Services/Auctiva"
     }
   ],
   "comments": [

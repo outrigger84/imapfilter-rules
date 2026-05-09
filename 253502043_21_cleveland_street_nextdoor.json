@@ -1,23 +1,35 @@
 {
   "name": "21 Cleveland Street » Nextdoor",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
-    "all": [
+    "any": [
       {
-        "header": "from",
-        "contains": "_email_nextdoor_co_uk_"
+        "all": [
+          {
+            "header": "from",
+            "contains": "_email_nextdoor_co_uk_"
+          },
+          {
+            "header": "from",
+            "contains": "@privaterelay.appleid.com"
+          }
+        ]
       },
       {
         "header": "from",
-        "contains": "@privaterelay.appleid.com"
+        "contains": "@nextdoor.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.nextdoor.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Nextdoor"
+      "target": "Property/21 Cleveland Street/Nextdoor"
     }
   ],
   "comments": [

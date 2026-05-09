@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Hotels » Blue Lagoon",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,0 +1,30 @@
+{
+  "name": "Server » FreeNAS",
+  "enabled": true,
+  "priority": 40,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "Disk Usage Warning"
+      },
+      {
+        "header": "subject",
+        "contains": "security run output"
+      },
+      {
+        "header": "from",
+        "contains": "freenas.local"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Server/FreeNAS"
+    }
+  ],
+  "comments": [
+    "Local FreeNAS server alerts — disk warnings and security run output"
+  ]
+}

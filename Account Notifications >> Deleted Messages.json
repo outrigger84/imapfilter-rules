@@ -1,12 +1,24 @@
 {
   "name": "Account Notifications >> Deleted Messages",
-  "enabled": false,
+  "enabled": true,
   "priority": 50,
   "conditions": {
     "all": [
       {
         "header": "subject",
         "regex": "(?i)\\b(login|log in|sign in|signin|unusual activity|security alert|new device|account activity|username)\\b"
+      },
+      {
+        "header": "subject",
+        "not_regex": "(?i)account activity (statement|report|summary|digest)"
+      },
+      {
+        "header": "subject",
+        "not_regex": "(?i)\\b(vulnerability|CVE|DNS|exploit|advisory|patch)\\b"
+      },
+      {
+        "header": "subject",
+        "not_regex": "(?i)\\bDSM\\b"
       },
       {
         "age_days_gt": 14

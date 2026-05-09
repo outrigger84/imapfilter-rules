@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Tech » Mac DVD Ripper Pro",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

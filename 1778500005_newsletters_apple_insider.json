@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Topics » Technology » Apple",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "newsdigest@insideapple.apple.com"
+      },
+      {
+        "header": "from",
+        "contains": "developer@insideapple.apple.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Topics/Technology/Apple"
+    }
+  ],
+  "comments": [
+    "Apple news digest and developer newsletters — excluded from Feedback/Apple Support rule"
+  ]
+}

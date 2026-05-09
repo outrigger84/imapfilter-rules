@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Retail » Gifts » Beards and Daisies",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

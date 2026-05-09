@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Virgin WiFi",
-  "enabled": false,
+  "name": "Notifications » Travel » Virgin WiFi",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Virgin WiFi"
+      "target": "Notifications/Travel/Virgin WiFi"
     }
   ],
   "comments": [

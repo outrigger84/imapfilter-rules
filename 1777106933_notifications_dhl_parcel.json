@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » DHL Parcel",
-  "enabled": false,
+  "name": "Notifications » Deliveries » DHL Parcel",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/DHL Parcel"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Deliveries/DHL Parcel"
     }
   ],
   "comments": [

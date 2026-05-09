@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Wayfair",
-  "enabled": false,
+  "name": "Receipts » Retail » Home » Wayfair",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Wayfair"
+      "target": "Receipts/Retail/Home/Wayfair"
     }
   ],
   "comments": [

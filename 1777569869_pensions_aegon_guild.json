@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Pensions » Aegon Guild",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

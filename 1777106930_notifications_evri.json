@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Evri",
-  "enabled": false,
+  "name": "Notifications » Deliveries » Evri",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Evri"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Deliveries/Evri"
     }
   ],
   "comments": [

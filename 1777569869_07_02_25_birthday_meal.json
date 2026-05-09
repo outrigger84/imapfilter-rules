@@ -1,6 +1,6 @@
 {
   "name": "07-02-25 Birthday Meal",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Hornet",
-  "enabled": false,
+  "name": "Notifications » Social » Hornet",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,13 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Hornet"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Social/Hornet"
     }
   ],
   "comments": [

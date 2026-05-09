@@ -1,0 +1,22 @@
+{
+  "name": "Correspondence » Castle Fine Art",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "exeter@castlefineart.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Correspondence/Castle Fine Art"
+    }
+  ],
+  "comments": [
+    "Exeter Castle Fine Art gallery direct correspondence (transactions, specific communications) — not general marketing"
+  ]
+}

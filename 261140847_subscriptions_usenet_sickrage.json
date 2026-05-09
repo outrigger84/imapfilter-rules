@@ -1,6 +1,6 @@
 {
   "name": "Subscriptions \u00bb Usenet \u00bb sickrage",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

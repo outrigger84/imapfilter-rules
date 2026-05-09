@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb McDonalds",
-  "enabled": false,
+  "name": "Receipts » Restaurants » McDonalds",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,10 +21,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/McDonalds"
+      "target": "Receipts/Restaurants/McDonalds"
     }
   ],
   "comments": [
-    "Private Relay \u2013 McDonalds app receipts"
+    "Private Relay – McDonalds app receipts"
   ]
 }

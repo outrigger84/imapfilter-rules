@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb PiHut",
-  "enabled": false,
+  "name": "Receipts » Retail » Tech » PiHut",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/PiHut"
+      "target": "Receipts/Retail/Tech/PiHut"
     }
   ]
 }

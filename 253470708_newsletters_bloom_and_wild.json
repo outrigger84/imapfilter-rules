@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Retail » Gifts » Bloom and Wild",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

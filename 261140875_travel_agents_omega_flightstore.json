@@ -1,6 +1,6 @@
 {
   "name": "Travel » Travel Agents » Omega Flightstore",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

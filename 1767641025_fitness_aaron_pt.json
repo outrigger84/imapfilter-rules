@@ -1,6 +1,6 @@
 {
   "name": "Fitness \u00bb Aaron PT",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

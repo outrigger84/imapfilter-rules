@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Food » HelloFresh",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

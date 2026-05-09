@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Wealthify",
-  "enabled": false,
+  "name": "Notifications » Finance » Wealthify",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Wealthify"
+      "target": "Notifications/Finance/Wealthify"
     }
   ],
   "comments": [

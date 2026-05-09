@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb TableAgent",
-  "enabled": false,
+  "name": "Notifications » Community » TableAgent",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/TableAgent"
+      "target": "Notifications/Community/TableAgent"
     }
   ],
   "comments": [

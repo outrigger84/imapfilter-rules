@@ -1,6 +1,6 @@
 {
   "name": "Support \u00bb Apple",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

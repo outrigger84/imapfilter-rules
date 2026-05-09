@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Art » Clarendon Fine Art",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

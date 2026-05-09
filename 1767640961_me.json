@@ -1,12 +1,12 @@
 {
   "name": "*ME",
-  "enabled": false,
+  "enabled": true,
   "priority": 50,
   "conditions": {
     "all": [
       {
         "header": "subject",
-        "not_regex": "^(Accepted|Declined( \\([^)]+\\))?|Tentative|Cancell?ed|New Time Proposed):"
+        "not_regex": "^(Accepted|Declined( \\([^)]+\\))?|Tentative|Cancell?ed|New Time Proposed|Event accepted|Meeting accepted|Meeting declined|iCal event update|Invitation|Event invitation|Event updated):"
       },
       {
         "any": [
@@ -177,6 +177,50 @@
           {
             "header": "to",
             "contains": "stephenjgibson+msltest@gmail.com"
+          },
+          {
+            "header": "cc",
+            "contains": "steve.gibson@metoffice.gov.uk"
+          },
+          {
+            "header": "cc",
+            "contains": "stephen.gibson@bma.org.uk"
+          },
+          {
+            "header": "cc",
+            "contains": "sjgibson@fastmail.com"
+          },
+          {
+            "header": "cc",
+            "contains": "sj.gibson@icloud.com"
+          },
+          {
+            "header": "cc",
+            "contains": "sj.gibson21@icloud.com"
+          },
+          {
+            "header": "cc",
+            "contains": "sj.gibson@mac.com"
+          },
+          {
+            "header": "cc",
+            "contains": "s.j.gibson@ex"
+          },
+          {
+            "header": "cc",
+            "contains": "stephen.gibson@exeterguild.com"
+          },
+          {
+            "header": "cc",
+            "contains": "steve.gibson@exeterguild.com"
+          },
+          {
+            "header": "cc",
+            "contains": "stephenjgibson@gmail.com"
+          },
+          {
+            "header": "cc",
+            "contains": "sj.gibson@me.com"
           }
         ]
       }

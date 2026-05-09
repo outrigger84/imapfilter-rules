@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Solar Guide",
-  "enabled": false,
+  "name": "Notifications » Home » Solar Guide",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Solar Guide"
+      "target": "Notifications/Home/Solar Guide"
     }
   ],
   "comments": [

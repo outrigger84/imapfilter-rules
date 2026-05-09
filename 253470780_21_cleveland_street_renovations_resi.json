@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street » Renovations » resi",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Renovations/resi"
+      "target": "Property/21 Cleveland Street/Renovations/resi"
     }
   ],
   "comments": [

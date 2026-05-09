@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Priority Pass",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Tools » Unroll-Me",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

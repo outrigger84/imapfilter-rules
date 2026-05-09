@@ -1,6 +1,6 @@
 {
   "name": "Complaints \u00bb Delay Repay \u00bb Avanti West Coast",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

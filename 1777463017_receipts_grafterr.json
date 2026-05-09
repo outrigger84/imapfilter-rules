@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Grafterr",
-  "enabled": false,
+  "name": "Receipts » Food » Grafterr",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Grafterr"
+      "target": "Receipts/Food/Grafterr"
     }
   ],
   "comments": [

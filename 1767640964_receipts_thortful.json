@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Thortful",
-  "enabled": false,
+  "name": "Receipts » Retail » Thortful",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Thortful"
+      "target": "Receipts/Retail/Thortful"
     }
   ]
 }

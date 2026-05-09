@@ -1,6 +1,6 @@
 {
   "name": "Personal \u00bb Finance \u00bb Aegon",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Gift Vouchers \u00bb Edenred",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

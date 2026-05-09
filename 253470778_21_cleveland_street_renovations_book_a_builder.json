@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street » Renovations » Book A Builder",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Renovations/Book A Builder"
+      "target": "Property/21 Cleveland Street/Renovations/Book A Builder"
     }
   ]
 }

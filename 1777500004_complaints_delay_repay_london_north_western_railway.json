@@ -1,6 +1,6 @@
 {
-  "name": "Complaints » Delay Repay » London North Western Railway",
-  "enabled": false,
+  "name": "Complaints » Delay Repay » LNWR",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Complaints/Delay Repay/London North Western Railway"
+      "target": "Complaints/Delay Repay/LNWR"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Screwfix",
-  "enabled": false,
+  "name": "Receipts » Retail » DIY » Screwfix",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Screwfix"
+      "target": "Receipts/Retail/DIY/Screwfix"
     }
   ]
 }

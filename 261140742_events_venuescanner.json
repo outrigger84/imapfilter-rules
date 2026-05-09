@@ -1,6 +1,6 @@
 {
   "name": "Events » VenueScanner",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

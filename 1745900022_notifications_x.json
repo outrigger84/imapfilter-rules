@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » X",
-  "enabled": false,
+  "name": "Notifications » Social » X",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/X"
+      "target": "Notifications/Social/X"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Server \u00bb Invoices",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

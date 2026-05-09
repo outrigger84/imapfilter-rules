@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Netflix",
-  "enabled": false,
+  "name": "Notifications » Entertainment » Netflix",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Netflix"
+      "target": "Notifications/Entertainment/Netflix"
     }
   ],
   "comments": [

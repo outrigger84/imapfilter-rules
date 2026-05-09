@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Who Gives A Crap",
-  "enabled": false,
+  "name": "Receipts » Retail » Who Gives A Crap",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Who Gives A Crap"
+      "target": "Receipts/Retail/Who Gives A Crap"
     }
   ],
   "comments": [

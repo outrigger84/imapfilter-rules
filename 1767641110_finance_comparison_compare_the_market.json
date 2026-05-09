@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Comparison » Compare The Market",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -18,12 +18,6 @@
     {
       "type": "move",
       "target": "Personal/Finance/Comparison/Compare The Market"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain730"
-      ]
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Friends",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -551,10 +551,6 @@
       {
         "header": "from",
         "contains": "lloyd.maynard@3pb.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "lm970@exeter.ac.uk"
       },
       {
         "header": "from",

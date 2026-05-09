@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Moonpig",
-  "enabled": false,
+  "name": "Notifications » Shopping » Moonpig",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Moonpig"
+      "target": "Notifications/Shopping/Moonpig"
     }
   ]
 }

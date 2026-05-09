@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Vinted",
-  "enabled": false,
+  "name": "Notifications » Shopping » Vinted",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,16 +21,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Vinted"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Shopping/Vinted"
     }
   ],
   "comments": [
-    "Private Relay \u2013 Vinted notifications"
+    "Private Relay – Vinted notifications"
   ]
 }

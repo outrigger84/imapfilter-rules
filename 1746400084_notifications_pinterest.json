@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Pinterest",
-  "enabled": false,
+  "name": "Notifications » Social » Pinterest",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Pinterest"
+      "target": "Notifications/Social/Pinterest"
     }
   ],
   "comments": [

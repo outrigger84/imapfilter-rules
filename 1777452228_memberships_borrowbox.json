@@ -1,6 +1,6 @@
 {
-  "name": "Memberships \u00bb BorrowBox",
-  "enabled": false,
+  "name": "Memberships \u00bb Library \u00bb BorrowBox",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Memberships/BorrowBox"
+      "target": "Memberships/Library/BorrowBox"
     }
   ],
   "comments": [

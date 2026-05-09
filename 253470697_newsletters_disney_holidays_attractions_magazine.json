@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Disney Holidays » Attractions Magazine",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

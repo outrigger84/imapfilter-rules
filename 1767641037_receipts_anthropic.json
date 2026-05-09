@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Anthropic",
-  "enabled": false,
+  "name": "Receipts » Software » Anthropic",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Anthropic"
+      "target": "Receipts/Software/Anthropic"
     }
   ]
 }

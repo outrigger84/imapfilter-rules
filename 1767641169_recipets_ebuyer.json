@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Ebuyer",
-  "enabled": false,
+  "name": "Receipts » Retail » Tech » Ebuyer",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Ebuyer"
+      "target": "Receipts/Retail/Tech/Ebuyer"
     }
   ]
 }

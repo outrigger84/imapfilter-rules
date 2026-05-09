@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Travel Loyalty \u00bb Amtrak Guest Rewards",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

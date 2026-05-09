@@ -1,6 +1,6 @@
 {
   "name": "Spam » reg.ru",
-  "enabled": false,
+  "enabled": true,
   "priority": 10,
   "conditions": {
     "any": [

@@ -1,12 +1,12 @@
 {
   "name": "Delivery Receipts",
-  "enabled": false,
+  "enabled": true,
   "priority": 40,
   "conditions": {
     "all": [
       {
         "header": "subject",
-        "regex": "(?i)^Delivered:"
+        "regex": "(?i)^Delivered:(?!.*order\\s+#)"
       },
       {
         "age_days_gt": 1

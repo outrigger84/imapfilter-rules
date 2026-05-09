@@ -1,12 +1,16 @@
 {
   "name": "Cleanfox >> Deleted Messages",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
       {
         "header": "from",
         "contains": "@cleanfox.io"
+      },
+      {
+        "header": "subject",
+        "not_regex": "(?i)delete your account"
       },
       {
         "age_days_gt": 1

@@ -1,6 +1,6 @@
 {
   "name": "Software Keys",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

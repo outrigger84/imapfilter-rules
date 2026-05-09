@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » eBay",
-  "enabled": false,
+  "name": "Notifications » Shopping » eBay",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -29,7 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/eBay"
+      "target": "Notifications/Shopping/eBay"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street » Lodger » Adverts » OpenRent",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -29,7 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Lodger/Adverts/OpenRent"
+      "target": "Property/21 Cleveland Street/Lodger/Adverts/OpenRent"
     }
   ],
   "comments": [

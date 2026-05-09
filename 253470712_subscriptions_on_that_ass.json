@@ -1,6 +1,6 @@
 {
   "name": "Subscriptions » On That Ass",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

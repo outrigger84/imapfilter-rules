@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street » Projects",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Projects"
+      "target": "Property/21 Cleveland Street/Projects"
     }
   ],
   "comments": [

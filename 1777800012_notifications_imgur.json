@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Imgur",
-  "enabled": false,
+  "name": "Notifications » Social » Imgur",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -25,13 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Imgur"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Social/Imgur"
     }
   ],
   "comments": [

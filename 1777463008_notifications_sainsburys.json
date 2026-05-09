@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Sainsburys",
-  "enabled": false,
+  "name": "Notifications » Shopping » Sainsburys",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Sainsburys"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Shopping/Sainsburys"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Entertainment » theory11",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

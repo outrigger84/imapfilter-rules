@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Retail \u00bb FreePrints",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Monica HQ",
-  "enabled": false,
+  "name": "Notifications » Tech » Monica HQ",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Monica HQ"
+      "target": "Notifications/Tech/Monica HQ"
     }
   ],
   "comments": [

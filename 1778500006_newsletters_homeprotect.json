@@ -1,0 +1,38 @@
+{
+  "name": "Newsletters » Marketing » Home » Homeprotect",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "service@info.homeprotect.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "sales@homeprotect.co.uk"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "not_contains": "Requested documents"
+      },
+      {
+        "header": "subject",
+        "not_contains": "policy"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Home/Homeprotect"
+    }
+  ],
+  "comments": [
+    "Homeprotect marketing/newsletter emails — policy documents remain in Property/21 Cleveland Street/Insurance"
+  ]
+}

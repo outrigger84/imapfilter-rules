@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb FluCamp",
-  "enabled": false,
+  "name": "Notifications » Health » FluCamp",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/FluCamp"
+      "target": "Notifications/Health/FluCamp"
     }
   ],
   "comments": [

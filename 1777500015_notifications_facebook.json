@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Facebook",
-  "enabled": false,
+  "name": "Notifications » Social » Facebook",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Facebook"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Social/Facebook"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Jet2",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

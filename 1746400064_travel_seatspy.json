@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Travel Alerts \u00bb SeatSpy",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Store Credit » V12 Finance",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

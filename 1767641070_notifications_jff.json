@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb JFF",
-  "enabled": false,
+  "name": "Notifications » Social » JFF",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/JFF"
+      "target": "Notifications/Social/JFF"
     }
   ]
 }

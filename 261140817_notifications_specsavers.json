@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Specsavers",
-  "enabled": false,
+  "name": "Notifications » Health » Specsavers",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Specsavers"
+      "target": "Notifications/Health/Specsavers"
     }
   ],
   "comments": [

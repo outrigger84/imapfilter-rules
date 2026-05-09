@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Entertainment » Vue",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

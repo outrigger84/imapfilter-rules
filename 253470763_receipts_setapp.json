@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Setapp",
-  "enabled": false,
+  "name": "Receipts » Software » Setapp",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Setapp"
+      "target": "Receipts/Software/Setapp"
     }
   ],
   "comments": [

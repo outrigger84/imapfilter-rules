@@ -1,6 +1,6 @@
 {
   "name": "Fitness \u00bb Race the Distance",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Fitness \u00bb Eventrac",
-  "enabled": false,
+  "name": "Fitness \u00bb Dartmoor Classic",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Eventrac"
+      "target": "Fitness/Dartmoor Classic"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Synology NAS",
-  "enabled": false,
+  "name": "Notifications » Home » Synology",
+  "enabled": true,
   "priority": 40,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Synology"
+      "target": "Notifications/Home/Synology"
     }
   ],
   "comments": [

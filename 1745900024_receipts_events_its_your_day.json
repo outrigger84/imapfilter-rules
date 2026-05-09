@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Events » Its Your Day",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

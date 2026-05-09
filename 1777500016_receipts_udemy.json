@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Udemy",
-  "enabled": false,
+  "name": "Receipts » Software » Udemy",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Udemy"
+      "target": "Receipts/Software/Udemy"
     }
   ],
   "comments": [

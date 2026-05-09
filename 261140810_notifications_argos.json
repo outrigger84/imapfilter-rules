@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Argos",
-  "enabled": false,
+  "name": "Notifications » Shopping » Argos",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Argos"
+      "target": "Notifications/Shopping/Argos"
     }
   ],
   "comments": [

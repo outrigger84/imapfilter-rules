@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Snapchat",
-  "enabled": false,
+  "name": "Notifications » Social » Snapchat",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Snapchat"
+      "target": "Notifications/Social/Snapchat"
     }
   ],
   "comments": [

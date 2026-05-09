@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Man and Van",
-  "enabled": false,
+  "name": "Receipts » Services » Man and Van",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Man and Van"
+      "target": "Receipts/Services/Man and Van"
     }
   ],
   "comments": [

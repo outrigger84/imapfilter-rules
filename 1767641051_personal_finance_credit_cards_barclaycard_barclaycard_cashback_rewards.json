@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Credit Cards » Barclaycard » Barclaycard Cashback Rewards",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

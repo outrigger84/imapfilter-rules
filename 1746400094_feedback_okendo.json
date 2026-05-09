@@ -1,6 +1,6 @@
 {
   "name": "Feedback \u00bb Okendo",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

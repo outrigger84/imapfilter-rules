@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb UPS",
-  "enabled": false,
+  "name": "Notifications » Deliveries » UPS",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/UPS"
+      "target": "Notifications/Deliveries/UPS"
     }
   ],
   "comments": [

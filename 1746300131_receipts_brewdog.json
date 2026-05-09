@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb BrewDog",
-  "enabled": false,
+  "name": "Receipts » Restaurants » BrewDog",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/BrewDog"
+      "target": "Receipts/Restaurants/BrewDog"
     }
   ],
   "comments": [

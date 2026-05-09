@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb JD Wetherspoon",
-  "enabled": false,
+  "name": "Receipts » Restaurants » JD Wetherspoon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/JD Wetherspoon"
+      "target": "Receipts/Restaurants/JD Wetherspoon"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Retail » Ikea Family",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

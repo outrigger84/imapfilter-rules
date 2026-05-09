@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Health \u00bb Lumin",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,12 +1,12 @@
 {
   "name": "Cal Responses",
-  "enabled": false,
+  "enabled": true,
   "priority": 40,
   "conditions": {
     "any": [
       {
         "header": "subject",
-        "regex": "(?i)^(Accepted|Declined( \\([^)]+\\))?|Tentative|Cancell?ed|New Time Proposed):"
+        "regex": "(?i)^(Accepted|Declined( \\([^)]+\\))?|Tentative|Cancell?ed|New Time Proposed|Event accepted|Meeting accepted|Meeting declined|iCal event update|Invitation|Event invitation|Event updated):"
       }
     ]
   },

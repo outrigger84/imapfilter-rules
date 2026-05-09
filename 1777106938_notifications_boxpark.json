@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Boxpark",
-  "enabled": false,
+  "name": "Notifications » Community » Boxpark",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Boxpark"
+      "target": "Notifications/Community/Boxpark"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Surge",
-  "enabled": false,
+  "name": "Notifications » Social » Surge",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,13 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Surge"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Social/Surge"
     }
   ],
   "comments": [

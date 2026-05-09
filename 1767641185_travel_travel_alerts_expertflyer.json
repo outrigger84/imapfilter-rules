@@ -1,6 +1,6 @@
 {
   "name": "Travel » Travel Alerts » Expertflyer",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Travel/Travel Alerts/Expertflyer"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
     }
   ],
   "comments": [

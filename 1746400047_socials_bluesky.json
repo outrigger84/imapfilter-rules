@@ -1,6 +1,6 @@
 {
   "name": "Socials \u00bb Bluesky",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

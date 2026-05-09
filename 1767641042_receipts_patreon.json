@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Patreon",
-  "enabled": false,
+  "name": "Receipts » Services » Patreon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Patreon"
+      "target": "Receipts/Services/Patreon"
     }
   ]
 }

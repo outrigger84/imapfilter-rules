@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb FedEx",
-  "enabled": false,
+  "name": "Notifications » Deliveries » FedEx",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/FedEx"
+      "target": "Notifications/Deliveries/FedEx"
     }
   ],
   "comments": [

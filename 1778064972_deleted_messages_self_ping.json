@@ -1,6 +1,6 @@
 {
   "name": "Deleted Messages » Self Ping",
-  "enabled": false,
+  "enabled": true,
   "priority": 10,
   "conditions": {
     "any": [

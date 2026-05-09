@@ -1,6 +1,6 @@
 {
   "name": "Feedback » Restaurants » Cote",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » InvestEngine",
-  "enabled": false,
+  "name": "Notifications » Finance » InvestEngine",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "all": [
@@ -33,7 +33,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/InvestEngine"
+      "target": "Notifications/Finance/InvestEngine"
     }
   ],
   "comments": [

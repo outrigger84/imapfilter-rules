@@ -1,6 +1,6 @@
 {
-  "name": "PaperlessPost",
-  "enabled": false,
+  "name": "Notifications » Community » Paperless Post",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Paperless Post"
+      "target": "Notifications/Community/Paperless Post"
     }
   ],
   "comments": [

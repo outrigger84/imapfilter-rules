@@ -1,6 +1,6 @@
 {
   "name": "NZB » NZB Finder",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

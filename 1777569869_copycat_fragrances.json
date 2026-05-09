@@ -1,6 +1,6 @@
 {
-  "name": "Copycat Fragrances",
-  "enabled": false,
+  "name": "Receipts » Retail » Copycat Fragrances",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Copycat Fragrances"
+      "target": "Receipts/Retail/Copycat Fragrances"
     }
   ],
   "comments": [

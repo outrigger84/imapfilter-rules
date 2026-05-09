@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb PayPal",
-  "enabled": false,
+  "name": "Notifications » Finance » PayPal",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/PayPal"
+      "target": "Notifications/Finance/PayPal"
     }
   ],
   "comments": [

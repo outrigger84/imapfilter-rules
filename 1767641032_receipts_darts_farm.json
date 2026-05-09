@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Darts Farm",
-  "enabled": false,
+  "name": "Receipts » Retail » Food » Darts Farm",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Darts Farm"
+      "target": "Receipts/Retail/Food/Darts Farm"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb SoulCycle",
-  "enabled": false,
+  "name": "Receipts » Health » SoulCycle",
+  "enabled": true,
   "priority": 110,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/SoulCycle"
+      "target": "Receipts/Health/SoulCycle"
     }
   ],
   "comments": [

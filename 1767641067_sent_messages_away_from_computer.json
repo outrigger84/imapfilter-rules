@@ -1,6 +1,6 @@
 {
   "name": "Sent Messages \u00bb Away From Computer",
-  "enabled": false,
+  "enabled": true,
   "priority": 45,
   "conditions": {
     "all": [

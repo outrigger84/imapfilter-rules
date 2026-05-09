@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Restaurants \u00bb Harland Brewing",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

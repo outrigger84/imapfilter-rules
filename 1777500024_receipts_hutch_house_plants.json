@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Hutch House Plants",
-  "enabled": false,
+  "name": "Receipts » Retail » Hutch House Plants",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Hutch House Plants"
+      "target": "Receipts/Retail/Hutch House Plants"
     }
   ],
   "comments": [

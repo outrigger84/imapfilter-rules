@@ -1,6 +1,6 @@
 {
   "name": "Proton Verification >> Deleted Messages",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

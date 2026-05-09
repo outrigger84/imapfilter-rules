@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Health » Holland and Barrett",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

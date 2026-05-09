@@ -1,6 +1,6 @@
 {
-  "name": "Health » Appointments » Timely",
-  "enabled": false,
+  "name": "Health » Appointments » Bear's Massage",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Health/Appointments/Timely"
+      "target": "Health/Appointments/Bear's Massage"
     }
   ],
   "comments": [

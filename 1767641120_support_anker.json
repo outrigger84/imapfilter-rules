@@ -1,6 +1,6 @@
 {
   "name": "Support \u00bb Anker",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

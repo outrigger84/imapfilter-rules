@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Visas \u00bb Cambodia",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

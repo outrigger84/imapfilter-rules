@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » IFTTT",
-  "enabled": false,
+  "name": "Notifications » Tech » IFTTT",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -25,13 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/IFTTT"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Tech/IFTTT"
     }
   ],
   "comments": [

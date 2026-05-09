@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb AARMY",
-  "enabled": false,
+  "name": "Receipts » Health » AARMY",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/AARMY"
+      "target": "Receipts/Health/AARMY"
     }
   ]
 }

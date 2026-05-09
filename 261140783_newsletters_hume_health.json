@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Health » Hume Health",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

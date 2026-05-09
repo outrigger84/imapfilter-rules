@@ -1,6 +1,6 @@
 {
   "name": "Travel » Travel Loyalty » BA Executive Club",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

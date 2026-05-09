@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Retail » B and Q",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

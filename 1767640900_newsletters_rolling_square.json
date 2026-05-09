@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Tech » Hardware » Rolling Square",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

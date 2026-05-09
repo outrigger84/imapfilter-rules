@@ -1,6 +1,6 @@
 {
   "name": "Archives » ESG-Sabb",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

@@ -1,19 +1,35 @@
 {
-  "name": "21 Cleveland Street » Purchase » Surveyors » Steren",
-  "enabled": false,
+  "name": "21 Cleveland Street » Purchase » Surveyors",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@sterensurveyors.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "enquiries@mccluskeysurveyors.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "info_at_coseyhomes_co_uk_8k8cppyfc44414_da269850@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "peter_at_sterensurveyors_co_uk_8k8cppyfc44414_9a1083fe@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "lyndsy_at_coseyhomes_co_uk_8k8cppyfc44414_05d34fa7@icloud.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Purchase/Surveyors"
+      "target": "Property/21 Cleveland Street/Purchase/Surveyors"
     }
   ],
   "comments": [

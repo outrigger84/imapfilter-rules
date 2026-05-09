@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Card Factory",
-  "enabled": false,
+  "name": "Receipts » Retail » Card Factory",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Card Factory"
+      "target": "Receipts/Retail/Card Factory"
     }
   ]
 }

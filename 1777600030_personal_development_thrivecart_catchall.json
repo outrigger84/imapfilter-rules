@@ -1,6 +1,6 @@
 {
   "name": "Personal Development \u00bb Thrivecart (catch-all)",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

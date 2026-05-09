@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Fitness » box-co-uk",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Lovehoney",
-  "enabled": false,
+  "name": "Receipts » Retail » Lovehoney",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Lovehoney"
+      "target": "Receipts/Retail/Lovehoney"
     }
   ],
   "comments": [

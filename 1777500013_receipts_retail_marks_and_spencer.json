@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Retail » Marks and Spencer",
-  "enabled": false,
+  "enabled": true,
   "priority": 110,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Burger King",
-  "enabled": false,
+  "name": "Receipts » Restaurants » Burger King",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Burger King"
+      "target": "Receipts/Restaurants/Burger King"
     }
   ],
   "comments": [

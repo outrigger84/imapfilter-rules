@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Finance » Compare The Market",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

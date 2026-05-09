@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Learning » 16 Personalities",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Mail Delivery Failures >> Deleted Messages",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [

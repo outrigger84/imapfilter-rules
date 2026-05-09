@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Restaurants » The Duck at Yeoford",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Work » Grafter",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

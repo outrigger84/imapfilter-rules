@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Hotels » Marriot Bonvoy",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

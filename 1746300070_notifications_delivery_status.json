@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Delivery Status",
-  "enabled": false,
+  "name": "Notifications » Deliveries » Delivery Status",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Delivery Status"
+      "target": "Notifications/Deliveries/Delivery Status"
     }
   ],
   "comments": [

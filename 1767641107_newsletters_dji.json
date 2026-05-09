@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Tech » Hardware » DJI",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

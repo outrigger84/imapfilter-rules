@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Retail » Clothing » Hollister",
-  "enabled": false,
+  "enabled": true,
   "priority": 110,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Apple Store",
-  "enabled": false,
+  "name": "Receipts » Retail » Tech » Apple Store",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Apple Store"
+      "target": "Receipts/Retail/Tech/Apple Store"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb The League",
-  "enabled": false,
+  "name": "Notifications » Social » The League",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/The League"
+      "target": "Notifications/Social/The League"
     }
   ],
   "comments": [

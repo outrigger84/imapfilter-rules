@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Recon",
-  "enabled": false,
+  "name": "Notifications » Social » Recon",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Recon"
+      "target": "Notifications/Social/Recon"
     }
   ]
 }

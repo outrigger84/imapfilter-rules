@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Surveys » LifePoints",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Newsletters/Topics/Surveys/LifePoints"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Nintendo",
-  "enabled": false,
+  "name": "Notifications » Entertainment » Nintendo",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Nintendo"
+      "target": "Notifications/Entertainment/Nintendo"
     }
   ],
   "comments": [

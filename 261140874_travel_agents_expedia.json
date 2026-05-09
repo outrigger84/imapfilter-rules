@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Travel Agents \u00bb Expedia",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Travel » Travel Agents » Destination2 Cruise",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Personal » Finance » Credit Rating » CheckMyFile",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

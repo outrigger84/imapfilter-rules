@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Abebooks",
-  "enabled": false,
+  "name": "Receipts » Retail » AbeBooks",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Abebooks"
+      "target": "Receipts/Retail/AbeBooks"
     }
   ]
 }

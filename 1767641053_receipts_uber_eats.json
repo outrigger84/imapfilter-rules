@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Uber Eats",
-  "enabled": false,
+  "name": "Receipts » Food » Uber Eats",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "all": [
@@ -32,7 +32,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Uber Eats"
+      "target": "Receipts/Food/Uber Eats"
     }
   ]
 }

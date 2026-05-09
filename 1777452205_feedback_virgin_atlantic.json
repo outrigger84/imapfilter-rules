@@ -1,6 +1,6 @@
 {
-  "name": "Feedback \u00bb Virgin Atlantic",
-  "enabled": false,
+  "name": "Feedback » Medallia",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,13 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Feedback/Virgin Atlantic"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Feedback/Medallia"
     }
   ],
   "comments": [

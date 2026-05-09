@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Innocam",
-  "enabled": false,
+  "name": "Notifications » Home » Innocam",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Innocam"
+      "target": "Notifications/Home/Innocam"
     }
   ],
   "comments": [

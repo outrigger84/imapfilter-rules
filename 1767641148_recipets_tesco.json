@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Tesco",
-  "enabled": false,
+  "name": "Receipts » Retail » Grocery » Tesco",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "all": [
@@ -24,7 +24,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Tesco"
+      "target": "Receipts/Retail/Grocery/Tesco"
     }
   ]
 }

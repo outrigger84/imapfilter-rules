@@ -1,6 +1,6 @@
 {
   "name": "Personal Development » AWS Training (Colborne)",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

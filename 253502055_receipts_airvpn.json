@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb AirVPN",
-  "enabled": false,
+  "name": "Receipts » Software » AirVPN",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/AirVPN"
+      "target": "Receipts/Software/AirVPN"
     }
   ]
 }

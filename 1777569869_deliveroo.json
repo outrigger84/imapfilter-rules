@@ -1,6 +1,6 @@
 {
-  "name": "Deliveroo",
-  "enabled": false,
+  "name": "Notifications » Food » Deliveroo",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -25,7 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Deliveroo"
+      "target": "Notifications/Food/Deliveroo"
     }
   ],
   "comments": [

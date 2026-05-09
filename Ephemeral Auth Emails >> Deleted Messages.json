@@ -6,7 +6,11 @@
     "all": [
       {
         "header": "subject",
-        "regex": "(?i)\\b(\\d{4,8}\\b.*\\b(code|otp|passcode|verification|security code)|login link|magic link|sign in link|signin link|password reset|reset your password|verify your email|confirm your email|please verify|email verification|confirm your(\\s+\\w+)?\\s+account|activate your account|verify your(\\s+\\w+)?\\s+account|verify your identity)\\b"
+        "regex": "(?i)\\b(\\d{4,8}\\s+is\\s+(your|the)\\s+(one[\\-\\s]time\\s+|temporary\\s+|2fa\\s+)?(code|otp|passcode|verification\\s+code|security\\s+code)|(otp|passcode|verification\\s*code|security\\s*code|one.time\\s*code|auth\\s*code|login\\s*code|2fa\\s*code|access\\s*code|sign.?in\\s*code)\\s*[:\\-\\s]\\s*\\d{4,8}|verification\\s+code|authentication\\s+code|access\\s+code|invite\\s+code|one[\\-\\s]time\\s+(?:\\w+\\s+)?(?:code|passcode|password|pin)|here.s\\s+(?:your|the|that)\\s+(?:\\w+\\s+)?(?:code|passcode|otp)|code\\s+you\\s+requested|passcode\\s+reset|login link|magic link|sign.in link|signin link|password reset|reset your password|verify your email|confirm your email|please verify|email verification|confirm your(\\s+\\w+)?\\s+account|activate your account|verify your(\\s+\\w+)?\\s+account|verify your identity)\\b"
+      },
+      {
+        "header": "subject",
+        "not_regex": "(?i)^dispatched:"
       },
       {
         "age_days_gt": 1

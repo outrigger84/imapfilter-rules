@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Trusted Shops",
-  "enabled": false,
+  "name": "Notifications » Shopping » Trusted Shops",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Trusted Shops"
+      "target": "Notifications/Shopping/Trusted Shops"
     }
   ],
   "comments": [

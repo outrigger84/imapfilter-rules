@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Learning » Productive Flourishing",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

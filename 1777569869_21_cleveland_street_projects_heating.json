@@ -1,6 +1,6 @@
 {
   "name": "21 Cleveland Street » Projects » Heating",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -11,10 +11,6 @@
       {
         "header": "from",
         "contains": "rebecca.cardus@britishgas.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "no-reply@britishgas.co.uk"
       },
       {
         "header": "from",
@@ -33,7 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "21 Cleveland Street/Projects/Heating"
+      "target": "Property/21 Cleveland Street/Projects/Heating"
     }
   ],
   "comments": [

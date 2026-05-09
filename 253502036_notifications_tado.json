@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Tado",
-  "enabled": false,
+  "name": "Notifications » Home » Tado",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,16 +21,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Tado"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Home/Tado"
     }
   ],
   "comments": [
-    "iCloud \u2013 Tado notifications"
+    "iCloud – Tado notifications"
   ]
 }

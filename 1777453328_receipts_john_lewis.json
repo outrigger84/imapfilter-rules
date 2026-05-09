@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » John Lewis",
-  "enabled": false,
+  "name": "Receipts » Retail » John Lewis",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/John Lewis"
+      "target": "Receipts/Retail/John Lewis"
     }
   ],
   "comments": [

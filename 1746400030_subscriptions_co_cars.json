@@ -1,6 +1,6 @@
 {
   "name": "Subscriptions \u00bb Co-Cars",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

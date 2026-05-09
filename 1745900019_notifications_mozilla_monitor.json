@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Mozilla Monitor",
-  "enabled": false,
+  "name": "Notifications » Security » Mozilla Monitor",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Mozilla Monitor"
+      "target": "Notifications/Security/Mozilla Monitor"
     }
   ],
   "comments": [

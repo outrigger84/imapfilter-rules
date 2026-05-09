@@ -1,6 +1,6 @@
 {
   "name": "Travel » Travel Alerts » TripIt",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb WorldPay",
-  "enabled": false,
+  "name": "Receipts » Services » WorldPay",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/WorldPay"
+      "target": "Receipts/Services/WorldPay"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb OF",
-  "enabled": false,
+  "name": "Notifications » Social » OF",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/OF"
+      "target": "Notifications/Social/OF"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "IMDB",
-  "enabled": false,
+  "name": "Notifications » Entertainment » IMDB",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/IMDB"
+      "target": "Notifications/Entertainment/IMDB"
     }
   ],
   "comments": [

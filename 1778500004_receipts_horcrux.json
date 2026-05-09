@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Software » Horcrux",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@paddle.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Horcrux"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Software/Horcrux"
+    }
+  ],
+  "comments": [
+    "Horcrux Email Backup purchase receipts via Paddle — were landing in Archives/Rowing as they were sent to treasurer@exeterrowingclub.com"
+  ]
+}

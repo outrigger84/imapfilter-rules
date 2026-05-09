@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Edenred",
-  "enabled": false,
+  "name": "Notifications » Finance » Edenred",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,16 +17,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Edenred"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Finance/Edenred"
     }
   ],
   "comments": [
-    "iCloud \u2013 Edenred notifications"
+    "iCloud – Edenred notifications"
   ]
 }

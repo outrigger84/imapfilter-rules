@@ -1,6 +1,6 @@
 {
   "name": "Notifications \u00bb Apple \u00bb Account",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

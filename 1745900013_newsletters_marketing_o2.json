@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » O2",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

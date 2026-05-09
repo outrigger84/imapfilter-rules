@@ -1,6 +1,6 @@
 {
   "name": "Receipts \u00bb Retail \u00bb Sports \u00bb Wiggle",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

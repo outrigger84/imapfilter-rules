@@ -1,6 +1,6 @@
 {
-  "name": "ASOS",
-  "enabled": false,
+  "name": "Notifications » Shopping » ASOS",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -41,7 +41,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/ASOS"
+      "target": "Notifications/Shopping/ASOS"
     }
   ],
   "comments": [

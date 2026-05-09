@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Product Management » Agile Rabbit",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

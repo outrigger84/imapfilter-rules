@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb AliExpress",
-  "enabled": false,
+  "name": "Receipts » Retail » AliExpress",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -25,10 +25,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/AliExpress"
+      "target": "Receipts/Retail/AliExpress"
     }
   ],
   "comments": [
-    "Apple Private Relay \u2013 transactional AliExpress mail"
+    "Apple Private Relay – transactional AliExpress mail"
   ]
 }

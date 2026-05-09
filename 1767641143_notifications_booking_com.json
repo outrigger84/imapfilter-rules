@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Booking-com",
-  "enabled": false,
+  "name": "Notifications » Travel » Booking-com",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -25,13 +25,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Booking-com"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Travel/Booking-com"
     }
   ],
   "comments": [

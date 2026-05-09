@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb DPD",
-  "enabled": false,
+  "name": "Notifications » Deliveries » DPD",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,13 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/DPD"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Deliveries/DPD"
     }
   ]
 }

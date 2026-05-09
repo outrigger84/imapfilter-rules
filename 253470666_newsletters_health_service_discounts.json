@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Health » Health Service Discounts",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

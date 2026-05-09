@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Bitwarden",
-  "enabled": false,
+  "name": "Notifications » Security » Bitwarden",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Bitwarden"
+      "target": "Notifications/Security/Bitwarden"
     }
   ],
   "comments": [

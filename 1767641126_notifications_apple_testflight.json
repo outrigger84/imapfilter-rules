@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Apple » Testflight",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [
@@ -14,12 +14,6 @@
     {
       "type": "move",
       "target": "Notifications/Apple/Testflight"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
     }
   ],
   "comments": [

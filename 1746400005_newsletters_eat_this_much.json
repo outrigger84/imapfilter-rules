@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Food » Eat This Much",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

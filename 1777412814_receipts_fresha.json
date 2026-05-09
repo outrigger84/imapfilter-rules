@@ -1,6 +1,6 @@
 {
-  "name": "Receipts » Fresha",
-  "enabled": false,
+  "name": "Receipts » Health » Fresha",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Fresha"
+      "target": "Receipts/Health/Fresha"
     }
   ],
   "comments": [

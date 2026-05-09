@@ -1,6 +1,6 @@
 {
   "name": "Spam » sofinn.it",
-  "enabled": false,
+  "enabled": true,
   "priority": 10,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Learning » MBA Exchange",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

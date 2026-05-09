@@ -1,6 +1,6 @@
 {
   "name": "Jobs \u00bb Search \u00bb Venn Group",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Notifications » Too Good To Go",
-  "enabled": false,
+  "name": "Notifications » Food » Too Good To Go",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -21,13 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Too Good To Go"
-    },
-    {
-      "type": "set_keywords",
-      "keywords": [
-        "Retain30"
-      ]
+      "target": "Notifications/Food/Too Good To Go"
     }
   ],
   "comments": [

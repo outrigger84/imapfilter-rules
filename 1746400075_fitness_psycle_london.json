@@ -1,6 +1,6 @@
 {
   "name": "Fitness \u00bb Psycle London",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

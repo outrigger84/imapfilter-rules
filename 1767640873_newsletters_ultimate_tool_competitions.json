@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Tools » Ultimate Tool Competitions",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

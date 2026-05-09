@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb Box Menswear",
-  "enabled": false,
+  "name": "Receipts » Retail » Clothing » Box Menswear",
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "all": [
@@ -20,7 +20,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Box Menswear"
+      "target": "Receipts/Retail/Clothing/Box Menswear"
     }
   ]
 }

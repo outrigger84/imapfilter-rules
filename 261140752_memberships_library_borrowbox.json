@@ -1,6 +1,6 @@
 {
   "name": "Memberships \u00bb Library \u00bb BorrowBox",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

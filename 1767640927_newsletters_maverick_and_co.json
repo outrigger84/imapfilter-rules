@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Retail » General » Maverick and Co",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

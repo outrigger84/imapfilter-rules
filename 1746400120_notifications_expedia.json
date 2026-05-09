@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Expedia",
-  "enabled": false,
+  "name": "Notifications » Travel » Expedia",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Expedia"
+      "target": "Notifications/Travel/Expedia"
     }
   ],
   "comments": [

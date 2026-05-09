@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb GitHub",
-  "enabled": false,
+  "name": "Notifications » Tech » GitHub",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/GitHub"
+      "target": "Notifications/Tech/GitHub"
     }
   ]
 }

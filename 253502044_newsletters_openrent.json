@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Marketing » Property » OpenRent",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

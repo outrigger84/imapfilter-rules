@@ -1,6 +1,6 @@
 {
   "name": "Receipts » Retail » Clothing » Gymshark",
-  "enabled": false,
+  "enabled": true,
   "priority": 90,
   "conditions": {
     "any": [

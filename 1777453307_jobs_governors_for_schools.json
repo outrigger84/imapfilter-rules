@@ -1,6 +1,6 @@
 {
   "name": "Jobs » Governors for Schools",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

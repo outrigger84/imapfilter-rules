@@ -1,6 +1,6 @@
 {
-  "name": "Purchase » 21 Cleveland St » Conveyancing",
-  "enabled": false,
+  "name": "21 Cleveland Street » Purchase » Conveyancing",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -45,7 +45,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Property/Purchase/21 Cleveland St/Conveyancing"
+      "target": "Property/21 Cleveland Street/Purchase/Conveyancing"
     }
   ],
   "comments": [

@@ -1,6 +1,6 @@
 {
   "name": "Jobs » Search » CV Library",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

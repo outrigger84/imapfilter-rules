@@ -1,6 +1,6 @@
 {
   "name": "Newsletters » Topics » Product Management » Mind the Product",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
   "name": "Correspondence \u00bb writetothem-com",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

@@ -1,6 +1,6 @@
 {
-  "name": "Receipts \u00bb B and Q",
-  "enabled": false,
+  "name": "Receipts » Retail » DIY » B and Q",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/B and Q"
+      "target": "Receipts/Retail/DIY/B and Q"
     }
   ],
   "comments": [

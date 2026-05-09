@@ -1,6 +1,6 @@
 {
-  "name": "Notifications \u00bb Shop App",
-  "enabled": false,
+  "name": "Notifications » Deliveries » Shop App",
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Shop App"
+      "target": "Notifications/Deliveries/Shop App"
     }
   ],
   "comments": [

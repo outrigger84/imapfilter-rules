@@ -1,6 +1,6 @@
 {
   "name": "Travel \u00bb Flights \u00bb Cayman Airways",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [

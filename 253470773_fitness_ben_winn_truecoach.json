@@ -1,6 +1,6 @@
 {
   "name": "Fitness » Ben Winn » TrueCoach",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
