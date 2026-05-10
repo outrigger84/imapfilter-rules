@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Hotels",
+  "name": "Travel » Accommodation » Hotel Services",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Hotels"
+      "target": "Travel/Accommodation/Hotel Services"
     }
   ],
   "comments": [

@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Agents \u00bb Jet2holidays",
+  "name": "Travel » Travel Agents » Jet2holidays",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,13 +7,17 @@
       {
         "header": "from",
         "contains": "@jet2holidaysemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@jet2holidays.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Agents/Jet2holidays"
+      "target": "Travel/Travel Agents/Jet2holidays"
     }
   ],
   "comments": [

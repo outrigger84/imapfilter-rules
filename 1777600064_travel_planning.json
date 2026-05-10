@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Planning",
+  "name": "Travel » Travel Alerts » Log My Trip",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,17 +7,13 @@
       {
         "header": "from",
         "contains": "@logmytrip.net"
-      },
-      {
-        "header": "from",
-        "contains": "@usesprout.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Planning"
+      "target": "Travel/Travel Alerts/Log My Trip"
     }
   ],
   "comments": [

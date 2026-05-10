@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Mopak",
+  "name": "Travel » Travel Alerts » Mopak",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Mopak"
+      "target": "Travel/Travel Alerts/Mopak"
     }
   ],
   "comments": [

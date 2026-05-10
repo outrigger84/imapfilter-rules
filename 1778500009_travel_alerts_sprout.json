@@ -1,19 +1,19 @@
 {
-  "name": "Travel \u00bb Tel Aviv",
+  "name": "Travel » Travel Alerts » Sprout",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@exploredtlv.com"
+        "contains": "@usesprout.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Tel Aviv"
+      "target": "Travel/Travel Alerts/Sprout"
     }
   ],
   "comments": [
