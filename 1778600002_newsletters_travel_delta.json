@@ -1,0 +1,26 @@
+{
+  "name": "Travel » Travel Loyalty » DL SkyMiles",
+  "enabled": true,
+  "priority": 110,
+  "conditions": {
+    "any": [
+      {
+        "header": "reply-to",
+        "regex": "reply-\\d+-\\d+_html-.*@[a-z]+\\.delta\\.com"
+      },
+      {
+        "header": "list-id",
+        "contains": "10965567.xt.local"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Travel Loyalty/DL SkyMiles"
+    }
+  ],
+  "comments": [
+    "Marketing emails identified by ExactTarget campaign Reply-To pattern or List-ID; fires before transactional Delta rules"
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "name": "Notifications » Shopping » Fab",
+  "name": "Notifications » Social » Fab",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Shopping/Fab"
+      "target": "Notifications/Social/Fab"
     }
   ],
   "comments": [

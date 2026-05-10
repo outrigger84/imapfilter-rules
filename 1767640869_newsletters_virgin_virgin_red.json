@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Marketing » Virgin » Virgin Red",
+  "name": "Travel » Travel Loyalty » Virgin Red",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Virgin/Virgin Red"
+      "target": "Travel/Travel Loyalty/Virgin Red"
     }
   ],
   "comments": [

@@ -1,23 +1,30 @@
 {
-  "name": "Notifications » Services » University of Exeter",
+  "name": "Jobs » Current » UoE Exams",
   "enabled": true,
   "priority": 100,
   "conditions": {
-    "any": [
+    "all": [
       {
         "header": "from",
         "contains": "@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "not_contains": "lm970@exeter.ac.uk"
+      },
+      {
+        "header": "from",
+        "not_contains": "guestwifi@exeter.ac.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Services/University of Exeter"
+      "target": "Jobs/Current/UoE Exams"
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard",
-    "University of Exeter graduation assistance and staff correspondence"
+    "University of Exeter staff correspondence and exam admin"
   ]
 }

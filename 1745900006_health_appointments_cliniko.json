@@ -1,5 +1,5 @@
 {
-  "name": "Health » Appointments » Cliniko",
+  "name": "Reservations » Health » Cliniko",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Health/Appointments/Cliniko"
+      "target": "Reservations/Health/Cliniko"
     }
   ],
   "comments": [

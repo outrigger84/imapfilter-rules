@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Marketing » Hotels » IHG One Rewards",
+  "name": "Travel » Travel Loyalty » IHG One Rewards",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Hotels/IHG One Rewards"
+      "target": "Travel/Travel Loyalty/IHG One Rewards"
     }
   ],
   "comments": [

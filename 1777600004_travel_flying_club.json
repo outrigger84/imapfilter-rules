@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Flying Club",
+  "name": "Travel \u00bb Travel Loyalty \u00bb VA Flying Club",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Flying Club"
+      "target": "Travel/Travel Loyalty/VA Flying Club"
     }
   ],
   "comments": [

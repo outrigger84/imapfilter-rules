@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "appleid@id.apple.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.apple.com"
+      },
+      {
+        "header": "from",
+        "contains": "@apple.com"
       }
     ]
   },
