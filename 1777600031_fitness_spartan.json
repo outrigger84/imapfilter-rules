@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Spartan",
+  "name": "Newsletters \u00bb Marketing \u00bb Fitness \u00bb Spartan (zetaglobal)",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,10 +13,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Spartan"
+      "target": "Newsletters/Marketing/Fitness/Spartan"
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Spartan marketing via zetaglobal ESP"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb Hampton Jitney",
+  "name": "Travel \u00bb Coach \u00bb Hampton Jitney",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/Hampton Jitney"
+      "target": "Travel/Coach/Hampton Jitney"
     }
   ],
   "comments": [

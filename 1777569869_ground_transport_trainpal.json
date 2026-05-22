@@ -1,5 +1,5 @@
 {
-  "name": "Ground Transport » Trainpal",
+  "name": "Travel » Rail » TrainPal",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,16 +11,21 @@
       {
         "header": "from",
         "contains": "tp-accounts-noreply@TrainPal.com"
+      },
+      {
+        "header": "from",
+        "contains": "mytrainpal.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/TrainPal"
+      "target": "Travel/Rail/TrainPal"
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "Consolidated: absorbs mytrainpal.com from former MyTrainPal rule"
   ]
 }

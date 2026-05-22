@@ -1,23 +1,23 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb DIY \u00bb Screwfix",
+  "name": "Newsletters \u00bb Marketing \u00bb Entertainment \u00bb Gala Film",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@screwfix.info"
+        "contains": "@mail.gala.com"
       },
       {
         "header": "from",
-        "contains": "@screwfix.com"
+        "contains": "@gala.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Retail/DIY/Screwfix"
+      "target": "Newsletters/Marketing/Entertainment/Gala Film"
     }
   ],
   "comments": [

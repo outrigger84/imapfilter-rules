@@ -1,0 +1,19 @@
+{
+  "name": "Fitness » Gym » Lichfield Health & Fitness Club",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "lichfieldhealthandfitnessclub@clubright.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Gym/Lichfield Health & Fitness Club"
+    }
+  ]
+}

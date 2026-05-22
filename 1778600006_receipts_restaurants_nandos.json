@@ -1,0 +1,23 @@
+{
+  "name": "Receipts » Restaurants » Nandos",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@nandos.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "Order Confirmation"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Restaurants/Nandos"
+    }
+  ]
+}

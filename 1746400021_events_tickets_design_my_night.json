@@ -1,0 +1,26 @@
+{
+  "name": "Events » Tickets » DesignMyNight",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@designmynight.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Ticket Purchase"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Events/Tickets/DesignMyNight"
+    }
+  ],
+  "comments": [
+    "Ticket purchase confirmations from DesignMyNight — higher priority than the general newsletter rule"
+  ]
+}

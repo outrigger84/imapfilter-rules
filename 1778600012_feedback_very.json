@@ -1,0 +1,19 @@
+{
+  "name": "Feedback » Very",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@express.ger.medallia.eu"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Very"
+    }
+  ]
+}

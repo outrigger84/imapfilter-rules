@@ -1,19 +1,22 @@
 {
-  "name": "Travel » Ground Transport » TrainPal",
+  "name": "Fitness » Active Devon",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "tp-accounts-noreply@trip.com"
+        "contains": "@activedevon.org"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/TrainPal"
+      "target": "Fitness/Active Devon"
     }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
   ]
 }

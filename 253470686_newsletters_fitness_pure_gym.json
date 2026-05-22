@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Marketing » Fitness » Pure Gym",
+  "name": "Fitness » Gym » PureGym",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Fitness/Pure Gym"
+      "target": "Fitness/Gym/PureGym"
     }
   ],
   "comments": [

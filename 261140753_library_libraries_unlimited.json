@@ -1,19 +1,23 @@
 {
-  "name": "Memberships \u00bb Library \u00bb BorrowBox",
+  "name": "Library \u00bb Libraries Unlimited",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "noreply@borrowbox.com"
+        "contains": "info@librariesunlimited.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "marketing@librariesunlimited.org.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Memberships/Library/BorrowBox"
+      "target": "Library/Libraries Unlimited"
     }
   ],
   "comments": [

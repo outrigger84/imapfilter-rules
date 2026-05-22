@@ -1,0 +1,23 @@
+{
+  "name": "Feedback » Virgin Atlantic",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreplyvirginflyingclub@express.medallia.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreplyvirginatlantic@express.medallia.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Virgin Atlantic"
+    }
+  ]
+}

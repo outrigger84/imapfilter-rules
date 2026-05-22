@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb FreeNow",
+  "name": "Travel » Taxis » FreeNow",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -10,6 +10,10 @@
       },
       {
         "header": "from",
+        "contains": "@mail.free-now.com"
+      },
+      {
+        "header": "from",
         "contains": "@free-now.com"
       }
     ]
@@ -17,10 +21,11 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/FreeNow"
+      "target": "Travel/Taxis/FreeNow"
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Consolidated: absorbs @mail.free-now.com sender from former Thunderbird-imported rule"
   ]
 }

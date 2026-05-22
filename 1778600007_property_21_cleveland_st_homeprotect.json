@@ -1,0 +1,39 @@
+{
+  "name": "Property » 21 Cleveland Street » Homeprotect Insurance",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@homeprotect.co.uk"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "renewal"
+          },
+          {
+            "header": "subject",
+            "contains": "policy"
+          },
+          {
+            "header": "subject",
+            "contains": "payment"
+          },
+          {
+            "header": "subject",
+            "contains": "insurance"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Insurance"
+    }
+  ]
+}

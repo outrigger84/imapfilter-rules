@@ -1,0 +1,26 @@
+{
+  "name": "Fitness » Devon Trail Races",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@eventrac.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "Devon Trail"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Devon Trail Races"
+    }
+  ],
+  "comments": [
+    "Devon Trail Races event emails via Eventrac; higher priority than generic Dartmoor Classic rule"
+  ]
+}

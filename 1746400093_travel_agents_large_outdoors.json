@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Agents \u00bb Large Outdoors",
+  "name": "Travel \u00bb Travel Agents \u00bb Large Outdoors",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Agents/Large Outdoors"
+      "target": "Travel/Travel Agents/Large Outdoors"
     }
   ],
   "comments": [

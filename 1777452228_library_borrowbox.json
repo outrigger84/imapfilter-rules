@@ -1,19 +1,19 @@
 {
-  "name": "Newsletters » Marketing » Entertainment » Dudesnude",
+  "name": "Library \u00bb BorrowBox",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@dudesnude.com"
+        "contains": "@bolindadigital.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Entertainment/Dudesnude"
+      "target": "Library/BorrowBox"
     }
   ],
   "comments": [

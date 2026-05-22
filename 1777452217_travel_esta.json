@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb ESTA",
+  "name": "Travel \u00bb Visas \u00bb ESTA",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/ESTA"
+      "target": "Travel/Visas/ESTA"
     }
   ],
   "comments": [

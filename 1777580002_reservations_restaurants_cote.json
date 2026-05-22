@@ -1,0 +1,42 @@
+{
+  "name": "Reservations » Restaurants » Côte",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@t.cote.co.uk"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "reserved"
+          },
+          {
+            "header": "subject",
+            "contains": "reservation"
+          },
+          {
+            "header": "subject",
+            "contains": "confirmation"
+          },
+          {
+            "header": "subject",
+            "contains": "confirmed"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Reservations/Restaurants/Cote"
+    }
+  ],
+  "comments": [
+    "Côte table reservation confirmations; higher priority than general Feedback rule"
+  ]
+}

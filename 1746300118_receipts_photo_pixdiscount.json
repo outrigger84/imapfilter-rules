@@ -1,19 +1,19 @@
 {
-  "name": "Newsletters » Marketing » Food » Hop Burns and Black",
+  "name": "Receipts » Photo » PixDiscount",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@hopburnsblack.co.uk"
+        "contains": "@pixdiscount.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Food/Hop Burns and Black"
+      "target": "Receipts/Photo/PixDiscount"
     }
   ],
   "comments": [

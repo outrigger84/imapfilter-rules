@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb Avanti West Coast",
+  "name": "Travel \u00bb Rail \u00bb Avanti West Coast",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -16,7 +16,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/Avanti West Coast"
+      "target": "Travel/Rail/Avanti West Coast"
     }
   ]
 }

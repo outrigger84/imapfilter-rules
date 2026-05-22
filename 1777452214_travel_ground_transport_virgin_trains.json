@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb Virgin Trains",
+  "name": "Travel \u00bb Rail \u00bb Virgin Trains",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/Virgin Trains"
+      "target": "Travel/Rail/Virgin Trains"
     }
   ],
   "comments": [

@@ -1,5 +1,5 @@
 {
-  "name": "Feedback » Apple Support",
+  "name": "Feedback » Apple",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -21,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Feedback/Apple Support"
+      "target": "Feedback/Apple"
     }
   ],
   "comments": [

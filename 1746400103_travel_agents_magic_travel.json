@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Agents \u00bb Magic Travel",
+  "name": "Travel \u00bb Travel Agents \u00bb Magic Travel",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Agents/Magic Travel"
+      "target": "Travel/Travel Agents/Magic Travel"
     }
   ],
   "comments": [

@@ -1,0 +1,19 @@
+{
+  "name": "Feedback » IHG Hotels & Resorts",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "yourIHGstay@express.medallia.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/IHG Hotels & Resorts"
+    }
+  ]
+}

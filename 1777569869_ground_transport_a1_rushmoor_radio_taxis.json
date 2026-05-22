@@ -1,5 +1,5 @@
 {
-  "name": "Ground Transport » A1 Rushmoor Radio Taxis",
+  "name": "Travel » Taxis » A1 Rushmoor Radio Taxis",
   "enabled": true,
   "priority": 90,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/A1 Rushmoor Radio Taxis"
+      "target": "Travel/Taxis/A1 Rushmoor Radio Taxis"
     }
   ],
   "comments": [

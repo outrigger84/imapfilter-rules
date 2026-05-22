@@ -1,34 +1,35 @@
 {
-  "name": "Travel \u00bb Rail \u00bb Raileasy",
+  "name": "Events » Tickets » Vue Cinema",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "all": [
       {
         "header": "from",
-        "contains": "@raileasy.co.uk"
+        "contains": "@myvue.com"
       },
       {
         "any": [
           {
             "header": "subject",
-            "contains": "Your e-tickets to"
+            "contains": "booking"
           },
           {
             "header": "subject",
-            "contains": "Booking, Ref"
+            "contains": "Booking Confirmation"
+          },
+          {
+            "header": "subject",
+            "contains": "order"
           }
         ]
       }
     ]
   },
-  "comments": [
-    "Created with IMAPFilter Rule Wizard"
-  ],
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Rail/Raileasy"
+      "target": "Events/Tickets/Vue Cinema"
     }
   ]
 }

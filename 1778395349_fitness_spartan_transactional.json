@@ -1,0 +1,26 @@
+{
+  "name": "Fitness » Spartan (bookings)",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@checkoutsecure.net"
+      },
+      {
+        "header": "from",
+        "contains": "spartan"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Spartan"
+    }
+  ],
+  "comments": [
+    "Spartan Race booking confirmations from checkoutsecure.net"
+  ]
+}

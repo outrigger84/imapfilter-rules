@@ -1,0 +1,19 @@
+{
+  "name": "Travel » TUI » Boarding Passes",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "boardingpass@tui.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/TUI/Boarding Passes"
+    }
+  ]
+}

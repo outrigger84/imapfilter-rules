@@ -1,0 +1,26 @@
+{
+  "name": "Gift Vouchers » Côte (transactional)",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@t.cote.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "gift"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Gift Vouchers/Cote"
+    }
+  ],
+  "comments": [
+    "Gift voucher emails from Côte transactional domain; higher priority than general Feedback rule"
+  ]
+}

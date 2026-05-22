@@ -1,30 +1,9 @@
 {
   "name": "Travel » Trips » 2022 - Crete",
-  "enabled": true,
+  "enabled": false,
   "priority": 50,
   "conditions": {
-    "any": [
-      {
-        "header": "subject",
-        "contains": "Crete"
-      },
-      {
-        "header": "subject",
-        "contains": "Heraklion"
-      },
-      {
-        "header": "subject",
-        "contains": "Iraklion"
-      },
-      {
-        "header": "subject",
-        "contains": "Chania"
-      },
-      {
-        "header": "subject",
-        "contains": "Rethymno"
-      }
-    ]
+    "any": []
   },
   "actions": [
     {

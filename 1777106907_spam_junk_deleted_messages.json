@@ -6,6 +6,14 @@
     "any": [
       {
         "header": "from",
+        "contains": "@foodtalkdaily.com"
+      },
+      {
+        "header": "from",
+        "contains": "@cnt1.foodtalkdaily.com"
+      },
+      {
+        "header": "from",
         "contains": "thermomix.com.sg"
       },
       {

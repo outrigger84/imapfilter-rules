@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "emails@webscorer.com"
-      },
-      {
-        "header": "from",
-        "contains": "lichfieldhealthandfitnessclub@clubright.co.uk"
       }
     ]
   },

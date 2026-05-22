@@ -1,5 +1,5 @@
 {
-  "name": "Travel » Ground Transport » Trainsplit",
+  "name": "Travel » Rail » TrainSplit",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/Trainsplit"
+      "target": "Travel/Rail/TrainSplit"
     }
   ],
   "comments": [

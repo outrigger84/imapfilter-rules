@@ -1,0 +1,19 @@
+{
+  "name": "Feedback » Marriott",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "marriott@express.medallia.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Marriott"
+    }
+  ]
+}

@@ -1,9 +1,13 @@
 {
-  "name": "Travel » Ground Transport » Trainline",
+  "name": "Travel » Rail » Trainline",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
+      {
+        "header": "from",
+        "contains": "auto-confirm@info.thetrainline.com"
+      },
       {
         "header": "from",
         "contains": "@comms.trainline.com"
@@ -17,7 +21,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/Trainline"
+      "target": "Travel/Rail/Trainline"
     }
   ]
 }

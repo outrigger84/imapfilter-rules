@@ -1,23 +1,22 @@
 {
-  "name": "Charity \u00bb Swiftaid",
+  "name": "Library \u00bb BorrowBox",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@swiftaid.co.uk"
+        "contains": "noreply@borrowbox.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Charity/Swiftaid"
+      "target": "Library/BorrowBox"
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard",
-    "Swiftaid automated Gift Aid statements"
+    "Migrated from Thunderbird msgFilterRules.dat"
   ]
 }

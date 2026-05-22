@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb Long Island Ferry",
+  "name": "Travel \u00bb Boat \u00bb Long Island Ferry",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/Long Island Ferry"
+      "target": "Travel/Boat/Long Island Ferry"
     }
   ],
   "comments": [

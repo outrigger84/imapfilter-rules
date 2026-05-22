@@ -1,19 +1,23 @@
 {
-  "name": "Newsletters » Marketing » Photo » PixDiscount",
+  "name": "Receipts \u00bb Retail \u00bb DIY \u00bb Screwfix",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@pixdiscount.com"
+        "contains": "@screwfix.info"
+      },
+      {
+        "header": "from",
+        "contains": "@screwfix.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Photo/PixDiscount"
+      "target": "Receipts/Retail/DIY/Screwfix"
     }
   ],
   "comments": [

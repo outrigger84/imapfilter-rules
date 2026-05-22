@@ -1,5 +1,5 @@
 {
-  "name": "Travel » Ground Transport » MTA TrainTime",
+  "name": "Travel » Transit » MTA TrainTime",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/MTA"
+      "target": "Travel/Transit/MTA"
     }
   ],
   "comments": [

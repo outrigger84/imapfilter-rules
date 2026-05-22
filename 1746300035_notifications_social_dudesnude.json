@@ -1,23 +1,19 @@
 {
-  "name": "Charity \u00bb JustGiving",
+  "name": "Notifications » Social » Dudesnude",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@contact.justgiving.com"
-      },
-      {
-        "header": "from",
-        "contains": "@justgiving.com"
+        "contains": "@dudesnude.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Charity/JustGiving"
+      "target": "Notifications/Social/Dudesnude"
     }
   ],
   "comments": [

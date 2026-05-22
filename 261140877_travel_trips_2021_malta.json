@@ -11,18 +11,6 @@
       {
         "header": "from",
         "contains": "no-reply@airmalta.com"
-      },
-      {
-        "header": "subject",
-        "contains": "Malta"
-      },
-      {
-        "header": "subject",
-        "contains": "Valletta"
-      },
-      {
-        "header": "subject",
-        "contains": "Gozo"
       }
     ]
   },

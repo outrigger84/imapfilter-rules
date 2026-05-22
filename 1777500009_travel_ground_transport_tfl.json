@@ -1,5 +1,5 @@
 {
-  "name": "Travel » Ground Transport » TfL",
+  "name": "Travel » Transit » TfL",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -17,7 +17,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/TfL"
+      "target": "Travel/Transit/TfL"
     }
   ],
   "comments": [

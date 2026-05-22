@@ -7,20 +7,16 @@
       {
         "header": "from",
         "contains": "spartan.com"
-      },
-      {
-        "header": "from",
-        "contains": "@checkoutsecure.net"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Spartan"
+      "target": "Newsletters/Marketing/Fitness/Spartan"
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Marketing campaigns from Spartan Race domains"
   ]
 }

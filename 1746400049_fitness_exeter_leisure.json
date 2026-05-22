@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Exeter Leisure",
+  "name": "Fitness \u00bb Gym \u00bb Exeter Leisure",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Exeter Leisure"
+      "target": "Fitness/Gym/Exeter Leisure"
     }
   ],
   "comments": [

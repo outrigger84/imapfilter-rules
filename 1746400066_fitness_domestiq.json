@@ -1,23 +1,23 @@
 {
-  "name": "Fitness \u00bb Gym \u00bb The Gym Group",
+  "name": "Fitness \u00bb Domestiq",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@thegymgroup.com"
+        "contains": "@domestiq.net"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Gym/The Gym Group"
+      "target": "Fitness/Domestiq"
     }
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "The Gym Group membership billing and notifications"
+    "Domestiq home management platform newsletter/updates"
   ]
 }

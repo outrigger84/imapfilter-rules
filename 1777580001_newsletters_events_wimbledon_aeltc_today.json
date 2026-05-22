@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Events » Wimbledon (AELTC Today)",
+  "enabled": true,
+  "priority": 50,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@aeltc-email.com"
+      },
+      {
+        "header": "subject",
+        "contains": "TODAY"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Events/Wimbledon"
+    }
+  ],
+  "comments": [
+    "AELTC daily Wimbledon Today newsletters; tickets/ballot entries handled by Events rule"
+  ]
+}

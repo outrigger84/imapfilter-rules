@@ -1,5 +1,5 @@
 {
-  "name": "Fitness » Gym » Legend",
+  "name": "Fitness » Gym » Exeter Leisure",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,10 +13,10 @@
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Gym/Legend"
+      "target": "Fitness/Gym/Exeter Leisure"
     }
   ],
   "comments": [
-    "Legend is a gym management platform used by many UK leisure centres"
+    "Legend is a gym management platform; this domain is used by Exeter Leisure"
   ]
 }

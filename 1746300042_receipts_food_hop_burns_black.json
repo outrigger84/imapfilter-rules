@@ -1,19 +1,19 @@
 {
-  "name": "Memberships \u00bb Library \u00bb BorrowBox",
+  "name": "Receipts » Food » Hop Burns & Black",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@bolindadigital.com"
+        "contains": "@hopburnsblack.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Memberships/Library/BorrowBox"
+      "target": "Receipts/Food/Hop Burns & Black"
     }
   ],
   "comments": [

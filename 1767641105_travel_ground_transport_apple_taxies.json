@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb Apple Taxies",
+  "name": "Travel \u00bb Taxis \u00bb Apple Taxies",
   "enabled": true,
   "priority": 90,
   "conditions": {
@@ -24,7 +24,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/Apple Taxies"
+      "target": "Travel/Taxis/Apple Taxies"
     }
   ]
 }

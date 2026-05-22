@@ -1,34 +1,35 @@
 {
-  "name": "Travel \u00bb Rail \u00bb Uber Train",
+  "name": "Receipts » Food » Musclefood",
   "enabled": true,
   "priority": 90,
   "conditions": {
     "all": [
       {
         "header": "from",
-        "contains": "travel-noreply@uber.com"
+        "contains": "@musclefood.com"
       },
       {
         "any": [
           {
             "header": "subject",
-            "contains": "Your tickets"
+            "contains": "Order Is Confirmed"
           },
           {
             "header": "subject",
-            "contains": "Your Uber Travel ticket purchase"
+            "contains": "En Route"
+          },
+          {
+            "header": "subject",
+            "contains": "Order Confirmation"
           }
         ]
       }
     ]
   },
-  "comments": [
-    "Created with IMAPFilter Rule Wizard"
-  ],
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Rail/Uber Train"
+      "target": "Receipts/Food/Musclefood"
     }
   ]
 }

@@ -1,23 +1,23 @@
 {
-  "name": "Newsletters » Marketing » Food » Food Talk Daily",
+  "name": "Receipts \u00bb Retail \u00bb DIY \u00bb Toolstation",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@cnt1.foodtalkdaily.com"
+        "contains": "@e.toolstation.com"
       },
       {
         "header": "from",
-        "contains": "@foodtalkdaily.com"
+        "contains": "@toolstation.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Food/Food Talk Daily"
+      "target": "Receipts/Retail/DIY/Toolstation"
     }
   ],
   "comments": [

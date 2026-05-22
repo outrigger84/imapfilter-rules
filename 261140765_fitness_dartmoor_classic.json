@@ -1,22 +1,22 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb MyTrainPal",
+  "name": "Fitness » Dartmoor Classic",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "mytrainpal.com"
+        "contains": "enquiries@dartmoorclassic.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/MyTrainPal"
+      "target": "Fitness/Dartmoor Classic"
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Migrated from Thunderbird msgFilterRules.dat"
   ]
 }

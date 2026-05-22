@@ -1,19 +1,23 @@
 {
-  "name": "Newsletters » Marketing » Fitness » Active Devon",
+  "name": "Receipts \u00bb Charity \u00bb JustGiving",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@activedevon.org"
+        "contains": "@contact.justgiving.com"
+      },
+      {
+        "header": "from",
+        "contains": "@justgiving.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Fitness/Active Devon"
+      "target": "Receipts/Charity/JustGiving"
     }
   ],
   "comments": [

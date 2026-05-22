@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Marketing » Fitness » The Gym Group",
+  "name": "Fitness » Gym » The Gym Group",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Fitness/The Gym Group"
+      "target": "Fitness/Gym/The Gym Group"
     }
   ],
   "comments": [

@@ -1,23 +1,23 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Domestiq",
+  "name": "Receipts \u00bb Charity \u00bb Swiftaid",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@domestiq.net"
+        "contains": "@swiftaid.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Domestiq"
+      "target": "Receipts/Charity/Swiftaid"
     }
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Domestiq home management platform newsletter/updates"
+    "Swiftaid automated Gift Aid statements"
   ]
 }

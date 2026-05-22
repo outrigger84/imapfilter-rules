@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Ground Transport \u00bb DB Bahn",
+  "name": "Travel \u00bb Rail \u00bb DB Bahn",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -13,7 +13,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Ground Transport/DB Bahn"
+      "target": "Travel/Rail/DB Bahn"
     }
   ],
   "comments": [
