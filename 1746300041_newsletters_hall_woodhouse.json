@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "@updates.hall-woodhouse.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "@hall-woodhouse.co.uk"
       }
     ]
   },

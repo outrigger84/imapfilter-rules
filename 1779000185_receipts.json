@@ -102,10 +102,6 @@
       },
       {
         "header": "from",
-        "contains": "info@hmcandleco.co.uk"
-      },
-      {
-        "header": "from",
         "contains": "notification@pay.gov"
       },
       {
