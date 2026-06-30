@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@mail.cancerresearchuk.org"
+      },
+      {
+        "header": "from",
+        "contains": "@comms.cancerresearchuk.org"
       }
     ]
   },

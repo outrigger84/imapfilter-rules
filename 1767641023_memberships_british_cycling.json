@@ -1,5 +1,5 @@
 {
-  "name": "Memberships \u00bb British Cycling",
+  "name": "Memberships » British Cycling",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@updates-britishcycling.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "info@updates-britishcycling.org.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@mg.britishcycling.org.uk"
       }
     ]
   },

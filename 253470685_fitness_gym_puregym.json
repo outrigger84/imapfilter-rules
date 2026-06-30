@@ -7,6 +7,18 @@
       {
         "header": "from",
         "contains": "@info.emails-puregym.com"
+      },
+      {
+        "header": "from",
+        "contains": "@offers.emails-puregym.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.emails-puregym.com"
+      },
+      {
+        "header": "from",
+        "contains": "@puregym.com"
       }
     ]
   },

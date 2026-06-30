@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Travel \u00bb Lufthansa",
+  "name": "Newsletters » Marketing » Travel » Lufthansa",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,14 @@
       {
         "header": "from",
         "contains": "@lufthansa.com"
+      },
+      {
+        "header": "from",
+        "contains": "newsletter@your.lufthansa-group.com"
+      },
+      {
+        "header": "from",
+        "contains": "newsletter@my.lufthansa.com"
       }
     ]
   },

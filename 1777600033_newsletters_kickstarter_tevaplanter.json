@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@green-logistics.games"
+      },
+      {
+        "header": "from",
+        "contains": "support@tevaplanter.com"
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "name": "Library \u00bb BorrowBox",
+  "name": "Library » BorrowBox",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@bolindadigital.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@borrowbox.com"
       }
     ]
   },

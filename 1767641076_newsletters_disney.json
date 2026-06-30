@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@mail.disneyplus.com"
+      },
+      {
+        "header": "from",
+        "contains": "disneyplus@mail.disneyplus.com"
+      },
+      {
+        "header": "from",
+        "contains": "disneyplus@mkt.mail2.disneyplus.com"
       }
     ]
   },

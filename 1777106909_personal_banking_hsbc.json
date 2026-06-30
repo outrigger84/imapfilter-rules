@@ -15,6 +15,26 @@
       {
         "header": "from",
         "contains": "@email.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hsbcuk@mail01.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "statements@email1.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hsbc@email.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "contactcentre@marketingsupport.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "documents@email1.hsbc.co.uk"
       }
     ]
   },

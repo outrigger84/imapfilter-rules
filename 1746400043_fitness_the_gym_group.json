@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Gym \u00bb The Gym Group",
+  "name": "Fitness » Gym » The Gym Group",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@thegymgroup.com"
+      },
+      {
+        "header": "from",
+        "contains": "@et.thegymgroup.com"
       }
     ]
   },

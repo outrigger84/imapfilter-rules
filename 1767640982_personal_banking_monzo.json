@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Banking \u00bb Monzo",
+  "name": "Personal » Finance » Banking » Monzo",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@email.monzo.com"
+      },
+      {
+        "header": "from",
+        "contains": "@monzoemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@monzo.com"
       }
     ]
   },

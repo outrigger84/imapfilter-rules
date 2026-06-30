@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "yo@adulti.sh"
+      },
+      {
+        "header": "from",
+        "contains": "@getnude.com"
       }
     ]
   },

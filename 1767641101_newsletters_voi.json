@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@mkt.voiapp.io"
+      },
+      {
+        "header": "from",
+        "contains": "hello@mkt.voiapp.io"
+      },
+      {
+        "header": "from",
+        "contains": "info@trans.voiapp.io"
       }
     ]
   },

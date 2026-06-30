@@ -7,6 +7,30 @@
       {
         "header": "from",
         "contains": "productschool.com"
+      },
+      {
+        "header": "from",
+        "contains": "eva@events.productschool.com"
+      },
+      {
+        "header": "from",
+        "contains": "eva@productschool.com"
+      },
+      {
+        "header": "from",
+        "contains": "events@productschool.com"
+      },
+      {
+        "header": "from",
+        "contains": "anthony@productschool.com"
+      },
+      {
+        "header": "from",
+        "contains": "eva.friday@productschool.com"
+      },
+      {
+        "header": "from",
+        "contains": "saskia@productschool.com"
       }
     ]
   },

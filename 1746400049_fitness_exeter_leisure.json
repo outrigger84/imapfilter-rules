@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Gym \u00bb Exeter Leisure",
+  "name": "Fitness » Gym » Exeter Leisure",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@servicetsg.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mywellness.com"
+      },
+      {
+        "header": "from",
+        "contains": "@legendonlineservices.co.uk"
       }
     ]
   },

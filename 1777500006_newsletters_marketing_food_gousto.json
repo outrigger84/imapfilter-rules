@@ -11,6 +11,22 @@
       {
         "header": "from",
         "contains": "@gousto.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "hello_at_mail_gousto_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "info_at_email_gousto_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "gousto_at_info_gousto_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "hello_at_email_gousto_co_uk_"
       }
     ]
   },

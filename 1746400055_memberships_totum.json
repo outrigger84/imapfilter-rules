@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Student Discount \u00bb Totum",
+  "name": "Newsletters » Marketing » Student Discount » Totum",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,22 @@
       {
         "header": "from",
         "contains": "@totum.com"
+      },
+      {
+        "header": "from",
+        "contains": "@eb.totum.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.totum.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.totum.com"
+      },
+      {
+        "header": "from",
+        "contains": "@em.totum.com"
       }
     ]
   },

@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "coursera.org"
+      },
+      {
+        "header": "from",
+        "contains": "@email.coursera.org"
       }
     ]
   },

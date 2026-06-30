@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@comms.dyson.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@comms.dyson.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@e.dyson.co.uk"
       }
     ]
   },

@@ -15,6 +15,14 @@
       {
         "header": "from",
         "contains": "@tx.ihg.com"
+      },
+      {
+        "header": "from",
+        "contains": "IHGOneRewards@mc.ihg.com"
+      },
+      {
+        "header": "from",
+        "contains": "ihgonerewards@mc.ihg.com"
       }
     ]
   },

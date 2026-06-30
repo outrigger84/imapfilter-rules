@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Aaron PT",
+  "name": "Fitness » Aaron PT",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "thompsonapt1@yahoo.com"
+      },
+      {
+        "header": "from",
+        "contains": "support@mypthub.net"
+      },
+      {
+        "header": "from",
+        "contains": "notifications@gocardless.com"
       }
     ]
   },

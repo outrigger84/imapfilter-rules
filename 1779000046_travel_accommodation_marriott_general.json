@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@marriott.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@marriott.com"
+      },
+      {
+        "header": "from",
+        "contains": "reservations@res-marriott.com"
       }
     ]
   },

@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@eg.expedia.com"
+      },
+      {
+        "header": "from",
+        "contains": "travel@support.expedia.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "confirmation@expediaconfirm.com"
       }
     ]
   },

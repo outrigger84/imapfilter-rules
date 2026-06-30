@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Travel Agents \u00bb Virgin Holidays",
+  "name": "Travel » Travel Agents » Virgin Holidays",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@fly.virgin.com"
+      },
+      {
+        "header": "from",
+        "contains": "@emails.virginholidays.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@virginholidays.co.uk"
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "name": "Receipts \u00bb Retail \u00bb AbeBooks",
+  "name": "Receipts » Retail » AbeBooks",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,14 @@
       {
         "header": "from",
         "contains": "@orbitingbooks.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply_transactional@abebooks.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "abebookssale@betterworldbooks.com"
       }
     ]
   },

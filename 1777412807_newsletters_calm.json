@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@breathe.calm.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello_at_breathe_calm_com_"
       }
     ]
   },

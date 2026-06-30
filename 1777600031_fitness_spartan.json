@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Fitness \u00bb Spartan (zetaglobal)",
+  "name": "Newsletters » Marketing » Fitness » Spartan (zetaglobal)",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@delivery.zetaglobal.net"
+      },
+      {
+        "header": "from",
+        "contains": "spartan.com"
       }
     ]
   },

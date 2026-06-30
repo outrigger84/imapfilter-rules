@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "flyingclub@emails.virginatlantic.com"
+      },
+      {
+        "header": "from",
+        "contains": "@points-mail.com"
       }
     ]
   },

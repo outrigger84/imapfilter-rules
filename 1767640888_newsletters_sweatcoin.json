@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "sweatco.in"
+      },
+      {
+        "header": "from",
+        "contains": "alerts@info.sweatco.in"
+      },
+      {
+        "header": "from",
+        "contains": "users@sweatco.in"
       }
     ]
   },

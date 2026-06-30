@@ -11,6 +11,14 @@
       {
         "header": "from",
         "contains": "@experience.chase.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "service@email.chase.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "mail@support.chase.co.uk"
       }
     ]
   },

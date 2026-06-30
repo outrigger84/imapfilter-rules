@@ -19,6 +19,14 @@
       {
         "header": "from",
         "contains": "britishairwaysclub@crm.ba.com"
+      },
+      {
+        "header": "from",
+        "contains": "@crm.ba.com"
+      },
+      {
+        "header": "from",
+        "contains": "@my.ba.com"
       }
     ]
   },

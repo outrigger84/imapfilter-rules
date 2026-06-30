@@ -7,6 +7,18 @@
       {
         "header": "from",
         "contains": "@lpsg.com"
+      },
+      {
+        "header": "from",
+        "contains": "@onlyfans.com"
+      },
+      {
+        "header": "from",
+        "contains": "@netbilling.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_netbilling_com_"
       }
     ]
   },

@@ -1,5 +1,5 @@
 {
-  "name": "Events \u00bb Wimbledon",
+  "name": "Events » Wimbledon",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -15,6 +15,22 @@
       {
         "header": "from",
         "contains": "@wimbledon.com"
+      },
+      {
+        "header": "from",
+        "contains": "@aeltc-email.com"
+      },
+      {
+        "header": "from",
+        "contains": "@championships.aeltc-email.com"
+      },
+      {
+        "header": "from",
+        "contains": "@wimbledon.aeltc-email.com"
+      },
+      {
+        "header": "from",
+        "contains": "@wimbledon.tickets"
       }
     ]
   },

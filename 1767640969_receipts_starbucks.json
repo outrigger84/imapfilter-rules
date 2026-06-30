@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@account.starbucks.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@support.starbucks.com"
+      },
+      {
+        "header": "from",
+        "contains": "@starbucks.com"
       }
     ]
   },

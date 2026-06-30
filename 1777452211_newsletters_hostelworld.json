@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@m.email.hostelworld.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.hostelworld.com"
       }
     ]
   },

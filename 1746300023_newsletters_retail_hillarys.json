@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Home \u00bb Hillarys",
+  "name": "Newsletters » Marketing » Retail » Home » Hillarys",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@hillarys.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@e.hillarys.co.uk"
       }
     ]
   },

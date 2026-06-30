@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "jobalerts@microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "gtaanm@microsoft.com"
       }
     ]
   },

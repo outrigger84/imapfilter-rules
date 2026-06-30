@@ -23,6 +23,18 @@
       {
         "header": "from",
         "contains": "return@amazon"
+      },
+      {
+        "header": "from",
+        "contains": "auto-confirm@amazon.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "return@amazon.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "payments-messages@amazon.co.uk"
       }
     ]
   },

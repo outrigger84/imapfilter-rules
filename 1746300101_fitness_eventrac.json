@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Dartmoor Classic",
+  "name": "Fitness » Dartmoor Classic",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@eventrac.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "enquiries@dartmoorclassic.co.uk"
       }
     ]
   },

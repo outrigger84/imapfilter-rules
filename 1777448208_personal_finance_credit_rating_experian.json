@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Credit Rating \u00bb Experian",
+  "name": "Personal » Finance » Credit Rating » Experian",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -19,6 +19,18 @@
       {
         "header": "from",
         "contains": "@experian.com"
+      },
+      {
+        "header": "from",
+        "contains": "email@alerts.experian.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "email@alert.experian.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "email@notify.experian.co.uk"
       }
     ]
   },

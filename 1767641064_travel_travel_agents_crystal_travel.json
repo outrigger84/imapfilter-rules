@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Travel Agents \u00bb Crystal Travel",
+  "name": "Travel » Travel Agents » Crystal Travel",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,14 @@
       {
         "header": "from",
         "contains": "crystaltravel.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "marketing@updates.crystaltravel.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "daily@newsletters.crystaltravel.co.uk"
       }
     ]
   },

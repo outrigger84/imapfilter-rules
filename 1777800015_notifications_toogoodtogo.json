@@ -15,6 +15,14 @@
       {
         "header": "from",
         "contains": "_at_mail_toogoodtogo_com_"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply_at_toogoodtogo_com_"
+      },
+      {
+        "header": "from",
+        "contains": "hello_at_mail_toogoodtogo_co_uk_"
       }
     ]
   },

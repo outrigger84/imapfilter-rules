@@ -11,6 +11,26 @@
       {
         "header": "from",
         "contains": "@email.britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "indoor@britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "info@britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "membership@britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "hello@email.britishrowing.org"
+      },
+      {
+        "header": "from",
+        "contains": "help@gocardless.com"
       }
     ]
   },

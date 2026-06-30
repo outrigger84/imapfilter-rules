@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@nakedwines.com"
+      },
+      {
+        "header": "from",
+        "contains": "@nakedwines.co.uk"
       }
     ]
   },

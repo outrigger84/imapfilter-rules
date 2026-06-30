@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@argos.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@ereceipts.co.uk"
       }
     ]
   },

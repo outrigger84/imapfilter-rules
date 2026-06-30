@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb General \u00bb Boots",
+  "name": "Newsletters » Marketing » Retail » General » Boots",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@boots.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.boots.com"
       }
     ]
   },

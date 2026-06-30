@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "transaction@etsy.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@etsy.com"
       }
     ]
   },

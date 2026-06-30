@@ -1,5 +1,5 @@
 {
-  "name": "Personal Development \u00bb Thrivecart (catch-all)",
+  "name": "Personal Development » Thrivecart (catch-all)",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@thrivecart.email"
+      },
+      {
+        "header": "from",
+        "contains": "colbor@amazon.com"
       }
     ]
   },
