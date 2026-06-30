@@ -1,7 +1,7 @@
 {
   "name": "Personal » Finance » Pensions",
   "enabled": true,
-  "priority": 100,
+  "priority": 30,
   "conditions": {
     "any": [
       {

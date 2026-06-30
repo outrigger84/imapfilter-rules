@@ -1,7 +1,7 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Fitness \u00bb Spartan Race",
+  "name": "Newsletters » Marketing » Fitness » Spartan Race",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {

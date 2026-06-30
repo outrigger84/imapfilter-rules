@@ -1,7 +1,7 @@
 {
-  "name": "Travel \u00bb Rail \u00bb Uber Train",
+  "name": "Travel » Rail » Uber Train",
   "enabled": true,
-  "priority": 90,
+  "priority": 80,
   "conditions": {
     "all": [
       {

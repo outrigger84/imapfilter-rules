@@ -1,7 +1,7 @@
 {
   "name": "Receipts » Software » Setapp",
   "enabled": true,
-  "priority": 100,
+  "priority": 80,
   "conditions": {
     "all": [
       {
