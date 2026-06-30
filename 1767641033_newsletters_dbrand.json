@@ -10,7 +10,7 @@
       },
       {
         "header": "subject",
-        "not_contains": "Receipt for Order #*"
+        "not_contains": "Receipt for Order #"
       },
       {
         "header": "subject",

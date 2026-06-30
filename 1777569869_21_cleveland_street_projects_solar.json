@@ -66,11 +66,11 @@
       },
       {
         "header": "from",
-        "contains": "info@nl.qnldkgnfstqu.fr*"
+        "contains": "info@nl.qnldkgnfstqu.fr"
       },
       {
         "header": "from",
-        "contains": "info@nl.xsfgnwktjkqc.fr*"
+        "contains": "info@nl.xsfgnwktjkqc.fr"
       },
       {
         "header": "from",
