@@ -1,0 +1,23 @@
+{
+  "name": "Spam Catcher » Scam subject phrases >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "regex": "(?i)(virus detec|manhood|enlarge your|erection|prostate|blood sugar|retirement you deserve|drops of th|grow your member|suspended ?package|#?\\bid\\d{6,}|welcometo-|don'?t miss ?out on savings|deals selling|you have earned a discount)"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Heuristic spam catcher (priority 200) keyed on scam subject phrases. Catches spam sent from otherwise-generic mailbox domains (gmail/hotmail/comcast) that no domain rule can target, e.g. 'LAST Notice: VIRUS DETECED!', 'Confirmation_Receipt #ID1918305350', 'welcomeTo-LawnCare-ID...'.",
+    "Phrases kept tight to avoid false positives on genuine personal mail. No age guard. Validate carefully with a dry run."
+  ]
+}

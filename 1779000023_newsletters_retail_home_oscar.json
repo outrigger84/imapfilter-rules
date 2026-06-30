@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Retail » Home » Oscar",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@marketing.oscar-app.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Home/Oscar"
+    }
+  ],
+  "comments": [
+    "OSCAR home-cleaning/services app marketing (decoded subjects: sofa cleaning, 'find a Pro'). Identified by cache.db analysis 2026-06-26."
+  ]
+}

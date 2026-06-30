@@ -1,0 +1,24 @@
+{
+  "name": "Spam Catcher » Spoofed theSkimm domains >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "regex": "@[a-z]{6,}theskimm\\.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Heuristic spam catcher (priority 200). Matches the <random-alpha-label>theskimm.com blast cluster, e.g. icvwitgvgeghtheskimm.com, wfncifudqrzeytheskimm.com.",
+    "A genuine subdomain such as email.theskimm.com is NOT matched (the dot before 'theskimm' breaks the alpha run).",
+    "No age guard. Validate with a dry run before relying on it."
+  ]
+}

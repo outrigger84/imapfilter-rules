@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "newsletter@emails-comparethemarket.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.comparethemarket.com"
       }
     ]
   },

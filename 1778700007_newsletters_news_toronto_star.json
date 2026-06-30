@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » News » Toronto Star",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@thestar.ca"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/News/Toronto Star"
+    }
+  ],
+  "comments": [
+    "Toronto Star news newsletters (newsletters@thestar.ca). Added from cache.db unmatched analysis."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Retail » Clothing » Columbia",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.columbia.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Clothing/Columbia"
+    }
+  ],
+  "comments": [
+    "Columbia Sportswear marketing. Identified by cache.db analysis 2026-06-26."
+  ]
+}

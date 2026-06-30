@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Topics » Science » NASA",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mbcms.jpl.nasa.gov"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Topics/Science/NASA"
+    }
+  ],
+  "comments": [
+    "NASA JPL Europa Clipper 'Message in a Bottle' campaign. Identified by cache.db analysis 2026-06-26."
+  ]
+}

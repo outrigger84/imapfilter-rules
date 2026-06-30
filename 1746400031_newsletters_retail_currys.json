@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@currys.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@email.currys.co.uk"
       }
     ]
   },

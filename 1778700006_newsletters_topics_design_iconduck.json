@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Topics » Design » Iconduck",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@iconduck.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Topics/Design/Iconduck"
+    }
+  ],
+  "comments": [
+    "Design/icons newsletter. Added from cache.db unmatched analysis."
+  ]
+}

@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@klarna.com"
+      },
+      {
+        "header": "from",
+        "contains": "@hello.klarna.com"
       }
     ]
   },

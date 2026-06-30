@@ -1,0 +1,27 @@
+{
+  "name": "Spam Catcher » Junk domain families >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "regex": "@([a-z0-9\\-]+\\.)*(extolbay\\.com|sunkshow\\.org|turnedsetup\\.com|winkerstar\\.net|detailfun\\.com|sumpuwave\\.com|msgfortune\\.com|whoseleather\\.com|pressbbuy\\.com|nonsoesork\\.com|concernich\\.com)\\b"
+      },
+      {
+        "header": "from",
+        "regex": "@[a-z0-9.\\-]+\\.click\\b"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Heuristic spam catcher (priority 200) for rotating junk-domain families seen in the current unmatched tail, plus the .click TLD which is almost entirely spam here.",
+    "Add new base domains to the first alternation as they appear. No age guard."
+  ]
+}

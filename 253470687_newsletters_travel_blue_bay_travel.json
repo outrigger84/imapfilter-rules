@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@email.bluebaytravel.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@emails.bluebaytravel.co.uk"
       }
     ]
   },

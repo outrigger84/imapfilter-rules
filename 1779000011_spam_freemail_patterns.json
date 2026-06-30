@@ -1,0 +1,46 @@
+{
+  "name": "Spam/Junk — Free-mail spam patterns",
+  "enabled": true,
+  "priority": 10,
+  "conditions": {
+    "all": [
+      {
+        "not": {
+          "any": [
+            { "header": "from", "contains": "beckyannsnowden@gmail.com" },
+            { "header": "from", "contains": "tanya.tara.ryan@gmail.com" },
+            { "header": "from", "contains": "jedincm@gmail.com" },
+            { "header": "from", "contains": "ron.renner@yahoo.com" },
+            { "header": "from", "contains": "ppeart@aol.com" },
+            { "header": "from", "contains": "dannyclifford05@gmail.com" },
+            { "header": "from", "contains": "jake.alfred@gmail.com" },
+            { "header": "from", "contains": "markcollier_43@hotmail.com" }
+          ]
+        }
+      },
+      {
+        "any": [
+          { "header": "from", "regex": "(?i)worxone\\d+@comcast\\.net" },
+          { "header": "from", "regex": "(?i)(forceswarrecords|theblowers|fansly)_.*@icloud\\.com" },
+          { "header": "from", "regex": "(?i)\\bdirect\\.?meds[._+]" },
+          { "header": "from", "regex": "(?i)ant\\.wilson\\.[a-z]{6,}@gmail\\.com" },
+          { "header": "from", "regex": "(?i)\\+[a-z0-9]{20,}@gmail\\.com" },
+          { "header": "from", "regex": "(?i)gibson clans gather|let gibson handle" },
+          { "header": "subject", "contains": "Personal Loan for stephenjgibson" }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Free-mail spam identified by sender local-part / display-name pattern (cache.db analysis 2026-06-26).",
+    "Catches rotating senders (ant.wilson.*, direct.meds_*, worxone<digits>) and surname-spoof display names.",
+    "Surname-spoof signature anchored to the exact spoofed phrases seen in spam, never a bare 'Gibson'.",
+    "Allow-guarded against the 8 confirmed-genuine contacts."
+  ]
+}

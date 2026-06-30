@@ -58,7 +58,7 @@
       },
       {
         "header": "from",
-        "contains": "membership@exeterrc.co.uk"
+        "contains": "@exeterrc.co.uk"
       },
       {
         "header": "from",

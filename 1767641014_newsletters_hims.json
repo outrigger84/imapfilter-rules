@@ -6,7 +6,7 @@
     "any": [
       {
         "header": "from",
-        "contains": "@alerts.forhims.co.uk"
+        "contains": "forhims.co.uk"
       }
     ]
   },

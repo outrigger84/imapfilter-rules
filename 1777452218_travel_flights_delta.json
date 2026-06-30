@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@g.delta.com"
+      },
+      {
+        "header": "from",
+        "contains": "@e.delta.com"
       }
     ]
   },

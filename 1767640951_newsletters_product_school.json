@@ -6,7 +6,7 @@
     "any": [
       {
         "header": "from",
-        "contains": "@productschool.com"
+        "contains": "productschool.com"
       }
     ]
   },
@@ -17,6 +17,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Broadened from @productschool.com to productschool.com to also catch the jobs.productschool.com newsletter subdomain (PM-newsletter content, not job listings)."
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "name": "Spam Catcher » Numeric-label spoof domains >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "regex": "@[a-z0-9.\\-]*[0-9]{5,}"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Heuristic spam catcher (priority 200, after all per-sender allowlist rules so it only sweeps un-claimed mail).",
+    "Matches sender domains containing 5+ consecutive digits: e.g. *.cgaux.org with 14-digit labels, inbox.<digits>foxnews.com, <digits>macrumors.com, notification.<digits>gcs-web.com, 59419.vidami.com, 83807.trionyx-sal.com.",
+    "No age guard: outright spam is deleted immediately. Validate with a dry run before relying on it."
+  ]
+}

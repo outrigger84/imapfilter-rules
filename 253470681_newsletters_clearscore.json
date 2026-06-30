@@ -3,18 +3,26 @@
   "enabled": true,
   "priority": 100,
   "conditions": {
-    "all": [
+    "any": [
       {
-        "header": "from",
-        "contains": "@clearscore.com"
+        "all": [
+          {
+            "header": "from",
+            "contains": "@clearscore.com"
+          },
+          {
+            "header": "from",
+            "not_contains": "updates@clearscore.com"
+          },
+          {
+            "header": "from",
+            "not_contains": "alerts@clearscore.com"
+          }
+        ]
       },
       {
         "header": "from",
-        "not_contains": "updates@clearscore.com"
-      },
-      {
-        "header": "from",
-        "not_contains": "alerts@clearscore.com"
+        "contains": "@m.uk.clearscore.com"
       }
     ]
   },

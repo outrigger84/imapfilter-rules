@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "rightmovenews@mail.rightmove.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@partner.rightmove.co.uk"
       }
     ]
   },

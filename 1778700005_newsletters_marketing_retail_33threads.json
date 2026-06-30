@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Retail » 33 Threads",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@33threads.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/33 Threads"
+    }
+  ],
+  "comments": [
+    "Retail marketing newsletter (EOY SALE etc.). Added from cache.db unmatched analysis."
+  ]
+}

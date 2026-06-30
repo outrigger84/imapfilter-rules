@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "thetimes.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@newsletter.thetimes.com"
       }
     ]
   },
