@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "remind-username@aerlingus.com"
+      },
+      {
+        "header": "from",
+        "contains": "@accounts.aerlingus.com"
       }
     ]
   },

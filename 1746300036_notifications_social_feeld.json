@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@feeld.co"
+      },
+      {
+        "header": "from",
+        "contains": "@open.feeld.co"
       }
     ]
   },

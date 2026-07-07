@@ -1,0 +1,26 @@
+{
+  "name": "Notifications » Social » Hinge",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@hinge.co"
+      },
+      {
+        "header": "from",
+        "contains": "_at_hinge_co_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Social/Hinge"
+    }
+  ],
+  "comments": [
+    "Dating app — verification codes and notifications via iCloud relay"
+  ]
+}

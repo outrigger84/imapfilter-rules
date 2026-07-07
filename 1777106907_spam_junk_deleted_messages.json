@@ -6,6 +6,10 @@
     "any": [
       {
         "header": "from",
+        "contains": "@exploredtlv.com"
+      },
+      {
+        "header": "from",
         "contains": "@foodtalkdaily.com"
       },
       {

@@ -18,6 +18,10 @@
       },
       {
         "header": "from",
+        "contains": "@account.moneysupermarketmail.com"
+      },
+      {
+        "header": "from",
         "contains": "@moneysupermarketmail.com"
       }
     ]
