@@ -18,11 +18,11 @@
       },
       {
         "header": "from",
-        "contains": "_at_bolt_eu_"
+        "contains": "_bolt_eu_"
       },
       {
         "header": "from",
-        "contains": "_at_bolt-eu_com_"
+        "contains": "_bolt-eu_com_"
       }
     ]
   },

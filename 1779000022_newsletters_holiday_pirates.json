@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Travel » Holiday Pirates",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.holidaypirates.com"
+      },
+      {
+        "header": "from",
+        "contains": "@holidaypirates.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/Holiday Pirates"
+    }
+  ],
+  "comments": []
+}

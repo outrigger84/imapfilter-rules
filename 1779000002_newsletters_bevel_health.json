@@ -1,0 +1,32 @@
+{
+  "name": "Notifications » Health » Bevel Health",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@updates.bevel.health"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.bevel.health"
+      },
+      {
+        "header": "from",
+        "contains": "@bevel.health"
+      },
+      {
+        "header": "from",
+        "contains": "_bevel_health_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Health/Bevel Health"
+    }
+  ],
+  "comments": []
+}

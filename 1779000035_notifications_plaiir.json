@@ -1,26 +1,24 @@
 {
-  "name": "Fitness » Ride With GPS",
+  "name": "Notifications » Apps » Plaiir",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@ridewithgps.com"
+        "contains": "@plaiir.com"
       },
       {
         "header": "from",
-        "contains": "_ridewithgps_com_"
+        "contains": "_plaiir_com_"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Ride With GPS"
+      "target": "Notifications/Apps/Plaiir"
     }
   ],
-  "comments": [
-    "Created with IMAPFilter Rule Wizard"
-  ]
+  "comments": []
 }

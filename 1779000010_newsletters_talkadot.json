@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Work » Talkadot",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@talkadot.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Work/Talkadot"
+    }
+  ],
+  "comments": [
+    "Speaker engagement and feedback platform"
+  ]
+}

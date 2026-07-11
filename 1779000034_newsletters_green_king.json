@@ -1,0 +1,28 @@
+{
+  "name": "Newsletters » Marketing » Food » Greene King",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@emails.greenekingapp.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@greenekingapp.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@greeneking.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Greene King"
+    }
+  ],
+  "comments": []
+}

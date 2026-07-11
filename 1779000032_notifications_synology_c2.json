@@ -1,26 +1,24 @@
 {
-  "name": "Fitness » Ride With GPS",
+  "name": "Notifications » Tech » Synology C2",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@ridewithgps.com"
+        "contains": "@c2.synology.com"
       },
       {
         "header": "from",
-        "contains": "_ridewithgps_com_"
+        "contains": "@synology.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Ride With GPS"
+      "target": "Notifications/Tech/Synology C2"
     }
   ],
-  "comments": [
-    "Created with IMAPFilter Rule Wizard"
-  ]
+  "comments": []
 }

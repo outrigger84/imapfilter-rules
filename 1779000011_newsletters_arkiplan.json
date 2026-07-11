@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Home » Arkiplan",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@arkiplan.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Home/Arkiplan"
+    }
+  ],
+  "comments": [
+    "Architectural services newsletter"
+  ]
+}

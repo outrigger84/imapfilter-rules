@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Social » Meta",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@global.metamail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@metamail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Social/Meta"
+    }
+  ],
+  "comments": [
+    "Facebook/Instagram marketing emails via Meta's metamail.com domain"
+  ]
+}

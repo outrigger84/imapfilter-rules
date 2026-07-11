@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Fitness » Wiggle",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@wiggle.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Fitness/Wiggle"
+    }
+  ],
+  "comments": []
+}

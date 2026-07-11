@@ -1,26 +1,24 @@
 {
-  "name": "Fitness » Ride With GPS",
+  "name": "Newsletters » Marketing » Food » Subway",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@ridewithgps.com"
+        "contains": "@mktg.subway.com"
       },
       {
         "header": "from",
-        "contains": "_ridewithgps_com_"
+        "contains": "@subway.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Fitness/Ride With GPS"
+      "target": "Newsletters/Marketing/Food/Subway"
     }
   ],
-  "comments": [
-    "Created with IMAPFilter Rule Wizard"
-  ]
+  "comments": []
 }

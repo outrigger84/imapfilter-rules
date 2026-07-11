@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Sport » Three Peaks GBR",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@threepeaksgbr.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Sport/Three Peaks GBR"
+    }
+  ],
+  "comments": []
+}

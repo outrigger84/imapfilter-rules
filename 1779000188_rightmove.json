@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@partner.rightmove.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.rightmove.co.uk"
       }
     ]
   },

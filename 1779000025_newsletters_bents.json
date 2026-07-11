@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Retail » Bents Garden Centre",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@bents.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Bents Garden Centre"
+    }
+  ],
+  "comments": []
+}

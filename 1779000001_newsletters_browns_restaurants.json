@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Food » Browns Restaurants",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@news.browns-restaurants.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "_browns-restaurants_co_uk_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Browns Restaurants"
+    }
+  ],
+  "comments": []
+}

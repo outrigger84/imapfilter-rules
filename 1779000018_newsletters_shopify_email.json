@@ -1,0 +1,30 @@
+{
+  "name": "Newsletters » Marketing » Retail » Shopify Merchants",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@g.shopifyemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@t.shopifyemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@shopifyemail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Shopify Merchants"
+    }
+  ],
+  "comments": [
+    "Various small merchant newsletters sent via Shopify Email"
+  ]
+}

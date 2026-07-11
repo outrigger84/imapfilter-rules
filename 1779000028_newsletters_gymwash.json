@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Fitness » Gymwash",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@gymwash.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Fitness/Gymwash"
+    }
+  ],
+  "comments": []
+}

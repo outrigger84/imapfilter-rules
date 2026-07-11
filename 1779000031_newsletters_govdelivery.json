@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Local » Devon County Council",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@public.govdelivery.com"
+      },
+      {
+        "header": "from",
+        "contains": "@govdelivery.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Local/Devon County Council"
+    }
+  ],
+  "comments": [
+    "Devon County Council updates via GovDelivery platform"
+  ]
+}

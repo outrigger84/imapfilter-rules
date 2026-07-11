@@ -739,6 +739,70 @@
       {
         "header": "from",
         "contains": "@marque.capturingessence.com.au"
+      },
+      {
+        "header": "from",
+        "contains": "@mixrefuse.mordeco.com"
+      },
+      {
+        "header": "from",
+        "contains": "@betterranking.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@shame.bfbsystems.net"
+      },
+      {
+        "header": "from",
+        "contains": "@rvbookkeeping.com"
+      },
+      {
+        "header": "from",
+        "contains": "@holstrength.com"
+      },
+      {
+        "header": "from",
+        "contains": "@leanlevelup.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mpcsrl.it"
+      },
+      {
+        "header": "from",
+        "contains": "@bettertastingsemen.com"
+      },
+      {
+        "header": "from",
+        "contains": "@e.ussmartwool.com"
+      },
+      {
+        "header": "from",
+        "contains": "@qflcknwj.onmicrosoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "@web.webdealsuk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@a.lasboleras.com.ar"
+      },
+      {
+        "header": "from",
+        "contains": "@blissal.com"
+      },
+      {
+        "header": "from",
+        "contains": "@jgphysique.com"
+      },
+      {
+        "header": "from",
+        "contains": "@justizialaw.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@allenshire.co.uk"
       }
     ]
   },

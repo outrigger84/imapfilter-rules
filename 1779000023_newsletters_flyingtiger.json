@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Retail » Flying Tiger",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@flyingtiger.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Flying Tiger"
+    }
+  ],
+  "comments": []
+}

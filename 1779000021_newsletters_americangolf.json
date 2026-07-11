@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Sport » American Golf",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mailer.americangolf.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@americangolf.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Sport/American Golf"
+    }
+  ],
+  "comments": []
+}

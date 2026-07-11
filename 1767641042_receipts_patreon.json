@@ -11,6 +11,10 @@
       {
         "header": "subject",
         "equals": "Your Patreon receipt is here!"
+      },
+      {
+        "header": "from",
+        "contains": "_patreon_com_"
       }
     ]
   },
