@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Food » Coffee#1",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@nealstreet.tech"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Coffee#1"
+    }
+  ],
+  "comments": [
+    "Coffee#1 café loyalty emails sent via nealstreet.tech"
+  ]
+}

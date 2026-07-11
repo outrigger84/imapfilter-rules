@@ -11,6 +11,10 @@
       {
         "header": "subject",
         "not_contains": "Your Setapp payment"
+      },
+      {
+        "header": "from",
+        "contains": "@news.setapp.com"
       }
     ]
   },

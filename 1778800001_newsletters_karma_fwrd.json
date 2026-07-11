@@ -1,0 +1,30 @@
+{
+  "name": "Newsletters » Marketing » Shopping » Karma",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@vf.karmanow.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_karmanow_com_"
+      },
+      {
+        "header": "from",
+        "contains": "_at_vf_karmanow_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Shopping/Karma"
+    }
+  ],
+  "comments": [
+    "FWRD/Karma shopping app — newsletter via iCloud relay"
+  ]
+}

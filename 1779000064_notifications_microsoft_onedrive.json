@@ -39,6 +39,10 @@
       {
         "header": "from",
         "contains": "@accountprotection.microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "@e-mails.microsoft.com"
       }
     ]
   },

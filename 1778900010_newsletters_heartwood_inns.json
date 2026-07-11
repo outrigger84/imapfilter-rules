@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Travel » Heartwood Inns",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@news.heartwoodinns.com"
+      },
+      {
+        "header": "from",
+        "contains": "@heartwoodinns.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/Heartwood Inns"
+    }
+  ],
+  "comments": []
+}

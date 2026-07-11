@@ -1,0 +1,34 @@
+{
+  "name": "Newsletters » Marketing » Travel » GetYourGuide",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mkt.getyourguide.com"
+      },
+      {
+        "header": "from",
+        "contains": "@notification.getyourguide.com"
+      },
+      {
+        "header": "from",
+        "contains": "@getyourguide.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_getyourguide_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/GetYourGuide"
+    }
+  ],
+  "comments": [
+    "GetYourGuide tours/activities newsletter via iCloud relay"
+  ]
+}

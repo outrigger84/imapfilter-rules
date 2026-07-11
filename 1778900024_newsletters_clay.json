@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Tech » Clay",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@clay.earth"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Clay"
+    }
+  ],
+  "comments": [
+    "Clay CRM relationship management app"
+  ]
+}

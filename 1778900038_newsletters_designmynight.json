@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Entertainment » DesignMyNight",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@news.designmynight.com"
+      },
+      {
+        "header": "from",
+        "contains": "@designmynight.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Entertainment/DesignMyNight"
+    }
+  ],
+  "comments": []
+}

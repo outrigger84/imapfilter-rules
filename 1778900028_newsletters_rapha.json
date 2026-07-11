@@ -1,26 +1,24 @@
 {
-  "name": "Newsletters » Marketing » O2",
+  "name": "Newsletters » Marketing » Fitness » Rapha",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@o2-email.co.uk"
+        "contains": "@mail.rapha.cc"
       },
       {
         "header": "from",
-        "contains": "@em.o2.com"
+        "contains": "@rapha.cc"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/O2"
+      "target": "Newsletters/Marketing/Fitness/Rapha"
     }
   ],
-  "comments": [
-    "Created with IMAPFilter Rule Wizard"
-  ]
+  "comments": []
 }

@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Food » Stonehouse",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@news.stonehouserestaurants.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@stonehouserestaurants.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Stonehouse"
+    }
+  ],
+  "comments": []
+}

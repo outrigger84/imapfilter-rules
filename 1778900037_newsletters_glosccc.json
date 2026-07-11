@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Sport » Gloucestershire Cricket",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@newsletter.glosccc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@glosccc.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Sport/Gloucestershire Cricket"
+    }
+  ],
+  "comments": []
+}

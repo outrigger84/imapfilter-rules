@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@mail.op.onepeloton.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.my.onepeloton.com"
       }
     ]
   },

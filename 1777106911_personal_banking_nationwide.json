@@ -19,6 +19,10 @@
       {
         "header": "from",
         "contains": "@communications.nationwide.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@messages.nationwide.co.uk"
       }
     ]
   },

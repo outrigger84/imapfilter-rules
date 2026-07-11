@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "greatwesternrailway@e.gwr.com"
+      },
+      {
+        "header": "from",
+        "contains": "@comms.gwr.com"
       }
     ]
   },

@@ -1,0 +1,34 @@
+{
+  "name": "Newsletters » Marketing » Tech » Higgsfield AI",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@team.higgsfield.ai"
+      },
+      {
+        "header": "from",
+        "contains": "@m.higgsfield.ai"
+      },
+      {
+        "header": "from",
+        "contains": "@t.higgsfield.ai"
+      },
+      {
+        "header": "from",
+        "contains": "_at_higgsfield_ai_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Higgsfield AI"
+    }
+  ],
+  "comments": [
+    "Higgsfield AI video generation — newsletter via iCloud relay"
+  ]
+}

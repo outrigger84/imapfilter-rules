@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Tech » Pendo",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@pendo.io"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Pendo"
+    }
+  ],
+  "comments": []
+}

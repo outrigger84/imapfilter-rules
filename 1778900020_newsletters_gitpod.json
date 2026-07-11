@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Tech » Gitpod",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@gitpod.io"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Gitpod"
+    }
+  ],
+  "comments": []
+}

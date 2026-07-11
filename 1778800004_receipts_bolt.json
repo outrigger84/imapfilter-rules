@@ -1,0 +1,38 @@
+{
+  "name": "Receipts » Transport » Bolt",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@bolt.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.bolt.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@bolt-eu.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_bolt_eu_"
+      },
+      {
+        "header": "from",
+        "contains": "_at_bolt-eu_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Transport/Bolt"
+    }
+  ],
+  "comments": [
+    "Bolt taxi/scooter receipts and notifications via iCloud relay"
+  ]
+}

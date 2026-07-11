@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Health » Feel Reformed",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@feelreformed.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Health/Feel Reformed"
+    }
+  ],
+  "comments": []
+}

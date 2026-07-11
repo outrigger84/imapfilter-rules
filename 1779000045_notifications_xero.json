@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@post.xero.com"
+      },
+      {
+        "header": "from",
+        "contains": "@send.xero.com"
       }
     ]
   },

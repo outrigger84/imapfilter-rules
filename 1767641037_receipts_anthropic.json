@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "invoice+statements@mail.anthropic.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.anthropic.com"
       }
     ]
   },

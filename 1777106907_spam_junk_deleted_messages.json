@@ -1,5 +1,5 @@
 {
-  "name": "Spam/Junk \u2014 Delete",
+  "name": "Spam/Junk — Delete",
   "enabled": true,
   "priority": 10,
   "conditions": {
@@ -671,6 +671,74 @@
       {
         "header": "subject",
         "contains": "Unlimited sale!"
+      },
+      {
+        "header": "from",
+        "contains": "@ntabro.com"
+      },
+      {
+        "header": "from",
+        "contains": "@bluevolt-esolutions.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@optonline.net"
+      },
+      {
+        "header": "from",
+        "contains": "@chiloe.edu.co"
+      },
+      {
+        "header": "from",
+        "contains": "@mtn.com"
+      },
+      {
+        "header": "from",
+        "contains": "@haftr.org"
+      },
+      {
+        "header": "from",
+        "contains": "@pellicolacontrollosolare.it"
+      },
+      {
+        "header": "from",
+        "contains": "@email.consumerreports.org"
+      },
+      {
+        "header": "from",
+        "contains": "@floridaintegrators.com"
+      },
+      {
+        "header": "from",
+        "contains": "@del.ac.id"
+      },
+      {
+        "header": "from",
+        "contains": "@tecsolution.bitrix24.com"
+      },
+      {
+        "header": "from",
+        "contains": "@exemptionenfix.cybertv.tv"
+      },
+      {
+        "header": "from",
+        "contains": "@groundqcd.isoftdev.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@gros.masservicios-web.com.ar"
+      },
+      {
+        "header": "from",
+        "contains": "@nathanpainathan.mandalorian.autos"
+      },
+      {
+        "header": "from",
+        "contains": "@capture.fernando-botero-sculpture.com"
+      },
+      {
+        "header": "from",
+        "contains": "@marque.capturingessence.com.au"
       }
     ]
   },

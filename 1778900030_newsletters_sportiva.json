@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Fitness » Sportiva Events",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.sportivaevents.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@sportivaevents.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Fitness/Sportiva Events"
+    }
+  ],
+  "comments": [
+    "Devon/Somerset trail running events"
+  ]
+}

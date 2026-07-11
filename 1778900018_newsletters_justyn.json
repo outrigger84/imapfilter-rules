@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Tech » Justyn",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@justyn.ca"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Justyn"
+    }
+  ],
+  "comments": [
+    "Justyn AI newsletter"
+  ]
+}

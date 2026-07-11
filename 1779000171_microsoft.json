@@ -11,6 +11,14 @@
       {
         "header": "from",
         "contains": "stremail@microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "@customermail.microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "@customeremail.microsoftrewards.com"
       }
     ]
   },

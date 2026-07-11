@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Home » Heatable",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@heatable.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Home/Heatable"
+    }
+  ],
+  "comments": [
+    "Heat pump and boiler comparison/installation service"
+  ]
+}

@@ -9,10 +9,6 @@
         "contains": "@cleanfox.io"
       },
       {
-        "header": "subject",
-        "not_regex": "(?i)delete your account"
-      },
-      {
         "age_days_gt": 1
       }
     ]

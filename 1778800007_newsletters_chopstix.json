@@ -1,0 +1,34 @@
+{
+  "name": "Newsletters » Marketing » Food » Chopstix",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "_at_chopstix_co_uk_"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@airshipm2.co.uk"
+          },
+          {
+            "header": "subject",
+            "contains": "Chopstix"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Chopstix"
+    }
+  ],
+  "comments": [
+    "Chopstix restaurant loyalty emails via Airship CRM and iCloud relay"
+  ]
+}

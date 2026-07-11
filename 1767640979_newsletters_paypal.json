@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@mail.paypal.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@news.paypal.com"
       }
     ]
   },

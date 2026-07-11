@@ -1,0 +1,26 @@
+{
+  "name": "Notifications » Apps » TesterUp",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@testerup.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_testerup_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Apps/TesterUp"
+    }
+  ],
+  "comments": [
+    "TesterUp app testing rewards platform — notifications via iCloud relay"
+  ]
+}

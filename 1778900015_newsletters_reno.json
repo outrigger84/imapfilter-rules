@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Home » Reno",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@renovatewithreno.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Home/Reno"
+    }
+  ],
+  "comments": [
+    "Reno home renovation service"
+  ]
+}

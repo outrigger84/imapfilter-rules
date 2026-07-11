@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Local » RAMM Exeter",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@arts-mail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Local/RAMM Exeter"
+    }
+  ],
+  "comments": [
+    "Royal Albert Memorial Museum Exeter — sent via arts-mail.com"
+  ]
+}

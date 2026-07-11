@@ -1,27 +1,28 @@
 {
-  "name": "Newsletters » Marketing » Work » LinkedIn",
+  "name": "Receipts » Groceries » Instacart",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@e.linkedin.com"
+        "contains": "@customers.instacartemail.com"
       },
       {
         "header": "from",
-        "contains": "@linkedin.com"
+        "contains": "@instacartemail.com"
       },
       {
         "header": "from",
-        "contains": "@em.linkedin.com"
+        "contains": "@instacart.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Newsletters/Marketing/Work/LinkedIn"
+      "target": "Receipts/Groceries/Instacart"
     }
-  ]
+  ],
+  "comments": []
 }

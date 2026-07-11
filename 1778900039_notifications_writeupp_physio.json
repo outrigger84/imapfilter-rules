@@ -1,0 +1,22 @@
+{
+  "name": "Notifications » Health » Physio",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@writeupp.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Health/Physio"
+    }
+  ],
+  "comments": [
+    "Physiotherapy appointment notifications via WriteUpp"
+  ]
+}

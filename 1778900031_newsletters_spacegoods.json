@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Health » Spacegoods",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@spacegoods.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Health/Spacegoods"
+    }
+  ],
+  "comments": [
+    "Spacegoods adaptogen supplements"
+  ]
+}
