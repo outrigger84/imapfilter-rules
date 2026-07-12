@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Retail » LEGO",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@t.crm.lego.com"
+      },
+      {
+        "header": "from",
+        "contains": "@lego.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/LEGO"
+    }
+  ],
+  "comments": []
+}

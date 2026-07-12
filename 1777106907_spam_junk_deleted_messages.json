@@ -803,6 +803,34 @@
       {
         "header": "from",
         "contains": "@allenshire.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@roseboxnyc.com"
+      },
+      {
+        "header": "from",
+        "contains": "@kickstarlaunch.com"
+      },
+      {
+        "header": "from",
+        "contains": "@ldtorganizers.com"
+      },
+      {
+        "header": "from",
+        "contains": "@harrispollsurvey.com"
+      },
+      {
+        "header": "from",
+        "contains": "@rocketnew.email"
+      },
+      {
+        "header": "from",
+        "contains": "@solitairecash.com"
+      },
+      {
+        "header": "from",
+        "contains": "@qemailserver.com"
       }
     ]
   },

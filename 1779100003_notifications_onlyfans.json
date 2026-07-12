@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Social » OnlyFans",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@notify.onlyfans.com"
+      },
+      {
+        "header": "from",
+        "contains": "@onlyfans.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Social/OnlyFans"
+    }
+  ],
+  "comments": []
+}

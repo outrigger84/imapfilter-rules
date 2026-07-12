@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Tech » ITS Technology",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@emails.its.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@its.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/ITS Technology"
+    }
+  ],
+  "comments": []
+}

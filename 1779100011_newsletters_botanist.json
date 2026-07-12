@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Food » The Botanist",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@emails.thebotanist.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@thebotanist.uk.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/The Botanist"
+    }
+  ],
+  "comments": []
+}

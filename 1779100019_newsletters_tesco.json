@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Retail » Tesco",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mail.tesco.com"
+      },
+      {
+        "header": "from",
+        "contains": "@tesco.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Tesco"
+    }
+  ],
+  "comments": []
+}

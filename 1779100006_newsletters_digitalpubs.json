@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Food » Royal Oak Exminster",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@comms.digitalpubs.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@digitalpubs.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Royal Oak Exminster"
+    }
+  ],
+  "comments": [
+    "Royal Oak Inn Exminster newsletter via DigitalPubs"
+  ]
+}

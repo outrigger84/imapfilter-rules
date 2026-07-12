@@ -1,0 +1,30 @@
+{
+  "name": "Newsletters » Marketing » Entertainment » Disney World",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@wdw.disneyonline.com"
+      },
+      {
+        "header": "from",
+        "contains": "@m2.disneydestinations.com"
+      },
+      {
+        "header": "from",
+        "contains": "@disneyonline.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Entertainment/Disney World"
+    }
+  ],
+  "comments": [
+    "Disney World marketing/newsletter emails (different from travel agents rule)"
+  ]
+}

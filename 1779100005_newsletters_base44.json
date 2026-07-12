@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Tech » Base44",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@marketing.base44.com"
+      },
+      {
+        "header": "from",
+        "contains": "@base44.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Base44"
+    }
+  ],
+  "comments": []
+}

@@ -5,16 +5,24 @@
   "conditions": {
     "all": [
       {
-        "header": "from",
-        "contains": "@setapp.com"
+        "any": [
+          {
+            "header": "from",
+            "contains": "@setapp.com"
+          },
+          {
+            "header": "from",
+            "contains": "@news.setapp.com"
+          },
+          {
+            "header": "from",
+            "contains": "@service.setapp.com"
+          }
+        ]
       },
       {
         "header": "subject",
         "not_contains": "Your Setapp payment"
-      },
-      {
-        "header": "from",
-        "contains": "@news.setapp.com"
       }
     ]
   },

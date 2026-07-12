@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Entertainment » Amazon Music",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@msg.amazonmusic.com"
+      },
+      {
+        "header": "from",
+        "contains": "@amazonmusic.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Entertainment/Amazon Music"
+    }
+  ],
+  "comments": []
+}

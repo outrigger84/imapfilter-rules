@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Sport » Sportograf",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@sportograf.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Sport/Sportograf"
+    }
+  ],
+  "comments": [
+    "Race photography service"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Apps » SQUID Loyalty",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@squidloyalty.ie"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Apps/SQUID Loyalty"
+    }
+  ],
+  "comments": [
+    "Wave restaurant loyalty points"
+  ]
+}

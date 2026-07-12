@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Retail » Elegoo",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@elegoo.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Elegoo"
+    }
+  ],
+  "comments": [
+    "Elegoo 3D printers and STEM kits"
+  ]
+}

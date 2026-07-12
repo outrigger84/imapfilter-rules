@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Travel » GroupAccommodation",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@groupaccommodation.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/GroupAccommodation"
+    }
+  ],
+  "comments": []
+}

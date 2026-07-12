@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Food » Burger King",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@m.your-way.burgerking.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@burgerking.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Burger King"
+    }
+  ],
+  "comments": []
+}

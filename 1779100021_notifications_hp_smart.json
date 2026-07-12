@@ -1,27 +1,27 @@
 {
-  "name": "Notifications » Finance » Banking » NatWest",
+  "name": "Notifications » Tech » HP Smart",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@notifications.natwest.com"
+        "contains": "@email.hpsmart.com"
       },
       {
         "header": "from",
-        "contains": "@natwest.com"
+        "contains": "@hpsmart.com"
       },
       {
         "header": "from",
-        "contains": "@updates.natwest.com"
+        "contains": "@hp.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Finance/Banking/NatWest"
+      "target": "Notifications/Tech/HP Smart"
     }
   ],
   "comments": []

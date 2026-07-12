@@ -1,0 +1,26 @@
+{
+  "name": "Notifications » Apps » Crave Loyalty",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@kobas.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "crave@kobas.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Apps/Crave Loyalty"
+    }
+  ],
+  "comments": [
+    "Crave loyalty vouchers via Kobas platform"
+  ]
+}

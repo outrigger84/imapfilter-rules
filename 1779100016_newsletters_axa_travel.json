@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Finance » AXA Travel Insurance",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@axa-travel-insurance.com"
+      },
+      {
+        "header": "from",
+        "contains": "@axa.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Finance/AXA Travel Insurance"
+    }
+  ],
+  "comments": []
+}

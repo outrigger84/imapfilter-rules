@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Food » Three Brothers Burgers",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@threebrothersburgers.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Three Brothers Burgers"
+    }
+  ],
+  "comments": []
+}

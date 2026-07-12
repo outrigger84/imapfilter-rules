@@ -1,27 +1,27 @@
 {
-  "name": "Notifications » Finance » Banking » NatWest",
+  "name": "Newsletters » Marketing » Retail » IKEA",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@notifications.natwest.com"
+        "contains": "@loyalty.email.ikea.com"
       },
       {
         "header": "from",
-        "contains": "@natwest.com"
+        "contains": "@email.ikea.com"
       },
       {
         "header": "from",
-        "contains": "@updates.natwest.com"
+        "contains": "@ikea.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Finance/Banking/NatWest"
+      "target": "Newsletters/Marketing/Retail/IKEA"
     }
   ],
   "comments": []

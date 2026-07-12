@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Finance » ClearScore",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@t.uk.clearscore.com"
+      },
+      {
+        "header": "from",
+        "contains": "@clearscore.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Finance/ClearScore"
+    }
+  ],
+  "comments": []
+}

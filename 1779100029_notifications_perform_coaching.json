@@ -1,27 +1,27 @@
 {
-  "name": "Notifications » Finance » Banking » NatWest",
+  "name": "Notifications » Health » Perform Coaching",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@notifications.natwest.com"
+        "contains": "@lc.performcoaching.ie"
       },
       {
         "header": "from",
-        "contains": "@natwest.com"
+        "contains": "@perform-coaching.online"
       },
       {
         "header": "from",
-        "contains": "@updates.natwest.com"
+        "contains": "@performcoaching.ie"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Notifications/Finance/Banking/NatWest"
+      "target": "Notifications/Health/Perform Coaching"
     }
   ],
   "comments": []

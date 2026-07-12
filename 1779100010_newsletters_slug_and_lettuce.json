@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Food » Slug & Lettuce",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.slugandlettuce.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@slugandlettuce.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Food/Slug & Lettuce"
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Telecom » Lyca Mobile UK",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@lycamobile.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Telecom/Lyca Mobile"
+    }
+  ],
+  "comments": []
+}

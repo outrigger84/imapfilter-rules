@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Entertainment » See Tickets",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@emails.seetickets.com"
+      },
+      {
+        "header": "from",
+        "contains": "@seetickets.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Entertainment/See Tickets"
+    }
+  ],
+  "comments": []
+}

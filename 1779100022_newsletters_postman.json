@@ -1,0 +1,20 @@
+{
+  "name": "Newsletters » Marketing » Tech » Postman",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@postman.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Postman"
+    }
+  ],
+  "comments": []
+}
