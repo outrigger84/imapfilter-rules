@@ -1,0 +1,25 @@
+{
+  "name": "Spam Catcher » Japanese-language phishing >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "regex": "@(zibopidaikou\\.com|doudingdan\\.com|xiagyingdq\\.com|uuf\\.com|da2\\.so-net\\.ne\\.jp)"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Cache.db analysis 2026-08-13: Japanese-language courier / account-",
+    "settings phishing templates (identical subjects across domains) with",
+    "high-entropy local-parts (e.g. runolfsdottirdamore@, sanforddach@) --",
+    "the same generator as the other junk-domain rings, different language."
+  ]
+}

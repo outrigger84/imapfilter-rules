@@ -6,7 +6,7 @@
     "any": [
       {
         "header": "subject",
-        "regex": "(?i)(virus detec|manhood|enlarge your|erection|prostate|blood sugar|retirement you deserve|drops of th|grow your member|suspended ?package|#?\\bid\\d{6,}|welcometo-|don'?t miss ?out on savings|deals selling|you have earned a discount)"
+        "regex": "(?i)(virus detec|manhood|enlarge your|erection|prostate|blood sugar|retirement you deserve|drops of th|grow your member|suspended ?package|#?\\bid\\d{6,}|welcometo-|don'?t miss ?out on savings|deals selling|you have earned a discount|token airdrop|uspsdeliverynotification)"
       }
     ]
   },

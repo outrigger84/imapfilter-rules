@@ -1,0 +1,27 @@
+{
+  "name": "Spam Catcher » TV Licence / final-notice impersonation >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "regex": "@(jacks0n\\.plus\\.com|fwiatuif\\.hometransformationguys\\.com)"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Cache.db analysis 2026-08-13: fake 'TV Licence update required' / 'Final",
+    "Chance: Lock In' scare mail. The fwiatuif.hometransformationguys.com",
+    "sample types its subject with zero-width joiners between every letter to",
+    "defeat subject-text matching (core/rule_engine.py does no Unicode",
+    "normalization before matching), so this domain match is the only lever",
+    "for that message -- a subject-phrase rule will never catch it."
+  ]
+}

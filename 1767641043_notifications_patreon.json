@@ -12,11 +12,7 @@
         "any": [
           {
             "header": "from",
-            "contains": "@patreon.com"
-          },
-          {
-            "header": "from",
-            "contains": "@email.patreon.com"
+            "regex": "@([a-z0-9-]+\\.)?patreon\\.com\\b"
           },
           {
             "header": "from",
@@ -33,6 +29,9 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Fixed 2026-08-13 (cache.db analysis): 'contains @patreon.com' only matched",
+    "the bare domain, missing real Patreon subdomains like mailgun.patreon.com",
+    "and creator.patreon.com. Regex now covers any patreon.com subdomain."
   ]
 }

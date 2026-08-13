@@ -1,0 +1,41 @@
+{
+  "name": "Spam Catcher » Self-spoofed sender >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "all": [
+      {
+        "not": {
+          "any": [
+            { "header": "from", "contains": "sj.gibson@mac.com" },
+            { "header": "from", "contains": "sj.gibson@icloud.com" },
+            { "header": "from", "contains": "sj.gibson@me.com" },
+            { "header": "from", "contains": "sj.gibson@o2email.co.uk" }
+          ]
+        }
+      },
+      {
+        "any": [
+          { "header": "from", "regex": "(?i)sj\\.gibson\\+[a-z0-9]+@" },
+          { "header": "from", "regex": "(?i)^\"?steve gibson\"?\\s*<" },
+          { "header": "from", "regex": "(?i)^\"?sj\\.gibson\"?\\s*<" }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Cache.db analysis 2026-08-13: backscatter/self-impersonation spam. The From",
+    "address or display name claims to be the account holder (sj.gibson+<random>",
+    "plus-tag, or a bare 'Steve Gibson'/'sj.gibson' display name) from a domain",
+    "he doesn't own (hotmail.com, live.no, usal.es, sadricgroup.com,",
+    "172uL3.focusing.org). No genuine sender in this account uses a '+' tagged",
+    "plus-address, so the regex is safe without a broader allow-guard; the real",
+    "sj.gibson@ addresses are excluded explicitly anyway as a backstop."
+  ]
+}

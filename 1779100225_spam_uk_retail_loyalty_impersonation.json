@@ -1,0 +1,27 @@
+{
+  "name": "Spam Catcher » UK retail loyalty impersonation >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "regex": "@(alljrs\\.co\\.jp|eircom\\.net|keyfamily\\.plus\\.com|mamula\\.plus\\.com|jacksona\\.plus\\.com|twotwin\\.plus\\.com|geetabasyal\\.com\\.np|dadaninc\\.com|ghomeimprovement\\.com|mybathandbodyworks\\.com|event-services\\.eu|satsuki-net\\.co\\.jp|kinu-p\\.co\\.jp|icosta\\.com|homeimprovement\\.(net|co)|qhomeimprovement\\.com|alowes\\.com)"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Cache.db analysis 2026-08-13: one spam operation running 'free gift /",
+    "survey / VIP reward' templates skinned as Boots, Sainsbury's, M&S and",
+    "Costa Coffee across 18 throwaway domains. Several share a naming tell",
+    "(*homeimprovement.{com,net,co}), confirming a single operator.",
+    "Real Boots Photo mail (info.bootsphoto.cewe.co.uk) uses a different",
+    "domain and is unaffected."
+  ]
+}

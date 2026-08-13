@@ -1,0 +1,31 @@
+{
+  "name": "Spam/Junk — Junk domains 2026-08",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      { "header": "from", "contains": "@lavanderiasangiorgio.it" },
+      { "header": "from", "contains": "@proexsi.cl" },
+      { "header": "from", "contains": "@iadmexico.mx" },
+      { "header": "from", "contains": "ukdealies.com" },
+      { "header": "from", "contains": "@westbrookeassociates.info" },
+      { "header": "from", "contains": "@b00.itscom.net" },
+      { "header": "from", "contains": "@howarddanson.com" },
+      { "header": "from", "contains": "caracterizabaisar.com" },
+      { "header": "from", "contains": "@studynet.com.au" }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Residual junk domains with no shared signature, identified by cache.db",
+    "analysis 2026-08-13: fake DVLA licence-check phishing, 'Peggy Chan'",
+    "romance-scam opener (two domains), a fake law firm, a fake 'Funds",
+    "Cleared' notice, a gibberish-subject probe, and a casino bonus blast.",
+    "None of these are free-mail domains, so no allow-guard is needed."
+  ]
+}
