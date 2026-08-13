@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "hellofresh.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@newsletter.hellofresh.global"
       }
     ]
   },
@@ -21,6 +25,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Merged duplicate rule 1779100168_newsletters_marketing_food_hellofresh.json (2026-08-13): added sender condition(s) ['@newsletter.hellofresh.global']."
   ]
 }

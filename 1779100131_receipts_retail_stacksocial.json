@@ -1,0 +1,22 @@
+{
+  "name": "Receipts » Retail » StackSocial",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@stacksocial.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/StackSocial"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

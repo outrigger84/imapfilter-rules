@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Marketing » Hotels » Harbour Hotels",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.harbourhotels.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Hotels/Harbour Hotels"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

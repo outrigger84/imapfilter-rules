@@ -1,0 +1,22 @@
+{
+  "name": "Notifications » Shopping » Amazon Alexa",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "amazonalexa@amazon.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Shopping/Amazon Alexa"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

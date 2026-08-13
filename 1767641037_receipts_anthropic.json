@@ -11,11 +11,16 @@
       {
         "header": "from",
         "contains": "@mail.anthropic.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.anthropic.com"
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Merged duplicate rule 1779100093_receipts_software_anthropic.json (2026-08-13): added sender condition(s) ['@email.anthropic.com']."
   ],
   "actions": [
     {

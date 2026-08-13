@@ -1,5 +1,5 @@
 {
-  "name": "Server \u00bb Invoices",
+  "name": "Server » Invoices",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "billing@webhosting.uk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.invoicing.co"
       }
     ]
   },

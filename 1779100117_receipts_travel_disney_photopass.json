@@ -1,0 +1,42 @@
+{
+  "name": "Receipts » Travel » Disney PhotoPass",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@disneyparks.com"
+      },
+      {
+        "header": "from",
+        "contains": "@disneyworld.com"
+      },
+      {
+        "header": "from",
+        "contains": "@disney-email.com"
+      },
+      {
+        "header": "from",
+        "contains": "@disneyaccount.com"
+      },
+      {
+        "header": "from",
+        "contains": "@disneyvacationclub.com"
+      },
+      {
+        "header": "from",
+        "contains": "@disneysurveys.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Travel/Disney PhotoPass"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

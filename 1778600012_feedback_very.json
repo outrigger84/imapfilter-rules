@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@express.ger.medallia.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@express.medallia.eu"
       }
     ]
   },

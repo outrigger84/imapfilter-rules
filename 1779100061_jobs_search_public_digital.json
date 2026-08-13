@@ -1,0 +1,26 @@
+{
+  "name": "Jobs » Search » Public Digital",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@candidates.workablemail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@public.digital"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Jobs/Search/Public Digital"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

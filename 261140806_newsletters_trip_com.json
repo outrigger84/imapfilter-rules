@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Travel \u00bb Trip-com",
+  "name": "Newsletters » Marketing » Travel » Trip-com",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "Trip.com@newsletter.trip.com"
+      },
+      {
+        "header": "from",
+        "contains": "@trip.com"
       }
     ]
   },

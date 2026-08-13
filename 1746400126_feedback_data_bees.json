@@ -1,5 +1,5 @@
 {
-  "name": "Feedback \u00bb Data Bees",
+  "name": "Feedback » Data Bees",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@data-bees-f398bc68e0f6.intercom-mail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@data-bees.com"
       }
     ]
   },

@@ -1,0 +1,26 @@
+{
+  "name": "Feedback » Lounges",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@125insights.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.thelounges.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Lounges"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

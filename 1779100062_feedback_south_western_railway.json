@@ -1,0 +1,26 @@
+{
+  "name": "Feedback » South Western Railway",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@bva-bdrc.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.southwesternrailway.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/South Western Railway"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

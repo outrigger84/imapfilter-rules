@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@cv-library.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@careers.cv-library.co.uk"
       }
     ]
   },

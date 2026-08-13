@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Clothing \u00bb Harvey Nichols",
+  "name": "Newsletters » Marketing » Retail » Clothing » Harvey Nichols",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "loyalty@e.harveynichols.com"
+      },
+      {
+        "header": "from",
+        "contains": "@e.harveynichols.com"
       }
     ]
   },
@@ -17,6 +21,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "Merged duplicate rule 1779100144_newsletters_marketing_retail_clothing_harvey_nichols.json (2026-08-13): added sender condition(s) ['@e.harveynichols.com']."
   ]
 }

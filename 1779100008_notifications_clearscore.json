@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@clearscore.com"
+      },
+      {
+        "header": "from",
+        "contains": "@m.int.clearscore.com"
       }
     ]
   },

@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@trustedshops.com"
+      },
+      {
+        "header": "from",
+        "contains": "@trustedshops.de"
       }
     ]
   },
@@ -18,6 +22,7 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Trusted Shops buyer protection notifications"
+    "Trusted Shops buyer protection notifications",
+    "Merged duplicate rule 1779100216_notifications_shopping_trusted_shops.json (2026-08-13): added sender condition(s) ['@trustedshops.de']."
   ]
 }

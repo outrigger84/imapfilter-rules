@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Garmin",
+  "name": "Fitness » Garmin",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,18 @@
       {
         "header": "from",
         "contains": "@garmin.com"
+      },
+      {
+        "header": "from",
+        "contains": "@notifications.garmin.com"
+      },
+      {
+        "header": "from",
+        "contains": "@registration.garmin.com"
+      },
+      {
+        "header": "from",
+        "contains": "@s.garmin.com"
       }
     ]
   },

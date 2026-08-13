@@ -831,6 +831,210 @@
       {
         "header": "from",
         "contains": "@qemailserver.com"
+      },
+      {
+        "header": "from",
+        "contains": "@bellnet.ca"
+      },
+      {
+        "header": "from",
+        "contains": "@mwa.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@mug.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@mte.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@msj.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@kmj.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@mvb.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@muh.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@mrg.biglobe.ne.jp"
+      },
+      {
+        "header": "from",
+        "contains": "@henrys36.plus.com"
+      },
+      {
+        "header": "from",
+        "contains": "@rajpdom.plus.com"
+      },
+      {
+        "header": "from",
+        "contains": "@melita.com"
+      },
+      {
+        "header": "from",
+        "contains": "@flyallover.com"
+      },
+      {
+        "header": "from",
+        "contains": "@globalmrirx.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.superdry.com.au"
+      },
+      {
+        "header": "from",
+        "contains": "@edpanafrika.com"
+      },
+      {
+        "header": "from",
+        "contains": "@les3petitscochons.net"
+      },
+      {
+        "header": "from",
+        "contains": "6461.nunjcjrkzidupx.outlook.com"
+      },
+      {
+        "header": "from",
+        "contains": "8823.ghophycxiqnmio.protection.outlook.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mq4ngh.g03o3a.22idzj.us"
+      },
+      {
+        "header": "from",
+        "contains": "@mirnamoda.com"
+      },
+      {
+        "header": "from",
+        "contains": "@clemso-n.edu"
+      },
+      {
+        "header": "from",
+        "contains": "@sunnyct.com"
+      },
+      {
+        "header": "from",
+        "contains": "@shared1.ccsend.com"
+      },
+      {
+        "header": "from",
+        "contains": "@in.bagusi.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@in.guzozu.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@in.boyev.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@in.kopow.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@in.jehequ.eu"
+      },
+      {
+        "header": "from",
+        "contains": "@eddypierret.com"
+      },
+      {
+        "header": "from",
+        "contains": "@gko.com.br"
+      },
+      {
+        "header": "from",
+        "contains": "@npo.nl"
+      },
+      {
+        "header": "from",
+        "contains": "@canadianminingreport.com"
+      },
+      {
+        "header": "from",
+        "contains": "@rentstant.com"
+      },
+      {
+        "header": "from",
+        "contains": "@twochicago.com"
+      },
+      {
+        "header": "from",
+        "contains": "@boardgamebliss.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mobilise.co.in"
+      },
+      {
+        "header": "from",
+        "contains": "@zhenlawei.com"
+      },
+      {
+        "header": "from",
+        "contains": "@vrgbo.com"
+      },
+      {
+        "header": "from",
+        "contains": "@scholarschoice.ca"
+      },
+      {
+        "header": "from",
+        "contains": "@pm.df.gov.br"
+      },
+      {
+        "header": "from",
+        "contains": "@phoowittaya.ac.th"
+      },
+      {
+        "header": "from",
+        "contains": "@isuperchat.com"
+      },
+      {
+        "header": "from",
+        "contains": "@lyce.co.no"
+      },
+      {
+        "header": "from",
+        "contains": "teams-events.com"
+      },
+      {
+        "header": "from",
+        "contains": "@orom.com.br"
+      },
+      {
+        "header": "from",
+        "contains": "@zytly.onmicrosoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "futurehealth_e-aa-bnl-addc@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "supercleandevon_at_hotmail_com"
+      },
+      {
+        "header": "from",
+        "contains": "@signaturely.com"
+      },
+      {
+        "header": "from",
+        "contains": "@info.selectionstoday.com"
       }
     ]
   },

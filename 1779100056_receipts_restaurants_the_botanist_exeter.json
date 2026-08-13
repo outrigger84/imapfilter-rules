@@ -1,0 +1,22 @@
+{
+  "name": "Receipts » Restaurants » The Botanist Exeter",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "thebotanistexeter@partners.collinsbookings.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Restaurants/The Botanist Exeter"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

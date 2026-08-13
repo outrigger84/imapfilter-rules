@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@shop.kobo.com"
+      },
+      {
+        "header": "from",
+        "contains": "@kobo.com"
       }
     ]
   },

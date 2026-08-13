@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "coffee1@account.yoyowallet.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.caffenero.com"
       }
     ]
   },

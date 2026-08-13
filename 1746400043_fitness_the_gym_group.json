@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@et.thegymgroup.com"
+      },
+      {
+        "header": "from",
+        "contains": "@cf.thegymgroup.com"
       }
     ]
   },

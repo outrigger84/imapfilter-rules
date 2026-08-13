@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "no.reply@webuyanyphone.com"
+      },
+      {
+        "header": "from",
+        "contains": "@webuyanyphone.com"
       }
     ]
   },

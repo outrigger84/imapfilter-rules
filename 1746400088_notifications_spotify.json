@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@spotify.com"
+      },
+      {
+        "header": "from",
+        "contains": "@legal.spotify.com"
       }
     ]
   },

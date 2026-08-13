@@ -1,5 +1,5 @@
 {
-  "name": "Subscriptions \u00bb Virgin Red",
+  "name": "Subscriptions » Virgin Red",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@red.virgin.com"
+      },
+      {
+        "header": "from",
+        "contains": "@member-service.red.virgin.com"
       }
     ]
   },

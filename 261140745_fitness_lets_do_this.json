@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Lets Do This",
+  "name": "Fitness » Lets Do This",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "hello@info.letsdothis.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello@letsdothis.com"
       }
     ]
   },

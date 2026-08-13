@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb General \u00bb Currys",
+  "name": "Newsletters » Marketing » Retail » General » Currys",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@email.currys.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@currys.com"
       }
     ]
   },

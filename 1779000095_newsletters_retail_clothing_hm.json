@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Clothing \u00bb H&M",
+  "name": "Newsletters » Marketing » Retail » Clothing » H&M",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@hm.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.hm.com"
       }
     ]
   },
@@ -21,6 +25,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Merged duplicate rule 1779100183_newsletters_marketing_retail_clothing_h_m.json (2026-08-13): added sender condition(s) ['@email.hm.com']."
   ]
 }

@@ -95,6 +95,10 @@
       {
         "header": "from",
         "contains": "@neutralenergysolutions.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "crackingenergy.com@notifybf2.eu1.hubspot.com"
       }
     ]
   },
@@ -105,6 +109,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "Merged duplicate rule 1779100176_property_21_cleveland_street_projects_solar_egg.json (2026-08-13): added sender condition(s) ['crackingenergy.com@notifybf2.eu1.hubspot.com']."
   ]
 }

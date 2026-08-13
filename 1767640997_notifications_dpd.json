@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "_dpd_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "@dpdlocal.co.uk"
       }
     ]
   },

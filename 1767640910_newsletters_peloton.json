@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@mail.my.onepeloton.com"
+      },
+      {
+        "header": "from",
+        "contains": "@s.onepeloton.com"
       }
     ]
   },

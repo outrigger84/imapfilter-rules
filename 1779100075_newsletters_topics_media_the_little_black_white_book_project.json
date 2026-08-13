@@ -1,0 +1,22 @@
+{
+  "name": "Newsletters » Topics » Media » The Little Black & White Book Project",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@blackandwhitebookproject.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Topics/Media/The Little Black & White Book Project"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

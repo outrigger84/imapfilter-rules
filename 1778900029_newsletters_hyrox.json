@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@hyrox.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.hyrox.lv"
       }
     ]
   },

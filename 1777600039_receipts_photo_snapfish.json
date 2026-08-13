@@ -1,5 +1,5 @@
 {
-  "name": "Receipts \u00bb Photo Printing \u00bb Snapfish",
+  "name": "Receipts » Photo Printing » Snapfish",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,14 @@
       {
         "header": "from",
         "contains": "@snapfish.com"
+      },
+      {
+        "header": "from",
+        "contains": "@tx.snapfish.com"
+      },
+      {
+        "header": "from",
+        "contains": "@offer.snapfish.com"
       }
     ]
   },
@@ -21,6 +29,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Merged duplicate rule 1779100141_receipts_photo_printing_snapfish.json (2026-08-13): added sender condition(s) ['@tx.snapfish.com', '@offer.snapfish.com']."
   ]
 }

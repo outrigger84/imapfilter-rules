@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "lichfieldhealthandfitnessclub@clubright.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@lichfieldhealthandfitnessclub.crmail.uk"
       }
     ]
   },
@@ -15,5 +19,8 @@
       "type": "move",
       "target": "Fitness/Gym/Lichfield Health & Fitness Club"
     }
+  ],
+  "comments": [
+    "Merged duplicate rule 1779100078_fitness_gym_lichfield_health_fitness_club_newsletter.json (2026-08-13): added sender condition(s) ['@lichfieldhealthandfitnessclub.crmail.uk']."
   ]
 }

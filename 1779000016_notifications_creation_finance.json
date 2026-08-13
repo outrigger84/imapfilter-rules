@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@creation.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@info.creation.co.uk"
       }
     ]
   },

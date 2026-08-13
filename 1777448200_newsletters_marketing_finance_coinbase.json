@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Finance \u00bb Coinbase",
+  "name": "Newsletters » Marketing » Finance » Coinbase",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@coinbase.com"
+      },
+      {
+        "header": "from",
+        "contains": "@info.coinbase.com"
       }
     ]
   },

@@ -1,0 +1,22 @@
+{
+  "name": "Travel » Accommodation » Westhope Country Retreats",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@secure-booking-email.net"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation/Westhope Country Retreats"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

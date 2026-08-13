@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "no-reply@rehabmypatient.com"
+      },
+      {
+        "header": "from",
+        "contains": "@magdalenhealth.co.uk"
       }
     ]
   },
@@ -25,6 +29,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "Merged duplicate rule 1779100038_personal_health_magdalen_health.json (2026-08-13): added sender condition(s) ['@magdalenhealth.co.uk']."
   ]
 }

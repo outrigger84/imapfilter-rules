@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@spacegoods.com"
+      },
+      {
+        "header": "from",
+        "contains": "@loox.io"
       }
     ]
   },

@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "info@bostonseeds.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@bostonseeds.co.uk"
       }
     ]
   },

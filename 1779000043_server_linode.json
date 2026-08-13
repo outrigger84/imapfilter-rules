@@ -1,5 +1,5 @@
 {
-  "name": "Server \u00bb Linode",
+  "name": "Server » Linode",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@akamai.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.linode.com"
       }
     ]
   },

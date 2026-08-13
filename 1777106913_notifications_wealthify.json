@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "securemessaging@wealthify.com"
+      },
+      {
+        "header": "from",
+        "contains": "@emails.wealthify.com"
+      },
+      {
+        "header": "from",
+        "contains": "@service.wealthify.com"
       }
     ]
   },
@@ -17,6 +25,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Merged duplicate rule 1779100167_notifications_finance_wealthify.json (2026-08-13): added sender condition(s) ['@emails.wealthify.com', '@service.wealthify.com']."
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Personal » Finance » Shares » MUFG Corporate Markets",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@mifid.cm.mpms.mufg.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Shares/MUFG Corporate Markets"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

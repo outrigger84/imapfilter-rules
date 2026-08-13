@@ -43,6 +43,14 @@
       {
         "header": "from",
         "contains": "ba.custsvcs@contact.britishairways.com"
+      },
+      {
+        "header": "from",
+        "contains": "@dot-air.com"
+      },
+      {
+        "header": "from",
+        "contains": "@holidays.ba.com"
       }
     ]
   },
@@ -54,6 +62,7 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "British Airways account security and Avios loyalty program"
+    "British Airways account security and Avios loyalty program",
+    "Merged duplicate rule 1779100104_travel_flights_british_airways.json (2026-08-13): added sender condition(s) ['@dot-air.com', '@holidays.ba.com']."
   ]
 }

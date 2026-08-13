@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@send.xero.com"
+      },
+      {
+        "header": "from",
+        "contains": "@identity.post.xero.com"
       }
     ]
   },
@@ -22,6 +26,7 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Xero accounting login/security notifications"
+    "Xero accounting login/security notifications",
+    "Merged duplicate rule 1779100211_notifications_finance_xero.json (2026-08-13): added sender condition(s) ['@identity.post.xero.com']."
   ]
 }

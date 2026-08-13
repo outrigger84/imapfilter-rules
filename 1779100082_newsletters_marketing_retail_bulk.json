@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Retail » Bulk",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.bulk.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.bulk.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Retail/Bulk"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

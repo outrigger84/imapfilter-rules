@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Finance » MaxDividends",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@maxdividends.app"
+      },
+      {
+        "header": "from",
+        "contains": "@beatmarket.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Finance/MaxDividends"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

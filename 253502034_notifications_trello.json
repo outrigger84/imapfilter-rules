@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "do-not-reply_at_trello_com_"
+      },
+      {
+        "header": "from",
+        "contains": "@trello.com"
       }
     ]
   },
@@ -21,6 +25,7 @@
     }
   ],
   "comments": [
-    "Private Relay – Trello notifications"
+    "Private Relay – Trello notifications",
+    "Merged duplicate rule 1779100154_notifications_tech_trello.json (2026-08-13): added sender condition(s) ['@trello.com']."
   ]
 }

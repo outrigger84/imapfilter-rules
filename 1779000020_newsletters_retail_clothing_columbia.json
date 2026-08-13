@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@email.columbia.com"
+      },
+      {
+        "header": "from",
+        "contains": "@e-mail.columbia.com"
       }
     ]
   },
@@ -17,6 +21,7 @@
     }
   ],
   "comments": [
-    "Columbia Sportswear marketing. Identified by cache.db analysis 2026-06-26."
+    "Columbia Sportswear marketing. Identified by cache.db analysis 2026-06-26.",
+    "Merged duplicate rule 1779100206_newsletters_marketing_retail_clothing_columbia.json (2026-08-13): added sender condition(s) ['@e-mail.columbia.com']."
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Pensions \u00bb Legal and General",
+  "name": "Personal » Finance » Pensions » Legal and General",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -11,6 +11,18 @@
       {
         "header": "from",
         "contains": "clientservices@pensions.landg.com"
+      },
+      {
+        "header": "from",
+        "contains": "@pensions.landg.com"
+      },
+      {
+        "header": "from",
+        "contains": "@workplacepensions.landg.com"
+      },
+      {
+        "header": "from",
+        "contains": "@eml.landg.com"
       }
     ]
   },

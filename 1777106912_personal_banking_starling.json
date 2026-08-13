@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@updates.starlingbank.com"
+      },
+      {
+        "header": "from",
+        "contains": "@starlingbank.com"
       }
     ]
   },
@@ -17,6 +21,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Merged duplicate rule 1779100139_personal_finance_banking_starling.json (2026-08-13): added sender condition(s) ['@starlingbank.com']."
   ]
 }

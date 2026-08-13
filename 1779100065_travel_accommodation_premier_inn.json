@@ -1,0 +1,26 @@
+{
+  "name": "Travel » Accommodation » Premier Inn",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@service.premierinn.com"
+      },
+      {
+        "header": "from",
+        "contains": "@picomms.premierinn.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation/Premier Inn"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

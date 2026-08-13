@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Food \u00bb Papa John's",
+  "name": "Newsletters » Marketing » Food » Papa John's",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "offers@e-papajohns.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@order.papajohns.co.uk"
       }
     ]
   },

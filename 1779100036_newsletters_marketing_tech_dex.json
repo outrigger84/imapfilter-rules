@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Tech » Dex",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@app.getdex.com"
+      },
+      {
+        "header": "from",
+        "contains": "@getdex.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Tech/Dex"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13."
+  ]
+}

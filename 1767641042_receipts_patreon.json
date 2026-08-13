@@ -5,21 +5,26 @@
   "conditions": {
     "all": [
       {
-        "header": "from",
-        "contains": "@patreon.com"
-      },
-      {
         "header": "subject",
         "equals": "Your Patreon receipt is here!"
       },
       {
-        "header": "from",
-        "contains": "_patreon_com_"
+        "any": [
+          {
+            "header": "from",
+            "contains": "@patreon.com"
+          },
+          {
+            "header": "from",
+            "contains": "_patreon_com_"
+          }
+        ]
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Fixed 2026-08-13: previous 'all' block required @patreon.com AND _patreon_com_ simultaneously, which is never true for a real sender -- receipts never matched."
   ],
   "actions": [
     {

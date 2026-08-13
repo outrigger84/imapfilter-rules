@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Flights \u00bb Ryanair",
+  "name": "Travel » Flights » Ryanair",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "itinerary@ryanair.com"
+      },
+      {
+        "header": "from",
+        "contains": "@ryanair.com"
       }
     ]
   },
@@ -17,6 +21,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "Merged duplicate rule 1779100126_travel_flights_ryanair.json (2026-08-13): added sender condition(s) ['@ryanair.com']."
   ]
 }
