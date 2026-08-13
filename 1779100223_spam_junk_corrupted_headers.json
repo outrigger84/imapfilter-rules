@@ -1,0 +1,27 @@
+{
+  "name": "Spam/Junk — Corrupted headers (mbox import artifact)",
+  "enabled": true,
+  "priority": 10,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@unknown"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Cache.db analysis 2026-08-13: 143 messages have a From header with raw binary/zip",
+    "bytes spliced into it (e.g. a genuine 'The Economist' header mangled with an mbox",
+    "file path and ZIP magic bytes: '...norepPK\\x03\\x04...homist.com@unknown>').",
+    "This is an mbox-import/header-decoding artifact, not a real sender -- every",
+    "corrupted header ends in the literal string '@unknown', which no genuine address",
+    "ever contains, so this is a safe, precise match with no allow-guard needed."
+  ]
+}
