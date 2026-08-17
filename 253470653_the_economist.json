@@ -10,17 +10,46 @@
       },
       {
         "header": "from",
-        "contains": "clientmarketing@economist.com"
+        "contains": "@go.economist.com"
+      },
+      {
+        "header": "from",
+        "contains": "@economist.com"
       }
     ]
   },
   "actions": [
     {
-      "type": "move",
-      "target": "The Economist"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "The Economist"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-17: merged the separate 'Newsletters » Topics » Media » Economist' rule",
+    "(matched @go.economist.com / @economist.com, moved to a different folder) into",
+    "this one so all Economist mail lands in one place. '@economist.com' as a contains",
+    "match already covers 'clientmarketing@economist.com', so that condition was dropped.",
+    "2026-08-17: migrated from tag-then-sweep (rules-retention/retain_365.json +",
+    "set_keywords) after confirming iCloud silently drops custom IMAP keywords -- see",
+    "memory icloud-custom-keyword-limit.md. Now a single self-contained age-gated rule:",
+    "two mutually exclusive age brackets partition every possible age, so this rule",
+    "always matches once conditions match (no plain actions mixed in, avoiding a",
+    "double-queue risk). Re-evaluated by the weekly --all-folders resweep, which is the",
+    "only mechanism that revisits mail already filed outside INBOX."
   ]
 }
