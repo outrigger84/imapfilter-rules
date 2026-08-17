@@ -12,11 +12,27 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Exeter Observer"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Exeter Observer"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-17: added the same 365-day age-gated retention pattern as",
+    "rules/253470653_the_economist.json -- see README's 'Age-gated action brackets' section."
   ]
 }

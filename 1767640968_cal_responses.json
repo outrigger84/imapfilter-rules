@@ -12,11 +12,33 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Cal Responses"
+      "age_days_lt": 1,
+      "do": []
+    },
+    {
+      "age_days_gte": 1,
+      "age_days_lt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Cal Responses"
+        }
+      ]
+    },
+    {
+      "age_days_gte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-17: added 30-day age-gated retention. Day of receipt stays in INBOX",
+    "(deliberate no-op bracket) so it's visible; files into Cal Responses from day 1;",
+    "purges to Deleted Messages from day 30. See README's 'Age-gated action brackets'."
   ]
 }

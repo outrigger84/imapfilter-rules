@@ -3,23 +3,40 @@
   "enabled": true,
   "priority": 40,
   "conditions": {
-    "all": [
-      {
-        "header": "subject",
-        "regex": "(?i)^Delivered:(?!.*order\\s+#)"
-      },
-      {
-        "age_days_gt": 1
-      }
-    ]
+    "header": "subject",
+    "regex": "(?i)^Delivered:(?!.*order\\s+#)"
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Delivery Receipts"
+      "age_days_lt": 1,
+      "do": []
+    },
+    {
+      "age_days_gte": 1,
+      "age_days_lt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Delivery Receipts"
+        }
+      ]
+    },
+    {
+      "age_days_gte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
-    "Move delivery receipt emails to Delivery Receipts after 1 day"
+    "2026-08-17: the age gate moved from a condition (age_days_gt: 1) into action",
+    "brackets so a 30-day purge could be added too. Day of receipt stays in INBOX",
+    "(deliberate no-op bracket) so it's visible; files into Delivery Receipts from",
+    "day 1; purges to Deleted Messages from day 30. Net day-0/day-1 behavior is",
+    "unchanged from before -- only the 30-day purge is new. See README's",
+    "'Age-gated action brackets' section."
   ]
 }

@@ -11,16 +11,42 @@
       {
         "header": "from",
         "contains": "@e.newyorktimes.com"
+      },
+      {
+        "header": "from",
+        "contains": "@service.newyorktimes.com"
+      },
+      {
+        "header": "from",
+        "contains": "@newyorktimes.com"
       }
     ]
   },
   "actions": [
     {
-      "type": "move",
-      "target": "The New York Times"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "The New York Times"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-17: merged the separate 'Newsletters » Topics » Media » New York Times' rule",
+    "(matched @service.newyorktimes.com / @newyorktimes.com, moved to a different folder)",
+    "into this one, and applied the same 365-day age-gated retention pattern as",
+    "rules/253470653_the_economist.json -- see README's 'Age-gated action brackets' section."
   ]
 }
