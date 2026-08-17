@@ -7,95 +7,32 @@
       {
         "not": {
           "any": [
-            {
-              "header": "from",
-              "contains": "beckyannsnowden@gmail.com"
-            },
-            {
-              "header": "from",
-              "contains": "tanya.tara.ryan@gmail.com"
-            },
-            {
-              "header": "from",
-              "contains": "jedincm@gmail.com"
-            },
-            {
-              "header": "from",
-              "contains": "ron.renner@yahoo.com"
-            },
-            {
-              "header": "from",
-              "contains": "ppeart@aol.com"
-            },
-            {
-              "header": "from",
-              "contains": "dannyclifford05@gmail.com"
-            },
-            {
-              "header": "from",
-              "contains": "jake.alfred@gmail.com"
-            },
-            {
-              "header": "from",
-              "contains": "markcollier_43@hotmail.com"
-            }
+            { "header": "from", "contains": "beckyannsnowden@gmail.com" },
+            { "header": "from", "contains": "tanya.tara.ryan@gmail.com" },
+            { "header": "from", "contains": "jedincm@gmail.com" },
+            { "header": "from", "contains": "ron.renner@yahoo.com" },
+            { "header": "from", "contains": "ppeart@aol.com" },
+            { "header": "from", "contains": "dannyclifford05@gmail.com" },
+            { "header": "from", "contains": "jake.alfred@gmail.com" },
+            { "header": "from", "contains": "markcollier_43@hotmail.com" }
           ]
         }
       },
       {
         "any": [
-          {
-            "header": "from",
-            "contains": "mardan04@bellsouth.net"
-          },
-          {
-            "header": "from",
-            "contains": "rabkamqwebaj@hotmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "rfederica176@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "mailadmin@mac.com"
-          },
-          {
-            "header": "from",
-            "contains": "moudodnobi138@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "stephm.108@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "hmjoy13@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "taannkkyoouu@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "mdmoneir8485@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "xuannguyen061000@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "petercarolina05@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "mdmominurislammonir@gmail.com"
-          },
-          {
-            "header": "from",
-            "contains": "nguyenthithuy.130299@gmail.com"
-          }
+          { "header": "from", "contains": "mardan04@bellsouth.net" },
+          { "header": "from", "contains": "rabkamqwebaj@hotmail.com" },
+          { "header": "from", "contains": "rfederica176@gmail.com" },
+          { "header": "from", "contains": "mailadmin@mac.com" },
+          { "header": "from", "contains": "moudodnobi138@gmail.com" },
+          { "header": "from", "contains": "stephm.108@gmail.com" },
+          { "header": "from", "contains": "hmjoy13@gmail.com" },
+          { "header": "from", "contains": "taannkkyoouu@gmail.com" },
+          { "header": "from", "contains": "mdmoneir8485@gmail.com" },
+          { "header": "from", "contains": "xuannguyen061000@gmail.com" },
+          { "header": "from", "contains": "petercarolina05@gmail.com" },
+          { "header": "from", "contains": "mdmominurislammonir@gmail.com" },
+          { "header": "from", "contains": "nguyenthithuy.130299@gmail.com" }
         ]
       }
     ]
