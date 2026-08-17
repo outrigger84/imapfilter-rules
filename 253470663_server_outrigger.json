@@ -12,11 +12,30 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Server/Outrigger"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Server/Outrigger"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-18: added Economist-style age brackets -- two mutually exclusive age",
+    "brackets partition every possible age, so this rule always matches once",
+    "conditions match (no plain actions mixed in, avoiding a double-queue risk).",
+    "Re-evaluated by the weekly --all-folders resweep, which is the only mechanism",
+    "that revisits mail already filed outside INBOX."
   ]
 }
