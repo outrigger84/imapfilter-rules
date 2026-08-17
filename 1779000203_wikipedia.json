@@ -1,12 +1,12 @@
 {
   "name": "Newsletters » Topics » Media » Wikipedia",
   "enabled": true,
-  "priority": 90,
+  "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "daily-article-l@lists.wikimedia.org"
+        "contains": "@lists.wikimedia.org"
       },
       {
         "header": "from",
@@ -16,11 +16,37 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Topics/Media/Wikipedia"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Topics/Media/Wikipedia"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-08-17: merged the separate 'Newsletters » Topics » Media » Wikipedia'",
+    "rule (253470659_newsletters_wikipedia.json, matched @lists.wikimedia.org) into",
+    "this one so all Wikipedia mail lands in one place under a single rule.",
+    "'@lists.wikimedia.org' as a contains match already covers",
+    "'daily-article-l@lists.wikimedia.org', so that condition was dropped in favor",
+    "of the broader one; 'hello@wikimedia.org' was kept since it's not a lists.wikimedia.org",
+    "address. Took the higher priority (100) of the two merged rules.",
+    "2026-08-17: added Economist-style age brackets -- two mutually exclusive age",
+    "brackets partition every possible age, so this rule always matches once",
+    "conditions match (no plain actions mixed in, avoiding a double-queue risk).",
+    "Re-evaluated by the weekly --all-folders resweep, which is the only mechanism",
+    "that revisits mail already filed outside INBOX."
   ]
 }
