@@ -1,7 +1,7 @@
 {
   "name": "Scam >> Deleted Messages (eBay Transaction scam)",
   "enabled": true,
-  "priority": 50,
+  "priority": 500,
   "conditions": {
     "any": [
       {

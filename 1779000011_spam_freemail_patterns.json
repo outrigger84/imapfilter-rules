@@ -1,7 +1,7 @@
 {
   "name": "Spam/Junk — Free-mail spam patterns",
   "enabled": true,
-  "priority": 10,
+  "priority": 500,
   "conditions": {
     "all": [
       {

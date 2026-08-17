@@ -1,7 +1,7 @@
 {
   "name": "Ephemeral » Exeter Guest WiFi",
   "enabled": true,
-  "priority": 40,
+  "priority": 500,
   "conditions": {
     "all": [
       {
