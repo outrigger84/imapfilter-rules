@@ -6,7 +6,7 @@
     "any": [
       {
         "header": "from",
-        "regex": "@(jacks0n\\.plus\\.com|fwiatuif\\.hometransformationguys\\.com)"
+        "regex": "@(jacks0n\\.plus\\.com|fwiatuif\\.hometransformationguys\\.com|aikgftpisjtwrn\\.com)"
       }
     ]
   },
@@ -22,6 +22,9 @@
     "sample types its subject with zero-width joiners between every letter to",
     "defeat subject-text matching (core/rule_engine.py does no Unicode",
     "normalization before matching), so this domain match is the only lever",
-    "for that message -- a subject-phrase rule will never catch it."
+    "for that message -- a subject-phrase rule will never catch it.",
+    "2026-08-18: added aikgftpisjtwrn.com -- same template, display name",
+    "'RoadShield' and zero-width-joiner-obfuscated 'Protect your vehicle'",
+    "subject; vehicle-insurance variant of the same scare-mail generator."
   ]
 }

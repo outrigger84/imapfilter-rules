@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Hotels » Tenthotels",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@tenthotels.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Hotels/Tenthotels"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-18. 'Welcome' mail",
+    "from the Tent Society (Tenthotels) loyalty programme; flagged as missing",
+    "coverage in the 2026-08-13 pass."
+  ]
+}

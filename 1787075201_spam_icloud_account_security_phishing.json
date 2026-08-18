@@ -1,0 +1,32 @@
+{
+  "name": "Spam Catcher » iCloud account-security phishing >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "dang2884@icloud.com"
+      },
+      {
+        "header": "from",
+        "contains": "yb4x0fdms9s3a@icloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Cache.db analysis 2026-08-18: dang2884@icloud.com sent 7 near-identical",
+    "'Re: Account Security Notification' phishing mails (plus one blank-subject",
+    "sample) -- the largest single uncovered cluster in this cache pass.",
+    "yb4x0fdms9s3a@icloud.com is a separate throwaway address spoofing USPS",
+    "with a zero-width-joiner-obfuscated display name. Both are exact-address",
+    "matches per spam-rule-design-2026-06 -- icloud.com is a free-mail domain",
+    "so it is never blanket-filed."
+  ]
+}

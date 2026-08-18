@@ -15,11 +15,35 @@
       {
         "header": "from",
         "contains": "hotelgigisandiego@gmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "@hugeholidayhomes.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@plaishparkfarm.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@barlingsbarn.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@valefarmcottages.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "cynghordyestate@gmail.com"
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-18: added a 5-message holiday-cottage-enquiry cluster from",
+    "cache.db analysis -- Huge Holiday Homes, Plaish Park Farm, Barlings",
+    "Barn, Vale Farm Cottages, and 'The Stables' (cynghordyestate@gmail.com)",
+    "all replying 'Has A New Enquiry From Steve' to genuine bookings enquiries."
   ],
   "actions": [
     {

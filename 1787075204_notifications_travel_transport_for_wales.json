@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Travel » Transport for Wales",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@tfw.wales"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Travel/Transport for Wales"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-18. 'Welcome aboard'",
+    "account-signup transactional mail; flagged as missing coverage in the",
+    "2026-08-13 pass."
+  ]
+}

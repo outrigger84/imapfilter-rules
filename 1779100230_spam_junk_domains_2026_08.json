@@ -12,7 +12,22 @@
       { "header": "from", "contains": "@b00.itscom.net" },
       { "header": "from", "contains": "@howarddanson.com" },
       { "header": "from", "contains": "caracterizabaisar.com" },
-      { "header": "from", "contains": "@studynet.com.au" }
+      { "header": "from", "contains": "@studynet.com.au" },
+      { "header": "from", "contains": "@h5crossfit.com" },
+      { "header": "from", "contains": "@medicaldaily.com" },
+      { "header": "from", "contains": "@krwolfe.com" },
+      { "header": "from", "contains": "@segoviaempleo.com" },
+      { "header": "from", "contains": "@goshen-care.uk" },
+      { "header": "from", "contains": "@carmike.com" },
+      { "header": "from", "contains": "@uberether.com" },
+      { "header": "from", "contains": "@vippers.jp" },
+      { "header": "from", "contains": "@rewardengine.com" },
+      { "header": "from", "contains": "@redir.voordealit.com" },
+      { "header": "from", "contains": "@nieuws.whicimpt.nl" },
+      { "header": "from", "contains": "@info.itrustinmymarket.me.uk" },
+      { "header": "from", "contains": "@marinex.co.jp" },
+      { "header": "from", "contains": "@esporoes.com" },
+      { "header": "from", "contains": "@playtrade.com" }
     ]
   },
   "actions": [
@@ -26,6 +41,19 @@
     "analysis 2026-08-13: fake DVLA licence-check phishing, 'Peggy Chan'",
     "romance-scam opener (two domains), a fake law firm, a fake 'Funds",
     "Cleared' notice, a gibberish-subject probe, and a casino bonus blast.",
-    "None of these are free-mail domains, so no allow-guard is needed."
+    "None of these are free-mail domains, so no allow-guard is needed.",
+    "2026-08-18 batch: h5crossfit.com (zero-width-obfuscated 'MyDisney+'",
+    "billing-statement phish), medicaldaily.com (spoofed 'Omaha Steaks'),",
+    "krwolfe.com (spoofed 'Smart Heat Hub'/WellHeater ad), segoviaempleo.com",
+    "(spoofed 'British Gas Home Bonus'), goshen-care.uk (spoofed 'SumUp'",
+    "account-sync phish), carmike.com (spoofed 'ABC Health News' ad),",
+    "uberether.com ('CyberProtection Hub' subscription scam), vippers.jp",
+    "(spoofed 'Doddle' health-issue scam), rewardengine.com (spoofed",
+    "'British Airways support'), redir.voordealit.com + nieuws.whicimpt.nl",
+    "(shared 'car finance review' claims-scam campaign, two domains),",
+    "info.itrustinmymarket.me.uk (flight-delay compensation scam),",
+    "marinex.co.jp (spoofed 'EVRI Logistics UK' parcel scam), esporoes.com",
+    "(dating/scam opener 'over 45 years'), playtrade.com ('PlayFunds",
+    "Transfer' scam). None are free-mail domains; no allow-guard needed."
   ]
 }

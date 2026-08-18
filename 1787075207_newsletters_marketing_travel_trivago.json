@@ -1,0 +1,24 @@
+{
+  "name": "Newsletters » Marketing » Travel » Trivago",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@email.trivago.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Travel/Trivago"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-18. Hotel-deal",
+    "marketing mail from newsletter@email.trivago.com, the largest remaining",
+    "uncovered cluster (4 messages) after the spam/legit batch that day."
+  ]
+}

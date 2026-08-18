@@ -1,0 +1,28 @@
+{
+  "name": "Newsletters » Marketing » Entertainment » Picturehouse",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@picturehouses.com"
+      },
+      {
+        "header": "from",
+        "contains": "@feedback.picturehouses.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Entertainment/Picturehouse"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-18. Booking",
+    "confirmation and feedback-survey mail from Picturehouse Cinemas;",
+    "flagged as missing coverage in the 2026-08-13 pass."
+  ]
+}

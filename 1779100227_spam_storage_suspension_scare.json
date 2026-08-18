@@ -6,7 +6,7 @@
     "any": [
       {
         "header": "from",
-        "regex": "@(clusher\\.com|discipline4dignity\\.com\\.br)"
+        "regex": "@(clusher\\.com|discipline4dignity\\.com\\.br|groovingbigtime\\.com)"
       }
     ]
   },
@@ -20,6 +20,8 @@
     "Cache.db analysis 2026-08-13: fake 'cloud storage limit exceeded' /",
     "'storage space recommendation' scare mail. A third message in this same",
     "template (sj.gibson+yyrzzi29981@172uL3.focusing.org) is caught by the",
-    "self-spoofed-sender rule instead."
+    "self-spoofed-sender rule instead.",
+    "2026-08-18: added groovingbigtime.com -- sender display name 'Cloud',",
+    "subject 'Running low? Upgrade in seconds', same storage-scare template."
   ]
 }

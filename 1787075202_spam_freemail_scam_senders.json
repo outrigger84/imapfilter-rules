@@ -1,0 +1,34 @@
+{
+  "name": "Spam Catcher » Free-mail scam senders >> Deleted Messages",
+  "enabled": true,
+  "priority": 200,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "edanchandler66toduf@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "new.inquiry@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "yayaediana@gmail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Cache.db analysis 2026-08-18: edanchandler66toduf@hotmail.com (romance-scam",
+    "opener 'Shannon Sara Bates'), new.inquiry@hotmail.com ('28.2 M / Investment",
+    "Opportunity for: sj.gibson@mac.com'), and yayaediana@gmail.com (gibberish",
+    "order-confirmation-code phishing subject) are all on free-mail domains, so",
+    "matched by exact address rather than domain per spam-rule-design-2026-06."
+  ]
+}
