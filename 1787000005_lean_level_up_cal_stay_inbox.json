@@ -1,0 +1,24 @@
+{
+  "name": "Lean Level Up calendar invites >> stay in INBOX",
+  "enabled": true,
+  "priority": 35,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@leanlevelup.com"
+      },
+      {
+        "header": "subject",
+        "regex": "(?i)^(Accepted|Declined( \\([^)]+\\))?|Tentative|Cancell?ed|New Time Proposed|Event accepted|Meeting accepted|Meeting declined|iCal event update|Invitation|Event invitation|Event updated):"
+      }
+    ]
+  },
+  "actions": [],
+  "comments": [
+    "2026-08-18: intercepts rules/1767640968_cal_responses.json (priority 40) for",
+    "leanlevelup.com specifically -- its 30-day purge bracket was deleting the",
+    "genuine Lean Level Up coaching-call invite. User wants these left in INBOX",
+    "for now (not purged, not filed to Cal Responses either) pending a decision."
+  ]
+}

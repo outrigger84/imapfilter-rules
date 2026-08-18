@@ -1,0 +1,19 @@
+{
+  "name": "Digman! event video >> stay in INBOX",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@activation.agency"
+      }
+    ]
+  },
+  "actions": [],
+  "comments": [
+    "2026-08-18: split out of rules/1777800005_deleted_messages_junk_senders.json --",
+    "user wants to keep the Digman! event video email for now rather than delete it.",
+    "Explicit no-op so it isn't picked up by any lower-priority rule either."
+  ]
+}

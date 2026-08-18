@@ -10,7 +10,11 @@
       },
       {
         "header": "from",
-        "contains": "team@kickstarnow.com"
+        "contains": "@kickstarnow.com"
+      },
+      {
+        "header": "from",
+        "contains": "@kickstarlaunch.com"
       },
       {
         "header": "from",
@@ -69,6 +73,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-08-18: broadened team@kickstarnow.com to @kickstarnow.com (also seen from news@) and added @kickstarlaunch.com -- confirmed genuine crowdfunding-roundup newsletter, was wrongly in the spam blocklist"
   ]
 }

@@ -14,10 +14,6 @@
       },
       {
         "header": "from",
-        "contains": "@activation.agency"
-      },
-      {
-        "header": "from",
         "contains": "@email.weekday.com"
       },
       {
@@ -37,7 +33,8 @@
     }
   ],
   "comments": [
-    "Unwanted senders: Tony Toller (eBay boat spam), Topps T-shirt competition, Digman event videos, Weekday fashion (H&M brand), IG Group unsolicited marketing, Quotesearch insurance spam",
-    "2026-08-18: removed exepoloreg@gmail.com (Exeter Water Polo) -- confirmed genuine club correspondence, not inactive/junk; now routed by rules/1787000001_fitness_exeter_water_polo.json instead"
+    "Unwanted senders: Tony Toller (eBay boat spam), Topps T-shirt competition, Weekday fashion (H&M brand), IG Group unsolicited marketing, Quotesearch insurance spam",
+    "2026-08-18: removed exepoloreg@gmail.com (Exeter Water Polo) -- confirmed genuine club correspondence, not inactive/junk; now routed by rules/1787000001_fitness_exeter_water_polo.json instead",
+    "2026-08-18: removed @activation.agency (Digman event video) -- user wants to keep it for now; now no-op'd by rules/1787000004_digman_stay_inbox.json instead"
   ]
 }

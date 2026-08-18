@@ -1,0 +1,49 @@
+{
+  "name": "The New York Times » Billing Notices",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@nytimes.com"
+          },
+          {
+            "header": "from",
+            "contains": "@e.newyorktimes.com"
+          },
+          {
+            "header": "from",
+            "contains": "@service.newyorktimes.com"
+          },
+          {
+            "header": "from",
+            "contains": "@newyorktimes.com"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "regex": "(?i)\\b(cancel(l?ed)?|past due|final notice|payment information|lose unlimited access)\\b"
+      },
+      {
+        "age_days_gt": 365
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/The New York Times"
+    }
+  ],
+  "comments": [
+    "2026-08-18: split out of rules/253470654_the_new_york_times.json -- subscription",
+    "cancellation/past-due/payment-reminder notices should not be purged by the 365-day",
+    "retention bracket on that rule; file them here instead. Priority 90 (< 100) so this",
+    "wins before the general NYT rule's delete bracket for these specific subjects.",
+    "Non-billing NYT mail over 365 days old is unaffected and still purges as before."
+  ]
+}
