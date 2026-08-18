@@ -21,12 +21,24 @@
         "not_regex": "(?i)\\bDSM\\b"
       },
       {
+        "header": "from",
+        "not_contains": "sj.gibson@mac.com"
+      },
+      {
+        "header": "from",
+        "not_contains": "sj.gibson@me.com"
+      },
+      {
         "age_days_gt": 14
       }
     ]
   },
   "comments": [
-    "Cleanup of account and security notification emails after 14 days"
+    "Cleanup of account and security notification emails after 14 days",
+    "2026-08-18: excluded self-sent mail (sj.gibson@mac.com / @me.com) after the",
+    "'login'/'sign in' keyword regex was catching self-forwarded/replied threads",
+    "like 'Fwd: Login issues' and 'Re: Xibo Login' — personal correspondence, not",
+    "an automated account-security notification."
   ],
   "actions": [
     {

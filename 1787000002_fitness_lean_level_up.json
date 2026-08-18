@@ -1,0 +1,25 @@
+{
+  "name": "Fitness » Lean Level Up",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@leanlevelup.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Lean Level Up"
+    }
+  ],
+  "comments": [
+    "2026-08-18: split out of rules/1777106907_spam_junk_deleted_messages.json --",
+    "confirmed genuine fitness coach (Adam Lowe / Seb Valade), not a marketing funnel.",
+    "Priority 100 so Cal Responses (priority 40) still claims calendar invite/response",
+    "subjects from this sender first; this rule catches everything else."
+  ]
+}

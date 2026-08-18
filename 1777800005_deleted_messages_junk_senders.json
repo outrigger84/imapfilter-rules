@@ -10,10 +10,6 @@
       },
       {
         "header": "from",
-        "contains": "exepoloreg@gmail.com"
-      },
-      {
-        "header": "from",
         "contains": "@splash.systems"
       },
       {
@@ -41,6 +37,7 @@
     }
   ],
   "comments": [
-    "Unwanted senders: Tony Toller (eBay boat spam), Exeter Water Polo club (inactive), Topps T-shirt competition, Digman event videos, Weekday fashion (H&M brand), IG Group unsolicited marketing, Quotesearch insurance spam"
+    "Unwanted senders: Tony Toller (eBay boat spam), Topps T-shirt competition, Digman event videos, Weekday fashion (H&M brand), IG Group unsolicited marketing, Quotesearch insurance spam",
+    "2026-08-18: removed exepoloreg@gmail.com (Exeter Water Polo) -- confirmed genuine club correspondence, not inactive/junk; now routed by rules/1787000001_fitness_exeter_water_polo.json instead"
   ]
 }

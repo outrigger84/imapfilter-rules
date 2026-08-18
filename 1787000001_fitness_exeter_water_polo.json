@@ -1,0 +1,23 @@
+{
+  "name": "Fitness » Exeter Water Polo",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "exepoloreg@gmail.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness/Exeter Water Polo"
+    }
+  ],
+  "comments": [
+    "2026-08-18: split out of rules/1777800005_deleted_messages_junk_senders.json --",
+    "confirmed genuine club correspondence (session bookings), not inactive/junk."
+  ]
+}

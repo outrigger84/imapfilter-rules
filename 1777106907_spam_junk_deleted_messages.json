@@ -762,10 +762,6 @@
       },
       {
         "header": "from",
-        "contains": "@leanlevelup.com"
-      },
-      {
-        "header": "from",
         "contains": "@mpcsrl.it"
       },
       {
@@ -1041,7 +1037,8 @@
   "comments": [
     "Created with IMAPFilter Rule Wizard",
     "Spam/junk domains identified by analysis of 374,576 emails in cache.db",
-    "Additional criteria added from 14,680 manually-curated Deleted Messages emails"
+    "Additional criteria added from 14,680 manually-curated Deleted Messages emails",
+    "2026-08-18: removed @leanlevelup.com -- confirmed genuine fitness coach (Adam Lowe / Seb Valade), not spam; now routed by rules/1787000002_fitness_lean_level_up.json instead"
   ],
   "actions": [
     {
