@@ -1,7 +1,7 @@
 {
   "name": "Delivery Receipts",
   "enabled": true,
-  "priority": 40,
+  "priority": 110,
   "conditions": {
     "header": "subject",
     "regex": "(?i)^Delivered:(?!.*order\\s+#)"
@@ -37,6 +37,14 @@
     "(deliberate no-op bracket) so it's visible; files into Delivery Receipts from",
     "day 1; purges to Deleted Messages from day 30. Net day-0/day-1 behavior is",
     "unchanged from before -- only the 30-day purge is new. See README's",
-    "'Age-gated action brackets' section."
+    "'Age-gated action brackets' section.",
+    "2026-08-19: priority moved from 40 to 110. This is a sender-agnostic subject",
+    "match ('Delivered:' prefix) so at 40 it ran BEFORE brand-specific sender rules",
+    "(Amazon, Nextdoor, DPD/Evri/Royal Mail/Yodel/FedEx/UPS, all priority 100) and was",
+    "intercepting their mail -- e.g. order-update@amazon.co.uk 'Delivered: <item>'",
+    "notifications were being trapped here instead of reaching",
+    "Receipts/Retail/Amazon. 110 matches the existing 'catch-all mop-up' tier",
+    "(other brand catch-alls also sit at 110) so specific sender rules get first",
+    "refusal, and this rule only catches couriers/senders with no dedicated rule."
   ]
 }
