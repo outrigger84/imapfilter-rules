@@ -1,7 +1,7 @@
 {
   "name": "Newsletters » Marketing » Apple Private Relay",
   "enabled": true,
-  "priority": 100,
+  "priority": 500,
   "conditions": {
     "any": [
       {
@@ -17,6 +17,7 @@
     }
   ],
   "comments": [
-    "Created from cache.db unmatched-mail analysis 2026-08-13."
+    "Created from cache.db unmatched-mail analysis 2026-08-13.",
+    "Priority lowered to 500 (catch-all convention, see the bulk Deleted-Messages rules) so sender-specific rules that also match on @privaterelay.appleid.com (Zero, Golfshot, Thortful, Mailbuttler, Contacts+, Loom, ASOS, Receipts, Vue, Medium, SeatFrog, Taco Bell, Nextdoor) win first-match and this only catches unrecognized Hide My Email senders."
   ]
 }
