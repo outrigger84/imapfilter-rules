@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@rewards.subway.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "service@mail.subway.co.uk"
       }
     ]
   },

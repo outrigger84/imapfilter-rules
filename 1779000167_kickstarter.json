@@ -22,11 +22,11 @@
       },
       {
         "header": "from",
-        "contains": "team@backerhome.com"
+        "contains": "@backerhome.com"
       },
       {
         "header": "from",
-        "contains": "hello@backerviews-media.com"
+        "contains": "@backerviews-media.com"
       },
       {
         "header": "from",
@@ -34,7 +34,7 @@
       },
       {
         "header": "from",
-        "contains": "no-reply@kickstarter.com"
+        "contains": "@kickstarter.com"
       },
       {
         "header": "from",
@@ -63,6 +63,10 @@
       {
         "header": "from",
         "contains": "newsletter@backerclub.co"
+      },
+      {
+        "header": "from",
+        "contains": "email@kickstarterlatest.com"
       }
     ]
   },
@@ -74,6 +78,7 @@
   ],
   "comments": [
     "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
-    "2026-08-18: broadened team@kickstarnow.com to @kickstarnow.com (also seen from news@) and added @kickstarlaunch.com -- confirmed genuine crowdfunding-roundup newsletter, was wrongly in the spam blocklist"
+    "2026-08-18: broadened team@kickstarnow.com to @kickstarnow.com (also seen from news@) and added @kickstarlaunch.com -- confirmed genuine crowdfunding-roundup newsletter, was wrongly in the spam blocklist",
+    "2026-08-20: merged in duplicate rule 1767641038_newsletters_kickstarter.json (Rule Wizard, priority 100) -- broadened team@backerhome.com to @backerhome.com, hello@backerviews-media.com to @backerviews-media.com, and no-reply@kickstarter.com to @kickstarter.com to match the merged conditions"
   ]
 }
