@@ -20,8 +20,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Notifications/Services/Fiverr"
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Notifications/Services/Fiverr"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

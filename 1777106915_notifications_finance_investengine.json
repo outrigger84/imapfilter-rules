@@ -32,8 +32,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Notifications/Finance/InvestEngine"
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Notifications/Finance/InvestEngine"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
