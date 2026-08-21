@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Clothing \u00bb GAP",
+  "name": "Newsletters » Marketing » Retail » Clothing » GAP",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -16,8 +16,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Marketing/Retail/Clothing/GAP"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Retail/Clothing/GAP"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

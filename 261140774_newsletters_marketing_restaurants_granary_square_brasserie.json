@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Restaurants \u00bb Granary Square Brasserie",
+  "name": "Newsletters » Marketing » Restaurants » Granary Square Brasserie",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -16,8 +16,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Marketing/Restaurants/Granary Square Brasserie"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Restaurants/Granary Square Brasserie"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

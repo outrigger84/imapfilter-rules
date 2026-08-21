@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Retail \u00bb Cards \u00bb Thortful",
+  "name": "Newsletters » Marketing » Retail » Cards » Thortful",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -16,8 +16,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Marketing/Retail/Cards/Thortful"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Retail/Cards/Thortful"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

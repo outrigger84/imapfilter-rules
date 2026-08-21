@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Restaurants \u00bb Pho",
+  "name": "Newsletters » Marketing » Restaurants » Pho",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -16,8 +16,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Marketing/Restaurants/Pho"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Restaurants/Pho"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

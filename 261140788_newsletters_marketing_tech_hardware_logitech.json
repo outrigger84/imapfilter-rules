@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Tech \u00bb Hardware \u00bb Logitech",
+  "name": "Newsletters » Marketing » Tech » Hardware » Logitech",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Marketing/Tech/Hardware/Logitech"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Tech/Hardware/Logitech"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

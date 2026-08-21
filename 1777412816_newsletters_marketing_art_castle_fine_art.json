@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Art \u00bb Castle Fine Art",
+  "name": "Newsletters » Marketing » Art » Castle Fine Art",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -32,8 +32,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Marketing/Art/Castle Fine Art"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Art/Castle Fine Art"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

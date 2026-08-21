@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Travel \u00bb Blue Water Holidays",
+  "name": "Newsletters » Marketing » Travel » Blue Water Holidays",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Marketing/Travel/Blue Water Holidays"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Travel/Blue Water Holidays"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

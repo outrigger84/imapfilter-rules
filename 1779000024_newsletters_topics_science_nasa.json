@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Topics/Science/NASA"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Topics/Science/NASA"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

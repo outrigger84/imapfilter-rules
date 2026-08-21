@@ -1,5 +1,5 @@
 {
-  "name": "Notifications \u00bb Paramount+",
+  "name": "Notifications » Paramount+",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Notifications/Paramount+"
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Notifications/Paramount+"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

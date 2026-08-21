@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters \u00bb Marketing \u00bb Entertainment \u00bb Nintendo",
+  "name": "Newsletters » Marketing » Entertainment » Nintendo",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -20,8 +20,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Newsletters/Marketing/Entertainment/Nintendo"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Entertainment/Nintendo"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
