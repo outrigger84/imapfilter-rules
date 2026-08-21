@@ -1,12 +1,16 @@
 {
   "name": "Personal Development \u00bb Life Pilot",
   "enabled": true,
-  "priority": 110,
+  "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@enspiral.com"
+      },
+      {
+        "header": "from",
+        "contains": "natalie@nataliesisson.com"
       },
       {
         "all": [

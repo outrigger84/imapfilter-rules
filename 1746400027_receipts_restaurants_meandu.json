@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@meandu.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "_meandu_co_uk_"
       }
     ]
   },
@@ -18,6 +22,9 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "me&u mobile ordering receipts (The Botanist etc.)"
+    "me&u mobile ordering receipts (The Botanist etc.)",
+    "2026-08-21: merged 1779000007_notifications_meandu.json into this rule (same",
+    "destination folder; that file's own filename was miscategorized as",
+    "notifications despite targeting Receipts/Restaurants/me&u)."
   ]
 }

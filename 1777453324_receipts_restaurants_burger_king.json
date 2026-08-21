@@ -1,12 +1,16 @@
 {
   "name": "Receipts » Restaurants » Burger King",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@your-way.bk.com"
+      },
+      {
+        "header": "from",
+        "contains": "no-reply@your-way.burgerking.co.uk"
       }
     ]
   },
@@ -17,6 +21,10 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: merged 1779000131_burger_king.json into this rule (same",
+    "destination folder); dropped its 'promos-coming@your-way.bk.com' as a",
+    "strict subset of this rule's broader '@your-way.bk.com'. Took its priority",
+    "(90, was 100)."
   ]
 }

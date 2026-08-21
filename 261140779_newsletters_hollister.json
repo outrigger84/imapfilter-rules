@@ -3,10 +3,18 @@
   "enabled": true,
   "priority": 90,
   "conditions": {
-    "any": [
+    "all": [
       {
         "header": "from",
-        "contains": "@hollisterco.com"
+        "contains": "hollisterco.com"
+      },
+      {
+        "header": "from",
+        "not_contains": "orders@e.hollisterco.com"
+      },
+      {
+        "header": "subject",
+        "not_contains": "Your E-Receipt from"
       }
     ]
   },
@@ -17,6 +25,19 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-08-21: added '@e.hollisterco.com' and '@em.hollisterco.com' after a",
+    "retention-rollout audit found essentially all recently-sampled mail in this",
+    "folder used one of those marketing subdomains, which '@hollisterco.com' as a",
+    "contains match does not cover.",
+    "2026-08-21: merged 253470710_newsletters_hollister.json and",
+    "1779000162_holister.json (misspelled duplicate targeting",
+    "Newsletters/Marketing/Retail/Holister) into this one rule. Switched to a",
+    "bare 'hollisterco.com' contains match (no leading '@') so future marketing",
+    "subdomains are covered without another audit-driven patch, and combined both",
+    "sibling rules' receipt-exclusion guards (sender 'orders@e.hollisterco.com'",
+    "and subject 'Your E-Receipt from') so purchase receipts still fall through",
+    "to the priority-110 Receipts/Retail/Clothing/Hollister rule instead of",
+    "landing here."
   ]
 }

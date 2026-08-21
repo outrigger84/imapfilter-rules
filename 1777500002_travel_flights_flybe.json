@@ -1,12 +1,16 @@
 {
   "name": "Travel » Flights » Flybe",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@bookings.flybe.com"
+      },
+      {
+        "header": "from",
+        "contains": "contact.centre@flybe.com"
       }
     ]
   },
@@ -17,6 +21,10 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: merged 1779000153_flights_flybe.json into this rule (same",
+    "destination folder); dropped its 'do_not_reply@bookings.flybe.com' as a",
+    "strict subset of this rule's broader '@bookings.flybe.com'. Took its",
+    "priority (90, was 100)."
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Subscriptions \u00bb O2",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -11,6 +11,30 @@
       {
         "header": "from",
         "contains": "@o2.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "o2shop@s-email-o2.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "o2shop@o2.com"
+      },
+      {
+        "header": "from",
+        "contains": "o2payments@s-email-o2.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "news@o2-email.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "notification@billing.o2.com"
+      },
+      {
+        "header": "from",
+        "contains": "notification@account.o2.com"
       }
     ]
   },
@@ -21,6 +45,9 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: merged 1779000175_o2.json into this rule (same destination",
+    "folder, complementary non-overlapping subdomains). Took its priority",
+    "(90, was 100)."
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Fitness \u00bb Domestiq",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -18,6 +18,9 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Domestiq home management platform newsletter/updates"
+    "Domestiq home management platform newsletter/updates",
+    "2026-08-21: removed 261140744_fitness_domestiq.json, a duplicate whose",
+    "'challenge@domestiq.net' condition was already a strict subset of this rule's",
+    "'@domestiq.net'. Took its priority (90, was 100) to preserve evaluation order."
   ]
 }

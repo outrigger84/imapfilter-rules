@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@lycamobile.com"
+      },
+      {
+        "header": "from",
+        "contains": "@lycamobile.co.uk"
       }
     ]
   },
@@ -16,5 +20,8 @@
       "target": "Newsletters/Marketing/Telecom/Lyca Mobile"
     }
   ],
-  "comments": []
+  "comments": [
+    "2026-08-21: merged 1779100027_newsletters_lycamobile_uk.json into this rule",
+    "(same destination folder, complementary non-overlapping TLD)."
+  ]
 }

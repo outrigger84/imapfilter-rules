@@ -1,12 +1,24 @@
 {
   "name": "Receipts \u00bb Retail \u00bb Grocery \u00bb Tesco",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
-    "any": [
+    "all": [
       {
-        "header": "from",
-        "contains": "@tesco.co.uk"
+        "any": [
+          {
+            "header": "from",
+            "contains": "@tesco.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "tesco.com"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "not_contains": "Was this you?"
       }
     ]
   },
@@ -18,6 +30,14 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Tesco online grocery order confirmations"
+    "Tesco online grocery order confirmations",
+    "2026-08-21: merged 1767641148_receipts_tesco.json and 1777412802_receipts_tesco.json",
+    "into this rule (same destination folder). 1767641148's original conditions used",
+    "'all' to require a from header to simultaneously contain both",
+    "'no-reply@mail.tesco.com' and 'online@tesco.co.uk' -- impossible for a single from",
+    "address, confirmed 0/2000 real matches ever -- almost certainly meant to be 'any'.",
+    "Fixed to 'any', broadened to bare 'tesco.com' (covers mail./email./bare tesco.com)",
+    "and kept '@tesco.co.uk', and kept the 'Was this you?' subject exclusion applied",
+    "across all Tesco mail. Took priority 90 (was 100)."
   ]
 }

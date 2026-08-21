@@ -1,12 +1,36 @@
 {
   "name": "Travel \u00bb Insurance \u00bb Hepstar",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@hepstar.com"
+      },
+      {
+        "header": "from",
+        "contains": "claimsservice@cegagroup.com"
+      },
+      {
+        "header": "from",
+        "contains": "claimsservice-donotreply@cegagroup.com"
+      },
+      {
+        "header": "from",
+        "contains": "hello@comms.cedartreeinsurance.com"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@cedartreeinsurance.com"
+      },
+      {
+        "header": "from",
+        "contains": "support@cedartreeinsurance.com"
+      },
+      {
+        "header": "from",
+        "contains": "travel@estransactional.cedartreeinsurance.com"
       }
     ]
   },
@@ -17,6 +41,10 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: merged 1779000166_insurance.json into this rule (same",
+    "destination folder; different insurer brands sharing one category folder,",
+    "same pattern as Travel/Insurance and Archives/Rowing). Took its priority",
+    "(90, was 100)."
   ]
 }

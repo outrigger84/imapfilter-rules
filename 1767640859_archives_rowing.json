@@ -1,7 +1,7 @@
 {
   "name": "Archives/Rowing",
   "enabled": true,
-  "priority": 90,
+  "priority": 40,
   "conditions": {
     "any": [
       {
@@ -171,6 +171,26 @@
       {
         "header": "from",
         "contains": "@stitchrowing.com"
+      },
+      {
+        "header": "from",
+        "contains": "@easyfundraising.org.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "ERC Expenses Claim"
+      },
+      {
+        "header": "subject",
+        "contains": "ERC Payment Request"
+      },
+      {
+        "header": "subject",
+        "contains": "ERC Petty Cash"
+      },
+      {
+        "header": "subject",
+        "contains": "EWSA"
       }
     ]
   },
@@ -182,6 +202,10 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Auto-generated rule from cache.db with 32 unique senders"
+    "Auto-generated rule from cache.db with 32 unique senders",
+    "2026-08-21: merged 1777600011_memberships_easyfundraising.json and",
+    "1778500002_archives_rowing_erc_forms.json into this rule (same destination",
+    "folder, complementary non-overlapping conditions). Took priority 40 (was 90)",
+    "to preserve the ERC Forms rule's 'beat *ME rule at priority 50' ordering."
   ]
 }

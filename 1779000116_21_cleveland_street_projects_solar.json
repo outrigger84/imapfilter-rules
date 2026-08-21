@@ -34,7 +34,7 @@
       },
       {
         "header": "from",
-        "contains": "richard.hawkesford@desrenewables.com"
+        "contains": "@desrenewables.com"
       },
       {
         "header": "from",
@@ -110,6 +110,9 @@
   ],
   "comments": [
     "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
-    "Merged duplicate rule 1779100176_property_21_cleveland_street_projects_solar_egg.json (2026-08-13): added sender condition(s) ['crackingenergy.com@notifybf2.eu1.hubspot.com']."
+    "Merged duplicate rule 1779100176_property_21_cleveland_street_projects_solar_egg.json (2026-08-13): added sender condition(s) ['crackingenergy.com@notifybf2.eu1.hubspot.com'].",
+    "2026-08-21: removed 1779000049_property_renovations_des_renewables.json (same",
+    "destination folder); broadened 'richard.hawkesford@desrenewables.com' to",
+    "'@desrenewables.com' since that rule's domain-level match was a strict superset."
   ]
 }

@@ -1,16 +1,32 @@
 {
   "name": "Receipts » Software » Setapp",
   "enabled": true,
-  "priority": 100,
+  "priority": 80,
   "conditions": {
-    "all": [
+    "any": [
       {
-        "header": "from",
-        "contains": "@setapp.com"
+        "all": [
+          {
+            "header": "from",
+            "contains": "@setapp.com"
+          },
+          {
+            "header": "subject",
+            "contains": "Your Setapp payment"
+          }
+        ]
       },
       {
-        "header": "subject",
-        "contains": "Your Setapp payment"
+        "all": [
+          {
+            "header": "from",
+            "contains": "help@paddle.com"
+          },
+          {
+            "header": "subject",
+            "contains": "Setapp"
+          }
+        ]
       }
     ]
   },
@@ -21,6 +37,10 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: merged 1777412808_receipts_setapp.json into this rule (same",
+    "destination folder; Paddle is Setapp's payment processor, matched on both",
+    "sender and subject to avoid catching other Paddle merchants). Took its",
+    "priority (80, was 100)."
   ]
 }

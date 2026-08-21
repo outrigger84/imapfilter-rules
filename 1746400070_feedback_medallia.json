@@ -1,6 +1,6 @@
 {
   "name": "Feedback \u00bb Medallia",
-  "enabled": false,
+  "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@medallia.com"
+      },
+      {
+        "header": "from",
+        "contains": "@express.medallia.com"
       }
     ]
   },
@@ -26,6 +30,10 @@
   ],
   "comments": [
     "Customer experience survey platform",
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: merged 1777452205_feedback_virgin_atlantic.json into this rule",
+    "(same destination folder, complementary conditions). This file was disabled",
+    "while its sibling was enabled -- re-enabled to avoid silently dropping",
+    "Medallia coverage when the sibling is removed."
   ]
 }

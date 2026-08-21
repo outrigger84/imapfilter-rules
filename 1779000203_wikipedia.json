@@ -6,11 +6,7 @@
     "any": [
       {
         "header": "from",
-        "contains": "@lists.wikimedia.org"
-      },
-      {
-        "header": "from",
-        "contains": "hello@wikimedia.org"
+        "contains": "@wikimedia.org"
       }
     ]
   },
@@ -47,6 +43,10 @@
     "brackets partition every possible age, so this rule always matches once",
     "conditions match (no plain actions mixed in, avoiding a double-queue risk).",
     "Re-evaluated by the weekly --all-folders resweep, which is the only mechanism",
-    "that revisits mail already filed outside INBOX."
+    "that revisits mail already filed outside INBOX.",
+    "2026-08-21: merged 1746400087_charity_wikimedia.json into this rule (same",
+    "destination folder). Simplified conditions to a single bare '@wikimedia.org'",
+    "contains match, which is a strict superset of the previous",
+    "'@lists.wikimedia.org' / 'hello@wikimedia.org' pair."
   ]
 }

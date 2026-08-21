@@ -19,6 +19,10 @@
       {
         "header": "from",
         "contains": "virginatlanticschedulechanges@virginatlantic.com"
+      },
+      {
+        "header": "from",
+        "contains": "@service.virginatlantic.com"
       }
     ]
   },
@@ -29,6 +33,8 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-08-21: merged 1779000104_travel_flights_virgin_atlantic_service.json",
+    "into this rule (same destination folder, complementary non-overlapping domain)."
   ]
 }

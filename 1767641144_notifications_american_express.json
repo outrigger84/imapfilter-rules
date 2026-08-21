@@ -13,6 +13,10 @@
           {
             "header": "from",
             "contains": "@welcome.aexp.com"
+          },
+          {
+            "header": "from",
+            "contains": "@email.amexnetwork.com"
           }
         ]
       },

@@ -26,15 +26,7 @@
       },
       {
         "header": "from",
-        "contains": "BarnstapleShowroom@Angliangroup.com"
-      },
-      {
-        "header": "from",
-        "contains": "ExeterShowroom@Angliangroup.com"
-      },
-      {
-        "header": "from",
-        "contains": "promarquote017@angliangroup.com"
+        "contains": "@angliangroup.com"
       },
       {
         "header": "from",
@@ -58,14 +50,6 @@
       },
       {
         "header": "from",
-        "contains": "Richard.Parr@Angliangroup.com"
-      },
-      {
-        "header": "from",
-        "contains": "steven.bryant@angliangroup.com"
-      },
-      {
-        "header": "from",
         "contains": "enquiries@mpswindows.co.uk"
       },
       {
@@ -81,6 +65,9 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-08-21: removed 1745900021_property_renovations_anglian.json (same",
+    "destination folder); consolidated 5 specific '...@angliangroup.com' addresses",
+    "into one broad '@angliangroup.com' contains match, a strict superset."
   ]
 }

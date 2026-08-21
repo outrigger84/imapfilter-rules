@@ -1,7 +1,7 @@
 {
   "name": "21 Cleveland Street » Insurance",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -15,7 +15,10 @@
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: removed 1778600007_property_21_cleveland_st_homeprotect.json, a",
+    "subject-gated duplicate whose matches were already a strict subset of this",
+    "rule's broader sender match. Took its priority (90, was 100)."
   ],
   "actions": [
     {

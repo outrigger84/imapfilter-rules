@@ -3,22 +3,14 @@
   "enabled": true,
   "priority": 90,
   "conditions": {
-    "all": [
+    "any": [
       {
-        "any": [
-          {
-            "header": "from",
-            "contains": "@mg.soul-cycle.com"
-          },
-          {
-            "header": "from",
-            "contains": "@soul-cycle.com"
-          }
-        ]
+        "header": "from",
+        "contains": "@mg.soul-cycle.com"
       },
       {
-        "header": "subject",
-        "contains": "Receipt"
+        "header": "from",
+        "contains": "@soul-cycle.com"
       }
     ]
   },

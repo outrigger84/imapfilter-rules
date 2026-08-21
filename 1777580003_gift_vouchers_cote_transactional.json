@@ -1,16 +1,24 @@
 {
-  "name": "Gift Vouchers » Côte (transactional)",
+  "name": "Gift Vouchers » Côte",
   "enabled": true,
   "priority": 50,
   "conditions": {
-    "all": [
+    "any": [
       {
-        "header": "from",
-        "contains": "@t.cote.co.uk"
+        "all": [
+          {
+            "header": "from",
+            "contains": "@t.cote.co.uk"
+          },
+          {
+            "header": "subject",
+            "contains": "gift"
+          }
+        ]
       },
       {
-        "header": "subject",
-        "contains": "gift"
+        "header": "from",
+        "contains": "no-reply@mytoggle.io"
       }
     ]
   },
@@ -21,6 +29,8 @@
     }
   ],
   "comments": [
-    "Gift voucher emails from Côte transactional domain; higher priority than general Feedback rule"
+    "Gift voucher emails from Côte transactional domain; higher priority than general Feedback rule",
+    "2026-08-21: merged 261140748_gift_vouchers_cote.json into this rule (same",
+    "destination folder, complementary non-overlapping sender domains)."
   ]
 }

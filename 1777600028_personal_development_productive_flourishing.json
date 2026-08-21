@@ -19,6 +19,10 @@
             "contains": "Productive Flourishing"
           }
         ]
+      },
+      {
+        "header": "from",
+        "contains": "@productiveflourishing.com"
       }
     ]
   },
@@ -30,6 +34,8 @@
   ],
   "comments": [
     "Priority 110: subject-split rule for thrivecart must run before catch-all",
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: merged 1777610001_personal_development_productive_flourishing_direct.json",
+    "into this rule (same destination folder, complementary non-overlapping domain)."
   ]
 }
