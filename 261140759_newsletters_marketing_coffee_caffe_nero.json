@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Coffee » Caffe Nero",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "coffee1@account.yoyowallet.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.caffenero.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Coffee/Caffe Nero"
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

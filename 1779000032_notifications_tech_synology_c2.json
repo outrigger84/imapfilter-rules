@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Tech » Synology C2",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@c2.synology.com"
+      },
+      {
+        "header": "from",
+        "contains": "@synology.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Tech/Synology C2"
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Property » 21 Cleveland Street » Projects",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "james@asbestossolutionssouthwest.com"
+      },
+      {
+        "header": "from",
+        "contains": "@environmentuk.com"
+      },
+      {
+        "header": "from",
+        "contains": "donna@blackmetaldoors.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "quickbooks@notification.intuit.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Projects"
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-08-21: merged 261140741_21_cleveland_street_renovations.json and",
+    "1777800011_property_renovations_environmentuk.json into this rule (same",
+    "destination folder). Broadened 'nmayne@environmentuk.com' to '@environmentuk.com'",
+    "since the merged-in rule's domain-level match was already a strict superset."
+  ]
+}

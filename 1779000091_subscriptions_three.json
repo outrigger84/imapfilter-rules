@@ -1,0 +1,26 @@
+{
+  "name": "Subscriptions » Three",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@three-email.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@three.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Three"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

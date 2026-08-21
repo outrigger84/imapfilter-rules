@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Tech » Plex",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@m.plex.tv"
+      },
+      {
+        "header": "from",
+        "contains": "@plex.tv"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Tech/Plex"
+    }
+  ],
+  "comments": []
+}

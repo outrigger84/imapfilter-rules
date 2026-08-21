@@ -1,0 +1,30 @@
+{
+  "name": "Notifications » Travel » Seatfrog",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@info.seatfrog.com"
+      },
+      {
+        "header": "from",
+        "contains": "@seatfrog.com"
+      },
+      {
+        "header": "from",
+        "contains": "_seatfrog_com_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Travel/Seatfrog"
+    }
+  ],
+  "comments": [
+    "Seatfrog train seat upgrade bidding app"
+  ]
+}

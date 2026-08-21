@@ -1,0 +1,20 @@
+{
+  "name": "Notifications » Health » Lose It",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@loseit.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Health/Lose It"
+    }
+  ],
+  "comments": []
+}

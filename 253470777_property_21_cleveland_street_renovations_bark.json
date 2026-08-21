@@ -1,0 +1,22 @@
+{
+  "name": "Property » 21 Cleveland Street » Renovations » Bark",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@bark.com"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Renovations/Bark"
+    }
+  ]
+}

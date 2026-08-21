@@ -1,0 +1,26 @@
+{
+  "name": "Property » 21 Cleveland Street » Bills » Bay Cleaning",
+  "enabled": true,
+  "priority": 80,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@messaging.squareup.com"
+      },
+      {
+        "header": "from",
+        "contains": "Bay Cleaning"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Bills/Bay Cleaning"
+    }
+  ]
+}

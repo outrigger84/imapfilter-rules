@@ -1,0 +1,28 @@
+{
+  "name": "Notifications » Health » Perform Coaching",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@lc.performcoaching.ie"
+      },
+      {
+        "header": "from",
+        "contains": "@perform-coaching.online"
+      },
+      {
+        "header": "from",
+        "contains": "@performcoaching.ie"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Health/Perform Coaching"
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Property » 21 Cleveland Street » Renovations » MPS Windows",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@mpswindows.co.uk"
+      },
+      {
+        "header": "list-id",
+        "contains": "c120e28356c29b3c1574dc1ec"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Renovations/MPS Windows"
+    }
+  ]
+}

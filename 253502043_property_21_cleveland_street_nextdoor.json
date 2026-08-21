@@ -1,0 +1,54 @@
+{
+  "name": "Property » 21 Cleveland Street » Nextdoor",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "_email_nextdoor_co_uk_"
+          },
+          {
+            "header": "from",
+            "contains": "@privaterelay.appleid.com"
+          }
+        ]
+      },
+      {
+        "header": "from",
+        "contains": "@nextdoor.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.nextdoor.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Property/21 Cleveland Street/Nextdoor"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-21: added 30-day age-gated retention pattern -- see README's",
+    "'Age-gated action brackets' section (rules/1767640865_exeter_observer.json)."
+  ]
+}

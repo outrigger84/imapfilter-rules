@@ -1,0 +1,30 @@
+{
+  "name": "Notifications » Community » Eventbrite",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@reminder.eventbrite.com"
+      },
+      {
+        "header": "from",
+        "contains": "@eventbrite.com"
+      },
+      {
+        "header": "from",
+        "contains": "@campaign.eventbrite.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Community/Eventbrite"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

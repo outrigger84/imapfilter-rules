@@ -1,0 +1,22 @@
+{
+  "name": "Fitness",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "emails@webscorer.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Fitness"
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

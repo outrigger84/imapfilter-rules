@@ -1,0 +1,30 @@
+{
+  "name": "Notifications » Apple » Apple ID",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "appleid@id.apple.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.apple.com"
+      },
+      {
+        "header": "from",
+        "contains": "@apple.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Apple/Apple ID"
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

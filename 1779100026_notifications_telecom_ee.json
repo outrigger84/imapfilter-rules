@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Telecom » EE",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@hellobroadband.ee.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@ee.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Telecom/EE"
+    }
+  ],
+  "comments": []
+}

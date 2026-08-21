@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Tech » Codeanywhere",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@codeanywhere.net"
+      },
+      {
+        "header": "from",
+        "contains": "@codeanywhere.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Tech/Codeanywhere"
+    }
+  ],
+  "comments": []
+}

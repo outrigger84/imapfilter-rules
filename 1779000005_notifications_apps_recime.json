@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Apps » ReciMe",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@recime.app"
+      },
+      {
+        "header": "from",
+        "contains": "_recime_app_"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Apps/ReciMe"
+    }
+  ],
+  "comments": []
+}

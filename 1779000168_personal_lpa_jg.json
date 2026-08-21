@@ -1,0 +1,22 @@
+{
+  "name": "Personal » LPA » JG",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "use.a.lasting.power.of.attorney@notifications.service.gov.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/LPA/JG"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+  ]
+}

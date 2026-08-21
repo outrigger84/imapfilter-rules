@@ -1,0 +1,30 @@
+{
+  "name": "Notifications » Deliveries » DPD",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@dpd.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "_dpd_co_uk_"
+      },
+      {
+        "header": "from",
+        "contains": "@dpdlocal.co.uk"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Deliveries/DPD"
+    }
+  ]
+}

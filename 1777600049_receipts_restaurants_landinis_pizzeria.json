@@ -1,0 +1,22 @@
+{
+  "name": "Receipts » Restaurants » Landinis Pizzeria",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@landinispizzeria.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Restaurants/Landinis Pizzeria"
+    }
+  ],
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

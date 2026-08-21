@@ -1,0 +1,26 @@
+{
+  "name": "Property » 21 Cleveland Street » Lodger » Adverts » Spareroom",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@spareroom.co.uk"
+      },
+      {
+        "header": "from",
+        "not_contains": "news@spareroom.co.uk"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Lodger/Adverts/Spareroom"
+    }
+  ]
+}

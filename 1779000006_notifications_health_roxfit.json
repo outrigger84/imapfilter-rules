@@ -1,0 +1,24 @@
+{
+  "name": "Notifications » Health » Roxfit",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@roxfitapp.com"
+      },
+      {
+        "header": "from",
+        "contains": "_roxfit"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Health/Roxfit"
+    }
+  ],
+  "comments": []
+}

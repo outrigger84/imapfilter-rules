@@ -1,0 +1,26 @@
+{
+  "name": "Notifications » Community » Paperless Post",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@paperlesspost.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.paperlesspost.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Community/Paperless Post"
+    }
+  ],
+  "comments": [
+    "Merged duplicate rule 1779100163_notifications_community_paperless_post_updates.json (2026-08-13): added sender condition(s) ['@email.paperlesspost.com']."
+  ]
+}

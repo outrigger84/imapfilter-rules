@@ -1,0 +1,27 @@
+{
+  "name": "Personal Development",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@thrivecart.email"
+      },
+      {
+        "header": "from",
+        "contains": "colbor@amazon.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal Development"
+    }
+  ],
+  "comments": [
+    "Catch-all for thrivecart emails not matched by course-specific rules (priority 110)",
+    "Created with IMAPFilter Rule Wizard"
+  ]
+}

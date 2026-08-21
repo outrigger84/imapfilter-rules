@@ -1,0 +1,46 @@
+{
+  "name": "Property » 21 Cleveland Street » Bills » British Gas",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@britishgas.co.uk"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@mail.energy.britishgas.co.uk"
+          },
+          {
+            "header": "subject",
+            "not_regex": "(?i)peak.?save"
+          }
+        ]
+      },
+      {
+        "header": "from",
+        "contains": "@britishgas.flexmr.email"
+      },
+      {
+        "header": "from",
+        "contains": "@cd.britishgas.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@q.britishgas.co.uk"
+      }
+    ]
+  },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard"
+  ],
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Bills/British Gas"
+    }
+  ]
+}

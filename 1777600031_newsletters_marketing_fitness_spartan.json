@@ -1,0 +1,26 @@
+{
+  "name": "Newsletters » Marketing » Fitness » Spartan",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@delivery.zetaglobal.net"
+      },
+      {
+        "header": "from",
+        "contains": "spartan.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Newsletters/Marketing/Fitness/Spartan"
+    }
+  ],
+  "comments": [
+    "Spartan marketing via zetaglobal ESP"
+  ]
+}

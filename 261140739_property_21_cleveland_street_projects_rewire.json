@@ -1,0 +1,22 @@
+{
+  "name": "Property » 21 Cleveland Street » Projects » Rewire",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "info@electricc.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Projects/Rewire"
+    }
+  ],
+  "comments": [
+    "Migrated from Thunderbird msgFilterRules.dat"
+  ]
+}

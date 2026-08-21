@@ -1,0 +1,73 @@
+{
+  "name": "Property » 21 Cleveland Street » Projects » Windows",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "creditcontrol@mpswindows.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "dannysansom@mpswindows.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "Survey@mpswindows.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "noreply@emails.anglianhome.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "anglianhomeimprovement@davies-technology.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@angliangroup.com"
+      },
+      {
+        "header": "from",
+        "contains": "Anglianhome@anglianhome.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "funding-illustration@ecof.online"
+      },
+      {
+        "header": "from",
+        "contains": "do.not.reply@safestyle.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "no_reply@qanw.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "spillings23@yahoo.com"
+      },
+      {
+        "header": "from",
+        "contains": "enquiries@mpswindows.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@mpswindows.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Projects/Windows"
+    }
+  ],
+  "comments": [
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-08-21: removed 1745900021_property_renovations_anglian.json (same",
+    "destination folder); consolidated 5 specific '...@angliangroup.com' addresses",
+    "into one broad '@angliangroup.com' contains match, a strict superset."
+  ]
+}
