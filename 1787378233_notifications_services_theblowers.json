@@ -1,0 +1,37 @@
+{
+  "name": "Notifications » Services » TheBlowers",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "regex": "(?i)theblowers_.*@icloud\\.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Notifications/TheBlowers"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    "theblowers.com sends via rotating icloud.com relay addresses (e.g. noreply_at_theblowers_com_<token>@icloud.com), which previously matched the freemail spam regex in 1779000011_spam_freemail_patterns.json.",
+    "Confirmed genuine by user 2026-08-22; must sit at lower priority number than the spam rule (500) so it is evaluated first and diverts before the spam catch-all."
+  ]
+}

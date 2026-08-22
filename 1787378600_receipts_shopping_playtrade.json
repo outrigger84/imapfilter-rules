@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Shopping » PlayTrade",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@playtrade.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Shopping/PlayTrade"
+    }
+  ],
+  "comments": [
+    "2026-08-22: confirmed genuine by user -- selling@playtrade.com was previously",
+    "caught by rules/1779100230_spam_junk_domains_2026_08.json (priority 200), which",
+    "wrongly flagged @playtrade.com as a 'PlayFunds Transfer' scam domain during the",
+    "2026-08-18 cache.db batch. Priority 100 (< 200) wins first. No age gate -- kept",
+    "as a financial record, matching other Receipts/* rules."
+  ]
+}

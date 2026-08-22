@@ -1,7 +1,7 @@
 {
   "name": "Memberships \u00bb UoE Alumni",
   "enabled": true,
-  "priority": 90,
+  "priority": 35,
   "conditions": {
     "any": [
       {
@@ -23,7 +23,13 @@
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-08-22: priority dropped from 90 to 35 (< 40) so this wins before",
+    "rules/1767640968_cal_responses.json. These senders' newsletters use 'Invitation:'",
+    "as a plain marketing subject prefix (e.g. 'Invitation: Exeter MBA London social'),",
+    "which Cal Responses' subject regex was misreading as a genuine calendar RSVP and",
+    "purging to Deleted Messages once >=30 days old. No other rule with priority",
+    "between 35 and 90 matches these senders, so this is a no-op for everything else."
   ],
   "actions": [
     {

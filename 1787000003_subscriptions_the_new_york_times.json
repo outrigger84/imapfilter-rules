@@ -3,33 +3,41 @@
   "enabled": true,
   "priority": 90,
   "conditions": {
-    "all": [
+    "any": [
       {
-        "any": [
+        "all": [
           {
-            "header": "from",
-            "contains": "@nytimes.com"
+            "any": [
+              {
+                "header": "from",
+                "contains": "@nytimes.com"
+              },
+              {
+                "header": "from",
+                "contains": "@e.newyorktimes.com"
+              },
+              {
+                "header": "from",
+                "contains": "@service.newyorktimes.com"
+              },
+              {
+                "header": "from",
+                "contains": "@newyorktimes.com"
+              }
+            ]
           },
           {
-            "header": "from",
-            "contains": "@e.newyorktimes.com"
+            "header": "subject",
+            "regex": "(?i)\\b(cancel(l?ed)?|past due|final notice|payment information|lose unlimited access)\\b"
           },
           {
-            "header": "from",
-            "contains": "@service.newyorktimes.com"
-          },
-          {
-            "header": "from",
-            "contains": "@newyorktimes.com"
+            "age_days_gt": 365
           }
         ]
       },
       {
-        "header": "subject",
-        "regex": "(?i)\\b(cancel(l?ed)?|past due|final notice|payment information|lose unlimited access)\\b"
-      },
-      {
-        "age_days_gt": 365
+        "header": "from",
+        "regex": "(?i)ordercs@(nytimes|e\\.newyorktimes|service\\.newyorktimes|newyorktimes)\\.com"
       }
     ]
   },
@@ -44,6 +52,10 @@
     "cancellation/past-due/payment-reminder notices should not be purged by the 365-day",
     "retention bracket on that rule; file them here instead. Priority 90 (< 100) so this",
     "wins before the general NYT rule's delete bracket for these specific subjects.",
-    "Non-billing NYT mail over 365 days old is unaffected and still purges as before."
+    "Non-billing NYT mail over 365 days old is unaffected and still purges as before.",
+    "2026-08-22: added ordercs@ (order/customer-service) senders as a second, unconditional",
+    "branch -- these are order confirmations/receipts, not newsletter content, and were",
+    "getting purged by the general rule's 365-day bracket like any other NYT mail.",
+    "No age gate: order/billing correspondence is filed here regardless of age."
   ]
 }

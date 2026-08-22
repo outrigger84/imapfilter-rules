@@ -9,8 +9,20 @@
           "any": [
             { "header": "from", "contains": "sj.gibson@mac.com" },
             { "header": "from", "contains": "sj.gibson@icloud.com" },
+            { "header": "from", "contains": "sj.gibson21@icloud.com" },
             { "header": "from", "contains": "sj.gibson@me.com" },
-            { "header": "from", "contains": "sj.gibson@o2email.co.uk" }
+            { "header": "from", "contains": "sj.gibson@o2email.co.uk" },
+            { "header": "from", "contains": "sjgibson@fastmail.com" },
+            { "header": "from", "contains": "stephenjgibson@gmail.com" },
+            { "header": "from", "contains": "stephenjgibson+msltest@gmail.com" },
+            { "header": "from", "contains": "s.j.gibson@ex" },
+            { "header": "from", "contains": "steve.gibson@metoffice.gov.uk" },
+            { "header": "from", "contains": "stephen.gibson@bma.org.uk" },
+            { "header": "from", "contains": "stephen.gibson@exeterguild.com" },
+            { "header": "from", "contains": "steve.gibson@exeterguild.com" },
+            { "header": "from", "contains": "sj.gibson_84@free.kindle.com" },
+            { "header": "from", "contains": "blog416090@sgibson.org" },
+            { "header": "from", "contains": "sailing@sgibson.org" }
           ]
         }
       },
@@ -36,6 +48,14 @@
     "he doesn't own (hotmail.com, live.no, usal.es, sadricgroup.com,",
     "172uL3.focusing.org). No genuine sender in this account uses a '+' tagged",
     "plus-address, so the regex is safe without a broader allow-guard; the real",
-    "sj.gibson@ addresses are excluded explicitly anyway as a backstop."
+    "sj.gibson@ addresses are excluded explicitly anyway as a backstop.",
+    "2026-08-22: exclusion list was only 4 of the ~17 addresses this account actually",
+    "sends from (see rules/1767640961_me.json). Genuine mail sent from any of the",
+    "missing addresses (e.g. sj.gibson21@icloud.com, sjgibson@fastmail.com,",
+    "stephenjgibson@gmail.com) using a 'Steve Gibson'/'sj.gibson' display name to a",
+    "recipient outside the *ME allowlist was being wrongly deleted as spoofed spam --",
+    "this rule (priority 200) never gave *ME (priority 50) a chance to protect it since",
+    "*ME only matches when the recipient is also one of the account's own addresses.",
+    "Expanded the exclusion list to match the full address set."
   ]
 }

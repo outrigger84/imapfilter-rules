@@ -50,7 +50,7 @@
           },
           {
             "header": "from",
-            "regex": "(?i)(forceswarrecords|theblowers|fansly)_.*@icloud\\.com"
+            "regex": "(?i)(forceswarrecords|fansly)_.*@icloud\\.com"
           },
           {
             "header": "from",
@@ -125,6 +125,7 @@
   "comments": [
     "Free-mail spam identified by sender local-part / display-name pattern (cache.db analysis 2026-06-26).",
     "Catches rotating senders (ant.wilson.*, direct.meds_*, worxone<digits>) and surname-spoof display names.",
+    "theblowers_*@icloud.com removed 2026-08-22: confirmed genuine (theblowers.com relay), now handled by 1787378233_notifications_services_theblowers.json which runs at lower priority.",
     "Surname-spoof signature anchored to the exact spoofed phrases seen in spam, never a bare 'Gibson'.",
     "Allow-guarded against the 8 confirmed-genuine contacts."
   ]

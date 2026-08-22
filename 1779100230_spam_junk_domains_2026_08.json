@@ -26,8 +26,7 @@
       { "header": "from", "contains": "@nieuws.whicimpt.nl" },
       { "header": "from", "contains": "@info.itrustinmymarket.me.uk" },
       { "header": "from", "contains": "@marinex.co.jp" },
-      { "header": "from", "contains": "@esporoes.com" },
-      { "header": "from", "contains": "@playtrade.com" }
+      { "header": "from", "contains": "@esporoes.com" }
     ]
   },
   "actions": [
@@ -53,7 +52,10 @@
     "(shared 'car finance review' claims-scam campaign, two domains),",
     "info.itrustinmymarket.me.uk (flight-delay compensation scam),",
     "marinex.co.jp (spoofed 'EVRI Logistics UK' parcel scam), esporoes.com",
-    "(dating/scam opener 'over 45 years'), playtrade.com ('PlayFunds",
-    "Transfer' scam). None are free-mail domains; no allow-guard needed."
+    "(dating/scam opener 'over 45 years'). None are free-mail domains; no",
+    "allow-guard needed.",
+    "2026-08-22: playtrade.com removed -- confirmed genuine by user (was originally",
+    "misidentified as a 'PlayFunds Transfer' scam); now handled by",
+    "rules/1787378600_receipts_shopping_playtrade.json."
   ]
 }
