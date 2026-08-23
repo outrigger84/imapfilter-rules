@@ -6,7 +6,7 @@
     "any": [
       {
         "header": "from",
-        "contains": "@wikimedia.org"
+        "contains": "wikimedia.org"
       }
     ]
   },
@@ -47,6 +47,13 @@
     "2026-08-21: merged 1746400087_charity_wikimedia.json into this rule (same",
     "destination folder). Simplified conditions to a single bare '@wikimedia.org'",
     "contains match, which is a strict superset of the previous",
-    "'@lists.wikimedia.org' / 'hello@wikimedia.org' pair."
+    "'@lists.wikimedia.org' / 'hello@wikimedia.org' pair.",
+    "2026-08-23: BUG FIX -- the 2026-08-21 'strict superset' claim was wrong.",
+    "'contains' is a literal substring match, not a domain-aware one, and",
+    "'@wikimedia.org' is NOT a substring of 'daily-article-l@lists.wikimedia.org'",
+    "(the '@' there is followed by 'lists', not 'wikimedia'). This silently",
+    "broke matching for all *@lists.wikimedia.org senders. Changed the match",
+    "value to bare 'wikimedia.org' (no leading '@'), which is a true substring",
+    "of both 'hello@wikimedia.org' and '...@lists.wikimedia.org'."
   ]
 }
