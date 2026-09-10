@@ -1,0 +1,61 @@
+{
+  "name": "Nextdoor Login Codes >> Deleted Messages",
+  "enabled": true,
+  "priority": 95,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "all": [
+              {
+                "header": "from",
+                "contains": "_email_nextdoor_co_uk_"
+              },
+              {
+                "header": "from",
+                "contains": "@privaterelay.appleid.com"
+              }
+            ]
+          },
+          {
+            "header": "from",
+            "contains": "@nextdoor.com"
+          },
+          {
+            "header": "from",
+            "contains": "@email.nextdoor.co.uk"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "regex": "(?i)\\b(?:log\\s*in|login|verification|security)\\s*code\\b"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "age_days_lt": 1,
+      "do": []
+    },
+    {
+      "age_days_gte": 1,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    "2026-08-23: split out from Property » 21 Cleveland Street » Nextdoor (priority 100).",
+    "Nextdoor login/verification-code mail is ephemeral like other 2FA senders and should",
+    "be deleted after 1 day, not filed into the property folder for 30 days. Priority 95",
+    "(< 100) so this wins first-match on login-code subjects; regular Nextdoor community",
+    "mail without a login-code subject still falls through to the property rule's 30-day",
+    "retention. Same three sender forms as that rule. Day-0 no-op + day-1 delete mirrors",
+    "README's 'Age-gated action brackets' / '2FA no-op example'."
+  ]
+}
