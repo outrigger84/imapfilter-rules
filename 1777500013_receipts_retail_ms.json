@@ -1,19 +1,19 @@
 {
-  "name": "Feedback \u00bb Marks and Spencer",
+  "name": "Receipts » Retail » M&S",
   "enabled": true,
-  "priority": 100,
+  "priority": 110,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@feedback.marks-and-spencer.com"
+        "contains": "@service.marksandspencer.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Feedback/Marks and Spencer"
+      "target": "Receipts/Retail/M&S"
     }
   ],
   "comments": [

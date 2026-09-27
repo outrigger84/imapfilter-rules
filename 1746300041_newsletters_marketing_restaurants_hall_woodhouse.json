@@ -1,12 +1,12 @@
 {
-  "name": "Newsletters » Marketing » Fitness » Muscle and Strength",
+  "name": "Newsletters » Marketing » Restaurants » Hall & Woodhouse",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@email.muscleandstrength.com"
+        "contains": "@updates.hall-woodhouse.co.uk"
       }
     ]
   },
@@ -16,7 +16,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Fitness/Muscle and Strength"
+          "target": "Newsletters/Marketing/Restaurants/Hall & Woodhouse"
         }
       ]
     },

@@ -1,16 +1,12 @@
 {
-  "name": "Newsletters » Marketing » Health » Holland and Barrett",
+  "name": "Newsletters » Topics » Learning » Create & Cultivate",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@email.hollandandbarrett.com"
-      },
-      {
-        "header": "from",
-        "contains": "@mailer.hollandandbarrett.com"
+        "contains": "hello@createcultivate.com"
       }
     ]
   },
@@ -20,7 +16,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Health/Holland and Barrett"
+          "target": "Newsletters/Topics/Learning/Create & Cultivate"
         }
       ]
     },
@@ -35,6 +31,6 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Migrated from Thunderbird msgFilterRules.dat"
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "name": "Newsletters » Topics » Learning » Create and Cultivate",
+  "name": "Newsletters » Marketing » Fitness » Muscle & Strength",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "hello@createcultivate.com"
+        "contains": "@email.muscleandstrength.com"
       }
     ]
   },
@@ -16,7 +16,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Topics/Learning/Create and Cultivate"
+          "target": "Newsletters/Marketing/Fitness/Muscle & Strength"
         }
       ]
     },
@@ -31,6 +31,6 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Created with IMAPFilter Rule Wizard"
   ]
 }

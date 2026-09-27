@@ -1,12 +1,16 @@
 {
-  "name": "Newsletters » Marketing » Retail » General » Maverick and Co",
+  "name": "Newsletters » Marketing » Finance » Legal & General",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@maverickandco.co"
+        "contains": "@comms.landg.com"
+      },
+      {
+        "header": "from",
+        "contains": "@landg.com"
       }
     ]
   },
@@ -16,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Retail/General/Maverick and Co"
+          "target": "Newsletters/Marketing/Finance/Legal & General"
         }
       ]
     },

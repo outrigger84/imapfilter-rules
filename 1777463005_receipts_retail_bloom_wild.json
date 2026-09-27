@@ -1,23 +1,19 @@
 {
-  "name": "Receipts » Retail » DIY » B and Q",
+  "name": "Receipts » Retail » Bloom & Wild",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@info.diy.com"
-      },
-      {
-        "header": "from",
-        "contains": "@diy.com"
+        "contains": "@orders.bloomandwild.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Retail/DIY/B and Q"
+      "target": "Receipts/Retail/Bloom & Wild"
     }
   ],
   "comments": [

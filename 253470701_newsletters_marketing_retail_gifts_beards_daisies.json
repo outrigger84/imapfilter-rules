@@ -1,16 +1,12 @@
 {
-  "name": "Newsletters » Topics » Finance and Economics » MSE Money Tips",
+  "name": "Newsletters » Marketing » Retail » Gifts » Beards & Daisies",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "msemoneytips@email.moneysavingexpert.com"
-      },
-      {
-        "header": "from",
-        "contains": "msemoneytips@email3.moneysavingexpert.com"
+        "contains": "@beardsanddaisies.co.uk"
       }
     ]
   },
@@ -20,7 +16,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Topics/Finance and Economics/MSE Money Tips"
+          "target": "Newsletters/Marketing/Retail/Gifts/Beards & Daisies"
         }
       ]
     },

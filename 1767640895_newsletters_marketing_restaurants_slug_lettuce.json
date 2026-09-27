@@ -1,9 +1,13 @@
 {
-  "name": "Newsletters » Marketing » Food » Slug & Lettuce",
+  "name": "Newsletters » Marketing » Restaurants » Slug & Lettuce",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
+      {
+        "header": "from",
+        "contains": "@emails.slugandlettuce.co.uk"
+      },
       {
         "header": "from",
         "contains": "@email.slugandlettuce.co.uk"
@@ -14,13 +18,17 @@
       }
     ]
   },
+  "comments": [
+    "Created with IMAPFilter Rule Wizard",
+    "2026-09-27: merged 1779100010_newsletters_marketing_food_slug_lettuce.json (Food/Slug & Lettuce) into this rule."
+  ],
   "actions": [
     {
       "age_days_lte": 365,
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Food/Slug & Lettuce"
+          "target": "Newsletters/Marketing/Restaurants/Slug & Lettuce"
         }
       ]
     },
@@ -33,6 +41,5 @@
         }
       ]
     }
-  ],
-  "comments": []
+  ]
 }

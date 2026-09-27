@@ -1,12 +1,16 @@
 {
-  "name": "Newsletters » Marketing » Retail » Gifts » Beards and Daisies",
+  "name": "Newsletters » Marketing » Health » Holland & Barrett",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@beardsanddaisies.co.uk"
+        "contains": "@email.hollandandbarrett.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mailer.hollandandbarrett.com"
       }
     ]
   },
@@ -16,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Retail/Gifts/Beards and Daisies"
+          "target": "Newsletters/Marketing/Health/Holland & Barrett"
         }
       ]
     },

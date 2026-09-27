@@ -1,19 +1,23 @@
 {
-  "name": "Receipts » Restaurants » Hall and Woodhouse",
+  "name": "Receipts » Retail » DIY » B&Q",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@hall-woodhouse.co.uk"
+        "contains": "@info.diy.com"
+      },
+      {
+        "header": "from",
+        "contains": "@diy.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Restaurants/Hall and Woodhouse"
+      "target": "Receipts/Retail/DIY/B&Q"
     }
   ],
   "comments": [

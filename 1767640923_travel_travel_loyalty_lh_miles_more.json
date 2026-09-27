@@ -1,19 +1,19 @@
 {
-  "name": "Receipts » Retail » Bloom and Wild",
+  "name": "Travel » Travel Loyalty » LH Miles & More",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@orders.bloomandwild.com"
+        "contains": "@mailing.milesandmore.com"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Receipts/Retail/Bloom and Wild"
+      "target": "Travel/Travel Loyalty/LH Miles & More"
     }
   ],
   "comments": [

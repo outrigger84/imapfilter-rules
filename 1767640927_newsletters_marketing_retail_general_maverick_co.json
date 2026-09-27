@@ -1,12 +1,12 @@
 {
-  "name": "Newsletters » Marketing » Restaurants » Hall and Woodhouse",
+  "name": "Newsletters » Marketing » Retail » General » Maverick & Co",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@updates.hall-woodhouse.co.uk"
+        "contains": "@maverickandco.co"
       }
     ]
   },
@@ -16,7 +16,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Restaurants/Hall and Woodhouse"
+          "target": "Newsletters/Marketing/Retail/General/Maverick & Co"
         }
       ]
     },

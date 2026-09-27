@@ -1,5 +1,5 @@
 {
-  "name": "Personal » Finance » Pensions » Legal and General",
+  "name": "Personal » Finance » Pensions » Legal & General",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -29,7 +29,7 @@
   "actions": [
     {
       "type": "move",
-      "target": "Personal/Finance/Pensions/Legal and General"
+      "target": "Personal/Finance/Pensions/Legal & General"
     }
   ],
   "comments": [

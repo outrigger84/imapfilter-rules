@@ -1,16 +1,16 @@
 {
-  "name": "Newsletters » Marketing » Retail » Gifts » Bloom and Wild",
+  "name": "Newsletters » Marketing » Retail » General » M&S",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@email.bloomandwild.com"
+        "contains": "@news.marksandspencer.com"
       },
       {
         "header": "from",
-        "contains": "@bloomandwild.com"
+        "contains": "@marksandspencer.com"
       }
     ]
   },
@@ -20,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Retail/Gifts/Bloom and Wild"
+          "target": "Newsletters/Marketing/Retail/General/M&S"
         }
       ]
     },

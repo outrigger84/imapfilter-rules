@@ -1,19 +1,19 @@
 {
-  "name": "Travel » Travel Loyalty » LH Miles and More",
+  "name": "Receipts » Restaurants » Hall & Woodhouse",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@mailing.milesandmore.com"
+        "contains": "@hall-woodhouse.co.uk"
       }
     ]
   },
   "actions": [
     {
       "type": "move",
-      "target": "Travel/Travel Loyalty/LH Miles and More"
+      "target": "Receipts/Restaurants/Hall & Woodhouse"
     }
   ],
   "comments": [
