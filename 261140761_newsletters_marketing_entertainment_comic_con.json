@@ -3,14 +3,22 @@
   "enabled": true,
   "priority": 90,
   "conditions": {
-    "any": [
+    "all": [
       {
-        "header": "from",
-        "contains": "museumops@comic-con.org"
+        "any": [
+          {
+            "header": "from",
+            "contains": "museumops@comic-con.org"
+          },
+          {
+            "header": "from",
+            "contains": "donotreply@comic-con.org"
+          }
+        ]
       },
       {
-        "header": "from",
-        "contains": "donotreply@comic-con.org"
+        "header": "subject",
+        "not_regex": "order confirmation|order acknowledgement|purchase is complete|badge confirmation"
       }
     ]
   },
@@ -35,6 +43,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "Excludes ticket/badge purchase emails — those go to Receipts/Events/Comic-Con."
   ]
 }

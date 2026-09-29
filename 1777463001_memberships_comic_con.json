@@ -3,10 +3,18 @@
   "enabled": true,
   "priority": 100,
   "conditions": {
-    "any": [
+    "all": [
       {
-        "header": "from",
-        "contains": "comic-con.org"
+        "any": [
+          {
+            "header": "from",
+            "contains": "comic-con.org"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "not_regex": "order confirmation|order acknowledgement|purchase is complete|badge confirmation"
       }
     ]
   },
@@ -17,6 +25,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Excludes ticket/badge purchase emails \u2014 those go to Receipts/Events/Comic-Con."
   ]
 }
