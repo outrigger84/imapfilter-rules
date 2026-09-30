@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Retail » Waterstones",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@waterstones.com"
+      },
+      {
+        "header": "subject",
+        "contains": "your order"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Waterstones"
+    }
+  ],
+  "comments": [
+    "Order confirmations and shipping notices kept permanently; Waterstones marketing stays on the newsletter rule (365-day expiry)"
+  ]
+}

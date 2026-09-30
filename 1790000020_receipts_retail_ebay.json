@@ -1,0 +1,34 @@
+{
+  "name": "Receipts » Retail » eBay",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@auctiva.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "You have won eBay Item"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/eBay"
+    }
+  ],
+  "comments": [
+    "eBay win confirmations (sent via Auctiva) kept permanently"
+  ]
+}

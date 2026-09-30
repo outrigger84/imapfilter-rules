@@ -7,11 +7,20 @@
       {
         "header": "from",
         "contains": "@bark.com"
+      },
+      {
+        "header": "from",
+        "contains": "@cmail.bark.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.bark.com"
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Added @cmail.bark.com / @mail.bark.com: Bark mail actually comes from these subdomains, which \"@bark.com\" never matched, so it all fell through to Notifications » Services » Bark (30-day expiry)"
   ],
   "actions": [
     {

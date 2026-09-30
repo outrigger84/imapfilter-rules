@@ -1,0 +1,38 @@
+{
+  "name": "Property » 21 Cleveland Street » Projects » National Grid",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@online.nationalgrid.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "@nationalgrid.co.uk"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "budget estimate"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Projects"
+    }
+  ],
+  "comments": [
+    "Grid connection budget estimates (and their access PINs) kept with Cleveland Street projects; other National Grid mail still expires after 30 days"
+  ]
+}

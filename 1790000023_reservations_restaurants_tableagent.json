@@ -1,0 +1,34 @@
+{
+  "name": "Reservations » Restaurants » TableAgent",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@tableagent.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Reservation is Confirmed"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Reservations/Restaurants/TableAgent"
+    }
+  ],
+  "comments": [
+    "Restaurant booking confirmations kept permanently; \"How was …?\" feedback requests still expire after 30 days"
+  ]
+}

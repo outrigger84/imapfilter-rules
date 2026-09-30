@@ -1,0 +1,34 @@
+{
+  "name": "Support » Buy It Direct",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@buyitdirect.co.uk"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Order Query"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Support/Buy It Direct"
+    }
+  ],
+  "comments": [
+    "Order query correspondence kept permanently; Buy It Direct marketing still expires after 365 days"
+  ]
+}

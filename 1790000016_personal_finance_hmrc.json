@@ -1,0 +1,46 @@
+{
+  "name": "Personal » Finance » HMRC",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "noreply@tax.service.gov.uk"
+          },
+          {
+            "header": "from",
+            "contains": "no-reply@access.service.gov.uk"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "tax calculation"
+          },
+          {
+            "header": "subject",
+            "contains": "PAYE code"
+          },
+          {
+            "header": "subject",
+            "contains": "Government Gateway User ID"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/HMRC"
+    }
+  ],
+  "comments": [
+    "Tax calculations, PAYE code changes and Government Gateway user IDs kept permanently; other gov-uk mail (e.g. sign-in codes) still expires after 30 days"
+  ]
+}

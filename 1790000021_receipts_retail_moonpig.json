@@ -1,0 +1,34 @@
+{
+  "name": "Receipts » Retail » Moonpig",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@email.moonpig.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "order confirmation"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Moonpig"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; \"on its way\" mails still expire after 30 days"
+  ]
+}

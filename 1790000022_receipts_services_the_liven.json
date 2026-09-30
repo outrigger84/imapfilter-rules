@@ -1,0 +1,34 @@
+{
+  "name": "Receipts » Services » The Liven",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@theliven.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Order Confirmation"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Services/The Liven"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; support-rating requests still expire after 30 days"
+  ]
+}

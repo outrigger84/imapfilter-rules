@@ -1,0 +1,42 @@
+{
+  "name": "Personal » Driving",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@dvla.gov.uk"
+          },
+          {
+            "header": "from",
+            "contains": "@dvsa.gov.uk"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Application"
+          },
+          {
+            "header": "subject",
+            "contains": "Refund"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Driving"
+    }
+  ],
+  "comments": [
+    "Licence applications and theory-test refunds kept permanently; other DVLA/DVSA mail still expires after 30 days"
+  ]
+}

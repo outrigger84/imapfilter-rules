@@ -1,0 +1,38 @@
+{
+  "name": "Subscriptions » Paramount+",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@paramountplus.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Subscribing"
+          },
+          {
+            "header": "subject",
+            "contains": "subscription"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Paramount+"
+    }
+  ],
+  "comments": [
+    "Subscription start/cancel/expiry kept permanently; account-created and password mails still expire after 30 days"
+  ]
+}

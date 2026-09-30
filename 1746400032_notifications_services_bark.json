@@ -1,6 +1,6 @@
 {
   "name": "Notifications » Services » Bark",
-  "enabled": true,
+  "enabled": false,
   "priority": 100,
   "conditions": {
     "any": [
@@ -39,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Disabled: every sender here is now kept permanently by Property » 21 Cleveland Street » Renovations » Bark (priority 90)"
   ]
 }
