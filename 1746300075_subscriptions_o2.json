@@ -1,5 +1,5 @@
 {
-  "name": "Subscriptions \u00bb O2",
+  "name": "Subscriptions » O2",
   "enabled": true,
   "priority": 90,
   "conditions": {
@@ -35,6 +35,26 @@
       {
         "header": "from",
         "contains": "notification@account.o2.com"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@account.o2.com"
+          },
+          {
+            "any": [
+              {
+                "header": "subject",
+                "contains": "discount"
+              },
+              {
+                "header": "subject",
+                "contains": "contract"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -48,6 +68,7 @@
     "Created with IMAPFilter Rule Wizard",
     "2026-08-21: merged 1779000175_o2.json into this rule (same destination",
     "folder, complementary non-overlapping subdomains). Took its priority",
-    "(90, was 100)."
+    "(90, was 100).",
+    "Contract/discount notices from account@account.o2.com kept here rather than expiring with Notifications » Services » O2"
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "name": "Receipts » Services » Lyca Mobile",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@lycamobile.com"
+          },
+          {
+            "header": "from",
+            "contains": "@lycamobile.co.uk"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Top-Up"
+          },
+          {
+            "header": "subject",
+            "contains": "Bundle Purchase"
+          },
+          {
+            "header": "subject",
+            "contains": "Order Confirmation"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Services/Lyca Mobile"
+    }
+  ],
+  "comments": [
+    "Top-ups, bundle purchases and SIM orders kept permanently; everything else from Lyca stays on the marketing rule (365-day expiry)"
+  ]
+}

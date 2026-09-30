@@ -1,0 +1,42 @@
+{
+  "name": "Receipts » Services » TesterUp",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@testerup.com"
+          },
+          {
+            "header": "from",
+            "contains": "_at_testerup_com_"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "earned money"
+          },
+          {
+            "header": "subject",
+            "contains": "payout"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Services/TesterUp"
+    }
+  ],
+  "comments": [
+    "Earnings/payout confirmations kept permanently; other TesterUp mail still expires after 30 days"
+  ]
+}

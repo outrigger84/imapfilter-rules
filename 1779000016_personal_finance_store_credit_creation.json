@@ -1,0 +1,31 @@
+{
+  "name": "Personal » Finance » Store Credit » Creation",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@secure.creation.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@creation.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@info.creation.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Finance/Store Credit/Creation"
+    }
+  ],
+  "comments": [
+    "Creation Finance — Currys buy-now-pay-later credit",
+    "Currys flexpay credit account: kept permanently like other store credit (was 30-day notifications then Deleted Messages)"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Personal » Health » D.B Physio",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@writeupp.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Appointment at "
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Health/D.B Physio"
+    }
+  ],
+  "comments": [
+    "Booking confirmations (\"Appointment at HH:MM on DD/MM/YYYY\") kept permanently; \"Appointment Reminder\" mails still fall through to Notifications » Health » Physio and expire after 30 days"
+  ]
+}
