@@ -1,0 +1,26 @@
+{
+  "name": "Personal » Legal » Which? Qualcomm Claim",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "which.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "claim"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/Legal/Which? Qualcomm Claim"
+    }
+  ],
+  "comments": [
+    "Which? v Qualcomm smartphone class-action updates kept permanently; other Which? mail stays on the newsletter rule (365-day expiry)"
+  ]
+}
