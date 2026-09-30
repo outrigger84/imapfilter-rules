@@ -1,0 +1,22 @@
+{
+  "name": "Personal » FOI Requests",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "subject",
+        "contains": "FOI Request"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal/FOI Requests"
+    }
+  ],
+  "comments": [
+    "Freedom of Information request correspondence from any public body, kept permanently"
+  ]
+}

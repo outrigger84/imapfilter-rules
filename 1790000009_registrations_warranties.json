@@ -1,0 +1,46 @@
+{
+  "name": "Registrations » Warranties",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "seagate.com"
+          },
+          {
+            "header": "subject",
+            "contains": "registering your Seagate product"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@dyson.com"
+          },
+          {
+            "header": "subject",
+            "contains": "guarantee is now active"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "contains": "Welcome to Your Dyson"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Registrations"
+    }
+  ],
+  "comments": [
+    "Product registrations and guarantee activations. Priority 90 because Registrations (priority 100) loses the filename tie-break to the Seagate/Dyson notification rules, so its \"Welcome to Your Dyson\" condition never fired"
+  ]
+}

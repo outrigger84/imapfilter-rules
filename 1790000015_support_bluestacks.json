@@ -1,0 +1,22 @@
+{
+  "name": "Support » BlueStacks",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@bluestacks3.zendesk.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Support/BlueStacks"
+    }
+  ],
+  "comments": [
+    "BlueStacks support tickets; other BlueStacks notifications still expire after 30 days"
+  ]
+}

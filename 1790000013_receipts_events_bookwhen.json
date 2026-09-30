@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Events » Bookwhen",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@bookwhen.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Booking confirmation"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Events/Bookwhen"
+    }
+  ],
+  "comments": [
+    "Class/event booking confirmations (e.g. Ocean Exmouth) kept permanently; other Bookwhen mail still expires after 30 days"
+  ]
+}

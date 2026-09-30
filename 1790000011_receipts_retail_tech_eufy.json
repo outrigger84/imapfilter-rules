@@ -1,0 +1,30 @@
+{
+  "name": "Receipts » Retail » Tech » Eufy",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "noreply-service@eufylife.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Order"
+      },
+      {
+        "header": "subject",
+        "contains": "confirmed"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Tech/Eufy"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; other eufy notifications still expire after 30 days"
+  ]
+}

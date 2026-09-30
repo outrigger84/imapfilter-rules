@@ -1,0 +1,30 @@
+{
+  "name": "Receipts » Retail » Home » Online Carpets",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@onlinecarpets.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "Order"
+      },
+      {
+        "header": "subject",
+        "contains": "confirmed"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Home/Online Carpets"
+    }
+  ],
+  "comments": [
+    "Order confirmations (\"Online Carpets Order ONLnnnnnn confirmed!\") kept permanently; marketing stays on Newsletters » Marketing » Retail » Home » Online Carpets (365-day expiry)"
+  ]
+}

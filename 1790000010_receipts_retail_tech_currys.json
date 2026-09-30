@@ -1,0 +1,42 @@
+{
+  "name": "Receipts » Retail » Tech » Currys",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@edm.currys.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "@currys.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "@email.currys.co.uk"
+          },
+          {
+            "header": "from",
+            "contains": "@currys.com"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "contains": "receipt"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Tech/Currys"
+    }
+  ],
+  "comments": [
+    "Receipt copies (\"Here's a copy of your currys.co.uk receipt\") kept permanently; Currys marketing still expires"
+  ]
+}

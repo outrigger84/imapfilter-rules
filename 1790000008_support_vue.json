@@ -1,0 +1,22 @@
+{
+  "name": "Support » Vue",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@customerservice.myvue.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Support/Vue"
+    }
+  ],
+  "comments": [
+    "Vue customer-service tickets (\"Thank You For Contacting Vue\") — previously caught by the Vue marketing rule and expired"
+  ]
+}

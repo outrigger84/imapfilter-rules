@@ -1,0 +1,34 @@
+{
+  "name": "Server » Domains » Afternic",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@afternic.com"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "regex": "^RE:"
+          },
+          {
+            "header": "subject",
+            "contains": "Welcome to Afternic"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Server/Domains/Afternic"
+    }
+  ],
+  "comments": [
+    "Support correspondence about listed domains and account welcome kept permanently; other Afternic notifications still expire after 30 days"
+  ]
+}

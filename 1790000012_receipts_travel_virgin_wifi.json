@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Travel » Virgin WiFi",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@virginwifi.com"
+      },
+      {
+        "header": "subject",
+        "contains": "receipt"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Travel/Virgin WiFi"
+    }
+  ],
+  "comments": [
+    "Payment receipts kept permanently; other Virgin WiFi notifications still expire after 30 days"
+  ]
+}
