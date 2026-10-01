@@ -1,5 +1,5 @@
 {
-  "name": "Property » 21 Cleveland Street » Bills » Virgin Media » Security",
+  "name": "Property » 21 Cleveland Street » Bills » Virgin Media",
   "enabled": true,
   "priority": 90,
   "conditions": {
@@ -21,6 +21,7 @@
     }
   ],
   "comments": [
-    "Broadband security product info kept with Virgin Media bills; other @faults.virginmedia.co.uk mail still expires after 30 days via Notifications » Home » Virgin Media"
+    "Broadband security product info kept with Virgin Media bills; other @faults.virginmedia.co.uk mail still expires after 30 days via Notifications » Home » Virgin Media",
+    "Renamed from \"Property » 21 Cleveland Street » Bills » Virgin Media » Security\" to the folder-derived name (2026-10-01)"
   ]
 }

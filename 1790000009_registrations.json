@@ -1,5 +1,5 @@
 {
-  "name": "Registrations » Warranties",
+  "name": "Registrations",
   "enabled": true,
   "priority": 90,
   "conditions": {
@@ -41,6 +41,7 @@
     }
   ],
   "comments": [
-    "Product registrations and guarantee activations. Priority 90 because Registrations (priority 100) loses the filename tie-break to the Seagate/Dyson notification rules, so its \"Welcome to Your Dyson\" condition never fired"
+    "Product registrations and guarantee activations. Priority 90 because Registrations (priority 100) loses the filename tie-break to the Seagate/Dyson notification rules, so its \"Welcome to Your Dyson\" condition never fired",
+    "Renamed from \"Registrations » Warranties\" to the folder-derived name (2026-10-01)"
   ]
 }

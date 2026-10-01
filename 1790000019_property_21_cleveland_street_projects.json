@@ -1,5 +1,5 @@
 {
-  "name": "Property » 21 Cleveland Street » Projects » National Grid",
+  "name": "Property » 21 Cleveland Street » Projects",
   "enabled": true,
   "priority": 90,
   "conditions": {
@@ -33,6 +33,7 @@
     }
   ],
   "comments": [
-    "Grid connection budget estimates (and their access PINs) kept with Cleveland Street projects; other National Grid mail still expires after 30 days"
+    "Grid connection budget estimates (and their access PINs) kept with Cleveland Street projects; other National Grid mail still expires after 30 days",
+    "Renamed from \"Property » 21 Cleveland Street » Projects » National Grid\" to the folder-derived name (2026-10-01)"
   ]
 }

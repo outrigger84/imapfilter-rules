@@ -1,5 +1,5 @@
 {
-  "name": "Receipts » Retail » Tech » Ebuyer » Orders",
+  "name": "Receipts » Retail » Tech » Ebuyer",
   "enabled": true,
   "priority": 80,
   "conditions": {
@@ -29,6 +29,7 @@
     }
   ],
   "comments": [
-    "Payment and order acknowledgements kept with Ebuyer receipts. Priority 80 to beat Notifications » Shopping » Ebuyer (priority 90), which still expires dispatch and other order-status mails after 30 days"
+    "Payment and order acknowledgements kept with Ebuyer receipts. Priority 80 to beat Notifications » Shopping » Ebuyer (priority 90), which still expires dispatch and other order-status mails after 30 days",
+    "Renamed from \"Receipts » Retail » Tech » Ebuyer » Orders\" to the folder-derived name (2026-10-01)"
   ]
 }
