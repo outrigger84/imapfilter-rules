@@ -1,0 +1,30 @@
+{
+  "name": "Receipts » Travel » Panasonic Aero",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@panasonic.aero"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Confirmation"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Travel/Panasonic Aero"
+    }
+  ],
+  "comments": [
+    "In-flight Wi-Fi purchase and account registration confirmations kept permanently; other Panasonic Aero mail still expires after 30 days"
+  ]
+}

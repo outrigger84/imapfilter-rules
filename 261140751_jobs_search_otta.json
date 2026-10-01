@@ -1,5 +1,5 @@
 {
-  "name": "Jobs \u00bb Search \u00bb Otta",
+  "name": "Jobs » Search » Otta",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,11 +12,26 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Jobs/Search/Otta"
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Jobs/Search/Otta"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "30-day retention added for all Jobs/Search folders (2026-10-01)"
   ]
 }

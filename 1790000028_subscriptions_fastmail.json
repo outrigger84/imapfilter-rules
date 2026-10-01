@@ -1,0 +1,34 @@
+{
+  "name": "Subscriptions » Fastmail",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "support@fastmail.com"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "payment receipt"
+          },
+          {
+            "header": "subject",
+            "contains": "renewal notice"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Fastmail"
+    }
+  ],
+  "comments": [
+    "Payment receipts and renewal notices kept permanently; other support@fastmail.com mail stays on the Fastmail newsletter rule (365-day expiry)"
+  ]
+}

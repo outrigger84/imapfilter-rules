@@ -1,0 +1,23 @@
+{
+  "name": "Jobs » Applications » UUEAS",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@notify.my-rota.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Jobs/Applications/UUEAS"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13.",
+    "Moved from Jobs/Search to Jobs/Applications (2026-10-01): External Trustee application correspondence (applicant code, deadline reminders), kept permanently"
+  ]
+}

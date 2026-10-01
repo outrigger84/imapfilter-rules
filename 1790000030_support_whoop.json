@@ -1,0 +1,30 @@
+{
+  "name": "Support » Whoop",
+  "enabled": true,
+  "priority": 80,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "support@whoop.com"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Intercom conversation"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Support/Whoop"
+    }
+  ],
+  "comments": [
+    "Support conversation transcripts kept permanently. Priority 80 to beat Notifications » Health » Whoop (priority 90, 30-day expiry)"
+  ]
+}

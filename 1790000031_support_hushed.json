@@ -1,0 +1,22 @@
+{
+  "name": "Support » Hushed",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@hushed.zendesk.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Support/Hushed"
+    }
+  ],
+  "comments": [
+    "Hushed support tickets kept permanently; other Hushed mail still expires after 30 days"
+  ]
+}

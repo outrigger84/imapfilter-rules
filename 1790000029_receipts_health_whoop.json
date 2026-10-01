@@ -1,0 +1,30 @@
+{
+  "name": "Receipts » Health » Whoop",
+  "enabled": true,
+  "priority": 80,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "orders@whoop.com"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Order"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Health/Whoop"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently. Priority 80 to beat Notifications » Health » Whoop (priority 90, 30-day expiry)"
+  ]
+}

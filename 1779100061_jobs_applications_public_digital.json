@@ -1,0 +1,35 @@
+{
+  "name": "Jobs » Applications » Public Digital",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@public.digital"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@candidates.workablemail.com"
+          },
+          {
+            "header": "subject",
+            "contains": "Public Digital"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Jobs/Applications/Public Digital"
+    }
+  ],
+  "comments": [
+    "Created from cache.db unmatched-mail analysis 2026-08-13.",
+    "Moved from Jobs/Search to Jobs/Applications (2026-10-01): this is application correspondence (Tech Principal Consultant), not job alerts, so it is kept permanently. Workable mail is limited to subjects naming Public Digital; other Workable applications go to Jobs » Applications » Workable. Priority 90 so it beats that generic rule"
+  ]
+}
