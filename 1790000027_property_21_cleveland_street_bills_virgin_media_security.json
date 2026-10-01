@@ -1,0 +1,26 @@
+{
+  "name": "Property » 21 Cleveland Street » Bills » Virgin Media » Security",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@faults.virginmedia.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "Security"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Bills/Virgin Media"
+    }
+  ],
+  "comments": [
+    "Broadband security product info kept with Virgin Media bills; other @faults.virginmedia.co.uk mail still expires after 30 days via Notifications » Home » Virgin Media"
+  ]
+}
