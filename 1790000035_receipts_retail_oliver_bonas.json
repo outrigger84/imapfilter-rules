@@ -1,0 +1,42 @@
+{
+  "name": "Receipts » Retail » Oliver Bonas",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "askus@oliverbonas.com"
+          },
+          {
+            "header": "from",
+            "contains": "sales@oliverbonas.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "order"
+          },
+          {
+            "header": "subject",
+            "contains": "receipt"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Oliver Bonas"
+    }
+  ],
+  "comments": [
+    "Online order confirmations/dispatch notices and in-store receipts kept permanently; \"You're in!\" signups and news@ marketing stay on the Oliver Bonas newsletter rule (365-day expiry)"
+  ]
+}
