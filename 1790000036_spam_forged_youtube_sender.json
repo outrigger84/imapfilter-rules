@@ -1,0 +1,29 @@
+{
+  "name": "Spam Catcher » Forged YouTube sender >> Deleted Messages",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@youtube.com"
+      },
+      {
+        "header": "return-path",
+        "not_contains": "bounces.google.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Deleted Messages"
+    }
+  ],
+  "comments": [
+    "Spam forging a youtube.com From (e.g. \"Man Problems=kcbsv\", \"SexSecrets=kxcfi\", \"MaleElongator hjugf\" <no-reply@youtube.com>) fails DKIM and bounces via @youtube.com or @ofsys.com.",
+    "Genuine YouTube / YouTube Music mail always has a Return-Path at *.bounces.google.com (scoutcamp, youtube-subscriptions) and passes DKIM/DMARC.",
+    "Checked 2026-10-03 against 1,631 youtube.com messages in Deleted Messages: 1,065 forged, 566 genuine, no overlap.",
+    "Priority 90, not the usual spam 200, so it runs before Notifications » Entertainment » YouTube (priority 100), which would otherwise claim this mail first."
+  ]
+}
