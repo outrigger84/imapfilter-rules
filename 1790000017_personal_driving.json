@@ -3,30 +3,38 @@
   "enabled": true,
   "priority": 90,
   "conditions": {
-    "all": [
+    "any": [
       {
-        "any": [
+        "all": [
           {
-            "header": "from",
-            "contains": "@dvla.gov.uk"
+            "any": [
+              {
+                "header": "from",
+                "contains": "@dvla.gov.uk"
+              },
+              {
+                "header": "from",
+                "contains": "@dvsa.gov.uk"
+              }
+            ]
           },
           {
-            "header": "from",
-            "contains": "@dvsa.gov.uk"
+            "any": [
+              {
+                "header": "subject",
+                "contains": "Application"
+              },
+              {
+                "header": "subject",
+                "contains": "Refund"
+              }
+            ]
           }
         ]
       },
       {
-        "any": [
-          {
-            "header": "subject",
-            "contains": "Application"
-          },
-          {
-            "header": "subject",
-            "contains": "Refund"
-          }
-        ]
+        "header": "from",
+        "contains": "dvsa.booking.theory.test.service@notifications.service.gov.uk"
       }
     ]
   },
@@ -37,6 +45,7 @@
     }
   ],
   "comments": [
-    "Licence applications and theory-test refunds kept permanently; other DVLA/DVSA mail still expires after 30 days"
+    "Licence applications and theory-test refunds kept permanently; other DVLA/DVSA mail still expires after 30 days",
+    "Added DVSA theory-test booking service (sends via GOV.UK Notify) (2026-10-03): it fell to Notifications » Government » UK Government (30-day expiry)"
   ]
 }

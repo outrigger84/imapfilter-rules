@@ -1,0 +1,42 @@
+{
+  "name": "Receipts » Retail » Tech » RS Components",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "rsonline.uk@rs-components.com"
+          },
+          {
+            "any": [
+              {
+                "header": "subject",
+                "contains": "order confirmation"
+              },
+              {
+                "header": "subject",
+                "contains": "Return Confirmation"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "header": "from",
+        "contains": "order.notification@rswww.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Tech/RS Components"
+    }
+  ],
+  "comments": [
+    "Order and return confirmations, plus order.notification@rswww.com order notices, kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

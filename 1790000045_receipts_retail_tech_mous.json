@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Retail » Tech » Mous",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "support@mous.co"
+      },
+      {
+        "header": "subject",
+        "contains": "Thank You For Your Order"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Tech/Mous"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

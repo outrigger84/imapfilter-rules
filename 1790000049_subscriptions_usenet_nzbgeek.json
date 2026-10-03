@@ -1,0 +1,26 @@
+{
+  "name": "Subscriptions » Usenet » NZBgeek",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "info@nzbgeek.info"
+      },
+      {
+        "header": "subject",
+        "contains": "Renewal"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Subscriptions/Usenet/NZBgeek"
+    }
+  ],
+  "comments": [
+    "Membership renewals kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

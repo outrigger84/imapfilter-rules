@@ -1,0 +1,27 @@
+{
+  "name": "Notifications » Apple » Hide My Email",
+  "enabled": true,
+  "priority": 80,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "noreply@email.apple.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Hide My Email was used with"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Apple/Hide My Email"
+    }
+  ],
+  "comments": [
+    "Records of which service each Hide My Email alias was given to, kept permanently; other iCloud notifications still expire after 30 days",
+    "Priority 80 because Notifications » Apple » iCloud is already at priority 90 and wins the filename tie-break"
+  ]
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Gift Vouchers \u00bb Edenred",
+  "name": "Gift Vouchers » Edenred",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -11,11 +11,32 @@
       {
         "header": "from",
         "contains": "_at_edenred_co_uk_"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "noreply_at_edenred_com_"
+          },
+          {
+            "any": [
+              {
+                "header": "subject",
+                "contains": "gift certificate"
+              },
+              {
+                "header": "subject",
+                "contains": "eGift"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Added noreply_at_edenred_com_ relay with \"gift certificate\"/\"eGift\" subjects (2026-10-03): those fell to Notifications » Finance » Edenred (30-day expiry). Priority 90 so it beats that rule rather than relying on the filename tie-break"
   ],
   "actions": [
     {

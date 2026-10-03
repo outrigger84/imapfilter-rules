@@ -927,6 +927,10 @@
       {
         "header": "from",
         "contains": "markcollier_43@hotmail.com"
+      },
+      {
+        "header": "from",
+        "contains": "katie@royalfamilyproductions.org"
       }
     ]
   },
@@ -940,6 +944,7 @@
     "Created with IMAPFilter Rule Wizard",
     "Merged from 5 Friends rules — 218 unique senders; 18 added 2026-04-30; janeevans100@outlook.com added 2026-04-30",
     "8 genuine contacts added 2026-06-26 (from spam-analysis allow-list): beckyannsnowden, tanya.tara.ryan, jedincm, ron.renner, ppeart, dannyclifford05, jake.alfred, markcollier_43",
-    "2026-08-18: added nicky@pisociety.co.uk (Nicky Dunn) -- 'Let's go kayaking!' sent 3x across two cache passes (2026-08-13 and 2026-08-18), consistent personal name/content; flagged in 2026-08-13 memory as needing confirmation, added on repeated evidence"
+    "2026-08-18: added nicky@pisociety.co.uk (Nicky Dunn) -- 'Let's go kayaking!' sent 3x across two cache passes (2026-08-13 and 2026-08-18), consistent personal name/content; flagged in 2026-08-13 memory as needing confirmation, added on repeated evidence",
+    "Added katie@royalfamilyproductions.org (Katie Avebe work address; her gmail addresses were already here) (2026-10-03)"
   ]
 }

@@ -1,12 +1,24 @@
 {
   "name": "Receipts » Restaurants » Subway",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "account@email.subway.com"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "noreply-uk@subwayrewards.uk"
+          },
+          {
+            "header": "subject",
+            "contains": "Order confirmation"
+          }
+        ]
       }
     ]
   },
@@ -17,6 +29,7 @@
     }
   ],
   "comments": [
-    "Created from cache.db unmatched-mail analysis 2026-08-13."
+    "Created from cache.db unmatched-mail analysis 2026-08-13.",
+    "Added Subway Rewards order confirmations, which expired via the Subway newsletter rule. Priority 90 to beat the expiring catch-all (2026-10-03)."
   ]
 }

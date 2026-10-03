@@ -1,0 +1,27 @@
+{
+  "name": "Receipts » Retail » Tech » dbrand",
+  "enabled": true,
+  "priority": 80,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "robots@dbrand.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Receipt for Order"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Tech/dbrand"
+    }
+  ],
+  "comments": [
+    "Order receipts kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry",
+    "Priority 80 because Newsletters » Marketing » Tech » dbrand is already at priority 90 and wins the filename tie-break"
+  ]
+}

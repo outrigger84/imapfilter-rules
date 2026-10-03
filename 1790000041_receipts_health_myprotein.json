@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Health » Myprotein",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@t.myprotein.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Thank you for your order"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Health/Myprotein"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

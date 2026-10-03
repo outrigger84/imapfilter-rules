@@ -1,0 +1,26 @@
+{
+  "name": "Travel » Accommodation » Hostelworld",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "bookings@hostelworld.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Confirmed booking"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation/Hostelworld"
+    }
+  ],
+  "comments": [
+    "Booking confirmations kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

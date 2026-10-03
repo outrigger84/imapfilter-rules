@@ -1,0 +1,42 @@
+{
+  "name": "Receipts » Retail » Handmade Candle Co",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@hmcandleco.co.uk"
+      },
+      {
+        "any": [
+          {
+            "all": [
+              {
+                "header": "subject",
+                "contains": "Order"
+              },
+              {
+                "header": "subject",
+                "contains": "confirmed"
+              }
+            ]
+          },
+          {
+            "header": "subject",
+            "contains": "Refund"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Handmade Candle Co"
+    }
+  ],
+  "comments": [
+    "Order confirmations (incl. replies) and refund notices kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

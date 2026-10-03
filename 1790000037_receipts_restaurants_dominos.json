@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Restaurants » Dominos",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "thekitchen@dominos.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "order confirmation"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Restaurants/Dominos"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; Domino's marketing stays on the newsletter rule (365-day expiry)"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Personal Development » Scrum.org",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@scrum.org"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Assessment Result"
+          },
+          {
+            "header": "subject",
+            "contains": "Invoice Receipt"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Personal Development/Scrum.org"
+    }
+  ],
+  "comments": [
+    "Certification assessment results and course invoices kept permanently; other Scrum.org mail stays on the newsletter rule (365-day expiry)"
+  ]
+}

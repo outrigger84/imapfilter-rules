@@ -1,12 +1,32 @@
 {
   "name": "Receipts » Retail » Nike",
   "enabled": true,
-  "priority": 110,
+  "priority": 90,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "@notifications.nike.com"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@official.nike.com"
+          },
+          {
+            "any": [
+              {
+                "header": "subject",
+                "contains": "Order"
+              },
+              {
+                "header": "subject",
+                "contains": "Refund"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
@@ -17,6 +37,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Added @official.nike.com order/refund mail and raised priority 110 -> 90 (2026-10-03): it previously lost to the Nike newsletter rule (priority 100, 365-day expiry)"
   ]
 }

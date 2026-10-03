@@ -1,7 +1,7 @@
 {
-  "name": "Travel \u00bb Railcard",
+  "name": "Travel » Railcard",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
@@ -11,6 +11,18 @@
       {
         "header": "from",
         "contains": "@railcard.co.uk"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "noreply@railcards.gwr.com"
+          },
+          {
+            "header": "subject",
+            "contains": "order confirmation"
+          }
+        ]
       }
     ]
   },
@@ -21,6 +33,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Added GWR-sold Railcard order confirmations, which expired via the Railcard newsletter rule. Priority 90 to beat the expiring catch-all (2026-10-03)."
   ]
 }

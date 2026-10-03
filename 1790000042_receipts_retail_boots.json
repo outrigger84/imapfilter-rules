@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Retail » Boots",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "orders@care.boots.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Order confirmation"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Boots"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

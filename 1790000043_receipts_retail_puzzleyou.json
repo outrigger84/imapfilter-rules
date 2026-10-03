@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Retail » PuzzleYou",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "@news.myphotopuzzle.co.uk"
+      },
+      {
+        "header": "subject",
+        "contains": "Your order has been registered"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/PuzzleYou"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

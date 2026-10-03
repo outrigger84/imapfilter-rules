@@ -1,0 +1,34 @@
+{
+  "name": "Receipts » Software » Innocam",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "info@innocam.nl"
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "invoice"
+          },
+          {
+            "header": "subject",
+            "contains": "license"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Software/Innocam"
+    }
+  ],
+  "comments": [
+    "Invoices and licence keys kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

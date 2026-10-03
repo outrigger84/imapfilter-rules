@@ -1,12 +1,24 @@
 {
   "name": "Receipts » Restaurants » Greggs",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "service@info.greggs.co.uk"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@service.greggs.co.uk"
+          },
+          {
+            "header": "subject",
+            "contains": "order confirmation"
+          }
+        ]
       }
     ]
   },
@@ -17,6 +29,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "Added @service.greggs.co.uk order confirmations (Click + Collect) at priority 90 (2026-10-03): they fell to Notifications » Food » Greggs (30-day expiry), which wins the priority-100 filename tie-break"
   ]
 }

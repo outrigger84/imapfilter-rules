@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Food » Naked Wines",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "help@nakedwines.com"
+      },
+      {
+        "header": "subject",
+        "contains": "Thank you for your order"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Food/Naked Wines"
+    }
+  ],
+  "comments": [
+    "Order confirmations kept permanently; other mail from this sender (dispatch/tracking/marketing) keeps its current expiry"
+  ]
+}

@@ -1,17 +1,30 @@
 {
-  "name": "Travel \u00bb Accommodation \u00bb AirBnB",
+  "name": "Travel » Accommodation » AirBnB",
   "enabled": true,
-  "priority": 100,
+  "priority": 90,
   "conditions": {
     "any": [
       {
         "header": "from",
         "contains": "express@airbnb.com"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "automated@airbnb.com"
+          },
+          {
+            "header": "subject",
+            "contains": "Reservation confirmed"
+          }
+        ]
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Added automated@airbnb.com reservation confirmations, which expired via Notifications » Travel » AirBnB. Priority 90 to beat the expiring catch-all (2026-10-03)."
   ],
   "actions": [
     {
