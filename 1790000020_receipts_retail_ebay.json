@@ -3,20 +3,64 @@
   "enabled": true,
   "priority": 90,
   "conditions": {
-    "all": [
+    "any": [
       {
-        "any": [
+        "all": [
           {
-            "header": "from",
-            "contains": "@auctiva.com"
+            "any": [
+              {
+                "header": "from",
+                "contains": "@auctiva.com"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "header": "subject",
+                "contains": "You have won eBay Item"
+              }
+            ]
           }
         ]
       },
       {
-        "any": [
+        "all": [
           {
-            "header": "subject",
-            "contains": "You have won eBay Item"
+            "any": [
+              {
+                "header": "from",
+                "contains": "@ebay.com"
+              },
+              {
+                "header": "from",
+                "contains": "@ebay.co.uk"
+              }
+            ]
+          },
+          {
+            "any": [
+              {
+                "header": "subject",
+                "contains": "Order confirmed"
+              },
+              {
+                "header": "subject",
+                "contains": "order is confirmed"
+              },
+              {
+                "header": "subject",
+                "contains": "order’s confirmed"
+              },
+              {
+                "header": "subject",
+                "contains": "Refund issued for order"
+              },
+              {
+                "header": "subject",
+                "contains": "has been cancelled"
+              }
+            ]
           }
         ]
       }
@@ -29,6 +73,7 @@
     }
   ],
   "comments": [
-    "eBay win confirmations (sent via Auctiva) kept permanently"
+    "eBay win confirmations (sent via Auctiva) kept permanently",
+    "2026-10-05: also keep eBay order confirmations, refunds and cancellations (not 'Order update'/'Order delivered' tracking)"
   ]
 }
