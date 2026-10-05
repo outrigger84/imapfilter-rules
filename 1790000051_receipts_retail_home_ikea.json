@@ -1,0 +1,38 @@
+{
+  "name": "Receipts » Retail » Home » IKEA",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@ikea.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Proof of payment"
+          },
+          {
+            "header": "subject",
+            "contains": "Thank you for your IKEA order"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Home/IKEA"
+    }
+  ],
+  "comments": [
+    "2026-10-05: keep IKEA order confirmations and proof-of-payment invoices permanently (beats the 365-day IKEA newsletter rule); collection notices still expire"
+  ]
+}

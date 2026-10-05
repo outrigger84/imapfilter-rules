@@ -1,0 +1,34 @@
+{
+  "name": "Receipts » Health » AG1",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@drinkag1.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Order Confirmation"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Health/AG1"
+    }
+  ],
+  "comments": [
+    "2026-10-05: keep AG1 order confirmations permanently (beats the 30-day AG1 notifications rule); shipping/reminder mail still expires"
+  ]
+}
