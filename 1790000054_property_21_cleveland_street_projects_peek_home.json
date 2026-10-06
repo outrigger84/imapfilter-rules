@@ -1,0 +1,46 @@
+{
+  "name": "Property » 21 Cleveland Street » Projects » Peek Home",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@peekhome.co.uk"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Order #"
+          },
+          {
+            "header": "subject",
+            "contains": "Plans are ready"
+          },
+          {
+            "header": "subject",
+            "contains": "Existing House Plan"
+          },
+          {
+            "header": "subject",
+            "contains": "Company Administration"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Property/21 Cleveland Street/Projects/Peek Home"
+    }
+  ],
+  "comments": [
+    "2026-10-06: keep Peek Home order #1927, the delivered house plans and the company-administration notice permanently (beats the 365-day Peek Home newsletter rule); marketing still expires"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Receipts » Food » Too Good To Go",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "toogoodtogo"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Your invoice from Too Good To Go"
+          },
+          {
+            "header": "subject",
+            "contains": "Thank you for your order made with Too Good To Go"
+          },
+          {
+            "header": "subject",
+            "contains": "You have cancelled your order"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Food/Too Good To Go"
+    }
+  ],
+  "comments": [
+    "2026-10-06: keep Too Good To Go invoices, order confirmations and cancellations permanently (beats the 30-day TGTG notifications rule). Mail arrives via Hide My Email relay, so From is matched on 'toogoodtogo' rather than a domain."
+  ]
+}
