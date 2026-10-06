@@ -21,6 +21,10 @@
           {
             "header": "subject",
             "contains": "Thank you for your IKEA order"
+          },
+          {
+            "header": "subject",
+            "contains": "Tax Invoice for order"
           }
         ]
       }
@@ -33,6 +37,7 @@
     }
   ],
   "comments": [
-    "2026-10-05: keep IKEA order confirmations and proof-of-payment invoices permanently (beats the 365-day IKEA newsletter rule); collection notices still expire"
+    "2026-10-05: keep IKEA order confirmations and proof-of-payment invoices permanently (beats the 365-day IKEA newsletter rule); collection notices still expire",
+    "2026-10-06: added 'Tax Invoice for order' -- some IKEA subjects read 'Proof of  payment' (double space) and miss the 'Proof of payment' match"
   ]
 }

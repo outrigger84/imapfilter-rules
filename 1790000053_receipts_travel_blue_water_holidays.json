@@ -1,0 +1,54 @@
+{
+  "name": "Receipts » Travel » Blue Water Holidays",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@bluewaterholidays.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Payment Recieved"
+          },
+          {
+            "header": "subject",
+            "contains": "Canal Holidays Booking"
+          },
+          {
+            "header": "subject",
+            "contains": "Booking Payment Request"
+          },
+          {
+            "header": "subject",
+            "contains": "booking form received"
+          },
+          {
+            "header": "subject",
+            "contains": "boat booking confirmation"
+          },
+          {
+            "header": "subject",
+            "contains": "final balance payment"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Travel/Blue Water Holidays"
+    }
+  ],
+  "comments": [
+    "2026-10-06: keep canal-boat booking forms, confirmations and payment receipts permanently (beats the 365-day Blue Water Holidays newsletter rule); cruise marketing still expires. 'Recieved' is their spelling."
+  ]
+}
