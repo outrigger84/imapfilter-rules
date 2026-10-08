@@ -1,0 +1,38 @@
+{
+  "name": "Receipts » Food » Goal Plans",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "goalplans"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Your Goal Plans Order"
+          }
+        ]
+      },
+      {
+        "header": "subject",
+        "not_contains": "dispatched"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Food/Goal Plans"
+    }
+  ],
+  "comments": [
+    "2026-10-07: keep Goal Plans order confirmations permanently (beats the 365-day Goal Plans newsletter rule); 'has been dispatched' shipping notices still expire. From matched on 'goalplans' to cover Hide My Email relay addresses."
+  ]
+}
