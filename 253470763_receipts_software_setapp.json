@@ -27,6 +27,18 @@
             "contains": "Setapp"
           }
         ]
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@service.setapp.com"
+          },
+          {
+            "header": "subject",
+            "regex": "(?i)setapp payment"
+          }
+        ]
       }
     ]
   },
@@ -41,6 +53,7 @@
     "2026-08-21: merged 1777412808_receipts_setapp.json into this rule (same",
     "destination folder; Paddle is Setapp's payment processor, matched on both",
     "sender and subject to avoid catching other Paddle merchants). Took its",
-    "priority (80, was 100)."
+    "priority (80, was 100).",
+    "2026-10-11: added @service.setapp.com payment notices ('Something went wrong with your Setapp payment')"
   ]
 }

@@ -19,6 +19,10 @@
       {
         "header": "from",
         "contains": "@dropbox.com"
+      },
+      {
+        "header": "from",
+        "contains": "@notices.dropbox.com"
       }
     ]
   },
@@ -29,6 +33,7 @@
     }
   ],
   "comments": [
-    "Private Relay – Dropbox receipts"
+    "Private Relay – Dropbox receipts",
+    "2026-10-11: added @notices.dropbox.com (ToS/policy notices)"
   ]
 }

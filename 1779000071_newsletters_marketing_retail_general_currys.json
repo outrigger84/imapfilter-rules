@@ -19,6 +19,10 @@
       {
         "header": "from",
         "contains": "@currys.com"
+      },
+      {
+        "header": "from",
+        "contains": "@me.currys.co.uk"
       }
     ]
   },
@@ -43,6 +47,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-11: added @me.currys.co.uk (discount-code mailers)"
   ]
 }

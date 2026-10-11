@@ -6,7 +6,7 @@
     "any": [
       {
         "header": "from",
-        "regex": "@(alljrs\\.co\\.jp|eircom\\.net|keyfamily\\.plus\\.com|mamula\\.plus\\.com|jacksona\\.plus\\.com|twotwin\\.plus\\.com|geetabasyal\\.com\\.np|dadaninc\\.com|ghomeimprovement\\.com|mybathandbodyworks\\.com|event-services\\.eu|satsuki-net\\.co\\.jp|kinu-p\\.co\\.jp|icosta\\.com|homeimprovement\\.(net|co)|qhomeimprovement\\.com|alowes\\.com)"
+        "regex": "@(alljrs\\.co\\.jp|eircom\\.net|keyfamily\\.plus\\.com|mamula\\.plus\\.com|jacksona\\.plus\\.com|twotwin\\.plus\\.com|geetabasyal\\.com\\.np|dadaninc\\.com|ghomeimprovement\\.com|mybathandbodyworks\\.com|event-services\\.eu|satsuki-net\\.co\\.jp|kinu-p\\.co\\.jp|icosta\\.com|homeimprovement\\.(net|co)|qhomeimprovement\\.com|alowes\\.com|yatsuyaku\\.or\\.jp|saladbowl\\.or\\.jp)"
       }
     ]
   },
@@ -22,6 +22,7 @@
     "Costa Coffee across 18 throwaway domains. Several share a naming tell",
     "(*homeimprovement.{com,net,co}), confirming a single operator.",
     "Real Boots Photo mail (info.bootsphoto.cewe.co.uk) uses a different",
-    "domain and is unaffected."
+    "domain and is unaffected.",
+    "2026-10-11: added yatsuyaku.or.jp (M&S 'free gift survey') and saladbowl.or.jp (same 'get rewarded' template)"
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "name": "Feedback » ReviewPro",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@reviewpro.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/ReviewPro"
+    }
+  ],
+  "comments": [
+    "2026-10-11: from unmatched-INBOX review of the run-all cache"
+  ]
+}

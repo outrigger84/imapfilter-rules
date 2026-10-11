@@ -26,7 +26,10 @@
       { "header": "from", "contains": "@nieuws.whicimpt.nl" },
       { "header": "from", "contains": "@info.itrustinmymarket.me.uk" },
       { "header": "from", "contains": "@marinex.co.jp" },
-      { "header": "from", "contains": "@esporoes.com" }
+      { "header": "from", "contains": "@esporoes.com" },
+      { "header": "from", "contains": "@informacliente.com.br" },
+      { "header": "from", "contains": "@bt.bonotourapac.net" },
+      { "all": [{ "header": "from", "contains": "@aldi.com" }, { "header": "from", "contains": "Tesco" }] }
     ]
   },
   "actions": [
@@ -56,6 +59,10 @@
     "allow-guard needed.",
     "2026-08-22: playtrade.com removed -- confirmed genuine by user (was originally",
     "misidentified as a 'PlayFunds Transfer' scam); now handled by",
-    "rules/1787378600_receipts_shopping_playtrade.json."
+    "rules/1787378600_receipts_shopping_playtrade.json.",
+    "2026-10-11: informacliente.com.br ('Kraken Supports' phish), bt.bonotourapac.net",
+    "(rotating 'Milkround'/'Cash4Gold' display names), and news@aldi.com sent with a",
+    "'Tesco.co.uk' display name (£500 gift card scam) -- the aldi entry requires the",
+    "Tesco name so genuine Aldi mail isn't caught."
   ]
 }

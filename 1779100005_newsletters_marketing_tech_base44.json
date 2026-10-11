@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@base44.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.base44.com"
       }
     ]
   },
@@ -34,5 +38,7 @@
       ]
     }
   ],
-  "comments": []
+  "comments": [
+    "2026-10-11: added @mail.base44.com"
+  ]
 }

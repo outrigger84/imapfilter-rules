@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Shares \u00bb Pennon",
+  "name": "Personal » Finance » Shares » Pennon",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "donotreply@linkshareholderinformation.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@shareholderinformation.cm.mpms.mufg.com"
       }
     ]
   },
@@ -25,6 +29,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-10-11: added @shareholderinformation.cm.mpms.mufg.com (Link Group is now MUFG Corporate Markets)"
   ]
 }

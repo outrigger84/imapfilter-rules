@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "disneyplus@mkt.mail2.disneyplus.com"
+      },
+      {
+        "header": "from",
+        "contains": "@messaging.disneyplus.com"
       }
     ]
   },
@@ -39,6 +43,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-11: added @messaging.disneyplus.com (Top 10 mailers)"
   ]
 }

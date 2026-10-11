@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@info.creation.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@notification.creation.co.uk"
       }
     ]
   },
@@ -26,6 +30,7 @@
   ],
   "comments": [
     "Creation Finance — Currys buy-now-pay-later credit",
-    "Currys flexpay credit account: kept permanently like other store credit (was 30-day notifications then Deleted Messages)"
+    "Currys flexpay credit account: kept permanently like other store credit (was 30-day notifications then Deleted Messages)",
+    "2026-10-11: added @notification.creation.co.uk (Currys flexpay statements)"
   ]
 }

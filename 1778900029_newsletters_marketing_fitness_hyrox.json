@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@news.hyrox.lv"
+      },
+      {
+        "header": "from",
+        "contains": "@news.hyrox.com"
       }
     ]
   },
@@ -39,6 +43,7 @@
     }
   ],
   "comments": [
-    "HYROX fitness race events"
+    "HYROX fitness race events",
+    "2026-10-11: added @news.hyrox.com"
   ]
 }

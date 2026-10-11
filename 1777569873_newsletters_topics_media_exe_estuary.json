@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "exeestuary-mailbox@devon.gov.uk"
+      },
+      {
+        "header": "from",
+        "contains": "ccet@info.devon.gov.uk"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-11: added ccet@info.devon.gov.uk (Devon CC Exe Estuary events/competitions)"
   ]
 }

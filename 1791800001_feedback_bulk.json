@@ -1,0 +1,22 @@
+{
+  "name": "Feedback » Bulk",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "feedback@bulk.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Bulk"
+    }
+  ],
+  "comments": [
+    "2026-10-11: from unmatched-INBOX review of the run-all cache"
+  ]
+}

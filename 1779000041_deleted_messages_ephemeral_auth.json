@@ -6,7 +6,7 @@
     "all": [
       {
         "header": "subject",
-        "regex": "(?i)\\b(\\d{4,8}\\s+is\\s+(your|the)\\s+(one[\\-\\s]time\\s+|temporary\\s+|2fa\\s+)?(code|otp|passcode|verification\\s+code|security\\s+code)|(otp|passcode|verification\\s*code|security\\s*code|one.time\\s*code|auth\\s*code|login\\s*code|2fa\\s*code|access\\s*code|sign.?in\\s*code)\\s*[:\\-\\s]\\s*\\d{4,8}|verification\\s+code|authentication\\s+code|access\\s+code|invite\\s+code|one[\\-\\s]time\\s+(?:\\w+\\s+)?(?:code|passcode|password|pin)|here.s\\s+(?:your|the|that)\\s+(?:\\w+\\s+)?(?:code|passcode|otp)|code\\s+you\\s+requested|passcode\\s+reset|login link|magic link|sign.in link|signin link|password reset|reset your password|verify your email|confirm your email|please verify|email verification|confirm your(\\s+\\w+)?\\s+account|activate your account|verify your(\\s+\\w+)?\\s+account|verify your identity)\\b"
+        "regex": "(?i)\\b(\\d{4,8}\\s+is\\s+(your|the)\\s+(one[\\-\\s]time\\s+|temporary\\s+|2fa\\s+)?(code|otp|passcode|verification\\s+code|security\\s+code)|(otp|passcode|verification\\s*code|security\\s*code|one.time\\s*code|auth\\s*code|login\\s*code|2fa\\s*code|access\\s*code|sign.?in\\s*code)\\s*[:\\-\\s]\\s*\\d{4,8}|verification\\s+code|authentication\\s+code|access\\s+code|invite\\s+code|one[\\-\\s]time\\s+(?:\\w+\\s+)?(?:code|passcode|password|pin)|here.s\\s+(?:your|the|that)\\s+(?:\\w+\\s+)?(?:code|passcode|otp)|code\\s+you\\s+requested|passcode\\s+reset|login link|magic link|sign.in link|signin link|password reset|reset your password|verify your email|confirm your email|please verify|email verification|confirm your(\\s+\\w+)?\\s+account|activate your account|verify your(\\s+\\w+)?\\s+account|verify your identity|\\d{4,8}\\s+is\\s+your\\s+(?:[\\w.]+\\s+){1,3}code|\\d{4,8}\\]\\s+confirmation\\s+code|email\\s+code\\s+confirmation|access\\s+security\\s+code|otp\\s+for\\s+verification|account\\s+access\\s+verification|^[\\w.-]+:\\s*sign.?in$|get\\s+you\\s+back\\s+(?:in)?to\\s+your\\s+account|password\\s+(?:has\\s+)?(?:been\\s+)?changed|password\\s+change\\s+confirmation|(?:security\\s+key|passkey)\\s+(?:or\\s+passkey\\s+)?was\\s+added)\\b"
       },
       {
         "header": "subject",
@@ -18,7 +18,8 @@
     ]
   },
   "comments": [
-    "Auto-cleanup of 2FA codes, magic links, and password reset emails after 1 day"
+    "Auto-cleanup of 2FA codes, magic links, and password reset emails after 1 day",
+    "2026-10-11: widened for codes/sign-in/security notices that slipped through: 'N is your <Service> code', '[N] Confirmation code', 'Email CODE Confirmation message', 'Access Security Code', 'OTP for verification', 'Account Access Verification', '<site>: Sign-in', 'get you back to your account', password changed/change confirmation, passkey added"
   ],
   "actions": [
     {

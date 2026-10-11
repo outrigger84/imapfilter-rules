@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@service.aro.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.aro.co.uk"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-11: added @mail.aro.co.uk (ClearScore-branded loan eligibility marketing)"
   ]
 }

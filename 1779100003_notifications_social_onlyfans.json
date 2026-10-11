@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@onlyfans.com"
+      },
+      {
+        "header": "from",
+        "contains": "@updates.onlyfans.com"
       }
     ]
   },
@@ -34,5 +38,7 @@
       ]
     }
   ],
-  "comments": []
+  "comments": [
+    "2026-10-11: added @updates.onlyfans.com"
+  ]
 }

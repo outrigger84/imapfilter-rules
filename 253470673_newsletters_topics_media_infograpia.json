@@ -1,12 +1,12 @@
 {
-  "name": "Newsletters » Topics » Media » Infographia",
+  "name": "Newsletters » Topics » Media » Infograpia",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "all": [
       {
         "header": "from",
-        "contains": "@infograpia.com"
+        "contains": "infograpia.com"
       },
       {
         "header": "from",
@@ -20,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Topics/Media/Infographia"
+          "target": "Newsletters/Topics/Media/Infograpia"
         }
       ]
     },
@@ -35,6 +35,8 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-11: from match widened to infograpia.com so @news.infograpia.com is covered",
+    "2026-10-11: corrected folder/rule spelling Infographia -> Infograpia (matches the sender); existing messages in the old folder are being moved manually"
   ]
 }

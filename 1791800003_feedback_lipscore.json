@@ -1,0 +1,22 @@
+{
+  "name": "Feedback » Lipscore",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@lipscore.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Feedback/Lipscore"
+    }
+  ],
+  "comments": [
+    "2026-10-11: from unmatched-INBOX review of the run-all cache"
+  ]
+}

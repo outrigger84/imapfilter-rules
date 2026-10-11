@@ -19,6 +19,10 @@
       {
         "header": "from",
         "contains": "@newyorktimes.com"
+      },
+      {
+        "header": "from",
+        "contains": "@e.nytimes.com"
       }
     ]
   },
@@ -47,6 +51,7 @@
     "2026-08-17: merged the separate 'Newsletters » Topics » Media » New York Times' rule",
     "(matched @service.newyorktimes.com / @newyorktimes.com, moved to a different folder)",
     "into this one, and applied the same 365-day age-gated retention pattern as",
-    "rules/253470653_the_economist.json -- see README's 'Age-gated action brackets' section."
+    "rules/253470653_the_economist.json -- see README's 'Age-gated action brackets' section.",
+    "2026-10-11: added @e.nytimes.com (NYT Games marketing; @nytimes.com doesn't match subdomains)"
   ]
 }

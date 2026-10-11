@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "tui@emails.tui.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "tui@info.tui.co.uk"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-10-11: added tui@info.tui.co.uk (basket-abandonment marketing)"
   ]
 }
