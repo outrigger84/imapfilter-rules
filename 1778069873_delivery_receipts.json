@@ -3,8 +3,16 @@
   "enabled": true,
   "priority": 110,
   "conditions": {
-    "header": "subject",
-    "regex": "(?i)^Delivered:(?!.*order\\s+#)"
+    "any": [
+      {
+        "header": "subject",
+        "regex": "(?i)^Delivered:(?!.*order\\s+#)"
+      },
+      {
+        "header": "from",
+        "contains": "pickup-point@amazon.co.uk"
+      }
+    ]
   },
   "actions": [
     {
@@ -45,6 +53,7 @@
     "notifications were being trapped here instead of reaching",
     "Receipts/Retail/Amazon. 110 matches the existing 'catch-all mop-up' tier",
     "(other brand catch-alls also sit at 110) so specific sender rules get first",
-    "refusal, and this rule only catches couriers/senders with no dedicated rule."
+    "refusal, and this rule only catches couriers/senders with no dedicated rule.",
+    "2026-10-11: added pickup-point@amazon.co.uk (Amazon Locker ready-for-pickup / picked-up notices)"
   ]
 }

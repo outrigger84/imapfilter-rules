@@ -23,6 +23,10 @@
       {
         "header": "from",
         "contains": "bookings@email.easyjet.com"
+      },
+      {
+        "header": "from",
+        "contains": "donotreply@operational.easyjet.com"
       }
     ]
   },
@@ -33,6 +37,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-10-11: added donotreply@operational.easyjet.com (booking reminders, ETA info, travel updates)"
   ]
 }

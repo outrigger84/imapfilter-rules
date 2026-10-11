@@ -1,0 +1,26 @@
+{
+  "name": "Receipts » Retail » DIY » Power Tool World",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "header": "from",
+        "contains": "help@powertoolworld.co.uk"
+      },
+      {
+        "header": "subject",
+        "regex": "(?i)\\b(order|invoice)\\b"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/DIY/Power Tool World"
+    }
+  ],
+  "comments": [
+    "2026-10-11: Power Tool World order confirmations, invoices and shipping notices kept permanently. help@ also sends welcome/subscription mail, so the subject arm is required."
+  ]
+}

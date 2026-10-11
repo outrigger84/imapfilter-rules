@@ -1,0 +1,22 @@
+{
+  "name": "Receipts » Software » Disney+",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@trx.mail2.disneyplus.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Software/Disney+"
+    }
+  ],
+  "comments": [
+    "2026-10-11: Disney+ transactional mail (subscriber agreement, welcome/subscription confirmations) kept permanently."
+  ]
+}

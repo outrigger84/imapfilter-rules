@@ -1,0 +1,36 @@
+{
+  "name": "Newsletters » Marketing » Tech » UpCloud",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@upcloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Tech/UpCloud"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    "2026-10-11: UpCloud marketing (hello@, account-manager welcome mail); noreply@ account notices go to Notifications/Tech/UpCloud first."
+  ]
+}

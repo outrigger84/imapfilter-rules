@@ -1,0 +1,36 @@
+{
+  "name": "Newsletters » Marketing » Tools » Power Tool World",
+  "enabled": true,
+  "priority": 100,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "@powertoolworld.co.uk"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Newsletters/Marketing/Tools/Power Tool World"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    "2026-10-11: Power Tool World marketing (coms@) plus help@ welcome/subscription mail; orders are caught first by the priority-90 receipts rule."
+  ]
+}

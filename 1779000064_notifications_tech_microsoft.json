@@ -43,6 +43,10 @@
       {
         "header": "from",
         "contains": "@e-mails.microsoft.com"
+      },
+      {
+        "header": "from",
+        "contains": "@emailnotifications.microsoft.com"
       }
     ]
   },
@@ -68,6 +72,7 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Microsoft/OneDrive/SharePoint/Office/Windows account notifications"
+    "Microsoft/OneDrive/SharePoint/Office/Windows account notifications",
+    "2026-10-11: added @emailnotifications.microsoft.com (Microsoft 365 subscription notices)"
   ]
 }

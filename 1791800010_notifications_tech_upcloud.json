@@ -1,0 +1,22 @@
+{
+  "name": "Notifications » Tech » UpCloud",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "noreply@upcloud.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Notifications/Tech/UpCloud"
+    }
+  ],
+  "comments": [
+    "2026-10-11: UpCloud account/billing notices (Lack of Funds Warning, automated billing confirmations) kept permanently. Priority 90 beats the UpCloud newsletter rule."
+  ]
+}
