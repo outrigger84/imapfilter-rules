@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Body Coach",
+  "name": "Fitness » Body Coach",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -19,8 +19,22 @@
   ],
   "actions": [
     {
-      "type": "move",
-      "target": "Fitness/Body Coach"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Fitness/Body Coach"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ]
 }

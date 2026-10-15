@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Credit Rating \u00bb ClearScore",
+  "name": "Personal » Finance » Credit Rating » ClearScore",
   "enabled": true,
   "priority": 90,
   "conditions": {
@@ -19,8 +19,22 @@
   ],
   "actions": [
     {
-      "type": "move",
-      "target": "Personal/Finance/Credit Rating/ClearScore"
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Personal/Finance/Credit Rating/ClearScore"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ]
 }

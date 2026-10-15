@@ -1,5 +1,5 @@
 {
-  "name": "Server \u00bb News \u00bb BlockNews",
+  "name": "Server » News » BlockNews",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Server/News/BlockNews"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Server/News/BlockNews"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

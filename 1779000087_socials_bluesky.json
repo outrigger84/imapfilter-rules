@@ -1,5 +1,5 @@
 {
-  "name": "Socials \u00bb Bluesky",
+  "name": "Socials » Bluesky",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Socials/Bluesky"
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Socials/Bluesky"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

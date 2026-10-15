@@ -1,5 +1,5 @@
 {
-  "name": "Fitness \u00bb Domestiq",
+  "name": "Fitness » Domestiq",
   "enabled": true,
   "priority": 90,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Fitness/Domestiq"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Fitness/Domestiq"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

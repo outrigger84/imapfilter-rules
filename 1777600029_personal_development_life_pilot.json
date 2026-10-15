@@ -1,5 +1,5 @@
 {
-  "name": "Personal Development \u00bb Life Pilot",
+  "name": "Personal Development » Life Pilot",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -28,8 +28,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Personal Development/Life Pilot"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Personal Development/Life Pilot"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

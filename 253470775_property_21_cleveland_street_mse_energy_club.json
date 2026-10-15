@@ -15,8 +15,22 @@
   ],
   "actions": [
     {
-      "type": "move",
-      "target": "Property/21 Cleveland Street/MSE Energy Club"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Property/21 Cleveland Street/MSE Energy Club"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ]
 }

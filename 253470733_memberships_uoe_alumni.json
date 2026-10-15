@@ -1,5 +1,5 @@
 {
-  "name": "Memberships \u00bb UoE Alumni",
+  "name": "Memberships » UoE Alumni",
   "enabled": true,
   "priority": 35,
   "conditions": {
@@ -33,8 +33,22 @@
   ],
   "actions": [
     {
-      "type": "move",
-      "target": "Memberships/UoE Alumni"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Memberships/UoE Alumni"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ]
 }

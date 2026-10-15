@@ -19,8 +19,22 @@
   ],
   "actions": [
     {
-      "type": "move",
-      "target": "Property/21 Cleveland Street/Renovations/MyBuilder-com"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Property/21 Cleveland Street/Renovations/MyBuilder-com"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ]
 }

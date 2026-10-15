@@ -1,5 +1,5 @@
 {
-  "name": "Personal Development \u00bb Productive Flourishing",
+  "name": "Personal Development » Productive Flourishing",
   "enabled": true,
   "priority": 110,
   "conditions": {
@@ -28,8 +28,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Personal Development/Productive Flourishing"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Personal Development/Productive Flourishing"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

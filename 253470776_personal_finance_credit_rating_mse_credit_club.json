@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Credit Rating \u00bb MSE Credit Club",
+  "name": "Personal » Finance » Credit Rating » MSE Credit Club",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -15,8 +15,22 @@
   ],
   "actions": [
     {
-      "type": "move",
-      "target": "Personal/Finance/Credit Rating/MSE Credit Club"
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Personal/Finance/Credit Rating/MSE Credit Club"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ]
 }

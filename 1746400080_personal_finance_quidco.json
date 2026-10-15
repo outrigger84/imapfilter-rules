@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Quidco",
+  "name": "Personal » Finance » Quidco",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Personal/Finance/Quidco"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Personal/Finance/Quidco"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Credit Rating \u00bb CreditLadder",
+  "name": "Personal » Finance » Credit Rating » CreditLadder",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Personal/Finance/Credit Rating/CreditLadder"
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Personal/Finance/Credit Rating/CreditLadder"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
