@@ -6,10 +6,6 @@
     "any": [
       {
         "header": "from",
-        "contains": "@express.ger.medallia.eu"
-      },
-      {
-        "header": "from",
         "contains": "@medallia.eu"
       },
       {
@@ -53,6 +49,7 @@
     "2026-08-21: merged 1777452205_feedback_virgin_atlantic.json into this rule",
     "(same destination folder, complementary conditions). This file was disabled",
     "while its sibling was enabled -- re-enabled to avoid silently dropping",
-    "Medallia coverage when the sibling is removed."
+    "Medallia coverage when the sibling is removed.",
+    "2026-10-15: removed '@express.ger.medallia.eu' -- never matched here, Feedback » Very (evaluated first) already claims it."
   ]
 }

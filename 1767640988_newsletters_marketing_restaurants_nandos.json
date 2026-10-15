@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@emails.nandos.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@nandos.co.uk"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1777106928_newsletters_marketing_food_nandos.json ('Newsletters » Marketing » Food » Nandos') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ]
 }

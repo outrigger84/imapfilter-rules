@@ -6,10 +6,6 @@
     "any": [
       {
         "header": "from",
-        "contains": "@hushed.zendesk.com"
-      },
-      {
-        "header": "from",
         "contains": "@hushed.com"
       }
     ]
@@ -36,6 +32,7 @@
   ],
   "comments": [
     "Private phone number app",
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed '@hushed.zendesk.com' -- never matched here, Support » Hushed (evaluated first) already claims it."
   ]
 }

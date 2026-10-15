@@ -23,6 +23,10 @@
       {
         "header": "from",
         "contains": "angela.cummings@hyperslice.net"
+      },
+      {
+        "header": "from",
+        "contains": "phonesupport@webhosting.uk.com"
       }
     ]
   },
@@ -33,6 +37,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-10-15: merged 1777453302_server_whuk.json ('Server » WHUK') into this rule; both covered webhosting.uk.com support addresses; Server/WHUK folder never existed."
   ]
 }

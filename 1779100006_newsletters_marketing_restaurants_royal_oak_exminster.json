@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Marketing » Food » Royal Oak Exminster",
+  "name": "Newsletters » Marketing » Restaurants » Royal Oak Exminster",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -20,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Food/Royal Oak Exminster"
+          "target": "Newsletters/Marketing/Restaurants/Royal Oak Exminster"
         }
       ]
     },
@@ -35,6 +35,7 @@
     }
   ],
   "comments": [
-    "Royal Oak Inn Exminster newsletter via DigitalPubs"
+    "Royal Oak Inn Exminster newsletter via DigitalPubs",
+    "2026-10-15: moved from Newsletters/Marketing/Food/Royal Oak Exminster -- Food/Restaurants consolidation (Restaurants = places you eat/drink; Food = groceries, meal kits, delivery apps, drink products)."
   ]
 }

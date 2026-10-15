@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Marketing » Food » Papa John's",
+  "name": "Newsletters » Marketing » Restaurants » Papa John's",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -20,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Food/Papa John's"
+          "target": "Newsletters/Marketing/Restaurants/Papa John's"
         }
       ]
     },
@@ -36,6 +36,7 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Papa John's marketing/offers emails (offers@e-papajohns.co.uk). Receipts from service@e-papajohns.co.uk handled by a separate rule."
+    "Papa John's marketing/offers emails (offers@e-papajohns.co.uk). Receipts from service@e-papajohns.co.uk handled by a separate rule.",
+    "2026-10-15: moved from Newsletters/Marketing/Food/Papa John's -- Food/Restaurants consolidation (Restaurants = places you eat/drink; Food = groceries, meal kits, delivery apps, drink products)."
   ]
 }

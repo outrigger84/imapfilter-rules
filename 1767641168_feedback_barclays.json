@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "barclayscustomerfeedback@emails.barclays.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "barclayscustomerfeedback@emails.barclays.co.uk"
       }
     ]
   },

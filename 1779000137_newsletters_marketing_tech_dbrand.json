@@ -7,6 +7,26 @@
       {
         "header": "from",
         "contains": "robots@dbrand.com"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@dbrand.com"
+          },
+          {
+            "header": "subject",
+            "not_contains": "Receipt for Order #"
+          },
+          {
+            "header": "subject",
+            "not_contains": "Tracking Information"
+          },
+          {
+            "header": "subject",
+            "not_contains": "Your dbrand order"
+          }
+        ]
       }
     ]
   },
@@ -31,6 +51,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-10-15: merged 1767641033_newsletters_marketing_tech_hardware_dbrand.json (folder Newsletters/Marketing/Tech/Hardware/dbrand) into this rule -- same sender/brand filed under two folders."
   ]
 }

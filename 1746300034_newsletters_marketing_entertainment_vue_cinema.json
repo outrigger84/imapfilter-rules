@@ -6,10 +6,6 @@
     "any": [
       {
         "header": "from",
-        "contains": "@customerservice.myvue.com"
-      },
-      {
-        "header": "from",
         "contains": "@myvue.com"
       }
     ]
@@ -35,6 +31,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed '@customerservice.myvue.com' -- never matched here, Support » Vue (evaluated first) already claims it."
   ]
 }

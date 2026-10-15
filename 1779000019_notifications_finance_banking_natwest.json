@@ -15,6 +15,10 @@
       {
         "header": "from",
         "contains": "@updates.natwest.com"
+      },
+      {
+        "header": "from",
+        "contains": "@ccs.natwest.com"
       }
     ]
   },
@@ -38,5 +42,7 @@
       ]
     }
   ],
-  "comments": []
+  "comments": [
+    "2026-10-15: merged 1779100142_notifications_finance_natwest.json (folder Notifications/Finance/NatWest) into this rule -- same sender/brand filed under two folders."
+  ]
 }

@@ -1,0 +1,54 @@
+{
+  "name": "Receipts » Services » Xero",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@post.xero.com"
+          },
+          {
+            "header": "from",
+            "contains": "@send.xero.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Invoice"
+          },
+          {
+            "header": "subject",
+            "contains": "Receipt"
+          },
+          {
+            "header": "subject",
+            "contains": "Quote"
+          },
+          {
+            "header": "subject",
+            "contains": "Bill INV-"
+          },
+          {
+            "header": "subject",
+            "contains": "Credit Note"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Services/Xero"
+    }
+  ],
+  "comments": [
+    "2026-10-15: Xero sends invoices/receipts/quotes on behalf of many businesses. These are kept forever (receipts policy) instead of falling to Notifications » Finance » Xero's 30-day purge. Priority 90 so it beats that rule; Archives » Rowing (40) still takes Exeter Rowing Club ones."
+  ]
+}

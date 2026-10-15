@@ -11,6 +11,18 @@
       {
         "header": "from",
         "contains": "no-reply@your-way.burgerking.co.uk"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@m.your-way.burgerking.co.uk"
+          },
+          {
+            "header": "subject",
+            "contains": "Receipt"
+          }
+        ]
       }
     ]
   },
@@ -25,6 +37,7 @@
     "2026-08-21: merged 1779000131_burger_king.json into this rule (same",
     "destination folder); dropped its 'promos-coming@your-way.bk.com' as a",
     "strict subset of this rule's broader '@your-way.bk.com'. Took its priority",
-    "(90, was 100)."
+    "(90, was 100).",
+    "2026-10-15: added receipts from @m.your-way.burgerking.co.uk (subject 'Receipt'); that sender's other mail (sign-in codes) stays with the newsletter rule. Receipts were being purged after 365 days."
   ]
 }

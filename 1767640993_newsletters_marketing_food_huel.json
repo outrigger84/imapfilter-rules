@@ -11,11 +11,16 @@
       {
         "header": "from",
         "contains": "team@huel.com"
+      },
+      {
+        "header": "from",
+        "contains": "@emailservice.huel.com"
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1746400083_newsletters_marketing_retail_food_huel.json (folder Newsletters/Marketing/Retail/Food/Huel) into this rule -- same sender/brand filed under two folders."
   ],
   "actions": [
     {

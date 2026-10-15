@@ -11,10 +11,6 @@
       {
         "header": "from",
         "contains": "MyMcDonaldsApp_at_uk_mcdonalds_com_"
-      },
-      {
-        "header": "from",
-        "contains": "MyMcDonaldsApp_at_mcdonalds_co_uk_"
       }
     ]
   },

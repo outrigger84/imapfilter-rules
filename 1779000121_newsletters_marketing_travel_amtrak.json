@@ -10,10 +10,6 @@
       },
       {
         "header": "from",
-        "contains": "Amtrak@e-mail.amtrak.com"
-      },
-      {
-        "header": "from",
         "contains": "promotions@amtrakvacations.com"
       },
       {

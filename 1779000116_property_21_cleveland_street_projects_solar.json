@@ -66,14 +66,6 @@
       },
       {
         "header": "from",
-        "contains": "info@nl.qnldkgnfstqu.fr"
-      },
-      {
-        "header": "from",
-        "contains": "info@nl.xsfgnwktjkqc.fr"
-      },
-      {
-        "header": "from",
         "contains": "james.lawlor@effectivehome.co.uk"
       },
       {
@@ -87,10 +79,6 @@
       {
         "header": "from",
         "contains": "info@no1home.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "news@bonworth.com"
       },
       {
         "header": "from",
@@ -113,6 +101,7 @@
     "Merged duplicate rule 1779100176_property_21_cleveland_street_projects_solar_egg.json (2026-08-13): added sender condition(s) ['crackingenergy.com@notifybf2.eu1.hubspot.com'].",
     "2026-08-21: removed 1779000049_property_renovations_des_renewables.json (same",
     "destination folder); broadened 'richard.hawkesford@desrenewables.com' to",
-    "'@desrenewables.com' since that rule's domain-level match was a strict superset."
+    "'@desrenewables.com' since that rule's domain-level match was a strict superset.",
+    "2026-10-15: removed news@bonworth.com, info@nl.qnldkgnfstqu.fr, info@nl.xsfgnwktjkqc.fr -- spam senders (home-warranty/heating junk) that were shielding themselves from Spam/Junk — Delete."
   ]
 }

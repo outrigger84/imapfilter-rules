@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@madetech.com"
+      },
+      {
+        "header": "from",
+        "contains": "events@madetech.com"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 261140791_newsletters_topics_tech_made_tech.json (folder Newsletters/Topics/Tech/Made Tech) into this rule -- same sender/brand filed under two folders."
   ]
 }

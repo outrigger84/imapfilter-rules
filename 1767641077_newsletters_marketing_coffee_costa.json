@@ -7,11 +7,16 @@
       {
         "header": "from",
         "contains": "@costaclub.costa.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@club.costa.co.uk"
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1777106929_newsletters_marketing_food_costa_coffee.json ('Newsletters » Marketing » Food » Costa Coffee') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ],
   "actions": [
     {

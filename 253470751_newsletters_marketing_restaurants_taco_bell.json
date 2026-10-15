@@ -7,11 +7,20 @@
       {
         "header": "from",
         "contains": "noreply_at_tacobell_co_uk_6nxk82pjqq_e1eea99d@privaterelay.appleid.com"
+      },
+      {
+        "header": "from",
+        "contains": "@mail.livemastacobell.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "_livemastacobell_co_uk_"
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1778800002_newsletters_marketing_food_taco_bell_uk.json ('Newsletters » Marketing » Food » Taco Bell UK') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ],
   "actions": [
     {

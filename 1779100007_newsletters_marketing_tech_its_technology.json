@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "@emails.its.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "@its.co.uk"
       }
     ]
   },
@@ -34,5 +30,7 @@
       ]
     }
   ],
-  "comments": []
+  "comments": [
+    "2026-10-15: removed '@its.co.uk' -- never matched here, Receipts » Services » ITS (evaluated first) already claims it."
+  ]
 }

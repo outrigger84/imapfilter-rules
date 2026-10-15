@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "noreply@plex.tv"
+      },
+      {
+        "header": "from",
+        "contains": "@m.plex.tv"
+      },
+      {
+        "header": "from",
+        "contains": "@plex.tv"
       }
     ]
   },
@@ -31,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779100009_notifications_tech_plex.json (folder Notifications/Tech/Plex) into this rule -- same sender/brand filed under two folders."
   ]
 }

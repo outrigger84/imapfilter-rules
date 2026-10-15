@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@hello.mcdonalds.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@news.mcdonalds.co.uk"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779100191_newsletters_marketing_restaurants_mcdonalds.json ('Newsletters » Marketing » Restaurants » McDonald's') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ]
 }

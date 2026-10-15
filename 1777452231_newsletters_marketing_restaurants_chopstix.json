@@ -7,6 +7,22 @@
       {
         "header": "from",
         "contains": "@airshipm2.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "_airshipm2_co_uk_"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@airshipm2.co.uk"
+          },
+          {
+            "header": "subject",
+            "contains": "Chopstix"
+          }
+        ]
       }
     ]
   },
@@ -31,6 +47,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1778800007_newsletters_marketing_food_chopstix.json ('Newsletters » Marketing » Food » Chopstix') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ]
 }

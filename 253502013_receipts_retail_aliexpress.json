@@ -6,15 +6,7 @@
     "any": [
       {
         "header": "from",
-        "contains": "_at_notice_aliexpress_com_"
-      },
-      {
-        "header": "from",
         "contains": "_at_info_aliexpress_com_"
-      },
-      {
-        "header": "from",
-        "contains": "ae-sales.notice"
       },
       {
         "header": "from",
@@ -29,6 +21,7 @@
     }
   ],
   "comments": [
-    "Apple Private Relay – transactional AliExpress mail"
+    "Apple Private Relay – transactional AliExpress mail",
+    "2026-10-15: removed ae-sales.notice, _at_notice_aliexpress_com_ -- ae-sales.notice is pure marketing and the bare _at_notice_ token caught 'Tell us about your experience' surveys, both kept forever as receipts. Order mail still matches transaction_at_notice_aliexpress_com_."
   ]
 }

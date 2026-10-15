@@ -1,12 +1,12 @@
 {
-  "name": "Newsletters » Marketing » Food » Domino's",
+  "name": "Newsletters » Marketing » Restaurants » Nacho Daddy",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@email.dominosmarketing.co.uk"
+        "contains": "@b.mail-zr.com"
       }
     ]
   },
@@ -16,7 +16,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Food/Domino's"
+          "target": "Newsletters/Marketing/Restaurants/Nacho Daddy"
         }
       ]
     },
@@ -32,6 +32,6 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Domino's Pizza marketing emails via email.dominosmarketing.co.uk. feedback.dominosmarketing.co.uk already covered by Feedback/Dominos rule."
+    "2026-10-15: moved from Newsletters/Marketing/Food/Nacho Daddy -- Food/Restaurants consolidation (Restaurants = places you eat/drink; Food = groceries, meal kits, delivery apps, drink products)."
   ]
 }

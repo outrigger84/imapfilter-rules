@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "@eastpak-email.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news-eu.eastpak.com"
+      },
+      {
+        "header": "from",
+        "contains": "@eastpak.com"
       }
     ]
   },
@@ -31,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1778900008_newsletters_marketing_retail_eastpak.json (folder Newsletters/Marketing/Retail/Eastpak) into this rule -- same sender/brand filed under two folders."
   ]
 }

@@ -11,10 +11,6 @@
       {
         "header": "from",
         "contains": "Aegonresearch@inmoment.com"
-      },
-      {
-        "header": "from",
-        "contains": "aegonresearch@inmoment.com"
       }
     ]
   },

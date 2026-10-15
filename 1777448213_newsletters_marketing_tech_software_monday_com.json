@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@learn.mail.monday.com"
+      },
+      {
+        "header": "from",
+        "contains": "@use.mail.monday.com"
       }
     ]
   },
@@ -35,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779100129_newsletters_marketing_work_monday_com.json (folder Newsletters/Marketing/Work/Monday.com) into this rule -- same sender/brand filed under two folders."
   ]
 }

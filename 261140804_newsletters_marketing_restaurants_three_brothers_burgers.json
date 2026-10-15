@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "marketing@threebrothersburgers.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@threebrothersburgers.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "threebrothersburgers@sender.contacta.io"
       }
     ]
   },
@@ -31,6 +39,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-10-15: merged 1779100012_newsletters_marketing_food_three_brothers_burgers.json ('Newsletters » Marketing » Food » Three Brothers Burgers') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ]
 }

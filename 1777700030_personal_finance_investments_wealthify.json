@@ -11,6 +11,14 @@
       {
         "header": "from",
         "contains": "wealthify@directdebitnotice.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@wealthify.com"
+      },
+      {
+        "header": "from",
+        "contains": "@directdebitnotice.co.uk"
       }
     ]
   },
@@ -21,6 +29,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779000050_personal_finance_wealthify.json (folder Personal/Finance/Wealthify) into this rule -- same sender/brand filed under two folders."
   ]
 }

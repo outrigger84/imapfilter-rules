@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "sales@rock-the-boat.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "rock-the-boat.co.uk"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-10-15: merged 1777463004_newsletters_marketing_outdoors_rock_the_boat.json (folder Newsletters/Marketing/Outdoors/Rock the Boat) into this rule -- same sender/brand filed under two folders."
   ]
 }

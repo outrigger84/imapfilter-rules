@@ -7,14 +7,6 @@
       {
         "header": "from",
         "contains": "@email.hpsmart.com"
-      },
-      {
-        "header": "from",
-        "contains": "@hpsmart.com"
-      },
-      {
-        "header": "from",
-        "contains": "@hp.com"
       }
     ]
   },
@@ -38,5 +30,8 @@
       ]
     }
   ],
-  "comments": []
+  "comments": [
+    "2026-10-15: removed '@hp.com' -- never matched here, Subscriptions » HP Instant Ink (evaluated first) already claims it.",
+    "2026-10-15: removed '@hpsmart.com' -- never matched here, Receipts » Retail » Tech » HP Instant Ink (evaluated first) already claims it."
+  ]
 }

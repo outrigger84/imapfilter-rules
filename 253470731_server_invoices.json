@@ -10,16 +10,13 @@
       },
       {
         "header": "from",
-        "contains": "billing@webhosting.uk.com"
-      },
-      {
-        "header": "from",
         "contains": "@mail.invoicing.co"
       }
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed 'billing@webhosting.uk.com' -- never matched here, Server » Support (evaluated first) already claims it."
   ],
   "actions": [
     {

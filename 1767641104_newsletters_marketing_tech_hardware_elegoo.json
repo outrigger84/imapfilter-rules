@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "hello.uk@elegoo.com"
+      },
+      {
+        "header": "from",
+        "contains": "@elegoo.com"
       }
     ]
   },
@@ -31,6 +35,8 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779100024_newsletters_marketing_retail_elegoo.json (folder Newsletters/Marketing/Retail/Elegoo) into this rule -- same sender/brand filed under two folders.",
+    "2026-10-15: info@elegoo.com (orders/shipping) moved to Receipts » Retail » Tech » Elegoo."
   ]
 }

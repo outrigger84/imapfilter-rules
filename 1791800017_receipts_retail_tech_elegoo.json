@@ -1,0 +1,22 @@
+{
+  "name": "Receipts » Retail » Tech » Elegoo",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "header": "from",
+        "contains": "info@elegoo.com"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Retail/Tech/Elegoo"
+    }
+  ],
+  "comments": [
+    "2026-10-15: info@elegoo.com sends order confirmations and shipment updates; kept forever (receipts policy). Marketing comes from hello.uk@elegoo.com and stays with Newsletters » Marketing » Tech » Hardware » Elegoo."
+  ]
+}

@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "@raylo.intercom-mail.com"
-      },
-      {
-        "header": "from",
-        "contains": "@raylo.com"
       }
     ]
   },
@@ -35,6 +31,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed '@raylo.com' -- never matched here, Receipts » Retail » Tech » Raylo (evaluated first) already claims it."
   ]
 }

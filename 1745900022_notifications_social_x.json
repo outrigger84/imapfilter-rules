@@ -6,10 +6,6 @@
     "any": [
       {
         "header": "from",
-        "contains": "verify@x.com"
-      },
-      {
-        "header": "from",
         "contains": "@x.com"
       }
     ]
@@ -36,6 +32,7 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Login and security notifications from X (formerly Twitter)"
+    "Login and security notifications from X (formerly Twitter)",
+    "2026-10-15: removed 'verify@x.com' -- never matched here, Socials » Twitter (evaluated first) already claims it."
   ]
 }

@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@email.box.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "news@marketing.box.co.uk"
       }
     ]
   },
@@ -35,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created from cache.db unmatched-mail analysis 2026-08-13."
+    "Created from cache.db unmatched-mail analysis 2026-08-13.",
+    "2026-10-15: merged 261140757_newsletters_marketing_fitness_box_co_uk.json (folder Newsletters/Marketing/Fitness/box-co-uk) into this rule -- same sender/brand filed under two folders."
   ]
 }

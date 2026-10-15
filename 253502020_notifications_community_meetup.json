@@ -15,10 +15,6 @@
       {
         "header": "from",
         "contains": "meetup-group-RRzJyNgH-announce_at_email_meetup_com_"
-      },
-      {
-        "header": "from",
-        "contains": "meetup-group-rrzjyngh-announce_at_email_meetup_com_"
       }
     ]
   },

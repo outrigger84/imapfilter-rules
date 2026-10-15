@@ -1,16 +1,16 @@
 {
-  "name": "Newsletters » Marketing » Food » Subway",
+  "name": "Newsletters » Marketing » Wine » Vivino",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@mktg.subway.com"
+        "contains": "@m.vivino.com"
       },
       {
         "header": "from",
-        "contains": "@subway.com"
+        "contains": "@vivino.com"
       }
     ]
   },
@@ -20,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Food/Subway"
+          "target": "Newsletters/Marketing/Wine/Vivino"
         }
       ]
     },
@@ -34,5 +34,7 @@
       ]
     }
   ],
-  "comments": []
+  "comments": [
+    "2026-10-15: moved from Newsletters/Marketing/Food/Vivino -- Food/Restaurants consolidation (Restaurants = places you eat/drink; Food = groceries, meal kits, delivery apps, drink products)."
+  ]
 }

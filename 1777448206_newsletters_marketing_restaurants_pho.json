@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@phocafe.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@email.phocafe.co.uk"
       }
     ]
   },
@@ -35,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779100123_newsletters_marketing_food_pho.json ('Newsletters » Marketing » Food » Pho') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ]
 }

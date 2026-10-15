@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@homesense.com"
+      },
+      {
+        "header": "from",
+        "contains": "@eml.eu.homesense.com"
       }
     ]
   },
@@ -35,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779100193_newsletters_marketing_retail_home_homesense.json (folder Newsletters/Marketing/Retail/Home/Homesense) into this rule -- same sender/brand filed under two folders."
   ]
 }

@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "@email.udemy.com"
-      },
-      {
-        "header": "from",
-        "contains": "@udemy.com"
       }
     ]
   },
@@ -21,6 +17,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed '@udemy.com' -- never matched here, Newsletters » Udemy (evaluated first) already claims it."
   ]
 }

@@ -10,14 +10,6 @@
       },
       {
         "header": "from",
-        "contains": "@ebay.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "@ebay.com"
-      },
-      {
-        "header": "from",
         "contains": "reply.ebay.com"
       }
     ]
@@ -46,6 +38,8 @@
     "Migrated from Thunderbird msgFilterRules.dat",
     "2026-08-18: added reply.ebay.com -- the literal 'contains \"@ebay.com\"'",
     "check doesn't match 'ebay@reply.ebay.com' (no '@ebay.com' substring),",
-    "the same contains-footgun noted in rules-review-2026-06 memory."
+    "the same contains-footgun noted in rules-review-2026-06 memory.",
+    "2026-10-15: removed '@ebay.com' -- never matched here, Notifications » Shopping » eBay (evaluated first) already claims it.",
+    "2026-10-15: removed '@ebay.co.uk' -- never matched here, Notifications » Shopping » eBay (evaluated first) already claims it."
   ]
 }

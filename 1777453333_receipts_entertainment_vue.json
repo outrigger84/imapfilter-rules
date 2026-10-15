@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "@kernel.myvue.com"
-      },
-      {
-        "header": "from",
-        "contains": "@myvue.com"
       }
     ]
   },
@@ -21,6 +17,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed '@myvue.com' -- never matched here, Newsletters » Vue Cinema (evaluated first) already claims it."
   ]
 }

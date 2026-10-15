@@ -11,10 +11,6 @@
       {
         "header": "from",
         "contains": "@nintendo-europe.com"
-      },
-      {
-        "header": "from",
-        "contains": "@nintendo.com"
       }
     ]
   },
@@ -39,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed '@nintendo.com' -- never matched here, Notifications » Entertainment » Nintendo (evaluated first) already claims it."
   ]
 }

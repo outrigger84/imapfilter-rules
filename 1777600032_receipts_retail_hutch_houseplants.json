@@ -1,5 +1,5 @@
 {
-  "name": "Receipts \u00bb Retail \u00bb Hutch Houseplants",
+  "name": "Receipts » Retail » Hutch Houseplants",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@my.store-emails.com"
+      },
+      {
+        "header": "from",
+        "contains": "@hutchhouseplants.co.uk"
       }
     ]
   },
@@ -17,6 +21,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1777500024_receipts_retail_hutch_house_plants.json (folder Receipts/Retail/Hutch House Plants) into this rule -- same sender/brand filed under two folders."
   ]
 }

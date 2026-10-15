@@ -26,10 +26,6 @@
       },
       {
         "header": "from",
-        "contains": "BA.e-ticket@email.ba.com"
-      },
-      {
-        "header": "from",
         "contains": "customerservices@messages.ba.com"
       },
       {

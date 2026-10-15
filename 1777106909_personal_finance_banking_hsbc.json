@@ -35,6 +35,10 @@
       {
         "header": "from",
         "contains": "documents@email1.hsbc.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@hsbc.co.uk"
       }
     ]
   },
@@ -45,6 +49,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1746400058_personal_finance_hsbc.json (folder Personal/Finance/HSBC) into this rule -- same sender/brand filed under two folders."
   ]
 }

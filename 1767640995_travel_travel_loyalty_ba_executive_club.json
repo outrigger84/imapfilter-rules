@@ -10,10 +10,6 @@
       },
       {
         "header": "from",
-        "contains": "ExecutiveClub@crm.ba.com"
-      },
-      {
-        "header": "from",
         "contains": "thebritishairwaysclub@crm.ba.com"
       },
       {

@@ -1,16 +1,16 @@
 {
-  "name": "Newsletters » Marketing » Finance » Confused-com",
+  "name": "Newsletters » Marketing » Restaurants » Stonehouse",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@news.confused.com"
+        "contains": "@news.stonehouserestaurants.co.uk"
       },
       {
         "header": "from",
-        "contains": "@reminders.confused.com"
+        "contains": "@stonehouserestaurants.co.uk"
       }
     ]
   },
@@ -20,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Finance/Confused-com"
+          "target": "Newsletters/Marketing/Restaurants/Stonehouse"
         }
       ]
     },
@@ -35,6 +35,6 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "2026-10-15: moved from Newsletters/Marketing/Food/Stonehouse -- Food/Restaurants consolidation (Restaurants = places you eat/drink; Food = groceries, meal kits, delivery apps, drink products)."
   ]
 }

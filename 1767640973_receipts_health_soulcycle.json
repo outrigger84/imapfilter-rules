@@ -21,6 +21,7 @@
     }
   ],
   "comments": [
-    "Priority 90: fires before events catch-all to route receipts correctly"
+    "Priority 90: fires before events catch-all to route receipts correctly",
+    "2026-10-15: merged 1767640974_events_soulcycle.json ('Events » Soulcycle') into this rule; Events » Soulcycle had identical tokens and never matched (this rule is priority 90)."
   ]
 }

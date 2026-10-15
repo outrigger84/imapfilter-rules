@@ -6,10 +6,6 @@
     "any": [
       {
         "header": "from",
-        "contains": "@bluestacks3.zendesk.com"
-      },
-      {
-        "header": "from",
         "contains": "@bluestacks.com"
       }
     ]
@@ -35,6 +31,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed '@bluestacks3.zendesk.com' -- never matched here, Support » BlueStacks (evaluated first) already claims it."
   ]
 }

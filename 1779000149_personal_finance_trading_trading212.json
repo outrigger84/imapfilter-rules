@@ -23,6 +23,10 @@
       {
         "header": "from",
         "contains": "Trading212@proxydocs.com"
+      },
+      {
+        "header": "from",
+        "contains": "@trading212.com"
       }
     ]
   },
@@ -33,6 +37,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-10-15: merged 1777500010_personal_finance_investments_trading212.json (folder Personal/Finance/Investments/Trading212) into this rule -- same sender/brand filed under two folders."
   ]
 }

@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "donotreplyonlinedocstorenotification@aegon.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@aegon.co.uk"
       }
     ]
   },
@@ -21,6 +25,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-10-15: merged 1746400010_personal_finance_aegon.json (folder Personal/Finance/Aegon) into this rule -- same sender/brand filed under two folders."
   ]
 }

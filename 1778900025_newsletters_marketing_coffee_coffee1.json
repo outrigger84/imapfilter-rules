@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Marketing » Food » Coffee#1",
+  "name": "Newsletters » Marketing » Coffee » Coffee#1",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -16,7 +16,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Food/Coffee#1"
+          "target": "Newsletters/Marketing/Coffee/Coffee#1"
         }
       ]
     },
@@ -31,6 +31,7 @@
     }
   ],
   "comments": [
-    "Coffee#1 café loyalty emails sent via nealstreet.tech"
+    "Coffee#1 café loyalty emails sent via nealstreet.tech",
+    "2026-10-15: moved from Newsletters/Marketing/Food/Coffee#1 -- Food/Restaurants consolidation (Restaurants = places you eat/drink; Food = groceries, meal kits, delivery apps, drink products)."
   ]
 }

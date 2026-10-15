@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@dominos.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.dominosmarketing.co.uk"
       }
     ]
   },
@@ -33,5 +37,8 @@
         }
       ]
     }
+  ],
+  "comments": [
+    "2026-10-15: merged 1746400105_newsletters_marketing_food_dominos.json ('Newsletters » Marketing » Food » Domino's') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ]
 }

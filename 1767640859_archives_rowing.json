@@ -65,8 +65,16 @@
         "contains": "membership@exeterrowingclub.com"
       },
       {
-        "header": "from",
-        "contains": "messaging-service@post.xero.com"
+        "all": [
+          {
+            "header": "from",
+            "contains": "messaging-service@post.xero.com"
+          },
+          {
+            "header": "subject",
+            "contains": "Exeter Rowing Club"
+          }
+        ]
       },
       {
         "header": "from",
@@ -206,6 +214,7 @@
     "2026-08-21: merged 1777600011_memberships_easyfundraising.json and",
     "1778500002_archives_rowing_erc_forms.json into this rule (same destination",
     "folder, complementary non-overlapping conditions). Took priority 40 (was 90)",
-    "to preserve the ERC Forms rule's 'beat *ME rule at priority 50' ordering."
+    "to preserve the ERC Forms rule's 'beat *ME rule at priority 50' ordering.",
+    "2026-10-15: Xero is a shared invoicing relay -- the bare sender was filing personal invoices (Steren/McCluskey Surveyors) here. Now requires 'Exeter Rowing Club' in the subject; club mail to club addresses is still caught by the 'to' conditions."
   ]
 }

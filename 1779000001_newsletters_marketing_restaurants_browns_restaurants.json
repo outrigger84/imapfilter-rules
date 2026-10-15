@@ -1,5 +1,5 @@
 {
-  "name": "Newsletters » Marketing » Food » Browns Restaurants",
+  "name": "Newsletters » Marketing » Restaurants » Browns Restaurants",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -20,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Food/Browns Restaurants"
+          "target": "Newsletters/Marketing/Restaurants/Browns Restaurants"
         }
       ]
     },
@@ -34,5 +34,7 @@
       ]
     }
   ],
-  "comments": []
+  "comments": [
+    "2026-10-15: moved from Newsletters/Marketing/Food/Browns Restaurants -- Food/Restaurants consolidation (Restaurants = places you eat/drink; Food = groceries, meal kits, delivery apps, drink products)."
+  ]
 }

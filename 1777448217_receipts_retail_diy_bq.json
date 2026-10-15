@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "@info.diy.com"
-      },
-      {
-        "header": "from",
-        "contains": "@diy.com"
       }
     ]
   },
@@ -21,6 +17,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: removed '@diy.com' -- never matched here, Newsletters » B&Q (evaluated first) already claims it."
   ]
 }

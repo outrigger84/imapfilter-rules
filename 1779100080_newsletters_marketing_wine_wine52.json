@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@e.wine52.com"
+      },
+      {
+        "header": "from",
+        "contains": "@wine52.com"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created from cache.db unmatched-mail analysis 2026-08-13."
+    "Created from cache.db unmatched-mail analysis 2026-08-13.",
+    "2026-10-15: merged 1777106927_newsletters_marketing_food_wine52.json ('Newsletters » Marketing » Food » Wine52') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ]
 }

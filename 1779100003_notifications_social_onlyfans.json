@@ -15,6 +15,18 @@
       {
         "header": "from",
         "contains": "@updates.onlyfans.com"
+      },
+      {
+        "header": "from",
+        "contains": "@lpsg.com"
+      },
+      {
+        "header": "from",
+        "contains": "@netbilling.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_netbilling_com_"
       }
     ]
   },
@@ -39,6 +51,7 @@
     }
   ],
   "comments": [
-    "2026-10-11: added @updates.onlyfans.com"
+    "2026-10-11: added @updates.onlyfans.com",
+    "2026-10-15: merged 1767641003_notifications_social_of.json ('Notifications » Social » OF') into this rule; duplicate OnlyFans rule (folder 'OF')."
   ]
 }

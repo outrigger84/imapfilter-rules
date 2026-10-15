@@ -11,6 +11,22 @@
       {
         "header": "from",
         "contains": "subwayrewards.uk"
+      },
+      {
+        "header": "from",
+        "contains": "@mktg.subway.com"
+      },
+      {
+        "header": "from",
+        "contains": "@subway.com"
+      },
+      {
+        "header": "from",
+        "contains": "@rewards.subway.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "service@mail.subway.co.uk"
       }
     ]
   },
@@ -35,6 +51,8 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779000036_newsletters_marketing_food_subway.json ('Newsletters » Marketing » Food » Subway') into this rule -- Food/Restaurants consolidation, same brand in two folders.",
+    "2026-10-15: merged 1779100115_newsletters_marketing_retail_subway_rewards.json (folder Newsletters/Marketing/Retail/Subway Rewards) into this rule -- same sender/brand filed under two folders."
   ]
 }

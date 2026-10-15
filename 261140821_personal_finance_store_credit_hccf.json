@@ -1,5 +1,5 @@
 {
-  "name": "Personal \u00bb Finance \u00bb Store Credit \u00bb HCCF",
+  "name": "Personal » Finance » Store Credit » HCCF",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "hccf@hitachicapital.co.uk"
+      },
+      {
+        "header": "from",
+        "contains": "customer_service@novunapersonalfinance.co.uk"
       }
     ]
   },
@@ -17,6 +21,7 @@
     }
   ],
   "comments": [
-    "Migrated from Thunderbird msgFilterRules.dat"
+    "Migrated from Thunderbird msgFilterRules.dat",
+    "2026-10-15: merged 261140820_personal_finance_loans_hccf.json (folder Personal/Finance/Loans/HCCF) into this rule -- same sender/brand filed under two folders."
   ]
 }

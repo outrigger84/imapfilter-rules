@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@dennys.com"
+      },
+      {
+        "header": "from",
+        "contains": "@hello.dennys.com"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1779100058_newsletters_marketing_restaurants_dennys.json ('Newsletters » Marketing » Restaurants » Denny's') into this rule -- Food/Restaurants consolidation, same brand in two folders."
   ]
 }

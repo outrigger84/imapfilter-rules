@@ -6,10 +6,6 @@
     "any": [
       {
         "header": "from",
-        "contains": "no.reply@webuyanyphone.com"
-      },
-      {
-        "header": "from",
         "contains": "enquiries@webuyanyhouse.co.uk"
       }
     ]
@@ -35,6 +31,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-10-15: removed 'no.reply@webuyanyphone.com' -- never matched here, Notifications » Shopping » WeBuyAnyPhone (evaluated first) already claims it."
   ]
 }

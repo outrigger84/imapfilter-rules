@@ -7,6 +7,14 @@
       {
         "header": "from",
         "contains": "confused.com"
+      },
+      {
+        "header": "from",
+        "contains": "@news.confused.com"
+      },
+      {
+        "header": "from",
+        "contains": "@reminders.confused.com"
       }
     ]
   },
@@ -31,6 +39,7 @@
     }
   ],
   "comments": [
-    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)"
+    "Imported from Thunderbird msgFilterRules.dat (commit ea19cd6)",
+    "2026-10-15: merged 1777106918_newsletters_marketing_finance_confused_com.json (folder Newsletters/Marketing/Finance/Confused-com) into this rule -- same sender/brand filed under two folders."
   ]
 }

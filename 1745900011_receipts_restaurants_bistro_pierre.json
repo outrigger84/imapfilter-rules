@@ -7,6 +7,18 @@
       {
         "header": "from",
         "contains": "@pierre94.co.uk"
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "no-reply@pepperhq.com"
+          },
+          {
+            "header": "from",
+            "contains": "Bistrot Pierre"
+          }
+        ]
       }
     ]
   },
@@ -18,6 +30,7 @@
   ],
   "comments": [
     "Created with IMAPFilter Rule Wizard",
-    "Table booking confirmations and reminders from the Torquay location"
+    "Table booking confirmations and reminders from the Torquay location",
+    "2026-10-15: merged 1746300130_receipts_restaurants_bistrot_pierre.json (folder Receipts/Restaurants/Bistrot Pierre) into this rule -- same sender/brand filed under two folders."
   ]
 }

@@ -7,10 +7,6 @@
       {
         "header": "from",
         "contains": "@e.travelodge.co.uk"
-      },
-      {
-        "header": "from",
-        "contains": "@travelodge.co.uk"
       }
     ]
   },
@@ -33,5 +29,8 @@
         }
       ]
     }
+  ],
+  "comments": [
+    "2026-10-15: removed '@travelodge.co.uk' -- never matched here, Travel » Accommodation » Travelodge (evaluated first) already claims it."
   ]
 }

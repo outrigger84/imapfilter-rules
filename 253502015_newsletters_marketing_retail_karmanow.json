@@ -7,6 +7,18 @@
       {
         "header": "from",
         "contains": "hello_at_news_karmanow_com_"
+      },
+      {
+        "header": "from",
+        "contains": "@vf.karmanow.com"
+      },
+      {
+        "header": "from",
+        "contains": "_at_karmanow_com_"
+      },
+      {
+        "header": "from",
+        "contains": "_at_vf_karmanow_com_"
       }
     ]
   },
@@ -31,6 +43,7 @@
     }
   ],
   "comments": [
-    "Private Relay – Karmanow newsletters"
+    "Private Relay – Karmanow newsletters",
+    "2026-10-15: merged 1778800001_newsletters_marketing_shopping_karma.json (folder Newsletters/Marketing/Shopping/Karma) into this rule -- same sender/brand filed under two folders."
   ]
 }

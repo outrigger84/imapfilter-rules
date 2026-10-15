@@ -1,16 +1,16 @@
 {
-  "name": "Newsletters » Marketing » Tech » Microsoft",
+  "name": "Newsletters » Marketing » Restaurants » The Botanist",
   "enabled": true,
   "priority": 100,
   "conditions": {
     "any": [
       {
         "header": "from",
-        "contains": "@engage.microsoft.com"
+        "contains": "@emails.thebotanist.uk.com"
       },
       {
         "header": "from",
-        "contains": "@infomails.microsoft.com"
+        "contains": "@thebotanist.uk.com"
       }
     ]
   },
@@ -20,7 +20,7 @@
       "do": [
         {
           "type": "move",
-          "target": "Newsletters/Marketing/Tech/Microsoft"
+          "target": "Newsletters/Marketing/Restaurants/The Botanist"
         }
       ]
     },
@@ -35,6 +35,6 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "2026-10-15: moved from Newsletters/Marketing/Food/The Botanist -- Food/Restaurants consolidation (Restaurants = places you eat/drink; Food = groceries, meal kits, delivery apps, drink products)."
   ]
 }

@@ -11,6 +11,10 @@
       {
         "header": "from",
         "contains": "@thortful.com"
+      },
+      {
+        "header": "from",
+        "contains": "@email.thortful.com"
       }
     ]
   },
@@ -35,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "2026-10-15: merged 1767640963_newsletters_marketing_retail_gifts_thorful.json (folder Newsletters/Marketing/Retail/Gifts/Thorful) into this rule -- same sender/brand filed under two folders."
   ]
 }

@@ -3,10 +3,14 @@
   "enabled": true,
   "priority": 40,
   "conditions": {
-    "any": [
+    "all": [
       {
         "header": "subject",
         "regex": "(?i)^(Accepted|Declined( \\([^)]+\\))?|Tentative|Cancell?ed|New Time Proposed|Event accepted|Meeting accepted|Meeting declined|iCal event update|Invitation|Event invitation|Event updated):"
+      },
+      {
+        "header": "from",
+        "not_contains": "@alumni.exeter.ac.uk"
       }
     ]
   },
@@ -39,6 +43,11 @@
     "Created with IMAPFilter Rule Wizard",
     "2026-08-17: added 30-day age-gated retention. Day of receipt stays in INBOX",
     "(deliberate no-op bracket) so it's visible; files into Cal Responses from day 1;",
-    "purges to Deleted Messages from day 30. See README's 'Age-gated action brackets'."
+    "purges to Deleted Messages from day 30. See README's 'Age-gated action brackets'.",
+    "2026-10-15: excluded @alumni.exeter.ac.uk senders. mail@alumni.exeter.ac.uk sends",
+    "event newsletters with a plain 'Invitation:' subject prefix (e.g. 'Invitation: 2026",
+    "University of Exeter Alumni Carol Service') which this regex misread as an RSVP. They",
+    "now fall through to rules/1778900034_personal_alumni_exeter.json, where the rest of",
+    "that sender's mail already lives."
   ]
 }

@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "@email.paramountplus.com"
+      },
+      {
+        "header": "from",
+        "contains": "@paramountplus.com"
       }
     ]
   },
@@ -31,6 +35,7 @@
     }
   ],
   "comments": [
-    "Created from cache.db unmatched-mail analysis 2026-08-13."
+    "Created from cache.db unmatched-mail analysis 2026-08-13.",
+    "2026-10-15: merged 1746300033_notifications_paramount.json (folder Notifications/Paramount+) into this rule -- same sender/brand filed under two folders."
   ]
 }
