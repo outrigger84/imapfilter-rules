@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Travel Alerts \u00bb SeatSpy",
+  "name": "Travel » Travel Alerts » SeatSpy",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,27 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Travel/Travel Alerts/SeatSpy"
+      "age_days_lt": 1,
+      "do": []
+    },
+    {
+      "age_days_gte": 1,
+      "age_days_lte": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Travel/Travel Alerts/SeatSpy"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 30,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [

@@ -1,5 +1,5 @@
 {
-  "name": "Travel \u00bb Travel Agents \u00bb Magic Travel",
+  "name": "Travel » Travel Agents » Magic Travel",
   "enabled": true,
   "priority": 100,
   "conditions": {
@@ -12,8 +12,22 @@
   },
   "actions": [
     {
-      "type": "move",
-      "target": "Travel/Travel Agents/Magic Travel"
+      "age_days_lte": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Travel/Travel Agents/Magic Travel"
+        }
+      ]
+    },
+    {
+      "age_days_gt": 365,
+      "do": [
+        {
+          "type": "move",
+          "target": "Deleted Messages"
+        }
+      ]
     }
   ],
   "comments": [
