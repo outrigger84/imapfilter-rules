@@ -11,6 +11,10 @@
       {
         "header": "subject",
         "contains": "Your Subscription"
+      },
+      {
+        "header": "subject",
+        "not_contains": "confirm"
       }
     ]
   },
@@ -35,6 +39,7 @@
     }
   ],
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Confirmations excluded so they reach Receipts » Retail » Tech » Apple"
   ]
 }

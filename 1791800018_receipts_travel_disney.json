@@ -1,0 +1,43 @@
+{
+  "name": "Receipts » Travel » Disney",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "any": [
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "@experience.disneydestinations.com"
+          },
+          {
+            "header": "subject",
+            "contains": "Thank You For Your Order"
+          }
+        ]
+      },
+      {
+        "all": [
+          {
+            "header": "from",
+            "contains": "disney@mail.disney.co.uk"
+          },
+          {
+            "header": "subject",
+            "contains": "our Guest"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Receipts/Travel/Disney"
+    }
+  ],
+  "comments": [
+    "Order receipts kept permanently; other Disney Destinations mail stays on Travel » Travel Agents » Disney (365-day expiry)",
+    "Also keeps the \"You're our Guest\" trip email from disney@mail.disney.co.uk (the 2025 trip folder no longer exists)"
+  ]
+}

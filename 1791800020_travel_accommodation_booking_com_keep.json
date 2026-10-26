@@ -1,0 +1,58 @@
+{
+  "name": "Travel » Accommodation » Booking-com (confirmations & receipts)",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "noreply@booking.com"
+          },
+          {
+            "header": "from",
+            "contains": "confirmation-booking-noreply@booking.com"
+          },
+          {
+            "header": "from",
+            "contains": "noreply-payments@booking.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "booking is confirmed"
+          },
+          {
+            "header": "subject",
+            "contains": "receipt"
+          },
+          {
+            "header": "subject",
+            "contains": "Payment successful"
+          },
+          {
+            "header": "subject",
+            "contains": "refund"
+          },
+          {
+            "header": "subject",
+            "contains": "message from"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Travel/Accommodation/Booking-com"
+    }
+  ],
+  "comments": [
+    "Booking confirmations, payment/refund receipts and messages from properties kept permanently in case of issues; rewards, review requests and offers stay on Notifications » Travel » Booking-com (30-day expiry)"
+  ]
+}

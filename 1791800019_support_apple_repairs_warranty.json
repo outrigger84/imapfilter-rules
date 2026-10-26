@@ -1,0 +1,55 @@
+{
+  "name": "Support » Apple » Repairs & Warranty",
+  "enabled": true,
+  "priority": 90,
+  "conditions": {
+    "all": [
+      {
+        "any": [
+          {
+            "header": "from",
+            "contains": "@apple.com"
+          },
+          {
+            "header": "from",
+            "contains": "@email.apple.com"
+          }
+        ]
+      },
+      {
+        "any": [
+          {
+            "header": "subject",
+            "contains": "Work Authori"
+          },
+          {
+            "header": "subject",
+            "contains": "Service Confirmation"
+          },
+          {
+            "header": "subject",
+            "contains": "Product Replacement"
+          },
+          {
+            "header": "subject",
+            "contains": "ready for pickup"
+          },
+          {
+            "header": "subject",
+            "contains": "AppleCare"
+          }
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "type": "move",
+      "target": "Support/Apple"
+    }
+  ],
+  "comments": [
+    "Apple Store repair authorisations, replacements and AppleCare coverage kept permanently; beats the 30-day Notifications » Apple » Apple ID catch-all",
+    "@insideapple.apple.com AppleCare surveys don't match either sender and stay on Feedback » Apple"
+  ]
+}

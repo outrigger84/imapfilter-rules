@@ -1,7 +1,7 @@
 {
-  "name": "Travel \u00bb Taxis \u00bb Uber",
+  "name": "Travel » Taxis » Uber",
   "enabled": true,
-  "priority": 90,
+  "priority": 85,
   "conditions": {
     "all": [
       {
@@ -35,7 +35,8 @@
     ]
   },
   "comments": [
-    "Created with IMAPFilter Rule Wizard"
+    "Created with IMAPFilter Rule Wizard",
+    "Priority 85 so trip receipts beat Newsletters » Marketing » Travel » Uber (p90, same senders)"
   ],
   "actions": [
     {

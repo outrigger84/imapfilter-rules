@@ -7,6 +7,10 @@
       {
         "header": "from",
         "contains": "TestFlight <no_reply@email.apple.com>"
+      },
+      {
+        "header": "from",
+        "contains": "testflight_no_reply@email.apple.com"
       }
     ]
   },

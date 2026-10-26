@@ -49,6 +49,30 @@
           {
             "header": "subject",
             "contains": "invoice"
+          },
+          {
+            "header": "subject",
+            "contains": "recent purchase"
+          },
+          {
+            "header": "subject",
+            "contains": "Apple credit"
+          },
+          {
+            "header": "subject",
+            "contains": "credit Memo"
+          },
+          {
+            "header": "subject",
+            "contains": "Series Pass"
+          },
+          {
+            "header": "subject",
+            "contains": "Subscription is Confirmed"
+          },
+          {
+            "header": "subject",
+            "contains": "pre-order"
           }
         ]
       }

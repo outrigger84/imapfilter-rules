@@ -802,10 +802,6 @@
       },
       {
         "header": "from",
-        "contains": "@ldtorganizers.com"
-      },
-      {
-        "header": "from",
         "contains": "@harrispollsurvey.com"
       },
       {
