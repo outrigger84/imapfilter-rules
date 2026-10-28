@@ -5,8 +5,16 @@
   "conditions": {
     "all": [
       {
-        "header": "from",
-        "contains": "sj.gibson@icloud.com"
+        "any": [
+          {
+            "header": "from",
+            "contains": "sj.gibson@icloud.com"
+          },
+          {
+            "header": "from",
+            "contains": "sj.gibson@mac.com"
+          }
+        ]
       },
       {
         "any": [
@@ -24,11 +32,11 @@
   },
   "actions": [
     {
-      "age_days_lt": 1,
+      "age_days_lt": 0,
       "do": []
     },
     {
-      "age_days_gte": 1,
+      "age_days_gte": 0,
       "age_days_lte": 30,
       "do": [
         {
@@ -54,6 +62,9 @@
     "Day of receipt stays in INBOX (no-op bracket) so it's visible; files into",
     "Notifications/Home/Proxmox from day 1; purges to Deleted Messages after day 30.",
     "Priority 40 so it beats *ME (50) and Sent Messages » Away from computer (45),",
-    "which also match the icloud address."
+    "which also match the icloud address.",
+    "2026-10-28: also match sj.gibson@mac.com - the first notifications (6 Oct, while",
+    "setting up) were sent from that address and fell through to *ME. Never saved to",
+    "Sent Messages, so nothing to catch there."
   ]
 }
